@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""AcademyAI Radar - gunluk ajan.
+"""AcademiCore AI Radar - gunluk ajan.
 
 sources.json'daki kaynaklari okur (RSS/Atom, Crossref, YouTube, sayfa),
 son 30 gunun yeni iceriklerini bulur, kapak resimlerini akistan ya da
@@ -32,7 +32,7 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-UA = "Mozilla/5.0 (compatible; AcademyAI-Radar/1.0)"
+UA = "Mozilla/5.0 (compatible; AcademiCore-AI-Radar/1.0)"
 NEW_WINDOW_DAYS = 30      # bu kadar gunden eski icerik yeni sayilmaz
 KEEP_DAYS = 60            # listede tutma suresi
 MAX_NEW_PER_SOURCE = 10

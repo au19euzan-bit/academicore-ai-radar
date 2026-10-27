@@ -1,4 +1,4 @@
-# AcademyAI Radar
+# AcademiCore AI Radar
 
 Eğitimde yapay zekâ kaynaklarını her sabah okuyan ve tek akışta gösteren okuyucu.
 
