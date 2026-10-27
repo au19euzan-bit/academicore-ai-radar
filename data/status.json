@@ -1,1 +1,66 @@
-null
+{
+ "lastRun": "2026-10-27T17:14:30Z",
+ "summaries": false,
+ "sources": {
+  "mollick": {
+   "ok": true,
+   "new": 2,
+   "count": 2
+  },
+  "mishra": {
+   "ok": true,
+   "new": 9,
+   "count": 9
+  },
+  "cae": {
+   "ok": true,
+   "new": 0,
+   "count": 0
+  },
+  "bjet": {
+   "ok": true,
+   "new": 8,
+   "count": 8
+  },
+  "ijaied": {
+   "ok": true,
+   "new": 0,
+   "count": 0
+  },
+  "unesco": {
+   "ok": false,
+   "note": "Bu kaynak için API anahtarı gerekiyor",
+   "count": 0
+  },
+  "oecd": {
+   "ok": true,
+   "new": 4,
+   "count": 4
+  },
+  "openai": {
+   "ok": true,
+   "new": 10,
+   "count": 10
+  },
+  "anthropic": {
+   "ok": false,
+   "note": "Bu kaynak için API anahtarı gerekiyor",
+   "count": 0
+  },
+  "deepmind": {
+   "ok": false,
+   "note": "Okunamadı: not well-formed (invalid token): line 1, column 0",
+   "count": 0
+  },
+  "cicek": {
+   "ok": true,
+   "new": 10,
+   "count": 10
+  },
+  "erhan": {
+   "ok": true,
+   "new": 3,
+   "count": 3
+  }
+ }
+}
