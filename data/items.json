@@ -1,6 +1,19 @@
 {
- "generatedAt": "2026-10-27T17:14:30Z",
+ "generatedAt": "2026-10-27T17:16:08Z",
  "items": [
+  {
+   "id": "deepmind-d17d13a0006a",
+   "sourceId": "deepmind",
+   "title": "Genie 4: A new generation of world simulation",
+   "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "published": "2026-10-27T16:01:38Z",
+   "precision": "time",
+   "excerpt": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+   "summary": "",
+   "image": "https://lh3.googleusercontent.com/i7iotPkcMbMubxRzAdriO5wsIsowROonBvjLNnmPbOaRgEb1k4LKTBqay5VrcPpZi0R4il_bYCCsPYQ0Gy_-XbAw66azAGEfE-E6_9Izz5apP0BMJVE=w528-h297-n-nu-rw-lo",
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
   {
    "id": "cicek-f7b267c02433",
    "sourceId": "cicek",
@@ -262,6 +275,162 @@
    "addedAt": "2026-10-27T17:14:30Z"
   },
   {
+   "id": "openai-c6099fc8919f",
+   "sourceId": "openai",
+   "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+   "url": "https://openai.com/index/anima",
+   "published": "2026-10-23T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "openai-15c1f8ef7a58",
+   "sourceId": "openai",
+   "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+   "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+   "published": "2026-10-23T00:00:00Z",
+   "precision": "time",
+   "excerpt": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "openai-27825e300358",
+   "sourceId": "openai",
+   "title": "Build more responsive apps with the Decisions API",
+   "url": "https://openai.com/index/decisions-api",
+   "published": "2026-10-22T19:00:00Z",
+   "precision": "time",
+   "excerpt": "Fast, focused, low-cost decisions for any application.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "cae-e1a9925c4b99",
+   "sourceId": "cae",
+   "title": "Self-regulated learning trajectories, predictors, and cognitive outcomes in animation-facilitated computational thinking: A growth mixture modelling study of primary students",
+   "url": "https://doi.org/10.1016/j.compedu.2026.105773",
+   "published": "2026-10-22T15:58:42Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "deepmind-e66e9796ba6b",
+   "sourceId": "deepmind",
+   "title": "Beyond tree cover: mapping the world’s forest types",
+   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+   "published": "2026-10-22T14:30:24Z",
+   "precision": "time",
+   "excerpt": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+   "summary": "",
+   "image": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo",
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "openai-63c31ca523f9",
+   "sourceId": "openai",
+   "title": "What FDE means at OpenAI",
+   "url": "https://openai.com/index/forward-deployed-engineering-means",
+   "published": "2026-10-22T06:00:00Z",
+   "precision": "time",
+   "excerpt": "What forward deployed engineering means at OpenAI",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "openai-ba6fa07d677a",
+   "sourceId": "openai",
+   "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+   "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+   "published": "2026-10-22T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "openai-2ed22a61b2f1",
+   "sourceId": "openai",
+   "title": "Broad access through consistent standards",
+   "url": "https://openai.com/index/broad-access-through-consistent-standards",
+   "published": "2026-10-21T21:00:00Z",
+   "precision": "time",
+   "excerpt": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "openai-4ab93569e260",
+   "sourceId": "openai",
+   "title": "How AT&T is rethinking in-house legal work with OpenAI",
+   "url": "https://openai.com/index/att-legal",
+   "published": "2026-10-21T17:00:00Z",
+   "precision": "time",
+   "excerpt": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "openai-74fcf21eca7a",
+   "sourceId": "openai",
+   "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+   "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+   "published": "2026-10-21T13:00:00Z",
+   "precision": "time",
+   "excerpt": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "openai-61f4d0141ff3",
+   "sourceId": "openai",
+   "title": "OpenAI models are coming to Google Cloud",
+   "url": "https://openai.com/index/openai-models-google-cloud",
+   "published": "2026-10-21T12:00:00Z",
+   "precision": "time",
+   "excerpt": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "openai-d3f519557f32",
+   "sourceId": "openai",
+   "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+   "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+   "published": "2026-10-21T07:00:00Z",
+   "precision": "time",
+   "excerpt": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
    "id": "mollick-dd8a8739a45d",
    "sourceId": "mollick",
    "title": "30 Months on the Exponential (in Charts)",
@@ -273,6 +442,19 @@
    "image": "https://substackcdn.com/image/fetch/$s_!wAVc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72ebc127-a405-42e0-8086-f5db8d444a0f_2912x1632.png",
    "videoId": null,
    "addedAt": "2026-10-27T17:14:30Z"
+  },
+  {
+   "id": "cae-88059ab77669",
+   "sourceId": "cae",
+   "title": "Uncovering emotion dynamics across human–AI interaction modes in programming: Evidence from facial expression and electrodermal activity",
+   "url": "https://doi.org/10.1016/j.compedu.2026.105771",
+   "published": "2026-10-20T14:58:29Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
   },
   {
    "id": "cicek-c66e0fdc07a6",
@@ -379,6 +561,58 @@
    "addedAt": "2026-10-27T17:14:30Z"
   },
   {
+   "id": "cicek-93a0c66eb0cc",
+   "sourceId": "cicek",
+   "title": "Askerî İstihbaratta Kritik YZ Hatası: Chatbotun Yanlış Raporu Çin Gemisinde Alarma Yol Açtı",
+   "url": "https://www.youtube.com/shorts/pdrBnTLDZgg",
+   "published": "2026-10-19T11:00:35Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i1.ytimg.com/vi/pdrBnTLDZgg/hqdefault.jpg",
+   "videoId": "pdrBnTLDZgg",
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "cicek-67915b246776",
+   "sourceId": "cicek",
+   "title": "Anthropic, Claude Destekli Robotların Deney Yaptığı Biyoloji Laboratuvarını Hayata Geçirdi",
+   "url": "https://www.youtube.com/shorts/rMishd02LYE",
+   "published": "2026-10-19T07:00:03Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i3.ytimg.com/vi/rMishd02LYE/hqdefault.jpg",
+   "videoId": "rMishd02LYE",
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "cicek-a0f29c543d04",
+   "sourceId": "cicek",
+   "title": "Hacktron, OpenAI Forumundaki Açıkları Zincirleyerek Çalışan Hesaplarına Sızdı",
+   "url": "https://www.youtube.com/shorts/cNpLKtKE3TA",
+   "published": "2026-10-18T15:00:23Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i4.ytimg.com/vi/cNpLKtKE3TA/hqdefault.jpg",
+   "videoId": "cNpLKtKE3TA",
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "cicek-7ccda30f6771",
+   "sourceId": "cicek",
+   "title": "İnternet Yasağını Delen OpenAI Ajanı Şaşırttı",
+   "url": "https://www.youtube.com/shorts/IfwKfLElBmg",
+   "published": "2026-10-18T11:00:01Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i2.ytimg.com/vi/IfwKfLElBmg/hqdefault.jpg",
+   "videoId": "IfwKfLElBmg",
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
    "id": "bjet-333d4dd6df99",
    "sourceId": "bjet",
    "title": "Prompt‐based emotional scaffolding in generative AI : Effects on self‐regulated learning and socio‐emotional outcomes",
@@ -390,6 +624,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-10-27T17:14:30Z"
+  },
+  {
+   "id": "cicek-9f5cc518c863",
+   "sourceId": "cicek",
+   "title": "Stanford Araştırmacıları Laboratuvarda İnsan Beyin Dokusu Yetiştirdi!",
+   "url": "https://www.youtube.com/shorts/RCNzx60ZDko",
+   "published": "2026-10-18T07:00:16Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i3.ytimg.com/vi/RCNzx60ZDko/hqdefault.jpg",
+   "videoId": "RCNzx60ZDko",
+   "addedAt": "2026-10-27T17:16:08Z"
   },
   {
    "id": "erhan-f52bd7bfdf62",
@@ -405,6 +652,97 @@
    "addedAt": "2026-10-27T17:14:30Z"
   },
   {
+   "id": "cae-96898275161e",
+   "sourceId": "cae",
+   "title": "GenAI-supported internal feedback intervention for writing improvement: The roles of evaluative judgment and student-AI interaction in a cluster-randomized experimental study",
+   "url": "https://doi.org/10.1016/j.compedu.2026.105767",
+   "published": "2026-10-17T15:03:01Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "cae-b6db6063a365",
+   "sourceId": "cae",
+   "title": "Investigating secondary school students’ shared epistemic agency with GAI in online scientific explanation writing",
+   "url": "https://doi.org/10.1016/j.compedu.2026.105769",
+   "published": "2026-10-15T23:20:07Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "deepmind-996b33c09ad5",
+   "sourceId": "deepmind",
+   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+   "published": "2026-10-15T16:08:03Z",
+   "precision": "time",
+   "excerpt": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+   "summary": "",
+   "image": "https://lh3.googleusercontent.com/Xgnc_DxAUS2Fs9H2rokxsYwPnnM_KOkPyPtKm7V2C_sjZ7YS4N1-D6lD8wjYIRQoKaiSwHUXB7qmw77m6FCfHLZenWdNymO7B_JLChlB6ied6emR=w528-h297-n-nu-rw-lo",
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "deepmind-58e4191fcfe4",
+   "sourceId": "deepmind",
+   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+   "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+   "published": "2026-10-14T02:00:14Z",
+   "precision": "time",
+   "excerpt": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+   "summary": "",
+   "image": "https://lh3.googleusercontent.com/5PC4h7MzjC0ojOxiK-nPcRz0b6kUybKnCBjLL3nsb9T9qt7-2ciORJPnrObeFaYbAMqPxIhH4Wq9HD-U73lCivpFBcK8gABvhXXDo2lzUUSk9olsZQ=w528-h297-n-nu-rw-lo",
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "deepmind-471508c04c30",
+   "sourceId": "deepmind",
+   "title": "Developing Gemini 4 Argon responsibly and safely",
+   "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+   "published": "2026-10-13T19:43:07Z",
+   "precision": "time",
+   "excerpt": "",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon_key-art_4_lockup_light_16-9.width-1300.png",
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "deepmind-884ebf3c3978",
+   "sourceId": "deepmind",
+   "title": "Gemini 4 Argon for Robotics",
+   "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+   "published": "2026-10-13T16:01:58Z",
+   "precision": "time",
+   "excerpt": "",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-1200x600.png",
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "deepmind-f174716114a9",
+   "sourceId": "deepmind",
+   "title": "Gemini 4 Argon: Built to solve your hardest problems",
+   "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+   "published": "2026-10-13T16:01:52Z",
+   "precision": "time",
+   "excerpt": "",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
    "id": "oecd-8f092ac9b0fa",
    "sourceId": "oecd",
    "title": "Generative AI and student learning: What the PISA data reveal",
@@ -418,6 +756,19 @@
    "addedAt": "2026-10-27T17:14:30Z"
   },
   {
+   "id": "cae-f5efbd2acfb1",
+   "sourceId": "cae",
+   "title": "Interpreting aberrant testing events in remote assessments: Innocuous or malicious?",
+   "url": "https://doi.org/10.1016/j.compedu.2026.105765",
+   "published": "2026-10-13T07:01:24Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
    "id": "mishra-cb99de3c0e3a",
    "sourceId": "mishra",
    "title": "100 image styles: A prompt builder",
@@ -429,6 +780,19 @@
    "image": "https://punyamishra.com/wp-content/uploads/2026/10/100styles1.jpg",
    "videoId": null,
    "addedAt": "2026-10-27T17:14:30Z"
+  },
+  {
+   "id": "cae-135138aa98a0",
+   "sourceId": "cae",
+   "title": "Navigating AI affective support: The cognitive-affective pathway from appraisal to emotional well-being in learners",
+   "url": "https://doi.org/10.1016/j.compedu.2026.105768",
+   "published": "2026-10-12T15:19:54Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
   },
   {
    "id": "mishra-4d0522838656",
@@ -470,6 +834,32 @@
    "addedAt": "2026-10-27T17:14:30Z"
   },
   {
+   "id": "cae-39fd1dd29184",
+   "sourceId": "cae",
+   "title": "Designing a pipeline linking professional development to AI-supported instructional practice",
+   "url": "https://doi.org/10.1016/j.compedu.2026.105764",
+   "published": "2026-10-10T06:29:14Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "cae-e64975c5e8d5",
+   "sourceId": "cae",
+   "title": "Disengaged conversational behaviors and learning in student-AI dialogues for mathematical problem solving",
+   "url": "https://doi.org/10.1016/j.compedu.2026.105766",
+   "published": "2026-10-10T06:29:05Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
    "id": "erhan-51edcdf30147",
    "sourceId": "erhan",
    "title": "4 Yapay Zekaya İmkansız Bir Görev Verdim, Biri Kendini Kandırdı",
@@ -483,6 +873,19 @@
    "addedAt": "2026-10-27T17:14:30Z"
   },
   {
+   "id": "cae-668083ff154b",
+   "sourceId": "cae",
+   "title": "Instructional approaches and content knowledge in teaching computational thinking: A large-scale study",
+   "url": "https://doi.org/10.1016/j.compedu.2026.105759",
+   "published": "2026-10-08T15:26:36Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
    "id": "bjet-27222715fe82",
    "sourceId": "bjet",
    "title": "Social support, affective factors, and informal digital learning of Chinese ( IDLC )",
@@ -494,6 +897,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-10-27T17:14:30Z"
+  },
+  {
+   "id": "deepmind-4dd290070848",
+   "sourceId": "deepmind",
+   "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+   "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+   "published": "2026-10-06T19:57:04Z",
+   "precision": "time",
+   "excerpt": "",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1300.png",
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
   },
   {
    "id": "bjet-df4cdedfc497",
@@ -561,6 +977,32 @@
    "addedAt": "2026-10-27T17:14:30Z"
   },
   {
+   "id": "deepmind-15e70ee5e4a7",
+   "sourceId": "deepmind",
+   "title": "Gemini 4 Argon: our next era of frontier intelligence",
+   "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+   "published": "2026-09-30T20:01:45Z",
+   "precision": "time",
+   "excerpt": "",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png",
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "deepmind-0a622a33b8e3",
+   "sourceId": "deepmind",
+   "title": "Introducing SynthID Bio",
+   "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+   "published": "2026-09-30T15:03:07Z",
+   "precision": "time",
+   "excerpt": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+   "summary": "",
+   "image": "https://lh3.googleusercontent.com/wNhpZFcXYLXFb6alIt0H5NRvEoso2ONZDhPKz6MYEcGltHPbDeHddzkvv5GXl3abW1PZ5ci1Y9lKoYOIjMuHLxATXfWp88-Al6eEmDENrpejIFeimw=w528-h297-n-nu-rw-lo",
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
    "id": "bjet-66f68f56c3ad",
    "sourceId": "bjet",
    "title": "Connecting the dots to understand complex systems in education: A systematic review of psychological networks",
@@ -572,6 +1014,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-10-27T17:14:30Z"
+  },
+  {
+   "id": "cae-322a78f87bb7",
+   "sourceId": "cae",
+   "title": "Development and validation of a game-based assessment tool for computational thinking practices in lower primary students",
+   "url": "https://doi.org/10.1016/j.compedu.2026.105752",
+   "published": "2026-09-29T23:14:25Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:16:08Z"
   },
   {
    "id": "oecd-da617271e38d",

@@ -1,25 +1,25 @@
 {
- "lastRun": "2026-10-27T17:14:30Z",
+ "lastRun": "2026-10-27T17:16:08Z",
  "summaries": false,
  "sources": {
   "mollick": {
    "ok": true,
-   "new": 2,
+   "new": 0,
    "count": 2
   },
   "mishra": {
    "ok": true,
-   "new": 9,
+   "new": 0,
    "count": 9
   },
   "cae": {
    "ok": true,
-   "new": 0,
-   "count": 0
+   "new": 10,
+   "count": 10
   },
   "bjet": {
    "ok": true,
-   "new": 8,
+   "new": 0,
    "count": 8
   },
   "ijaied": {
@@ -34,13 +34,13 @@
   },
   "oecd": {
    "ok": true,
-   "new": 4,
+   "new": 0,
    "count": 4
   },
   "openai": {
    "ok": true,
    "new": 10,
-   "count": 10
+   "count": 20
   },
   "anthropic": {
    "ok": false,
@@ -48,18 +48,18 @@
    "count": 0
   },
   "deepmind": {
-   "ok": false,
-   "note": "Okunamadı: not well-formed (invalid token): line 1, column 0",
-   "count": 0
-  },
-  "cicek": {
    "ok": true,
    "new": 10,
    "count": 10
   },
+  "cicek": {
+   "ok": true,
+   "new": 5,
+   "count": 15
+  },
   "erhan": {
    "ok": true,
-   "new": 3,
+   "new": 0,
    "count": 3
   }
  }
