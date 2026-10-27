@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T17:16:08Z",
+ "generatedAt": "2026-10-27T17:17:16Z",
  "items": [
   {
    "id": "deepmind-d17d13a0006a",
@@ -431,6 +431,58 @@
    "addedAt": "2026-10-27T17:16:08Z"
   },
   {
+   "id": "openai-edef63b51aed",
+   "sourceId": "openai",
+   "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+   "url": "https://openai.com/index/building-chatgpt-ad-stack",
+   "published": "2026-10-21T07:00:00Z",
+   "precision": "time",
+   "excerpt": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:17:16Z"
+  },
+  {
+   "id": "openai-1de8e62ff715",
+   "sourceId": "openai",
+   "title": "Using thousands of AI agents to uncover new leads in biological data",
+   "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+   "published": "2026-10-21T04:50:00Z",
+   "precision": "time",
+   "excerpt": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:17:16Z"
+  },
+  {
+   "id": "openai-9201054eeb4c",
+   "sourceId": "openai",
+   "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+   "url": "https://openai.com/index/cloudflare-cyber",
+   "published": "2026-10-21T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:17:16Z"
+  },
+  {
+   "id": "openai-b2deaf97c98c",
+   "sourceId": "openai",
+   "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+   "url": "https://openai.com/index/empowering-cyber-defenders",
+   "published": "2026-10-21T00:00:00Z",
+   "precision": "time",
+   "excerpt": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:17:16Z"
+  },
+  {
    "id": "mollick-dd8a8739a45d",
    "sourceId": "mollick",
    "title": "30 Months on the Exponential (in Charts)",
@@ -470,6 +522,19 @@
    "addedAt": "2026-10-27T17:14:30Z"
   },
   {
+   "id": "openai-b3fcb2e42d32",
+   "sourceId": "openai",
+   "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+   "url": "https://openai.com/index/ted-taylor-restaurant",
+   "published": "2026-10-20T10:00:00Z",
+   "precision": "time",
+   "excerpt": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:17:16Z"
+  },
+  {
    "id": "bjet-2abaf7d7fcbd",
    "sourceId": "bjet",
    "title": "Generative AI as a team moderator in CSCL : Facilitating students' multidimensional engagement through adaptive scaffolding for socially shared regulation of learning",
@@ -494,6 +559,32 @@
    "image": "https://i3.ytimg.com/vi/Nym8pyJ0_TQ/hqdefault.jpg",
    "videoId": "Nym8pyJ0_TQ",
    "addedAt": "2026-10-27T17:14:30Z"
+  },
+  {
+   "id": "openai-a84b6a7bee5c",
+   "sourceId": "openai",
+   "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+   "url": "https://openai.com/index/terminal-x",
+   "published": "2026-10-20T07:00:00Z",
+   "precision": "time",
+   "excerpt": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:17:16Z"
+  },
+  {
+   "id": "openai-dbaa90254253",
+   "sourceId": "openai",
+   "title": "OpenAI acquires Orchestra Bio",
+   "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+   "published": "2026-10-20T00:00:00Z",
+   "precision": "time",
+   "excerpt": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:17:16Z"
   },
   {
    "id": "cicek-bfc287e7a5af",
@@ -546,6 +637,19 @@
    "image": "https://punyamishra.com/wp-content/uploads/2026/10/missed1-scaled.jpg",
    "videoId": null,
    "addedAt": "2026-10-27T17:14:30Z"
+  },
+  {
+   "id": "openai-7a364f356aab",
+   "sourceId": "openai",
+   "title": "Advancing coding in low‑resource programming languages",
+   "url": "https://openai.com/index/low-resource-programming-languages",
+   "published": "2026-10-19T12:00:00Z",
+   "precision": "time",
+   "excerpt": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:17:16Z"
   },
   {
    "id": "oecd-22cac87d745a",
@@ -663,6 +767,32 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "openai-65442e708214",
+   "sourceId": "openai",
+   "title": "How Itaú is building generative AI for its entire customer base",
+   "url": "https://openai.com/index/itau-generative-ai",
+   "published": "2026-10-16T19:00:00Z",
+   "precision": "time",
+   "excerpt": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:17:16Z"
+  },
+  {
+   "id": "openai-4a2f3ca18eb9",
+   "sourceId": "openai",
+   "title": "Benefit Street Partners answers questions faster with Codex",
+   "url": "https://openai.com/index/benefit-street-partners",
+   "published": "2026-10-16T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-27T17:17:16Z"
   },
   {
    "id": "cae-b6db6063a365",
