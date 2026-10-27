@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "47 4 * * *"   # her gün 07:47 (Türkiye saati)
   workflow_dispatch: {}     # Actions sekmesinden elle çalıştırma
+  push:                     # ajan ya da kaynak listesi değişince hemen çalışır
+    branches: [main]
+    paths: ["radar_ajan.py", "sources.json", ".github/workflows/radar.yml"]
 
 permissions:
   contents: write

@@ -49,7 +49,7 @@ put("https://deepmind.google/blog/rss.xml", "deepmind.xml", f"""<?xml version="1
 since = (now - timedelta(days=30)).strftime("%Y-%m-%d")
 for sid, issn in (("cae", "0360-1315"), ("bjet", "1467-8535"), ("ijaied", "1560-4292")):
     q = {"filter": f"from-pub-date:{since}", "sort": "published", "order": "desc", "rows": "20",
-         "select": "title,DOI,URL,published,abstract,type"}
+         "select": "title,DOI,URL,published,published-online,created,abstract,type"}
     url = f"https://api.crossref.org/journals/{issn}/works?" + urllib.parse.urlencode(q)
     dd = d(48)
     body = {"message": {"items": [
@@ -57,6 +57,7 @@ for sid, issn in (("cae", "0360-1315"), ("bjet", "1467-8535"), ("ijaied", "1560-
          "abstract": "<jats:p>An abstract about AI tutoring.</jats:p>", "type": "journal-article"},
         {"title": ["Issue Information"], "DOI": f"10.1/{sid}.2", "published": {"date-parts": [[dd.year, dd.month, dd.day]]}},
         {"title": [f"Month-only {sid}"], "DOI": f"10.1/{sid}.3", "published": {"date-parts": [[dd.year, dd.month]]}, "type": "journal-article"},
+        {"title": [f"Future print {sid}"], "DOI": f"10.1/{sid}.4", "published": {"date-parts": [[2027, 2]]}, "created": {"date-time": dd.strftime("%Y-%m-%dT%H:%M:%SZ")}, "type": "journal-article"},
     ]}}
     put(url, f"crossref_{sid}.json", json.dumps(body))
 

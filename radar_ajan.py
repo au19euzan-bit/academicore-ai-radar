@@ -16,6 +16,7 @@ Test:        python radar_ajan.py --fixtures tests/fixtures --data /tmp/out
 """
 
 import argparse
+import gzip
 import hashlib
 import html
 import json
@@ -81,7 +82,10 @@ class Fetcher:
                     headers["Accept"] = accept
                 req = urllib.request.Request(url, headers=headers)
                 with urllib.request.urlopen(req, timeout=25) as resp:
-                    return resp.read()
+                    data = resp.read()
+                if data[:2] == b"\x1f\x8b":
+                    data = gzip.decompress(data)
+                return data.lstrip(b"\xef\xbb\xbf \t\r\n")
             except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
                 last = e
                 code = getattr(e, "code", None)
@@ -221,7 +225,7 @@ def crossref(fetcher, src, since):
     q = {
         "filter": f"from-pub-date:{since.strftime('%Y-%m-%d')}",
         "sort": "published", "order": "desc", "rows": "20",
-        "select": "title,DOI,URL,published,abstract,type",
+        "select": "title,DOI,URL,published,published-online,created,abstract,type",
     }
     if MAILTO:
         q["mailto"] = MAILTO
@@ -232,12 +236,22 @@ def crossref(fetcher, src, since):
         title = " ".join(w.get("title") or []).strip()
         if not title or title.lower() in ("issue information", "editorial board", "table of contents") or w.get("type") == "journal-issue":
             continue
-        parts = ((w.get("published") or {}).get("date-parts") or [[None]])[0]
-        if not parts or not parts[0]:
+        # Basili sayi tarihi cogu zaman ileri bir ay olur; once cevrimici yayin, sonra kayit tarihi
+        parts = ((w.get("published-online") or {}).get("date-parts") or [[None]])[0]
+        if parts and parts[0] and len(parts) == 3:
+            y, m, d = parts
+            dt, precision = datetime(y, m, d, 9, 0, tzinfo=UTC), "day"
+        elif (w.get("created") or {}).get("date-time"):
+            dt, precision = parse_date(w["created"]["date-time"]), "day"
+        else:
+            parts = ((w.get("published") or {}).get("date-parts") or [[None]])[0]
+            if not parts or not parts[0]:
+                continue
+            y, m, d = (parts + [None, None])[:3]
+            precision = "day" if d else "month"
+            dt = datetime(y, m or 1, d or 1, 9, 0, tzinfo=UTC)
+        if not dt:
             continue
-        y, m, d = (parts + [None, None])[:3]
-        precision = "day" if d else "month"
-        dt = datetime(y, m or 1, d or 1, 9, 0, tzinfo=UTC)
         doi = w.get("DOI")
         out.append({
             "title": strip_html(title),
