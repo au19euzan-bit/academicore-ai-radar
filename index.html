@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AcademyAI Radar</title>
+<meta name="description" content="Eğitimde yapay zekâ kaynaklarının günlük akışı">
+<meta name="theme-color" content="#0A0A0B">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Radar">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<style>
+/* Layout: Feeder-style reader — brand bar, underline tabs, folder chips + search, time-bucketed list with thumbnails, in-app reader/player sheet, bottom nav */
+:root {
+  --bg: #FFFFFF; --surface: #FFFFFF; --sunken: #F2EFF0; --fg: #1B1719; --muted: #6B6266; --faint: #9A9094; --line: #E9E3E5;
+  --accent: #8E2639; --accent-soft: #F6E6EA; --new: #2F8F4E;
+  --head-bg: #0A0A0B; --head-fg: #FFFFFF; --head-accent: #F0506A; --yt: #E1251B;
+  --f-aka: #2F7D6B; --f-aka-soft: #E2F1EC; --f-der: #8E2639; --f-der-soft: #F6E6EA;
+  --f-kur: #2C61A8; --f-kur-soft: #E3ECF8; --f-yz: #6A4FB3; --f-yz-soft: #ECE7F8;
+  --f-sho: #B4531C; --f-sho-soft: #FBEADF;
+  --note-bg: #FFF6E5; --note-fg: #6B4A08;
+  --font: "Inter", -apple-system, "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121011; --surface: #1A1718; --sunken: #232021; --fg: #F2EEF0; --muted: #A69CA0; --faint: #7D7478; --line: #2E292B;
+    --accent: #F0657C; --accent-soft: #3A1F25; --new: #5FCB84; --head-bg: #000000; --yt: #FF4B3E;
+    --f-aka: #5FBF9A; --f-aka-soft: #1A2E27; --f-der: #F0657C; --f-der-soft: #3A1F25;
+    --f-kur: #73A6EC; --f-kur-soft: #172538; --f-yz: #A08BE8; --f-yz-soft: #251F38;
+    --f-sho: #EE9A62; --f-sho-soft: #34221A; --note-bg: #2E2614; --note-fg: #F2D493;
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--fg); font: 14px/1.4 var(--font); letter-spacing: -0.01em; -webkit-text-size-adjust: 100%; }
+img { max-width: 100%; }
+button { font-family: inherit; cursor: pointer; color: inherit; }
+svg { display: block; }
+.gut { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.wrap { max-width: 640px; margin: 0 auto; }
+
+.top { position: sticky; top: 0; z-index: 5; background: var(--head-bg); padding-top: env(safe-area-inset-top, 0px); }
+.brandbar { color: var(--head-fg); padding-block: 14px 12px; }
+.brandrow { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.brand { font-size: 20px; font-weight: 800; letter-spacing: -0.03em; }
+.brand span { color: var(--head-accent); }
+.brandnote { font-size: 12px; color: #B9B3B6; white-space: nowrap; }
+.tabsband { background: var(--bg); }
+.tabs { display: grid; grid-template-columns: repeat(3, 1fr); border-bottom: 1px solid var(--line); }
+.tab { background: none; border: none; padding: 14px 4px 12px; font-size: 15px; font-weight: 600; color: var(--muted); border-bottom: 3px solid transparent; display: inline-flex; justify-content: center; align-items: center; gap: 6px; }
+.tab[aria-selected="true"] { color: var(--accent); border-bottom-color: var(--accent); }
+.badge { min-width: 20px; height: 20px; padding: 0 6px; border-radius: 999px; background: var(--muted); color: var(--bg); font-size: 12px; font-weight: 700; display: inline-grid; place-items: center; font-variant-numeric: tabular-nums; }
+.tab[aria-selected="true"] .badge { background: var(--accent); }
+
+main { padding-block: 12px calc(96px + env(safe-area-inset-bottom, 0px)); }
+.stack { display: flex; flex-direction: column; gap: 12px; }
+.search { display: flex; align-items: center; gap: 10px; background: var(--sunken); border-radius: 12px; padding: 0 14px; height: 44px; }
+.search svg { width: 18px; height: 18px; color: var(--faint); flex: none; }
+.search input { flex: 1; min-width: 0; border: none; background: transparent; font: 400 16px var(--font); color: var(--fg); outline: none; }
+.search:focus-within { outline: 2px solid var(--accent); outline-offset: 1px; }
+.chips { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+.chips::-webkit-scrollbar { display: none; }
+.chip { flex: none; display: inline-flex; align-items: center; gap: 6px; padding: 7px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); font-size: 13px; font-weight: 600; color: var(--muted); }
+.chip .sw { width: 8px; height: 8px; border-radius: 50%; }
+.chip[aria-pressed="true"] { color: var(--fg); border-color: var(--fg); }
+
+.bucket { margin-top: 10px; }
+.bucket h2 { margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.list { list-style: none; margin: 0; padding: 0; }
+.item { padding: 16px 0 6px; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 8px; }
+.meta { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--muted); min-width: 0; font-variant-numeric: tabular-nums; }
+.srcicon { width: 22px; height: 16px; border-radius: 4px; display: grid; place-items: center; flex: none; font-size: 10px; font-weight: 800; color: #fff; }
+.srcicon svg { width: 9px; height: 9px; }
+.meta .who { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.meta .new { margin-left: auto; font-size: 12px; font-weight: 800; letter-spacing: 0.04em; color: var(--new); }
+.body { display: grid; grid-template-columns: minmax(0, 1fr) 104px; gap: 14px; align-items: start; }
+.body.noimg { grid-template-columns: minmax(0, 1fr); }
+.titlebtn { all: unset; cursor: pointer; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.titlebtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+.title { font-size: 17px; line-height: 1.3; font-weight: 800; letter-spacing: -0.02em; overflow-wrap: anywhere; }
+.excerpt { font-size: 15px; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.item.read .title, .item.read .excerpt { color: var(--faint); }
+.item.read .title { font-weight: 700; }
+.thumb { width: 104px; max-width: 100%; aspect-ratio: 16 / 10; border-radius: 10px; display: grid; place-items: center; position: relative; overflow: hidden; background: var(--sunken); }
+.thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.thumb .big { font-size: 26px; font-weight: 800; letter-spacing: -0.04em; }
+.thumb .play { position: absolute; width: 30px; height: 22px; border-radius: 6px; background: var(--yt); display: grid; place-items: center; }
+.thumb .play svg { width: 10px; height: 10px; }
+.item.read .thumb { opacity: 0.6; }
+.acts { display: flex; justify-content: flex-end; gap: 2px; }
+.ib { width: 44px; height: 40px; border: none; background: none; display: grid; place-items: center; border-radius: 10px; color: var(--muted); }
+.ib svg { width: 21px; height: 21px; }
+.ib[aria-pressed="true"] { color: var(--accent); }
+.ib:disabled { opacity: 0.35; cursor: default; }
+.ib:focus-visible, .chip:focus-visible, .tab:focus-visible, .nav button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+.empty { border: 1px dashed var(--line); border-radius: 14px; padding: 28px 16px; text-align: center; color: var(--muted); font-size: 14px; line-height: 1.5; margin-top: 12px; }
+.empty b { display: block; color: var(--fg); font-size: 15px; margin-bottom: 4px; }
+.xcard { padding: 16px 0; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 6px; }
+.xcard b { font-size: 16px; }
+.xcard span { font-size: 14px; color: var(--muted); line-height: 1.45; }
+.btn { align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; padding: 9px 14px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-size: 14px; font-weight: 700; text-decoration: none; border: none; }
+.btn svg { width: 13px; height: 13px; }
+.sectiontitle { margin: 6px 0 0; font-size: 17px; }
+.para { margin: 0; font-size: 14px; color: var(--muted); line-height: 1.55; }
+.tablewrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr:last-child td { border-bottom: none; }
+th { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 700; }
+td a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.method { display: inline-block; padding: 2px 8px; border-radius: 6px; background: var(--sunken); font-size: 12px; font-weight: 600; white-space: nowrap; }
+.sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.stat { display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 12px; font-weight: 600; white-space: nowrap; background: var(--sunken); color: var(--muted); }
+.stat.ok { background: var(--f-aka-soft); color: var(--f-aka); }
+.stat.bad { background: var(--note-bg); color: var(--note-fg); }
+
+.nav { position: fixed; left: 0; right: 0; bottom: 0; z-index: 6; background: var(--bg); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom, 0px); padding-left: max(8px, env(safe-area-inset-left, 0px)); padding-right: max(8px, env(safe-area-inset-right, 0px)); }
+.nav .wrap { display: grid; grid-template-columns: repeat(3, 1fr); }
+.nav button { background: none; border: none; padding: 10px 4px 8px; display: flex; flex-direction: column; align-items: center; gap: 3px; font-size: 11px; font-weight: 600; color: var(--faint); }
+.nav button svg { width: 24px; height: 24px; }
+.nav button[aria-current="page"] { color: var(--accent); }
+
+.sheet { position: fixed; inset: 0; z-index: 20; background: var(--bg); display: flex; flex-direction: column; }
+.sheetbar { padding-top: env(safe-area-inset-top, 0px); border-bottom: 1px solid var(--line); }
+.sheetbar .wrap { display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; align-items: center; gap: 8px; height: 52px; }
+.back { width: 44px; height: 44px; border: none; background: none; display: grid; place-items: center; color: var(--accent); border-radius: 10px; }
+.back svg { width: 24px; height: 24px; }
+.sheetsrc { display: flex; align-items: center; justify-content: center; gap: 8px; font-weight: 700; font-size: 15px; min-width: 0; }
+.sheetsrc span:last-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sheetscroll { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+.sheetscroll .wrap { padding-block: 18px 24px; display: flex; flex-direction: column; gap: 14px; }
+.player { width: 100%; border: 0; border-radius: 14px; background: #000; display: block; }
+.player.wide { aspect-ratio: 16 / 9; }
+.player.tall { aspect-ratio: 9 / 16; max-width: min(340px, 100%); max-height: 70vh; margin: 0 auto; }
+.hero { width: 100%; max-height: 260px; object-fit: cover; border-radius: 14px; display: block; }
+.rtitle { margin: 0; font-size: 24px; line-height: 1.25; font-weight: 800; letter-spacing: -0.02em; text-wrap: balance; overflow-wrap: anywhere; }
+.rmeta { font-size: 14px; color: var(--muted); }
+.rbody { font-size: 17px; line-height: 1.65; max-width: 65ch; }
+.rbody p { margin: 0 0 12px; }
+.label { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.sheetacts { border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom, 0px); }
+.sheetacts .wrap { display: flex; justify-content: space-between; align-items: center; height: 56px; }
+.sheetacts .ib { color: var(--accent); }
+.sheetacts .ib[aria-pressed="false"] { color: var(--muted); }
+.toast { position: fixed; left: 50%; bottom: calc(84px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--fg); color: var(--bg); padding: 10px 16px; border-radius: 999px; font-size: 14px; font-weight: 600; z-index: 30; max-width: calc(100% - 32px); }
+</style>
+</head>
+<body>
+<div class="top">
+  <div class="brandbar gut"><div class="wrap brandrow">
+    <div class="brand">Academy<span>AI</span> Radar</div>
+    <div class="brandnote" id="brandnote"></div>
+  </div></div>
+  <div class="tabsband gut" id="tabsWrap"><div class="wrap tabs" role="tablist" aria-label="Görünüm" id="tabs"></div></div>
+</div>
+
+<main class="gut"><div class="wrap stack" id="view"></div></main>
+<nav class="nav" aria-label="Ana menü"><div class="wrap" id="nav"></div></nav>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="rtitle" hidden></div>
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script>
+(function () {
+  var FOLDERS = [], FOLDER = {}, SOURCES = [], SRC = {}, XSTREAMS = [];
+  var ITEMS = [], STATUS = null, loadState = "loading";
+  var now = Date.now(), H = 3600 * 1000;
+  var KEY = "academyai-radar-v1";
+  var state = { read: {}, star: {}, folder: "all", tab: "all", view: "feed", q: "", openId: null };
+  try {
+    var s0 = JSON.parse(localStorage.getItem(KEY) || "null");
+    if (s0) { state.read = s0.read || {}; state.star = s0.star || {}; state.folder = s0.folder || "all"; }
+  } catch (e) {}
+  function persist() { try { localStorage.setItem(KEY, JSON.stringify({ read: state.read, star: state.star, folder: state.folder })); } catch (e) {} }
+
+  var I = {
+    search: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-3.6-3.6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+    play: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l12-7.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>',
+    playw: '<svg viewBox="0 0 10 10" aria-hidden="true"><path d="M2.5 1.5v7l6-3.5z" fill="#fff"/></svg>',
+    book: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5C6.5 4.5 9.5 4.5 12 6c2.5-1.5 5.5-1.5 8-.5v13c-2.5-1-5.5-1-8 .5-2.5-1.5-5.5-1.5-8-.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 6v13" stroke="currentColor" stroke-width="1.8"/></svg>',
+    share: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7.5 7.5L12 3l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 11v8.5h14V11" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>',
+    star: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8L12 16.8l-5.2 2.8 1-5.8-4.3-4.1 5.9-.8z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>',
+    starf: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8L12 16.8l-5.2 2.8 1-5.8-4.3-4.1 5.9-.8z" fill="currentColor" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>',
+    check: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l5 5 10-11" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    back: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 4.5L7.5 12 15 19.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    next: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    out: '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M4.5 2.5h5v5M9.5 2.5L3 9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    home: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10.5L12 4l8 6.5V20h-5.5v-6h-5v6H4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>',
+    x: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5l14 15M19 4.5l-14 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+    list: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5h16M4 12h11M4 17.5h7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>'
+  };
+
+  function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
+  function html(tag, cls, h) { var n = el(tag, cls); n.innerHTML = h; return n; }
+  function httpUrl(u) { return typeof u === "string" && /^https?:\/\//.test(u) ? u : null; }
+  function isRead(it) { return !!state.read[it.id]; }
+  function src(it) { return SRC[it.sourceId] || { id: it.sourceId, name: it.sourceId, folder: "aka", ini: "?" }; }
+  function folderOf(it) { return src(it).folder; }
+  function tms(it) { return new Date(it.published).getTime(); }
+  function isNew(it) { return !isRead(it) && now - tms(it) < 72 * H; }
+  function blurb(it) { return it.summary || it.excerpt || ""; }
+
+  var dayStart = function (t) { var x = new Date(t); x.setHours(0, 0, 0, 0); return x.getTime(); };
+  var weekStart = (function () { var d = new Date(now); d.setHours(0, 0, 0, 0); return d.getTime() - ((d.getDay() + 6) % 7) * 24 * H; })();
+  var monthStart = (function () { var d = new Date(now); return new Date(d.getFullYear(), d.getMonth(), 1).getTime(); })();
+  var wdFmt = new Intl.DateTimeFormat("tr-TR", { weekday: "long" });
+  var tFmt = new Intl.DateTimeFormat("tr-TR", { hour: "2-digit", minute: "2-digit" });
+  var dFmt = new Intl.DateTimeFormat("tr-TR", { day: "2-digit", month: "2-digit", year: "numeric" });
+  var mFmt = new Intl.DateTimeFormat("tr-TR", { month: "long", year: "numeric" });
+  function bucketOf(t) { return t >= weekStart ? "Bu hafta" : t >= weekStart - 7 * 24 * H ? "Geçen hafta" : t >= monthStart ? "Bu ay" : "Daha eski"; }
+  function whenText(it) {
+    var t = tms(it);
+    if (it.precision === "month") return mFmt.format(new Date(t));
+    var d = Math.round((dayStart(now) - dayStart(t)) / (24 * H));
+    if (d === 0) return it.precision === "day" ? "Bugün" : "Bugün " + tFmt.format(new Date(t));
+    if (d === 1) return "Dün";
+    if (d > 1 && d < 7) { var w = wdFmt.format(new Date(t)); return w.charAt(0).toLocaleUpperCase("tr-TR") + w.slice(1); }
+    return dFmt.format(new Date(t));
+  }
+  function agoText(iso) {
+    var t = new Date(iso).getTime(); if (isNaN(t)) return "";
+    var d = Math.round((dayStart(now) - dayStart(t)) / (24 * H));
+    return (d === 0 ? "bugün " : d === 1 ? "dün " : dFmt.format(new Date(t)) + " ") + tFmt.format(new Date(t));
+  }
+
+  function srcIcon(s) {
+    var b = el("span", "srcicon");
+    if (s.folder === "sho") { b.style.background = "var(--yt)"; b.innerHTML = I.playw; }
+    else { b.style.background = "var(--f-" + s.folder + ")"; b.textContent = (s.ini || "?").charAt(0); }
+    return b;
+  }
+  function tile(s) { var t = el("span", "big", s.ini || "?"); return t; }
+
+  var toastTimer = null;
+  function toast(msg) { var t = document.getElementById("toast"); t.textContent = msg; t.hidden = false; clearTimeout(toastTimer); toastTimer = setTimeout(function () { t.hidden = true; }, 1800); }
+  function share(it) {
+    if (navigator.share) { navigator.share({ title: it.title, url: it.url }).catch(function () {}); return; }
+    try { navigator.clipboard.writeText(it.url).then(function () { toast("Bağlantı kopyalandı"); }, function () { toast(it.url); }); } catch (e) { toast(it.url); }
+  }
+
+  function visibleItems() {
+    var q = state.q.trim().toLocaleLowerCase("tr-TR");
+    return ITEMS.filter(function (it) {
+      if (state.folder !== "all" && folderOf(it) !== state.folder) return false;
+      if (state.tab === "unread" && isRead(it)) return false;
+      if (state.tab === "star" && !state.star[it.id]) return false;
+      if (q && (it.title + " " + blurb(it) + " " + src(it).name).toLocaleLowerCase("tr-TR").indexOf(q) === -1) return false;
+      return true;
+    });
+  }
+
+  function renderTabs() {
+    var box = document.getElementById("tabs"); box.textContent = "";
+    document.getElementById("tabsWrap").hidden = state.view !== "feed";
+    var unread = ITEMS.filter(function (i) { return !isRead(i) && (state.folder === "all" || folderOf(i) === state.folder); }).length;
+    [["all", "Tüm içerikler"], ["unread", "Okunmamış"], ["star", "Yıldızlı"]].forEach(function (d) {
+      var b = el("button", "tab"); b.type = "button"; b.setAttribute("role", "tab");
+      b.setAttribute("aria-selected", state.tab === d[0] ? "true" : "false");
+      b.appendChild(el("span", null, d[1]));
+      if (d[0] === "unread" && unread) b.appendChild(el("span", "badge", String(unread)));
+      b.addEventListener("click", function () { state.tab = d[0]; render(); });
+      box.appendChild(b);
+    });
+    var note = document.getElementById("brandnote");
+    note.textContent = loadState === "loading" ? "Yükleniyor…" : STATUS && STATUS.lastRun ? "Güncellendi: " + agoText(STATUS.lastRun) : "";
+  }
+
+  function thumbNode(it, s) {
+    var th = el("div", "thumb"); th.style.background = "var(--f-" + s.folder + "-soft)"; th.style.color = "var(--f-" + s.folder + ")";
+    var img = httpUrl(it.image);
+    if (img) {
+      var im = el("img"); im.src = img; im.alt = ""; im.loading = "lazy"; im.referrerPolicy = "no-referrer"; im.decoding = "async";
+      im.addEventListener("error", function () { im.remove(); th.insertBefore(tile(s), th.firstChild); });
+      th.appendChild(im);
+    } else th.appendChild(tile(s));
+    if (it.videoId) th.appendChild(html("span", "play", I.playw));
+    return th;
+  }
+
+  function itemNode(it) {
+    var s = src(it), read = isRead(it);
+    var li = el("li", "item" + (read ? " read" : ""));
+    var meta = el("div", "meta"); meta.appendChild(srcIcon(s));
+    meta.appendChild(el("span", "who", s.name + " · " + whenText(it)));
+    if (isNew(it)) meta.appendChild(el("span", "new", "YENİ"));
+    var body = el("div", "body");
+    var tb = el("button", "titlebtn"); tb.type = "button";
+    tb.appendChild(el("span", "title", it.title));
+    if (blurb(it)) tb.appendChild(el("span", "excerpt", blurb(it)));
+    tb.addEventListener("click", function () { openReader(it.id); });
+    body.appendChild(tb); body.appendChild(thumbNode(it, s));
+    li.appendChild(meta); li.appendChild(body);
+    var acts = el("div", "acts");
+    var b1 = html("button", "ib", it.videoId ? I.play : I.book); b1.type = "button"; b1.setAttribute("aria-label", it.videoId ? "Videoyu oynat" : "Aç");
+    b1.addEventListener("click", function () { openReader(it.id); });
+    var b2 = html("button", "ib", I.share); b2.type = "button"; b2.setAttribute("aria-label", "Paylaş"); b2.addEventListener("click", function () { share(it); });
+    var b3 = html("button", "ib", state.star[it.id] ? I.starf : I.star); b3.type = "button"; b3.setAttribute("aria-label", "Yıldızla"); b3.setAttribute("aria-pressed", state.star[it.id] ? "true" : "false");
+    b3.addEventListener("click", function () { if (state.star[it.id]) delete state.star[it.id]; else state.star[it.id] = true; persist(); render(); });
+    var b4 = html("button", "ib", I.check); b4.type = "button"; b4.setAttribute("aria-label", read ? "Okunmadı yap" : "Okundu say"); b4.setAttribute("aria-pressed", read ? "true" : "false");
+    b4.addEventListener("click", function () { if (read) delete state.read[it.id]; else state.read[it.id] = true; persist(); render(); });
+    [b1, b2, b3, b4].forEach(function (b) { acts.appendChild(b); });
+    li.appendChild(acts);
+    return li;
+  }
+
+  function emptyBox(title, text) { var e = el("div", "empty"); e.appendChild(el("b", null, title)); e.appendChild(document.createTextNode(text)); return e; }
+
+  function renderFeed(v) {
+    var sb = el("label", "search"); sb.innerHTML = I.search;
+    var inp = el("input"); inp.type = "search"; inp.id = "q"; inp.placeholder = "Ara…"; inp.value = state.q; inp.setAttribute("aria-label", "İçeriklerde ara");
+    inp.addEventListener("input", function () { state.q = inp.value; renderList(); });
+    sb.appendChild(inp); v.appendChild(sb);
+    var chips = el("div", "chips"); chips.setAttribute("role", "toolbar"); chips.setAttribute("aria-label", "Klasör");
+    [{ id: "all", name: "Tümü" }].concat(FOLDERS).forEach(function (f) {
+      var c = el("button", "chip"); c.type = "button"; c.setAttribute("aria-pressed", state.folder === f.id ? "true" : "false");
+      if (FOLDER[f.id]) { var sw = el("span", "sw"); sw.style.background = "var(--f-" + f.id + ")"; c.appendChild(sw); }
+      c.appendChild(el("span", null, f.name));
+      c.addEventListener("click", function () { state.folder = f.id; persist(); render(); });
+      chips.appendChild(c);
+    });
+    v.appendChild(chips);
+    var listBox = el("div"); listBox.id = "listBox"; v.appendChild(listBox);
+    renderList();
+  }
+
+  function renderList() {
+    var box = document.getElementById("listBox"); if (!box) return; box.textContent = "";
+    if (loadState === "loading") { box.appendChild(emptyBox("Akış yükleniyor", "Kaynaklardan gelen içerikler birazdan burada.")); return; }
+    if (loadState === "error") { box.appendChild(emptyBox("Akış yüklenemedi", "İnternet bağlantını kontrol edip sayfayı yenile.")); return; }
+    var items = visibleItems();
+    if (!items.length) {
+      if (!ITEMS.length) box.appendChild(emptyBox("Henüz içerik yok", "Günlük ajan ilk kez çalıştığında kaynaklardaki yeni içerikler burada görünecek."));
+      else if (state.q) box.appendChild(emptyBox("Sonuç yok", "“" + state.q + "” bu görünümde bulunamadı."));
+      else if (state.tab === "star") box.appendChild(emptyBox("Yıldızlı içerik yok", "Bir içerikteki yıldıza dokun; sonra okumak istediklerin burada toplanır."));
+      else box.appendChild(emptyBox("Burada yeni içerik yok", "Yarın sabahki güncellemede yenileri gelecek."));
+      return;
+    }
+    var cur = null, ul = null;
+    items.forEach(function (it) {
+      var b = bucketOf(tms(it));
+      if (b !== cur) { cur = b; var h = el("div", "bucket"); h.appendChild(el("h2", null, b)); box.appendChild(h); ul = el("ul", "list"); box.appendChild(ul); }
+      ul.appendChild(itemNode(it));
+    });
+  }
+
+  function renderX(v) {
+    v.appendChild(el("h2", "sectiontitle", "X akışları"));
+    v.appendChild(el("p", "para", "Her bağlantı, gruptaki hesapların kendi gönderilerini en yeniden eskiye tek akışta açar. X'te oturum açık olmalı."));
+    var ul = el("ul", "list");
+    XSTREAMS.forEach(function (x) {
+      var q = "(" + x.handles.map(function (h) { return "from:" + h; }).join(" OR ") + ") -filter:replies";
+      var li = el("li", "xcard"); li.appendChild(el("b", null, x.name)); li.appendChild(el("span", null, x.who));
+      var a = el("a", "btn"); a.href = "https://x.com/search?q=" + encodeURIComponent(q) + "&f=live"; a.target = "_blank"; a.rel = "noopener";
+      a.appendChild(document.createTextNode("X'te aç")); var s = el("span"); s.innerHTML = I.out; a.appendChild(s.firstChild);
+      li.appendChild(a); ul.appendChild(li);
+    });
+    v.appendChild(ul);
+  }
+
+  var METHOD = { rss: "RSS", crossref: "Crossref", youtube: "YouTube", page: "Sayfa" };
+  function renderSources(v) {
+    v.appendChild(el("h2", "sectiontitle", "Kaynaklar"));
+    var p = "Ajan her sabah bu kaynakları okur ve yeni içerikleri akışa ekler.";
+    if (STATUS && STATUS.lastRun) p += " Son güncelleme: " + agoText(STATUS.lastRun) + ".";
+    if (STATUS && !STATUS.summaries) p += " Türkçe özetler kapalı; içeriklerin altında kaynağın kendi açıklaması görünüyor.";
+    v.appendChild(el("p", "para", p));
+    var wrap = el("div", "tablewrap"), t = el("table");
+    t.innerHTML = "<thead><tr><th>Kaynak</th><th>Yöntem</th><th>Son durum</th></tr></thead>";
+    var tb = el("tbody");
+    SOURCES.forEach(function (s) {
+      var tr = el("tr"), td1 = el("td"), a = el("a", null, s.name); a.href = httpUrl(s.home) || "#"; a.target = "_blank"; a.rel = "noopener"; td1.appendChild(a);
+      td1.appendChild(el("div", "sub", (FOLDER[s.folder] || {}).name || ""));
+      var td2 = el("td"); td2.appendChild(el("span", "method", METHOD[s.method] || s.method));
+      var st = STATUS && STATUS.sources ? STATUS.sources[s.id] : null, td3 = el("td");
+      if (!st) td3.appendChild(el("span", "stat", "—"));
+      else {
+        td3.appendChild(el("span", "stat " + (st.ok ? "ok" : "bad"), st.ok ? (st.count || 0) + " içerik" : "Okunamadı"));
+        if (!st.ok && st.note) td3.appendChild(el("div", "sub", st.note));
+      }
+      tr.appendChild(td1); tr.appendChild(td2); tr.appendChild(td3); tb.appendChild(tr);
+    });
+    t.appendChild(tb); wrap.appendChild(t); v.appendChild(wrap);
+  }
+
+  function renderNav() {
+    var n = document.getElementById("nav"); n.textContent = "";
+    [["feed", "Akış", I.home], ["x", "X akışları", I.x], ["sources", "Kaynaklar", I.list]].forEach(function (d) {
+      var b = el("button"); b.type = "button";
+      if (state.view === d[0]) b.setAttribute("aria-current", "page");
+      b.innerHTML = d[2]; b.appendChild(el("span", null, d[1]));
+      b.addEventListener("click", function () { state.view = d[0]; render(); window.scrollTo({ top: 0 }); });
+      n.appendChild(b);
+    });
+  }
+
+  function render() { renderMain(); if (state.openId) renderReader(); }
+  function renderMain() {
+    renderTabs(); renderNav();
+    var v = document.getElementById("view");
+    var q = document.getElementById("q"), hadFocus = q && document.activeElement === q;
+    v.textContent = "";
+    if (state.view === "x") renderX(v); else if (state.view === "sources") renderSources(v); else renderFeed(v);
+    if (hadFocus) { var q2 = document.getElementById("q"); if (q2) q2.focus(); }
+  }
+
+  // ---- uygulama ici okuyucu ve oynatici ----
+  var lastFocus = null;
+  function openReader(id) {
+    var sh = document.getElementById("sheet");
+    if (!sh.contains(document.activeElement)) lastFocus = document.activeElement;
+    state.openId = id; state.read[id] = true; persist();
+    render(); sh.hidden = false; document.body.style.overflow = "hidden";
+    var bk = document.getElementById("rback"); if (bk) bk.focus();
+  }
+  function closeReader() {
+    state.openId = null; var sh = document.getElementById("sheet"); sh.hidden = true; sh.textContent = ""; document.body.style.overflow = "";
+    render(); if (lastFocus && document.body.contains(lastFocus)) lastFocus.focus();
+  }
+  function renderReader() {
+    var it = ITEMS.filter(function (i) { return i.id === state.openId; })[0];
+    if (!it) { closeReader(); return; }
+    var s = src(it), sh = document.getElementById("sheet");
+    var keepPlayer = null;
+    sh.textContent = "";
+    var bar = el("div", "sheetbar gut"), bw = el("div", "wrap");
+    var back = html("button", "back", I.back); back.type = "button"; back.id = "rback"; back.setAttribute("aria-label", "Listeye dön"); back.addEventListener("click", closeReader);
+    var mid = el("div", "sheetsrc"); mid.appendChild(srcIcon(s)); mid.appendChild(el("span", null, s.name));
+    bw.appendChild(back); bw.appendChild(mid); bw.appendChild(el("span")); bar.appendChild(bw); sh.appendChild(bar);
+
+    var sc = el("div", "sheetscroll gut"), w = el("div", "wrap");
+    if (it.videoId && /^[A-Za-z0-9_-]{6,20}$/.test(it.videoId)) {
+      var fr = keepPlayer || el("iframe", "player " + (s.folder === "sho" ? "tall" : "wide"));
+      if (!keepPlayer) {
+        fr.src = "https://www.youtube-nocookie.com/embed/" + it.videoId + "?autoplay=1&playsinline=1&rel=0";
+        fr.title = it.title; fr.setAttribute("allow", "autoplay; encrypted-media; picture-in-picture; fullscreen"); fr.setAttribute("allowfullscreen", "");
+        fr.dataset.id = it.id;
+      }
+      w.appendChild(fr);
+    } else if (httpUrl(it.image)) {
+      var hero = el("img", "hero"); hero.src = it.image; hero.alt = ""; hero.referrerPolicy = "no-referrer";
+      hero.addEventListener("error", function () { hero.remove(); }); w.appendChild(hero);
+    }
+    var h = el("h1", "rtitle", it.title); h.id = "rtitle"; w.appendChild(h);
+    w.appendChild(el("div", "rmeta", s.name + " · " + whenText(it)));
+    var body = el("div", "rbody");
+    if (it.summary) { body.appendChild(el("div", "label", "Radar özeti")); body.appendChild(el("p", null, it.summary)); }
+    if (it.excerpt && it.excerpt !== it.summary) { body.appendChild(el("div", "label", "Kaynaktan")); body.appendChild(el("p", null, it.excerpt)); }
+    if (body.childNodes.length) w.appendChild(body);
+    var open = el("a", "btn"); open.href = httpUrl(it.url) || "#"; open.target = "_blank"; open.rel = "noopener";
+    open.appendChild(document.createTextNode(it.videoId ? "YouTube'da aç" : "Kaynakta oku"));
+    var oi = el("span"); oi.innerHTML = I.out; open.appendChild(oi.firstChild); w.appendChild(open);
+    sc.appendChild(w); sh.appendChild(sc);
+
+    var ab = el("div", "sheetacts gut"), aw = el("div", "wrap");
+    var a1 = html("button", "ib", I.share); a1.type = "button"; a1.setAttribute("aria-label", "Paylaş"); a1.addEventListener("click", function () { share(it); });
+    var a2 = html("button", "ib", state.star[it.id] ? I.starf : I.star); a2.type = "button"; a2.setAttribute("aria-label", "Yıldızla"); a2.setAttribute("aria-pressed", state.star[it.id] ? "true" : "false");
+    a2.addEventListener("click", function () {
+      if (state.star[it.id]) delete state.star[it.id]; else state.star[it.id] = true; persist(); renderMain();
+      a2.innerHTML = state.star[it.id] ? I.starf : I.star; a2.setAttribute("aria-pressed", state.star[it.id] ? "true" : "false");
+    });
+    var a3 = html("button", "ib", I.check); a3.type = "button"; a3.setAttribute("aria-label", isRead(it) ? "Okunmadı yap" : "Okundu say"); a3.setAttribute("aria-pressed", isRead(it) ? "true" : "false");
+    a3.addEventListener("click", function () {
+      if (isRead(it)) delete state.read[it.id]; else state.read[it.id] = true; persist(); renderMain();
+      a3.setAttribute("aria-pressed", isRead(it) ? "true" : "false"); a3.setAttribute("aria-label", isRead(it) ? "Okunmadı yap" : "Okundu say");
+    });
+    var pool = ITEMS.filter(function (i) { return (state.folder === "all" || folderOf(i) === state.folder) && (state.tab !== "star" || state.star[i.id]); });
+    var idx = pool.map(function (x) { return x.id; }).indexOf(it.id), nxt = null;
+    for (var k = idx + 1; idx >= 0 && k < pool.length; k++) { if (state.tab !== "unread" || !isRead(pool[k])) { nxt = pool[k]; break; } }
+    var a4 = html("button", "ib", I.next); a4.type = "button"; a4.setAttribute("aria-label", "Sonraki içerik"); a4.disabled = !nxt;
+    a4.addEventListener("click", function () { if (nxt) { document.getElementById("sheet").textContent = ""; openReader(nxt.id); } });
+    [a1, a2, a3, a4].forEach(function (b) { aw.appendChild(b); });
+    ab.appendChild(aw); sh.appendChild(ab);
+  }
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && state.openId) closeReader(); });
+
+  render();
+
+  // ---- veri ----
+  function getJSON(path) { return fetch(path + "?t=" + Date.now(), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+  Promise.all([getJSON("sources.json"), getJSON("data/items.json").catch(function () { return { items: [] }; }), getJSON("data/status.json").catch(function () { return null; })])
+    .then(function (res) {
+      var cat = res[0] || {};
+      FOLDERS = cat.folders || []; FOLDERS.forEach(function (f) { FOLDER[f.id] = f; });
+      SOURCES = cat.sources || []; SOURCES.forEach(function (s) { SRC[s.id] = s; });
+      XSTREAMS = cat.x_streams || [];
+      ITEMS = ((res[1] || {}).items || []).filter(function (i) { return i && i.id && i.title && httpUrl(i.url) && i.published; })
+        .sort(function (a, b) { return a.published < b.published ? 1 : -1; });
+      STATUS = res[2]; loadState = "ready"; now = Date.now(); render();
+    }, function () { loadState = "error"; render(); });
+})();
+</script>
+</body>
+</html>
