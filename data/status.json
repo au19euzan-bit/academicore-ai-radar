@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-10-28T10:49:47Z",
+ "lastRun": "2026-10-29T11:06:24Z",
  "summaries": false,
  "sources": {
   "mollick": {
@@ -9,8 +9,8 @@
   },
   "mishra": {
    "ok": true,
-   "new": 0,
-   "count": 9
+   "new": 1,
+   "count": 10
   },
   "cae": {
    "ok": true,
@@ -40,7 +40,7 @@
   "openai": {
    "ok": true,
    "new": 10,
-   "count": 40
+   "count": 50
   },
   "anthropic": {
    "ok": false,
@@ -49,18 +49,18 @@
   },
   "deepmind": {
    "ok": true,
-   "new": 0,
-   "count": 10
+   "new": 1,
+   "count": 11
   },
   "cicek": {
    "ok": true,
-   "new": 1,
-   "count": 16
+   "new": 5,
+   "count": 21
   },
   "erhan": {
    "ok": true,
-   "new": 0,
-   "count": 3
+   "new": 1,
+   "count": 4
   }
  }
 }
