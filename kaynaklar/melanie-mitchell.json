@@ -57,5 +57,15 @@
     "status": "reachable",
     "code": 200,
     "finalUrl": "https://melaniemitchell.me/"
+  },
+  "ajan": {
+    "id": "mitchell",
+    "name": "Melanie Mitchell",
+    "folder": "aka",
+    "ini": "MM",
+    "home": "https://aiguide.substack.com/",
+    "method": "rss",
+    "feed": "https://aiguide.substack.com/feed",
+    "sira": 18
   }
 }

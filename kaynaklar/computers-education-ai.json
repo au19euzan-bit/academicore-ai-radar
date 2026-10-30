@@ -37,5 +37,15 @@
     "status": "restricted",
     "code": 403,
     "finalUrl": "https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence"
+  },
+  "ajan": {
+    "id": "caeai",
+    "name": "Computers & Education: AI",
+    "folder": "der",
+    "ini": "CAI",
+    "home": "https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence",
+    "method": "crossref",
+    "issn": "2666-920X",
+    "sira": 30
   }
 }

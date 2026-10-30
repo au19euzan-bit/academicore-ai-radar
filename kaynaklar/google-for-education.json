@@ -54,5 +54,15 @@
     "status": "reachable",
     "code": 200,
     "finalUrl": "https://edu.google.com/intl/ALL_us/ai/gemini-for-education/"
+  },
+  "ajan": {
+    "id": "googleedu",
+    "name": "Google for Education",
+    "folder": "yz",
+    "ini": "GE",
+    "home": "https://edu.google.com/intl/ALL_us/ai/gemini-for-education/",
+    "method": "rss",
+    "feed": "https://blog.google/products-and-platforms/products/education/rss/",
+    "sira": 29
   }
 }

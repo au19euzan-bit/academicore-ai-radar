@@ -58,5 +58,15 @@
     "status": "reachable",
     "code": 200,
     "finalUrl": "https://garymarcus.substack.com/"
+  },
+  "ajan": {
+    "id": "marcus",
+    "name": "Marcus on AI",
+    "folder": "aka",
+    "ini": "GM",
+    "home": "https://garymarcus.substack.com/",
+    "method": "rss",
+    "feed": "https://garymarcus.substack.com/feed",
+    "sira": 17
   }
 }

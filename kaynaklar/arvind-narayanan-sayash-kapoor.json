@@ -71,5 +71,15 @@
     "status": "reachable",
     "code": 200,
     "finalUrl": "https://www.normaltech.ai/"
+  },
+  "ajan": {
+    "id": "normaltech",
+    "name": "AI as Normal Technology",
+    "folder": "aka",
+    "ini": "NT",
+    "home": "https://www.normaltech.ai/",
+    "method": "rss",
+    "feed": "https://www.normaltech.ai/feed",
+    "sira": 16
   }
 }

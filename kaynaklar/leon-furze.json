@@ -68,5 +68,15 @@
     "status": "reachable",
     "code": 200,
     "finalUrl": "https://leonfurze.com/"
+  },
+  "ajan": {
+    "id": "furze",
+    "name": "Leon Furze",
+    "folder": "aka",
+    "ini": "LF",
+    "home": "https://leonfurze.com/",
+    "method": "rss",
+    "feed": "https://leonfurze.com/feed/",
+    "sira": 21
   }
 }

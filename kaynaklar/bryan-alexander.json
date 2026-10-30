@@ -50,5 +50,15 @@
     "status": "reachable",
     "code": 200,
     "finalUrl": "https://bryanalexander.org/"
+  },
+  "ajan": {
+    "id": "alexander",
+    "name": "Bryan Alexander",
+    "folder": "aka",
+    "ini": "BA",
+    "home": "https://bryanalexander.org/",
+    "method": "rss",
+    "feed": "https://bryanalexander.org/feed/",
+    "sira": 26
   }
 }

@@ -54,5 +54,15 @@
     "status": "reachable",
     "code": 200,
     "finalUrl": "https://karpathy.ai/"
+  },
+  "ajan": {
+    "id": "karpathy",
+    "name": "Andrej Karpathy",
+    "folder": "aka",
+    "ini": "AK",
+    "home": "https://karpathy.bearblog.dev/",
+    "method": "rss",
+    "feed": "https://karpathy.bearblog.dev/feed/",
+    "sira": 20
   }
 }

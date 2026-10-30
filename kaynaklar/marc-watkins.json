@@ -53,5 +53,15 @@
     "checkedAt": "2026-10-18T11:03:57.016201+00:00",
     "method": "GET with redirects; HTTP status only, response body discarded",
     "status": "missing"
+  },
+  "ajan": {
+    "id": "watkins",
+    "name": "Rhetorica",
+    "folder": "aka",
+    "ini": "MW",
+    "home": "https://marcwatkins.substack.com/",
+    "method": "rss",
+    "feed": "https://marcwatkins.substack.com/feed",
+    "sira": 24
   }
 }

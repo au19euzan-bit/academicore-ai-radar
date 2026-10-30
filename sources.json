@@ -131,6 +131,168 @@
       "method": "youtube",
       "channel": "UC6E0xxW6o3QacO-rx71x26Q",
       "kind": "shorts"
+    },
+    {
+      "id": "willison",
+      "name": "Simon Willison",
+      "folder": "aka",
+      "ini": "SW",
+      "home": "https://simonwillison.net/",
+      "method": "rss",
+      "feed": "https://simonwillison.net/atom/everything/"
+    },
+    {
+      "id": "importai",
+      "name": "Import AI",
+      "folder": "aka",
+      "ini": "IA",
+      "home": "https://importai.substack.com/",
+      "method": "rss",
+      "feed": "https://importai.substack.com/feed"
+    },
+    {
+      "id": "interconnects",
+      "name": "Interconnects",
+      "folder": "aka",
+      "ini": "IN",
+      "home": "https://www.interconnects.ai/",
+      "method": "rss",
+      "feed": "https://www.interconnects.ai/feed"
+    },
+    {
+      "id": "normaltech",
+      "name": "AI as Normal Technology",
+      "folder": "aka",
+      "ini": "NT",
+      "home": "https://www.normaltech.ai/",
+      "method": "rss",
+      "feed": "https://www.normaltech.ai/feed"
+    },
+    {
+      "id": "marcus",
+      "name": "Marcus on AI",
+      "folder": "aka",
+      "ini": "GM",
+      "home": "https://garymarcus.substack.com/",
+      "method": "rss",
+      "feed": "https://garymarcus.substack.com/feed"
+    },
+    {
+      "id": "mitchell",
+      "name": "Melanie Mitchell",
+      "folder": "aka",
+      "ini": "MM",
+      "home": "https://aiguide.substack.com/",
+      "method": "rss",
+      "feed": "https://aiguide.substack.com/feed"
+    },
+    {
+      "id": "lilianweng",
+      "name": "Lil'Log",
+      "folder": "aka",
+      "ini": "LW",
+      "home": "https://lilianweng.github.io/",
+      "method": "rss",
+      "feed": "https://lilianweng.github.io/index.xml"
+    },
+    {
+      "id": "karpathy",
+      "name": "Andrej Karpathy",
+      "folder": "aka",
+      "ini": "AK",
+      "home": "https://karpathy.bearblog.dev/",
+      "method": "rss",
+      "feed": "https://karpathy.bearblog.dev/feed/"
+    },
+    {
+      "id": "furze",
+      "name": "Leon Furze",
+      "folder": "aka",
+      "ini": "LF",
+      "home": "https://leonfurze.com/",
+      "method": "rss",
+      "feed": "https://leonfurze.com/feed/"
+    },
+    {
+      "id": "hardman",
+      "name": "Dr Phil's Newsletter",
+      "folder": "aka",
+      "ini": "PH",
+      "home": "https://drphilippahardman.substack.com/",
+      "method": "rss",
+      "feed": "https://drphilippahardman.substack.com/feed"
+    },
+    {
+      "id": "eaton",
+      "name": "Lance Eaton",
+      "folder": "aka",
+      "ini": "LE",
+      "home": "https://aiedusimplified.substack.com/",
+      "method": "rss",
+      "feed": "https://aiedusimplified.substack.com/feed"
+    },
+    {
+      "id": "watkins",
+      "name": "Rhetorica",
+      "folder": "aka",
+      "ini": "MW",
+      "home": "https://marcwatkins.substack.com/",
+      "method": "rss",
+      "feed": "https://marcwatkins.substack.com/feed"
+    },
+    {
+      "id": "bali",
+      "name": "Maha Bali",
+      "folder": "aka",
+      "ini": "MB",
+      "home": "https://blog.mahabali.me/",
+      "method": "rss",
+      "feed": "https://blog.mahabali.me/feed/"
+    },
+    {
+      "id": "alexander",
+      "name": "Bryan Alexander",
+      "folder": "aka",
+      "ini": "BA",
+      "home": "https://bryanalexander.org/",
+      "method": "rss",
+      "feed": "https://bryanalexander.org/feed/"
+    },
+    {
+      "id": "edsurge",
+      "name": "EdSurge",
+      "folder": "kur",
+      "ini": "ES",
+      "home": "https://www.edsurge.com/",
+      "method": "rss",
+      "feed": "https://www.edsurge.com/articles_rss"
+    },
+    {
+      "id": "edtechinsiders",
+      "name": "EdTech Insiders",
+      "folder": "kur",
+      "ini": "EI",
+      "home": "https://edtechinsiders.substack.com/",
+      "method": "rss",
+      "feed": "https://edtechinsiders.substack.com/feed"
+    },
+    {
+      "id": "googleedu",
+      "name": "Google for Education",
+      "folder": "yz",
+      "ini": "GE",
+      "home": "https://edu.google.com/intl/ALL_us/ai/gemini-for-education/",
+      "method": "rss",
+      "feed": "https://blog.google/products-and-platforms/products/education/rss/"
+    },
+    {
+      "id": "caeai",
+      "name": "Computers & Education: AI",
+      "folder": "der",
+      "ini": "CAI",
+      "home": "https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence",
+      "method": "crossref",
+      "issn": "2666-920X"
     }
   ],
   "x_streams": [

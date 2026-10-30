@@ -51,5 +51,15 @@
     "status": "reachable",
     "code": 200,
     "finalUrl": "https://simonwillison.net/"
+  },
+  "ajan": {
+    "id": "willison",
+    "name": "Simon Willison",
+    "folder": "aka",
+    "ini": "SW",
+    "home": "https://simonwillison.net/",
+    "method": "rss",
+    "feed": "https://simonwillison.net/atom/everything/",
+    "sira": 13
   }
 }

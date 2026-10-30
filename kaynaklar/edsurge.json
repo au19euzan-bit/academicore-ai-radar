@@ -68,5 +68,15 @@
     "status": "reachable",
     "code": 200,
     "finalUrl": "https://www.edsurge.com/"
+  },
+  "ajan": {
+    "id": "edsurge",
+    "name": "EdSurge",
+    "folder": "kur",
+    "ini": "ES",
+    "home": "https://www.edsurge.com/",
+    "method": "rss",
+    "feed": "https://www.edsurge.com/articles_rss",
+    "sira": 27
   }
 }

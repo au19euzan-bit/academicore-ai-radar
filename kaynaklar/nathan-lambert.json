@@ -59,5 +59,15 @@
     "status": "reachable",
     "code": 200,
     "finalUrl": "https://www.interconnects.ai/"
+  },
+  "ajan": {
+    "id": "interconnects",
+    "name": "Interconnects",
+    "folder": "aka",
+    "ini": "IN",
+    "home": "https://www.interconnects.ai/",
+    "method": "rss",
+    "feed": "https://www.interconnects.ai/feed",
+    "sira": 15
   }
 }

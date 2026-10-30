@@ -52,5 +52,15 @@
     "status": "reachable",
     "code": 200,
     "finalUrl": "https://drphilippahardman.substack.com/"
+  },
+  "ajan": {
+    "id": "hardman",
+    "name": "Dr Phil's Newsletter",
+    "folder": "aka",
+    "ini": "PH",
+    "home": "https://drphilippahardman.substack.com/",
+    "method": "rss",
+    "feed": "https://drphilippahardman.substack.com/feed",
+    "sira": 22
   }
 }

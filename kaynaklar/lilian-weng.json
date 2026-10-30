@@ -45,5 +45,15 @@
     "status": "reachable",
     "code": 200,
     "finalUrl": "https://lilianweng.github.io/"
+  },
+  "ajan": {
+    "id": "lilianweng",
+    "name": "Lil'Log",
+    "folder": "aka",
+    "ini": "LW",
+    "home": "https://lilianweng.github.io/",
+    "method": "rss",
+    "feed": "https://lilianweng.github.io/index.xml",
+    "sira": 19
   }
 }

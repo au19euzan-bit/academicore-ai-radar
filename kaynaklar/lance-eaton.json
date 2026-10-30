@@ -71,5 +71,15 @@
     "checkedAt": "2026-10-18T11:03:57.238384+00:00",
     "method": "GET with redirects; HTTP status only, response body discarded",
     "status": "missing"
+  },
+  "ajan": {
+    "id": "eaton",
+    "name": "Lance Eaton",
+    "folder": "aka",
+    "ini": "LE",
+    "home": "https://aiedusimplified.substack.com/",
+    "method": "rss",
+    "feed": "https://aiedusimplified.substack.com/feed",
+    "sira": 23
   }
 }

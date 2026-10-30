@@ -68,5 +68,15 @@
     "status": "reachable",
     "code": 200,
     "finalUrl": "https://blog.mahabali.me/"
+  },
+  "ajan": {
+    "id": "bali",
+    "name": "Maha Bali",
+    "folder": "aka",
+    "ini": "MB",
+    "home": "https://blog.mahabali.me/",
+    "method": "rss",
+    "feed": "https://blog.mahabali.me/feed/",
+    "sira": 25
   }
 }

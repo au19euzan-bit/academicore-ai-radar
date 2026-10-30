@@ -53,5 +53,15 @@
     "status": "reachable",
     "code": 200,
     "finalUrl": "https://jack-clark.net/"
+  },
+  "ajan": {
+    "id": "importai",
+    "name": "Import AI",
+    "folder": "aka",
+    "ini": "IA",
+    "home": "https://importai.substack.com/",
+    "method": "rss",
+    "feed": "https://importai.substack.com/feed",
+    "sira": 14
   }
 }
