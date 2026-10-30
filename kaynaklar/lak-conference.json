@@ -47,5 +47,6 @@
     "status": "reachable",
     "code": 200,
     "finalUrl": "https://www.solaresearch.org/events/lak/"
-  }
+  },
+  "gorsel": "gorseller/lak-conference.webp"
 }

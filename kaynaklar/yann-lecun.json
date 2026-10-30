@@ -4,7 +4,7 @@
     "s": "ai",
     "p": 2,
     "r": "a",
-    "t": "AI araştırmasının yönü, açık modeller; LLM'lerin sınırlarına teknik eleştiri. Meta'dan ayrılıp yeni bir girişim kurdu.",
+    "t": "AI araştırmasının yönü, dünya modelleri ve açık modeller; LLM'lere teknik eleştiri",
     "w": "X · LinkedIn · Bluesky · Threads",
     "u": "http://yann.lecun.com",
     "l": "ger",
@@ -15,8 +15,8 @@
   "sira": 59,
   "radar": {
     "bolum": "Kişi",
-    "alt": "Geliştiriciler",
-    "sira": 4
+    "alt": "Araştırmacılar",
+    "sira": 11
   },
   "kunye": [
     "AI uzmanı",

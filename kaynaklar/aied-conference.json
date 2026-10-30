@@ -33,5 +33,6 @@
     "status": "reachable",
     "code": 200,
     "finalUrl": "https://iaied.org/"
-  }
+  },
+  "gorsel": "gorseller/aied-conference.webp"
 }
