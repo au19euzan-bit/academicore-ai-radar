@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-10-30T12:43:30Z",
+ "lastRun": "2026-10-30T12:50:25Z",
  "summaries": false,
  "sources": {
   "mollick": {
@@ -61,6 +61,96 @@
    "ok": true,
    "new": 0,
    "count": 4
+  },
+  "willison": {
+   "ok": true,
+   "new": 10,
+   "count": 10
+  },
+  "importai": {
+   "ok": false,
+   "note": "Okunamadı: https://importai.substack.com/feed okunamadi: HTTP Error 403: Forbidden",
+   "count": 0
+  },
+  "interconnects": {
+   "ok": true,
+   "new": 6,
+   "count": 6
+  },
+  "normaltech": {
+   "ok": true,
+   "new": 3,
+   "count": 3
+  },
+  "marcus": {
+   "ok": false,
+   "note": "Okunamadı: https://garymarcus.substack.com/feed okunamadi: HTTP Error 403: Forbidden",
+   "count": 0
+  },
+  "mitchell": {
+   "ok": false,
+   "note": "Okunamadı: https://aiguide.substack.com/feed okunamadi: HTTP Error 403: Forbidden",
+   "count": 0
+  },
+  "lilianweng": {
+   "ok": true,
+   "new": 0,
+   "count": 0
+  },
+  "karpathy": {
+   "ok": true,
+   "new": 0,
+   "count": 0
+  },
+  "furze": {
+   "ok": true,
+   "new": 4,
+   "count": 4
+  },
+  "hardman": {
+   "ok": false,
+   "note": "Okunamadı: https://drphilippahardman.substack.com/feed okunamadi: HTTP Error 403: Forbidden",
+   "count": 0
+  },
+  "eaton": {
+   "ok": false,
+   "note": "Okunamadı: https://aiedusimplified.substack.com/feed okunamadi: HTTP Error 403: Forbidden",
+   "count": 0
+  },
+  "watkins": {
+   "ok": false,
+   "note": "Okunamadı: https://marcwatkins.substack.com/feed okunamadi: HTTP Error 403: Forbidden",
+   "count": 0
+  },
+  "bali": {
+   "ok": true,
+   "new": 0,
+   "count": 0
+  },
+  "alexander": {
+   "ok": true,
+   "new": 1,
+   "count": 1
+  },
+  "edsurge": {
+   "ok": true,
+   "new": 10,
+   "count": 10
+  },
+  "edtechinsiders": {
+   "ok": false,
+   "note": "Okunamadı: https://edtechinsiders.substack.com/feed okunamadi: HTTP Error 403: Forbidden",
+   "count": 0
+  },
+  "googleedu": {
+   "ok": true,
+   "new": 10,
+   "count": 10
+  },
+  "caeai": {
+   "ok": true,
+   "new": 2,
+   "count": 2
   }
  }
 }

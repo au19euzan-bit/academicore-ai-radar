@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T12:43:30Z",
+ "generatedAt": "2026-10-30T12:50:25Z",
  "items": [
   {
    "id": "cicek-3fd08f916c17",
@@ -41,6 +41,45 @@
    "addedAt": "2026-10-30T11:01:41Z"
   },
   {
+   "id": "furze-abebdae53266",
+   "sourceId": "furze",
+   "title": "How much shadow AI is there in schools?",
+   "url": "https://leonfurze.com/2026/10/30/how-much-shadow-ai-is-there-in-schools/",
+   "published": "2026-10-30T02:07:11Z",
+   "precision": "time",
+   "excerpt": "What the research says about shadow AI in workplaces and education, what fifteen years of shadow IT research tells us, and what measuring shadow AI in schools would actually need to look like.",
+   "summary": "",
+   "image": "https://i0.wp.com/leonfurze.com/wp-content/uploads/2026/10/Screenshot-2026-10-30-at-1.04.27-pm.png?resize=1024%2C725&ssl=1",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "willison-07b8277675a3",
+   "sourceId": "willison",
+   "title": "API credits benefit for eligible ChatGPT subscriptions",
+   "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+   "published": "2026-10-29T22:48:29Z",
+   "precision": "time",
+   "excerpt": "API credits benefit for eligible ChatGPT subscriptions Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "willison-672400a4a73e",
+   "sourceId": "willison",
+   "title": "Building a multiplayer game world with autonomous Fable-class models",
+   "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+   "published": "2026-10-29T17:00:26Z",
+   "precision": "time",
+   "excerpt": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier…",
+   "summary": "",
+   "image": "https://static.simonwillison.net/static/2026-10-29/IMG_9406.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
    "id": "openai-7bf0065ceb16",
    "sourceId": "openai",
    "title": "An updated Model Spec for more capable and beneficial AI",
@@ -78,6 +117,19 @@
    "image": "https://i1.ytimg.com/vi/llrB3wI9hsY/hqdefault.jpg",
    "videoId": "llrB3wI9hsY",
    "addedAt": "2026-10-30T11:01:41Z"
+  },
+  {
+   "id": "willison-18c36f7241d2",
+   "sourceId": "willison",
+   "title": "Quoting Ben Hylak",
+   "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+   "published": "2026-10-29T14:06:27Z",
+   "precision": "time",
+   "excerpt": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us very much. we're special that way. — Ben Hylak Tags…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
   },
   {
    "id": "cicek-de120fa53605",
@@ -119,6 +171,19 @@
    "addedAt": "2026-10-30T11:01:41Z"
   },
   {
+   "id": "googleedu-b61f46e0ec2d",
+   "sourceId": "googleedu",
+   "title": "How Gemini is helping students and teachers in the classroom",
+   "url": "https://blog.google/products-and-platforms/products/education/impact-studies-uk-italy/",
+   "published": "2026-10-29T09:00:00Z",
+   "precision": "time",
+   "excerpt": "A teacher crouching next to a student seated at a desk as they talk. In front of the student are papers and a laptop.",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Edu_Impact_Studies_herosocial.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
    "id": "cicek-4510450e4393",
    "sourceId": "cicek",
    "title": "Tesla, robotlar için dokunmayı algılayan bir “deri” patent başvurusu yaptı",
@@ -145,6 +210,32 @@
    "addedAt": "2026-10-30T11:01:41Z"
   },
   {
+   "id": "willison-b0fbfced4c00",
+   "sourceId": "willison",
+   "title": "Quoting Ted Sanders",
+   "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
+   "published": "2026-10-28T23:23:21Z",
+   "precision": "time",
+   "excerpt": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "googleedu-86bb7da2652f",
+   "sourceId": "googleedu",
+   "title": "Dive into new topics with immersive explorations in the Gemini app.",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/immersive-explorations-student-hub/",
+   "published": "2026-10-28T18:00:00Z",
+   "precision": "time",
+   "excerpt": "Today, we are rolling out immersive explorations in the new Gemini student hub.",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/immersiveView_quasars_16x9_01_2.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
    "id": "deepmind-b0da25ea6c1a",
    "sourceId": "deepmind",
    "title": "Gemini 4 Carbon: Our next frontier model",
@@ -156,6 +247,19 @@
    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
    "videoId": null,
    "addedAt": "2026-10-29T11:06:24Z"
+  },
+  {
+   "id": "willison-d8f853e661d6",
+   "sourceId": "willison",
+   "title": "GitHub Octoverse 2026",
+   "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+   "published": "2026-10-28T16:45:23Z",
+   "precision": "time",
+   "excerpt": "GitHub Octoverse 2026 I'm at GitHub Universe today (GitHub gave me a free ticket through their \"GitHub Stars\" program). EVP Jay Parikh just announced this year's Octoverse report, and highlighted these numbers in particular: This is a pretty stark representation of the impact of…",
+   "summary": "",
+   "image": "https://static.simonwillison.net/static/2026/github-numbers.jpg",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
   },
   {
    "id": "erhan-29a666c82b72",
@@ -197,6 +301,19 @@
    "addedAt": "2026-10-29T11:06:24Z"
   },
   {
+   "id": "willison-93b9dc1d3128",
+   "sourceId": "willison",
+   "title": "The October inflection point for vibe game development",
+   "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+   "published": "2026-10-28T13:55:15Z",
+   "precision": "time",
+   "excerpt": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new…",
+   "summary": "",
+   "image": "https://static.simonwillison.net/static/2026/tree-appreciator.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
    "id": "openai-75e2017ed4c5",
    "sourceId": "openai",
    "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
@@ -223,6 +340,19 @@
    "addedAt": "2026-10-29T11:06:24Z"
   },
   {
+   "id": "interconnects-45f878f3f6da",
+   "sourceId": "interconnects",
+   "title": "Artificial Analysis v5 and the benchmarker's dilemma",
+   "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+   "published": "2026-10-28T12:58:39Z",
+   "precision": "time",
+   "excerpt": "A sort of review of the benchmarking industry and what's missing.",
+   "summary": "",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/6a847075-78be-45e9-b554-ae9abc6f9296_3182x1790.png",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
    "id": "cicek-4557afa349b4",
    "sourceId": "cicek",
    "title": "Fransa'da Süpermarketlere Siber Saldırı Düzenlendi",
@@ -234,6 +364,19 @@
    "image": "https://i3.ytimg.com/vi/NvIGhjjinU4/hqdefault.jpg",
    "videoId": "NvIGhjjinU4",
    "addedAt": "2026-10-29T11:06:24Z"
+  },
+  {
+   "id": "willison-5d9615019ec2",
+   "sourceId": "willison",
+   "title": "Quoting Terk Terkowitz",
+   "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+   "published": "2026-10-28T10:09:07Z",
+   "precision": "time",
+   "excerpt": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can explain where AI does not yet help their work is demonstrating…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
   },
   {
    "id": "openai-0dc3cf0b7c98",
@@ -286,6 +429,71 @@
    "image": "https://i1.ytimg.com/vi/hiAXCOwdOps/hqdefault.jpg",
    "videoId": "hiAXCOwdOps",
    "addedAt": "2026-10-28T10:49:47Z"
+  },
+  {
+   "id": "edsurge-a92c338edaa2",
+   "sourceId": "edsurge",
+   "title": "What Playgrounds Can Teach Us About AI in Schools",
+   "url": "https://www.edsurge.com/news/what-playgrounds-can-teach-us-about-ai-in-schools",
+   "published": "2026-10-28T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Deciding whether students should use AI requires balancing safety with the developmental need to learn about managing risk.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/2jOm7XvW253AQfOHxnTYXO/995290f1745e8bc3bbefb47ab6713675/IMG_0002.png?auto=compress%2Cformat&w=400&h=200&fit=crop",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "edsurge-14aa50749319",
+   "sourceId": "edsurge",
+   "title": "How Teachers Are Turning the Midterms Into a Nonpartisan Civics Lesson",
+   "url": "https://www.edsurge.com/news/how-teachers-are-turning-the-midterms-into-a-nonpartisan-civics-lesson",
+   "published": "2026-10-28T00:00:00Z",
+   "precision": "time",
+   "excerpt": "A new survey finds young people doubt elected officials are listening, yet more plan to vote than in 2024.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/7iG3D27czC6CWp7IArQuDZ/566e3153dea8e11e3b2fdcb8272f7c6f/shutterstock_2484375089.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "edsurge-eaeb6ea8e5f4",
+   "sourceId": "edsurge",
+   "title": "Does an AI Pause Protect Students, or Leave Some Behind?",
+   "url": "https://www.edsurge.com/news/does-an-ai-pause-protect-students-or-leave-some-behind",
+   "published": "2026-10-28T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Artificial intelligence in the classroom comes with risk, but students must learn AI literacy.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/78MejA1bQDYcq8XCyG7FPO/cb909ee92b4bc9a7d528d04de22c9b81/shutterstock_2764038179.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "edsurge-2b5a8057c976",
+   "sourceId": "edsurge",
+   "title": "My Preschool Students Taught Me What Educators Lose in English-Only Programs",
+   "url": "https://www.edsurge.com/news/my-preschool-students-taught-me-what-educators-lose-in-english-only-programs",
+   "published": "2026-10-28T00:00:00Z",
+   "precision": "time",
+   "excerpt": "As Head Start faces a proposal to end bilingual education, remember that children aren’t the only ones who benefit from multiple languages.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/IkMeLxCntcPcgfEyqwt4m/b925dc724169d4534af7c7c2b443184c/shutterstock_2319071867.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "willison-a9c65cb82822",
+   "sourceId": "willison",
+   "title": "Game Boy Color on My Conference Badge",
+   "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+   "published": "2026-10-27T19:34:18Z",
+   "precision": "time",
+   "excerpt": "Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year , the conference badge is a full-blown color screen computer. I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full…",
+   "summary": "",
+   "image": "https://static.simonwillison.net/static/2026-10-27/IMG_9339.jpeg",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
   },
   {
    "id": "deepmind-d17d13a0006a",
@@ -392,6 +600,32 @@
    "addedAt": "2026-10-28T10:49:47Z"
   },
   {
+   "id": "edsurge-975d8b629ad1",
+   "sourceId": "edsurge",
+   "title": "AI, Elections and the Making of an Informed Electorate",
+   "url": "https://www.edsurge.com/news/ai-elections-and-the-making-of-an-informed-electorate",
+   "published": "2026-10-27T00:00:00Z",
+   "precision": "time",
+   "excerpt": "As AI chatbots answer voters’ questions in seconds, schools need to teach students to ask where those answers come from — and to reach their own ...",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/1hROm250q3Nat5FwTw9Sr7/d7dbd812d1105928ebd766a61170b923/shutterstock_1665111130.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "willison-51b6dc021077",
+   "sourceId": "willison",
+   "title": "GPT-6.1 Terra",
+   "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+   "published": "2026-10-26T23:53:07Z",
+   "precision": "time",
+   "excerpt": "GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra , a fast, efficient model that combines…",
+   "summary": "",
+   "image": "https://static.simonwillison.net/static/2026-10-26/terra-max.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
    "id": "openai-250e5d8f3024",
    "sourceId": "openai",
    "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
@@ -405,6 +639,19 @@
    "addedAt": "2026-10-27T17:14:30Z"
   },
   {
+   "id": "willison-34adadfb171a",
+   "sourceId": "willison",
+   "title": "Quoting Jason Koebler",
+   "url": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+   "published": "2026-10-26T19:00:25Z",
+   "precision": "time",
+   "excerpt": "Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
    "id": "oecd-9627309ad3d8",
    "sourceId": "oecd",
    "title": "When students and school leaders see different schools: what education systems can learn",
@@ -416,6 +663,32 @@
    "image": "https://oecdedutoday.com/wp-content/uploads/2026/10/Blog-Dream-a-dream.jpg",
    "videoId": null,
    "addedAt": "2026-10-27T17:14:30Z"
+  },
+  {
+   "id": "googleedu-be77c96c39b4",
+   "sourceId": "googleedu",
+   "title": "Our newest AI Quest: Mapping the human brain",
+   "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+   "published": "2026-10-26T16:00:00Z",
+   "precision": "time",
+   "excerpt": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\"",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_sharing_updated.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "googleedu-84dbedb386be",
+   "sourceId": "googleedu",
+   "title": "15 college students share their favorite Gemini features",
+   "url": "https://blog.google/products-and-platforms/products/gemini/college-student-favorite-features/",
+   "published": "2026-10-26T16:00:00Z",
+   "precision": "time",
+   "excerpt": "Three young adults gathered around a laptop looking at its screen",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/College_Fave_Gemini_Features_he.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
   },
   {
    "id": "cicek-94eba238bacf",
@@ -509,6 +782,32 @@
    "addedAt": "2026-10-27T17:14:30Z"
   },
   {
+   "id": "edsurge-2bdcb08f359a",
+   "sourceId": "edsurge",
+   "title": "Pause AI in Schools. But Not Before You Do This First.",
+   "url": "https://www.edsurge.com/news/pause-ai-in-schools-but-not-before-you-do-this-first",
+   "published": "2026-10-26T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Ban or no ban, students are going to use AI. Let’s make sure they have the skills to navigate it, says Common Sense Media’s chief program officer.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/3fTcDNnJbKVEuhOvbZrBey/3a1c1c3f721e5d191cbffc74e61ccbff/shutterstock_1881827575.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "interconnects-cb0e6541c41d",
+   "sourceId": "interconnects",
+   "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+   "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+   "published": "2026-10-25T11:49:00Z",
+   "precision": "time",
+   "excerpt": "#20",
+   "summary": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!Wj1Y!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F221950500%2F453c4998-6c82-4d10-9385-aa3487ee5b62%2Ftranscoded-1792927989.png",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
    "id": "bjet-37bccaab324e",
    "sourceId": "bjet",
    "title": "GenAI ‐based metacognitive prompting in collaborative inquiry: A comparison across diverse preconception groups",
@@ -585,6 +884,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-10-27T17:14:30Z"
+  },
+  {
+   "id": "furze-398d0e8de8c8",
+   "sourceId": "furze",
+   "title": "Why We Opt Our Kids Out of Online Photos",
+   "url": "https://leonfurze.com/2026/10/23/why-we-opt-our-kids-out-of-online-photos/",
+   "published": "2026-10-23T05:43:01Z",
+   "precision": "time",
+   "excerpt": "As an educator and a parent, here's why we opt our children out of online photo sharing, what schools are doing about AI deepfake risks, and the privacy law changes coming in December 2026 and beyond.",
+   "summary": "",
+   "image": "https://i0.wp.com/leonfurze.com/wp-content/uploads/2026/10/pexels-photo-11391947.jpeg?resize=1880%2C1253&ssl=1",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
   },
   {
    "id": "openai-c6099fc8919f",
@@ -795,6 +1107,45 @@
    "addedAt": "2026-10-27T17:17:16Z"
   },
   {
+   "id": "edsurge-a68de9e0341b",
+   "sourceId": "edsurge",
+   "title": "What Happens to High-Impact Tutoring When the Pandemic Money Is Gone?",
+   "url": "https://www.edsurge.com/news/what-happens-to-high-impact-tutoring-when-the-pandemic-money-is-gone",
+   "published": "2026-10-21T00:00:00Z",
+   "precision": "time",
+   "excerpt": "With pandemic funding gone, districts are scrambling to maintain their “high-dosage” tutoring programs.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/48ZjMErrryAMZQSAfEtWzH/de94897f8599ad34057a802e6685e0f6/shutterstock_2330998047.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "edsurge-8d9b8693eb6e",
+   "sourceId": "edsurge",
+   "title": "How AI Is Breaking the Way We Reward High-Achieving Students",
+   "url": "https://www.edsurge.com/news/how-ai-is-breaking-the-way-we-reward-high-achieving-students",
+   "published": "2026-10-21T00:00:00Z",
+   "precision": "time",
+   "excerpt": "When AI can create polished products in seconds, we must redefine high achievement and reward students for genuine intellectual curiosity, not ...",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/7N2IA69RIcU7o3qN1mb6oO/d10057f78494f1fb5403680fb2366bb2/shutterstock_2707669565.jpg?auto=compress%2Cformat&w=400&h=200&fit=crop",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "interconnects-34b84ef907f5",
+   "sourceId": "interconnects",
+   "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+   "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
+   "published": "2026-10-20T17:04:21Z",
+   "precision": "time",
+   "excerpt": "Western open models strike back",
+   "summary": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!ptGw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd500e8ff-94e8-4cf5-b99d-5d9aac7f0a8a_1024x768.png",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
    "id": "mollick-dd8a8739a45d",
    "sourceId": "mollick",
    "title": "30 Months on the Exponential (in Charts)",
@@ -897,6 +1248,32 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-10-27T17:17:16Z"
+  },
+  {
+   "id": "edsurge-c36638432822",
+   "sourceId": "edsurge",
+   "title": "Why the Jump to Kindergarten Is So Hard — and How to Fix It",
+   "url": "https://www.edsurge.com/news/why-the-jump-to-kindergarten-is-so-hard-and-how-to-fix-it",
+   "published": "2026-10-20T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Better coordination between school districts and early learning programs is essential to a smoother leap, says researcher David Jacobson.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/4YtMu5TzCUWzlunugAQOix/ee29a7566d86ebfaf8d5a8fad2a7fb1f/shutterstock_2551409755.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "normaltech-8accc0ca4372",
+   "sourceId": "normaltech",
+   "title": "New paper: Emerging trends in AI agent evaluation",
+   "url": "https://www.normaltech.ai/p/new-paper-emerging-trends-in-ai-agent",
+   "published": "2026-10-19T20:11:55Z",
+   "precision": "time",
+   "excerpt": "Understanding the methods, questions, and ecosystem for evaluation",
+   "summary": "",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/70ccf295-23ca-4a51-a94b-9b50d3de38ab_2394x1246.jpeg",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
   },
   {
    "id": "cicek-bfc287e7a5af",
@@ -1081,6 +1458,19 @@
    "addedAt": "2026-10-27T17:16:08Z"
   },
   {
+   "id": "interconnects-987754dece67",
+   "sourceId": "interconnects",
+   "title": "Meta shakes up the frontiers, open and closed",
+   "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
+   "published": "2026-10-17T14:06:54Z",
+   "precision": "time",
+   "excerpt": "US open weights are back!",
+   "summary": "",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/95f73e17-9e3c-49ea-8d4c-e0ae87c89257_3182x1790.png",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
    "id": "openai-65442e708214",
    "sourceId": "openai",
    "title": "How Itaú is building generative AI for its entire customer base",
@@ -1092,6 +1482,32 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-10-27T17:17:16Z"
+  },
+  {
+   "id": "googleedu-3702bd885e10",
+   "sourceId": "googleedu",
+   "title": "We’re sharing 3 tips to study smarter with Gemini Notebook.",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/",
+   "published": "2026-10-16T16:00:00Z",
+   "precision": "time",
+   "excerpt": "Master your exams with Google Gemini Notebook’s new 60-second video overviews and interactive quiz formats. Try these study tools at notebook.google.",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/3_Gemini_Notebook_social.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "furze-6add5586f7ca",
+   "sourceId": "furze",
+   "title": "Beyond Chatbots: We’re Writing Policies About the Wrong Thing",
+   "url": "https://leonfurze.com/2026/10/16/beyond-chatbots-writing-policies-about-the-wrong-thing/",
+   "published": "2026-10-16T10:17:14Z",
+   "precision": "time",
+   "excerpt": "Schools are still writing policy for 2023 chatbots. Large language models make a poor go-between for two people and a very good interface between a person and a computer.",
+   "summary": "",
+   "image": "https://i0.wp.com/leonfurze.com/wp-content/uploads/2026/10/image-1.png?resize=1024%2C532&ssl=1",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
   },
   {
    "id": "openai-4a2f3ca18eb9",
@@ -1209,6 +1625,32 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-10-28T10:49:47Z"
+  },
+  {
+   "id": "edsurge-06cb67ce7f0c",
+   "sourceId": "edsurge",
+   "title": "Can High-Impact Tutoring Survive Post-Pandemic Funding Loss?",
+   "url": "https://www.edsurge.com/news/can-high-impact-tutoring-survive-post-pandemic-funding-loss",
+   "published": "2026-10-15T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Some districts have reduced or paused “high-dosage” tutoring, while others are finding ways to save the most effective aspects of their programs.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/3mdvIfRYt7kebZBKSOEyoa/e4d8b063a450e8b5ee4ecc8eee37bb8d/shutterstock_2703772571.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "normaltech-5ec807ee0814",
+   "sourceId": "normaltech",
+   "title": "Steering AI Beyond Automation",
+   "url": "https://www.normaltech.ai/p/steering-ai-beyond-automation",
+   "published": "2026-10-14T19:56:44Z",
+   "precision": "time",
+   "excerpt": "A Research Agenda and Plan for Action",
+   "summary": "",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/324e4464-88f3-4d9e-8593-19b84be7a64d_1200x630.png",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
   },
   {
    "id": "openai-a0e0fec2c2b5",
@@ -1458,6 +1900,19 @@
    "addedAt": "2026-10-27T17:16:08Z"
   },
   {
+   "id": "interconnects-992438874f53",
+   "sourceId": "interconnects",
+   "title": "I expect rapid progress but not towards general superintelligence",
+   "url": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
+   "published": "2026-10-09T21:33:47Z",
+   "precision": "time",
+   "excerpt": "I’ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn’t really know why I doubted it.",
+   "summary": "",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/fe890df0-8dfe-4dfb-9fb9-659d721e2d76_3182x1790.png",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
    "id": "openai-90995f7dbc9c",
    "sourceId": "openai",
    "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
@@ -1547,6 +2002,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-10-30T11:01:41Z"
+  },
+  {
+   "id": "furze-440d117b9da4",
+   "sourceId": "furze",
+   "title": "Beyond Chatbots: The Convenient Costume of AI Agents",
+   "url": "https://leonfurze.com/2026/10/08/beyond-chatbots-convenient-costume/",
+   "published": "2026-10-08T09:11:15Z",
+   "precision": "time",
+   "excerpt": "The chatbot interface barely scratches the surface of what AI can do. It is also being used to hide genuinely harmful and even criminal activities.",
+   "summary": "",
+   "image": "https://i0.wp.com/leonfurze.com/wp-content/uploads/2026/10/diagram-agent-definition.png?resize=838%2C1024&ssl=1",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
   },
   {
    "id": "bjet-27222715fe82",
@@ -1640,6 +2108,19 @@
    "addedAt": "2026-10-30T11:11:26Z"
   },
   {
+   "id": "interconnects-ee5a948a7c39",
+   "sourceId": "interconnects",
+   "title": "The Cyber Risk Discourse is Broken",
+   "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+   "published": "2026-10-06T14:22:41Z",
+   "precision": "time",
+   "excerpt": "Open-weights, ideology, and acknowledging trade-offs.",
+   "summary": "",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/12ea1add-1879-4004-a05c-017c3091dd6a_3182x1790.png",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
    "id": "openai-342677ae7ead",
    "sourceId": "openai",
    "title": "How Jump Trading is scaling quant research with ChatGPT",
@@ -1677,6 +2158,84 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-10-30T11:11:26Z"
+  },
+  {
+   "id": "caeai-16fbce3b3078",
+   "sourceId": "caeai",
+   "title": "Towards a new AI-TPACK framework: Evidence from China",
+   "url": "https://doi.org/10.1016/j.caeai.2026.100686",
+   "published": "2026-10-05T23:52:05Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "googleedu-5d4b22a769b3",
+   "sourceId": "googleedu",
+   "title": "I use technology to give students a voice and become critical digital citizens.",
+   "url": "https://blog.google/products-and-platforms/products/education/teacher-voices-sweden/",
+   "published": "2026-10-05T16:00:00Z",
+   "precision": "time",
+   "excerpt": "Empower students using Google Sites, Gemini, and Vids to build critical thinking skills. See how these tools help kids find their voice today.",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Rebecca_social.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "googleedu-e39ee0f5361f",
+   "sourceId": "googleedu",
+   "title": "Technology helps my students balance big creative ideas with tight deadlines.",
+   "url": "https://blog.google/products-and-platforms/products/education/media-teacher-gemini/",
+   "published": "2026-10-05T16:00:00Z",
+   "precision": "time",
+   "excerpt": "Students use Google Drive for video assets and Sheets for production timelines to meet tight deadlines. See how these tools boost classroom output.",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/7472.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "googleedu-c5505c8ec47d",
+   "sourceId": "googleedu",
+   "title": "Here’s how I use technology to bring science to life in my classroom.",
+   "url": "https://blog.google/products-and-platforms/products/education/science-teacher-gemini/",
+   "published": "2026-10-05T16:00:00Z",
+   "precision": "time",
+   "excerpt": "See how this teacher uses Gemini and Gemini Notebook to build digital literacy and refine lesson plans. Read the full story to improve your teaching.",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Chanel.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "googleedu-de64888b49b2",
+   "sourceId": "googleedu",
+   "title": "World Teachers’ Day 2026",
+   "url": "https://blog.google/products-and-platforms/products/education/world-teachers-day-2026/",
+   "published": "2026-10-05T16:00:00Z",
+   "precision": "time",
+   "excerpt": "To celebrate World Teachers’ Day 2026, educators share their stories about how they use tech in the classroom.",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/World_Teachers_Day_collection_h.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "googleedu-43f0498be7eb",
+   "sourceId": "googleedu",
+   "title": "I teach my students that in the AI era, critical thinking comes first.",
+   "url": "https://blog.google/products-and-platforms/products/education/teacher-stories-gemini-middle-school/",
+   "published": "2026-10-05T16:00:00Z",
+   "precision": "time",
+   "excerpt": "A California teacher uses Gemini to streamline lesson planning in Google Drive. See how she prioritizes critical thinking in the AI era.",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Kavita_1.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
   },
   {
    "id": "openai-78ad53815846",
@@ -1744,6 +2303,19 @@
    "addedAt": "2026-10-30T11:11:26Z"
   },
   {
+   "id": "alexander-326058f8f3c4",
+   "sourceId": "alexander",
+   "title": "American views of higher ed decline, once again",
+   "url": "https://bryanalexander.org/horizon-scanning/american-views-of-higher-ed-decline-once-again/",
+   "published": "2026-10-02T15:28:56Z",
+   "precision": "time",
+   "excerpt": "Quick post today, as I travel across several American cities: United States attitudes towards higher education soured yet again, according to a new Gallup poll. The main question asked this time was “How important is a college education today — … Continue reading →",
+   "summary": "",
+   "image": "https://bryanalexander.org/wp-content/uploads/2026/10/Gallup-Importance-of-College-Education-to-Americans-2026-Oct.png",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
    "id": "mishra-fe7cda4ab852",
    "sourceId": "mishra",
    "title": "Heart Monitors and Moratoriums: Two Conversations About AI in Schools",
@@ -1770,6 +2342,19 @@
    "addedAt": "2026-10-30T11:11:26Z"
   },
   {
+   "id": "caeai-dcc3e1bfbd89",
+   "sourceId": "caeai",
+   "title": "Response-length confounding in participant–morpheme networks: A length-controlled test in AI ethics education",
+   "url": "https://doi.org/10.1016/j.caeai.2026.100685",
+   "published": "2026-10-01T23:22:44Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
    "id": "mishra-1d3172b5bca9",
    "sourceId": "mishra",
    "title": "The Peacock & The Chatbot: Hollow Signals & the Trouble with AI Tutors",
@@ -1794,6 +2379,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-10-30T11:11:26Z"
+  },
+  {
+   "id": "normaltech-63253a2875f8",
+   "sourceId": "normaltech",
+   "title": "A big-tent or small-tent AI safety movement?",
+   "url": "https://www.normaltech.ai/p/a-big-tent-or-small-tent-ai-safety",
+   "published": "2026-10-01T16:34:51Z",
+   "precision": "time",
+   "excerpt": "The unstated disagreement that underpins safety debates",
+   "summary": "",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/11d1c529-6f8d-4df3-acb6-f291eaa271f2_1024x559.jpeg",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:50:25Z"
   },
   {
    "id": "openai-a80484c2d584",
