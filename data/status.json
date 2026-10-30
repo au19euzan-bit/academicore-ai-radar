@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-10-30T12:55:35Z",
+ "lastRun": "2026-10-30T12:57:30Z",
  "summaries": false,
  "sources": {
   "mollick": {
@@ -65,11 +65,11 @@
   "willison": {
    "ok": true,
    "new": 10,
-   "count": 20
+   "count": 30
   },
   "importai": {
    "ok": true,
-   "new": 4,
+   "new": 0,
    "count": 4
   },
   "interconnects": {
@@ -81,16 +81,6 @@
    "ok": true,
    "new": 0,
    "count": 3
-  },
-  "marcus": {
-   "ok": false,
-   "note": "Okunamadı: https://garymarcus.substack.com/feed okunamadi: HTTP Error 403: Forbidden",
-   "count": 0
-  },
-  "mitchell": {
-   "ok": false,
-   "note": "Okunamadı: https://aiguide.substack.com/feed okunamadi: HTTP Error 403: Forbidden",
-   "count": 0
   },
   "lilianweng": {
    "ok": true,
@@ -107,21 +97,6 @@
    "new": 0,
    "count": 4
   },
-  "hardman": {
-   "ok": false,
-   "note": "Okunamadı: https://drphilippahardman.substack.com/feed okunamadi: HTTP Error 403: Forbidden",
-   "count": 0
-  },
-  "eaton": {
-   "ok": false,
-   "note": "Okunamadı: https://aiedusimplified.substack.com/feed okunamadi: HTTP Error 403: Forbidden",
-   "count": 0
-  },
-  "watkins": {
-   "ok": false,
-   "note": "Okunamadı: https://marcwatkins.substack.com/feed okunamadi: HTTP Error 403: Forbidden",
-   "count": 0
-  },
   "bali": {
    "ok": true,
    "new": 0,
@@ -134,17 +109,12 @@
   },
   "edsurge": {
    "ok": true,
-   "new": 7,
+   "new": 0,
    "count": 17
-  },
-  "edtechinsiders": {
-   "ok": false,
-   "note": "Okunamadı: https://edtechinsiders.substack.com/feed okunamadi: HTTP Error 403: Forbidden",
-   "count": 0
   },
   "googleedu": {
    "ok": true,
-   "new": 9,
+   "new": 0,
    "count": 19
   },
   "caeai": {
