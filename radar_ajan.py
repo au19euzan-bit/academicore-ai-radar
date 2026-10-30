@@ -163,6 +163,61 @@ def local(tag):
     return tag.rsplit("}", 1)[-1]
 
 
+class SourceError(Exception):
+    """Kullaniciya oldugu gibi gosterilecek (Turkce) kaynak hatasi."""
+
+
+# ---------------------------------------------------------------- adresten akis bulma
+def looks_like_feed(raw):
+    head = raw[:600].lower()
+    return b"<rss" in head or b"<feed" in head or (b"<?xml" in head and b"<rdf" in head)
+
+
+def discover_feed(fetcher, home):
+    """Yonetim panelinden yalnizca site adresi girilmisse RSS/Atom akisini bulur."""
+    raw = fetcher.get(home)
+    if looks_like_feed(raw):
+        return home
+    page = raw.decode("utf-8", "replace")
+    for tag in re.findall(r"<link\b[^>]*>", page, re.I):
+        if re.search(r"rel=[\"']?alternate", tag, re.I) and re.search(r"type=[\"']?application/(rss|atom)\+xml", tag, re.I):
+            href = re.search(r"href=[\"']([^\"']+)[\"']", tag, re.I)
+            if href and "comments" not in href.group(1):
+                return absolute(href.group(1), home)
+    base = home if home.endswith("/") else home + "/"
+    for guess in ("feed", "rss", "feed.xml", "rss.xml", "atom.xml", "index.xml"):
+        url = urllib.parse.urljoin(base, guess)
+        try:
+            if looks_like_feed(fetcher.get(url, attempts=1)):
+                return url
+        except Exception:
+            continue
+    raise SourceError("Bu adreste RSS akışı bulunamadı")
+
+
+def resolve_channel(fetcher, home):
+    """YouTube @kullanici adresinden UC... kanal kimligini bulur."""
+    m = re.search(r"/channel/(UC[\w-]{22})", home or "")
+    if m:
+        return m.group(1)
+    page = fetcher.get(home.split("?")[0]).decode("utf-8", "replace")
+    for pat in (r"<link rel=\"canonical\" href=\"https://www\.youtube\.com/channel/(UC[\w-]{22})\"",
+                r"\"externalId\":\"(UC[\w-]{22})\"",
+                r"<meta itemprop=\"(?:channelId|identifier)\" content=\"(UC[\w-]{22})\"",
+                r"\"browseId\":\"(UC[\w-]{22})\""):
+        m = re.search(pat, page)
+        if m:
+            return m.group(1)
+    raise SourceError("YouTube kanal kimliği bulunamadı")
+
+
+def norm_issn(s):
+    d = re.sub(r"[^0-9Xx]", "", s or "").upper()
+    if len(d) != 8:
+        raise SourceError("ISSN 8 haneli olmalı (ör. 0360-1315)")
+    return d[:4] + "-" + d[4:]
+
+
 # ---------------------------------------------------------------- RSS / Atom
 def parse_feed(raw, base_url):
     root = ET.fromstring(raw)
@@ -229,7 +284,7 @@ def crossref(fetcher, src, since):
     }
     if MAILTO:
         q["mailto"] = MAILTO
-    url = f"https://api.crossref.org/journals/{src['issn']}/works?" + urllib.parse.urlencode(q)
+    url = f"https://api.crossref.org/journals/{norm_issn(src.get('issn'))}/works?" + urllib.parse.urlencode(q)
     data = json.loads(fetcher.get(url, accept="application/json"))
     out = []
     for w in data.get("message", {}).get("items", []):
@@ -266,7 +321,8 @@ def crossref(fetcher, src, since):
 # ---------------------------------------------------------------- YouTube
 def youtube(fetcher, src):
     prefix = {"shorts": "UUSH", "long": "UULF"}.get(src.get("kind"), "UU")
-    feed = "https://www.youtube.com/feeds/videos.xml?playlist_id=" + prefix + src["channel"][2:]
+    channel = src.get("channel") or resolve_channel(fetcher, src.get("home"))
+    feed = "https://www.youtube.com/feeds/videos.xml?playlist_id=" + prefix + channel[2:]
     items = parse_feed(fetcher.get(feed), feed)
     for it in items:
         vid = it.get("videoId")
@@ -309,9 +365,10 @@ def page_to_text(markup, base):
 
 def page_source(fetcher, src):
     if not API_KEY:
-        raise RuntimeError("Bu kaynak için API anahtarı gerekiyor")
-    raw = fetcher.get(src["page"]).decode("utf-8", "replace")
-    text = page_to_text(raw, src["page"])
+        raise SourceError("Bu kaynak için API anahtarı gerekiyor")
+    page_url = src.get("page") or src["home"]
+    raw = fetcher.get(page_url).decode("utf-8", "replace")
+    text = page_to_text(raw, page_url)
     prompt = (
         "Below is the text of a news/articles listing page, with links as [text](url).\n"
         "List the 10 most recent news posts or articles shown, newest first, as a JSON array of objects "
@@ -373,12 +430,25 @@ def main():
     status = {}
     og_budget = OG_IMAGE_LIMIT
 
-    for src in catalog.get("sources", []):
+    sources = [s for s in catalog.get("sources", []) if s.get("id") and s.get("method")]
+    active = {s["id"] for s in sources if s.get("enabled", True) is not False}
+
+    for src in sources:
         sid, method = src["id"], src["method"]
-        print(f"- {src['name']} ({method})")
+        if sid not in active:
+            print(f"- {src.get('name', sid)}: pasif, atlandı")
+            continue
+        print(f"- {src.get('name', sid)} ({method})")
+        extra = {}
         try:
             if method == "rss":
-                found = parse_feed(fetcher.get(src["feed"]), src["feed"])
+                feed = src.get("feed") or discover_feed(fetcher, src["home"])
+                if not src.get("feed"):
+                    extra["feed"] = feed
+                try:
+                    found = parse_feed(fetcher.get(feed), feed)
+                except ET.ParseError:
+                    raise SourceError("Adres bir RSS akışı değil")
             elif method == "crossref":
                 found = crossref(fetcher, src, window)
             elif method == "youtube":
@@ -388,9 +458,7 @@ def main():
             else:
                 raise RuntimeError("bilinmeyen yöntem " + method)
         except Exception as e:
-            note = str(e)
-            if "API anahtarı" not in note:
-                note = "Okunamadı: " + note[:160]
+            note = str(e) if isinstance(e, SourceError) else "Okunamadı: " + str(e)[:160]
             status[sid] = {"ok": False, "note": note, "count": sum(1 for i in existing if i["sourceId"] == sid)}
             print(f"  HATA: {note}", file=sys.stderr)
             continue
@@ -428,11 +496,12 @@ def main():
         summarize(new)
         for it in new:
             by_id[it["id"]] = it
-        status[sid] = {"ok": True, "new": len(new), "count": sum(1 for i in by_id.values() if i["sourceId"] == sid)}
+        status[sid] = dict({"ok": True, "new": len(new), "count": 0}, **extra)
         print(f"  {len(new)} yeni")
 
+    # kaldirilan ya da pasif yapilan kaynaklarin icerikleri akistan cikar
     keep_after = iso(now - timedelta(days=KEEP_DAYS))
-    items = [i for i in by_id.values() if i["published"] >= keep_after]
+    items = [i for i in by_id.values() if i["published"] >= keep_after and i["sourceId"] in active]
     items.sort(key=lambda i: i["published"], reverse=True)
     items = items[:MAX_ITEMS]
     for sid, st in status.items():

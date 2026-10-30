@@ -236,7 +236,7 @@ td a { color: var(--accent); font-weight: 600; text-decoration: none; }
   function srcIcon(s) {
     var b = el("span", "srcicon");
     if (s.folder === "sho") { b.style.background = "var(--yt)"; b.innerHTML = I.playw; }
-    else { b.style.background = "var(--f-" + s.folder + ")"; b.textContent = (s.ini || "?").charAt(0); }
+    else { b.style.background = "var(--f-" + s.folder + ", var(--muted))"; b.textContent = (s.ini || "?").charAt(0); }
     return b;
   }
   function tile(s) { var t = el("span", "big", s.ini || "?"); return t; }
@@ -276,7 +276,7 @@ td a { color: var(--accent); font-weight: 600; text-decoration: none; }
   }
 
   function thumbNode(it, s) {
-    var th = el("div", "thumb"); th.style.background = "var(--f-" + s.folder + "-soft)"; th.style.color = "var(--f-" + s.folder + ")";
+    var th = el("div", "thumb"); th.style.background = "var(--f-" + s.folder + "-soft, var(--sunken))"; th.style.color = "var(--f-" + s.folder + ", var(--muted))";
     var img = httpUrl(it.image);
     if (img) {
       var im = el("img"); im.src = img; im.alt = ""; im.loading = "lazy"; im.referrerPolicy = "no-referrer"; im.decoding = "async";
@@ -323,7 +323,7 @@ td a { color: var(--accent); font-weight: 600; text-decoration: none; }
     var chips = el("div", "chips"); chips.setAttribute("role", "toolbar"); chips.setAttribute("aria-label", "Klasör");
     [{ id: "all", name: "Tümü" }].concat(FOLDERS).forEach(function (f) {
       var c = el("button", "chip"); c.type = "button"; c.setAttribute("aria-pressed", state.folder === f.id ? "true" : "false");
-      if (FOLDER[f.id]) { var sw = el("span", "sw"); sw.style.background = "var(--f-" + f.id + ")"; c.appendChild(sw); }
+      if (FOLDER[f.id]) { var sw = el("span", "sw"); sw.style.background = "var(--f-" + f.id + ", var(--muted))"; c.appendChild(sw); }
       c.appendChild(el("span", null, f.name));
       c.addEventListener("click", function () { state.folder = f.id; persist(); render(); });
       chips.appendChild(c);
@@ -374,6 +374,7 @@ td a { color: var(--accent); font-weight: 600; text-decoration: none; }
     if (STATUS && STATUS.lastRun) p += " Son güncelleme: " + agoText(STATUS.lastRun) + ".";
     if (STATUS && !STATUS.summaries) p += " Türkçe özetler kapalı; içeriklerin altında kaynağın kendi açıklaması görünüyor.";
     v.appendChild(el("p", "para", p));
+    var adm = el("a", "btn", "Kaynakları yönet"); adm.href = "admin.html"; v.appendChild(adm);
     var wrap = el("div", "tablewrap"), t = el("table");
     t.innerHTML = "<thead><tr><th>Kaynak</th><th>Yöntem</th><th>Son durum</th></tr></thead>";
     var tb = el("tbody");
@@ -491,9 +492,9 @@ td a { color: var(--accent); font-weight: 600; text-decoration: none; }
     .then(function (res) {
       var cat = res[0] || {};
       FOLDERS = cat.folders || []; FOLDERS.forEach(function (f) { FOLDER[f.id] = f; });
-      SOURCES = cat.sources || []; SOURCES.forEach(function (s) { SRC[s.id] = s; });
+      SOURCES = (cat.sources || []).filter(function (s) { return s.enabled !== false; }); SOURCES.forEach(function (s) { SRC[s.id] = s; });
       XSTREAMS = cat.x_streams || [];
-      ITEMS = ((res[1] || {}).items || []).filter(function (i) { return i && i.id && i.title && httpUrl(i.url) && i.published; })
+      ITEMS = ((res[1] || {}).items || []).filter(function (i) { return i && i.id && i.title && httpUrl(i.url) && i.published && SRC[i.sourceId]; })
         .sort(function (a, b) { return a.published < b.published ? 1 : -1; });
       STATUS = res[2]; loadState = "ready"; now = Date.now(); render();
     }, function () { loadState = "error"; render(); });
