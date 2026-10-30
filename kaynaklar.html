@@ -82,7 +82,16 @@ main { padding-block: 18px 48px; }
 <script>
 (function () {
   var C = typeof EDUMIND_CATALOG !== "undefined" ? EDUMIND_CATALOG : null, G = typeof EDUMIND_GEN !== "undefined" ? EDUMIND_GEN : null;
-  if (!C || !G) { document.getElementById("summary").textContent = "Katalog yüklenemedi."; return; }
+  if (C && G) return ciz(C, G);
+  /* Eski hizmet çalışanı önbellekteki eski sources.js'i verebilir: taze kopyayı ayrı kapsamda yükle. */
+  fetch("./sources.js?t=" + Date.now(), { cache: "no-store" }).then(function (r) { return r.text(); }).then(function (t) {
+    var d = new Function(t + ';return {C: typeof EDUMIND_CATALOG !== "undefined" ? EDUMIND_CATALOG : null, G: typeof EDUMIND_GEN !== "undefined" ? EDUMIND_GEN : null};')();
+    if (!d.C || !d.G) throw new Error("eksik katalog");
+    ciz(d.C, d.G);
+    navigator.serviceWorker && navigator.serviceWorker.getRegistration().then(function (g) { if (g && g.waiting) g.waiting.postMessage({ type: "EDUMIND_SKIP_WAITING" }); });
+  }).catch(function () { document.getElementById("summary").textContent = "Katalog yüklenemedi."; });
+})();
+function ciz(C, G) {
   var L = G.labels || {}, S = L.s || {}, LN = L.l || {}, R = L.r || {};
   var META = C.META || {}, DX = C.DX || {};
   var where = {};
@@ -160,7 +169,7 @@ main { padding-block: 18px 48px; }
   });
   document.getElementById("q").addEventListener("input", function (e) { state.q = e.target.value; render(); });
   render();
-})();
+}
 </script>
 </body>
 </html>
