@@ -66,6 +66,7 @@
     "home": "https://aiguide.substack.com/",
     "method": "rss",
     "feed": "https://aiguide.substack.com/feed",
-    "sira": 18
+    "sira": 18,
+    "enabled": false
   }
 }

@@ -80,6 +80,7 @@
     "home": "https://aiedusimplified.substack.com/",
     "method": "rss",
     "feed": "https://aiedusimplified.substack.com/feed",
-    "sira": 23
+    "sira": 23,
+    "enabled": false
   }
 }

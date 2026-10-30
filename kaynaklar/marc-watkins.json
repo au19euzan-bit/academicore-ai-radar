@@ -62,6 +62,7 @@
     "home": "https://marcwatkins.substack.com/",
     "method": "rss",
     "feed": "https://marcwatkins.substack.com/feed",
-    "sira": 24
+    "sira": 24,
+    "enabled": false
   }
 }

@@ -175,7 +175,8 @@
       "ini": "GM",
       "home": "https://garymarcus.substack.com/",
       "method": "rss",
-      "feed": "https://garymarcus.substack.com/feed"
+      "feed": "https://garymarcus.substack.com/feed",
+      "enabled": false
     },
     {
       "id": "mitchell",
@@ -184,7 +185,8 @@
       "ini": "MM",
       "home": "https://aiguide.substack.com/",
       "method": "rss",
-      "feed": "https://aiguide.substack.com/feed"
+      "feed": "https://aiguide.substack.com/feed",
+      "enabled": false
     },
     {
       "id": "lilianweng",
@@ -220,7 +222,8 @@
       "ini": "PH",
       "home": "https://drphilippahardman.substack.com/",
       "method": "rss",
-      "feed": "https://drphilippahardman.substack.com/feed"
+      "feed": "https://drphilippahardman.substack.com/feed",
+      "enabled": false
     },
     {
       "id": "eaton",
@@ -229,7 +232,8 @@
       "ini": "LE",
       "home": "https://aiedusimplified.substack.com/",
       "method": "rss",
-      "feed": "https://aiedusimplified.substack.com/feed"
+      "feed": "https://aiedusimplified.substack.com/feed",
+      "enabled": false
     },
     {
       "id": "watkins",
@@ -238,7 +242,8 @@
       "ini": "MW",
       "home": "https://marcwatkins.substack.com/",
       "method": "rss",
-      "feed": "https://marcwatkins.substack.com/feed"
+      "feed": "https://marcwatkins.substack.com/feed",
+      "enabled": false
     },
     {
       "id": "bali",
@@ -274,7 +279,8 @@
       "ini": "EI",
       "home": "https://edtechinsiders.substack.com/",
       "method": "rss",
-      "feed": "https://edtechinsiders.substack.com/feed"
+      "feed": "https://edtechinsiders.substack.com/feed",
+      "enabled": false
     },
     {
       "id": "googleedu",

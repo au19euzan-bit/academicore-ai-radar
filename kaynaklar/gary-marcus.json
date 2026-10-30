@@ -67,6 +67,7 @@
     "home": "https://garymarcus.substack.com/",
     "method": "rss",
     "feed": "https://garymarcus.substack.com/feed",
-    "sira": 17
+    "sira": 17,
+    "enabled": false
   }
 }

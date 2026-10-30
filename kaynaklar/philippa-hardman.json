@@ -61,6 +61,7 @@
     "home": "https://drphilippahardman.substack.com/",
     "method": "rss",
     "feed": "https://drphilippahardman.substack.com/feed",
-    "sira": 22
+    "sira": 22,
+    "enabled": false
   }
 }

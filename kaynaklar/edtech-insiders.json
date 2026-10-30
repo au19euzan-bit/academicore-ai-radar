@@ -47,6 +47,7 @@
     "home": "https://edtechinsiders.substack.com/",
     "method": "rss",
     "feed": "https://edtechinsiders.substack.com/feed",
-    "sira": 28
+    "sira": 28,
+    "enabled": false
   }
 }
