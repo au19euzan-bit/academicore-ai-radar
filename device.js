@@ -7,7 +7,7 @@
  const download=(name,value)=>{const u=URL.createObjectURL(new Blob([JSON.stringify(value,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),2000)};
  function snapshot(){
   const storage={};KEYS.filter(k=>k!=='edumind-ui').forEach(k=>{const v=localStorage.getItem(k);if(v!==null)storage[k]=v});
-  return {schema:'edumind-device-v1',version:'1.3.350-test',createdAt:new Date().toISOString(),storage,
+  return {schema:'edumind-device-v1',version:document.querySelector('meta[name=edumind-version]')?.content||'1.3.351-test',createdAt:new Date().toISOString(),storage,
    ui:{platform:myListPlatform,query:myListQuery,sort:myListSort,minutes:document.querySelector('#routeTime')?.value||'20'},
    filters:Object.fromEntries([...FSET,'q','sort','recent','core','mine','bask','week'].map(k=>[k,S[k] instanceof Set?[...S[k]]:S[k]]))};
  }
@@ -88,7 +88,7 @@
  for(const[id,merge]of [['backupMerge',true],['backupReplace',false]])dialog.querySelector('#'+id).onclick=()=>{try{restore(pending,merge);status.textContent='Aktarıldı. Görünüm tercihleri sonraki açılışta tamamen uygulanır.'}catch(e){status.textContent=e.message}};
  dialog.querySelector('#backupClose').onclick=()=>dialog.close();
  const menu=document.querySelector('#myListMenu');const open=()=>{if(menu)menu.open=false;dialog.showModal()};const button=document.createElement('button');button.type='button';button.id='myListBackup';button.textContent='Yedekle / aktar';button.onclick=open;menu.querySelector('.my-list-menu-panel').prepend(button);
- const gate=document.createElement('section');gate.id='desktopGate';gate.innerHTML=`<h1>AcademiCore AI Radar</h1><p>Radar'ı telefonunuzda açın.</p><p>Telefonunuzun kamerasıyla bu kodu tarayın veya aşağıdaki adresi telefonunuza gönderin.</p><div id="qrSlot"></div><p id="phoneURL"></p><p>iPhone: Safari → Paylaş → Ana Ekrana Ekle.<br>Android: tarayıcı menüsü → Uygulamayı yükle / Ana ekrana ekle.</p><button id="desktopTransfer">Cihaz yedeğini aktar</button><p>v1.3.350-test · Kişisel veriler yalnızca bu cihazda saklanır.</p>`;document.body.append(gate);gate.querySelector('#phoneURL').textContent=location.href.split('#')[0];gate.querySelector('#desktopTransfer').onclick=open;
+ const gate=document.createElement('section');gate.id='desktopGate';gate.innerHTML=`<h1>AcademiCore AI Radar</h1><p>Radar'ı telefonunuzda açın.</p><p>Telefonunuzun kamerasıyla bu kodu tarayın veya aşağıdaki adresi telefonunuza gönderin.</p><div id="qrSlot"></div><p id="phoneURL"></p><p>iPhone: Safari → Paylaş → Ana Ekrana Ekle.<br>Android: tarayıcı menüsü → Uygulamayı yükle / Ana ekrana ekle.</p><button id="desktopTransfer">Cihaz yedeğini aktar</button><p>v${document.querySelector('meta[name=edumind-version]')?.content||''} · Kişisel veriler yalnızca bu cihazda saklanır.</p>`;document.body.append(gate);gate.querySelector('#phoneURL').textContent=location.href.split('#')[0];gate.querySelector('#desktopTransfer').onclick=open;
  const phone=()=>{const ua=navigator.userAgent;const mobile=/iPhone|iPod|Android.*Mobile|Windows Phone/i.test(ua);const touch=matchMedia('(pointer:coarse)').matches&&Math.min(screen.width,screen.height)<600;
   // iPadOS Safari reports a Mac user agent; touch points identify it as a tablet.
   const tablet=!(mobile||touch)&&(/iPad|Android|Tablet|Silk|Kindle/i.test(ua)||(/Macintosh/.test(ua)&&navigator.maxTouchPoints>1)||(matchMedia('(pointer:coarse)').matches&&navigator.maxTouchPoints>1));
