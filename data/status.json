@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-10-30T11:11:26Z",
+ "lastRun": "2026-10-30T12:03:21Z",
  "summaries": false,
  "sources": {
   "mollick": {
@@ -39,8 +39,8 @@
   },
   "openai": {
    "ok": true,
-   "new": 10,
-   "count": 70
+   "new": 1,
+   "count": 71
   },
   "anthropic": {
    "ok": false,

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T11:11:26Z",
+ "generatedAt": "2026-10-30T12:03:21Z",
  "items": [
   {
    "id": "cicek-3fd08f916c17",
@@ -1820,6 +1820,19 @@
    "image": "https://substackcdn.com/image/fetch/$s_!Narw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe3014425-47c2-47aa-848b-3528f4dc9517_2912x1632.png",
    "videoId": null,
    "addedAt": "2026-10-27T17:14:30Z"
+  },
+  {
+   "id": "openai-3bba52758573",
+   "sourceId": "openai",
+   "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+   "url": "https://openai.com/index/the-den-family-social",
+   "published": "2026-10-01T00:00:00Z",
+   "precision": "time",
+   "excerpt": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-30T12:03:21Z"
   },
   {
    "id": "deepmind-15e70ee5e4a7",
