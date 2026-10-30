@@ -32,7 +32,7 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-UA = "Mozilla/5.0 (compatible; AcademiCore-AI-Radar/1.0)"
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36 AcademiCore-AI-Radar/1.0"
 NEW_WINDOW_DAYS = 30      # bu kadar gunden eski icerik yeni sayilmaz
 KEEP_DAYS = 60            # listede tutma suresi
 MAX_NEW_PER_SOURCE = 10
