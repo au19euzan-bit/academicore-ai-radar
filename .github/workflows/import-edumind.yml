@@ -1,0 +1,49 @@
+name: EduMind uygulamasını içe aktar (tek seferlik)
+
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/import-edumind.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  iceaktar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Dosyaları indir
+        run: |
+          set -euo pipefail
+          BASE=https://edumind-ai-radar.pages.dev
+          FILES="index.html manifest.webmanifest sw.js version.json apple-touch-icon.png
+          icons/apple-touch-icon-180.png icons/icon-192.png icons/icon-512.png icons/icon-maskable-192.png icons/icon-maskable-512.png
+          sources.js tokens.css release.css app-ortak.css app-tanitim.css app-radar.css app-kaynaklar.css app-kart.css app-listem.css app-kesfet.css
+          app.js qrcode.min.js device.js update.js badge.js phone-display.js suggestions-config.js suggestions.js
+          ios-experiment.css ios-experiment.js source-areas.js disciplines.js academy-radar.css academy-radar.js
+          responsive-layout.css responsive-layout.js discover.css discover.js design.js takip.css takip.js"
+          for f in $FILES; do
+            mkdir -p "$(dirname "$f")"
+            curl -fsSL --retry 3 --retry-delay 2 "$BASE/$f" -o "$f.tmp"
+            mv "$f.tmp" "$f"
+            echo "$f $(wc -c < "$f")"
+          done
+          # özel "bulunamadı" sayfası 404 koduyla döndüğü için -f olmadan
+          curl -sSL --retry 3 "$BASE/404" -o 404.html
+          grep -q "bulunamad" 404.html || rm -f 404.html
+          # index.html gerçekten uygulama mı?
+          grep -q "edumind-version" index.html
+      - name: Kaydet
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m "EduMind / AcademiCore AI Radar uygulaması içe aktarıldı (1.3.350-test)"
+          git pull --rebase origin main
+          git push
