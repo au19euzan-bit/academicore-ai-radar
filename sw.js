@@ -1,4 +1,4 @@
-const CACHE='edumind-1.3.358-test-github';
+const CACHE='edumind-1.3.359-test-github';
 const SHELL=['./tokens.css','./app-ortak.css','./app-tanitim.css','./app-radar.css','./app-kaynaklar.css','./app-kart.css','./app-listem.css','./app-kesfet.css','./app.js','./discover.css','./discover.js','./design.js','./takip.js','./takip.css','./responsive-layout.css','./responsive-layout.js','./academy-radar.js','./academy-radar.css','./','./index.html','./sources.js','./device.js','./update.js','./badge.js','./phone-display.js','./suggestions-config.js','./suggestions.js','./qrcode.min.js','./release.css','./ios-experiment.css','./ios-experiment.js','./disciplines.js','./source-areas.js','./manifest.webmanifest','./icons/icon-192.png','./icons/icon-512.png','./icons/icon-maskable-192.png','./icons/icon-maskable-512.png','./icons/apple-touch-icon-180.png','./apple-touch-icon.png'];
 async function fetchShell(url){
  for(let attempt=0;attempt<2;attempt++){

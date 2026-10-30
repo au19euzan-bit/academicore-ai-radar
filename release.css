@@ -154,3 +154,4 @@ html body .about-suggest{width:100%;min-height:44px;border:1px solid var(--line)
  html.mobile-source-mode body .source-filter-popover{top:var(--panel-top);bottom:auto;max-height:var(--panel-max-height)}
  html body #sepet .my-list-menu-panel,html.mobile-source-mode body #cameraMobileSortMenu{position:fixed;top:var(--panel-top);bottom:auto;right:16px;max-height:var(--panel-max-height);overflow-y:auto;overscroll-behavior-y:contain}
 }
+#desktopUnlock{margin:24px 0}#desktopUnlock input{padding:12px;border:1px solid #ccc;border-radius:var(--radius-md);font:inherit;max-width:100%}#desktopPassMsg{min-height:1.5em;margin:8px 0 0}

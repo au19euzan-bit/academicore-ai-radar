@@ -92,7 +92,13 @@
  const phone=()=>{const ua=navigator.userAgent;const mobile=/iPhone|iPod|Android.*Mobile|Windows Phone/i.test(ua);const touch=matchMedia('(pointer:coarse)').matches&&Math.min(screen.width,screen.height)<600;
   // iPadOS Safari reports a Mac user agent; touch points identify it as a tablet.
   const tablet=!(mobile||touch)&&(/iPad|Android|Tablet|Silk|Kindle/i.test(ua)||(/Macintosh/.test(ua)&&navigator.maxTouchPoints>1)||(matchMedia('(pointer:coarse)').matches&&navigator.maxTouchPoints>1));
-  const root=document.documentElement;root.classList.toggle('radar-tablet',tablet);root.classList.toggle('radar-desktop',!(mobile||touch||tablet))};phone();addEventListener('resize',phone);
+  // Bilgisayarda şifreyle açılınca tablet yerleşimi kullanılır.
+  const big=!(mobile||touch||tablet),root=document.documentElement;root.classList.toggle('radar-tablet',tablet||(big&&unlocked()));root.classList.toggle('radar-desktop',big&&!unlocked())};
+ const DESKTOP_KEY='radar-masaustu',DESKTOP_HASH='3b76ae988ef12a97addd39df398bd553776854a8f11ce6d46b503d712ced95ae';
+ const unlocked=()=>{try{return localStorage.getItem(DESKTOP_KEY)==='1'}catch(e){return false}};
+ phone();addEventListener('resize',phone);
+ gate.querySelector('#qrSlot').insertAdjacentHTML('beforebegin','<form id="desktopUnlock"><p>Bilgisayarda açmak için şifreyi girin.</p><input type="password" id="desktopPass" autocomplete="current-password" aria-label="Şifre" placeholder="Şifre"> <button type="submit">Bilgisayarda aç</button><p id="desktopPassMsg" role="status"></p></form>');
+ gate.querySelector('#desktopUnlock').onsubmit=async e=>{e.preventDefault();const msg=gate.querySelector('#desktopPassMsg');try{const d=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(gate.querySelector('#desktopPass').value));const hex=[...new Uint8Array(d)].map(b=>b.toString(16).padStart(2,'0')).join('');if(hex!==DESKTOP_HASH){msg.textContent='Şifre yanlış.';return}try{localStorage.setItem(DESKTOP_KEY,'1')}catch(_){}location.reload()}catch(_){msg.textContent='Bu tarayıcıda şifre denetlenemedi.'}};
  if(/^https?:$/.test(location.protocol)&&!['localhost','127.0.0.1'].includes(location.hostname)){new QRCode(gate.querySelector('#qrSlot'),{text:location.href.split('#')[0],width:192,height:192,correctLevel:QRCode.CorrectLevel.M})}else gate.querySelector('#qrSlot').textContent='Yerel önizleme: QR yayındaki site adresinde otomatik oluşur.';
 
 })();
