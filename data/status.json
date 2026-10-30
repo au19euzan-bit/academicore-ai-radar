@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-10-30T11:01:41Z",
+ "lastRun": "2026-10-30T11:11:26Z",
  "summaries": false,
  "sources": {
   "mollick": {
@@ -24,7 +24,7 @@
   },
   "ijaied": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 1
   },
   "unesco": {
@@ -34,13 +34,13 @@
   },
   "oecd": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 5
   },
   "openai": {
    "ok": true,
    "new": 10,
-   "count": 60
+   "count": 70
   },
   "anthropic": {
    "ok": false,
@@ -54,7 +54,7 @@
   },
   "cicek": {
    "ok": true,
-   "new": 4,
+   "new": 0,
    "count": 25
   },
   "erhan": {
