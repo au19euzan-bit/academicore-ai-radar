@@ -374,7 +374,6 @@ td a { color: var(--accent); font-weight: 600; text-decoration: none; }
     if (STATUS && STATUS.lastRun) p += " Son güncelleme: " + agoText(STATUS.lastRun) + ".";
     if (STATUS && !STATUS.summaries) p += " Türkçe özetler kapalı; içeriklerin altında kaynağın kendi açıklaması görünüyor.";
     v.appendChild(el("p", "para", p));
-    var adm = el("a", "btn", "Kaynakları yönet"); adm.href = "admin.html"; v.appendChild(adm);
     var wrap = el("div", "tablewrap"), t = el("table");
     t.innerHTML = "<thead><tr><th>Kaynak</th><th>Yöntem</th><th>Son durum</th></tr></thead>";
     var tb = el("tbody");
