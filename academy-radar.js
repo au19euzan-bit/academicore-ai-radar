@@ -33,18 +33,18 @@ const GROUPS={
  'Türkiye Kamu ve Akademi':'MEB YEĞİTEK|MEB|YÖK|BTK Akademi|TÜBİTAK|TÜBA|YÖKAK'
  },
  'Kişi':{
- 'Araştırmacılar':'Rose Luckin|Mutlu Cukurova|Mike Sharples|Ryan S. Baker|George Siemens|Neil Selwyn|Melanie Mitchell|Fei-Fei Li|Arvind Narayanan & Sayash Kapoor',
+ 'Araştırmacılar':'Rose Luckin|Punya Mishra|Mutlu Cukurova|Mike Sharples|Ryan S. Baker|George Siemens|Neil Selwyn|Melanie Mitchell|Fei-Fei Li|Arvind Narayanan & Sayash Kapoor',
  'Eğitimciler':'Leon Furze|Anna Mills|Marc Watkins|José Antonio Bowen|Lance Eaton|Pat Yongpradit',
  'Geliştiriciler':'Simon Willison|Andrej Karpathy|Lilian Weng|Yann LeCun',
  'Girişimciler':'Sal Khan|Andrew Ng|Amanda Bickerstaff',
  'Sektör Uzmanları':'Nathan Lambert (Interconnects)|Jack Clark (Import AI)|Bryan Alexander',
  'Politika ve Etik Uzmanları':'Wayne Holmes|Emily M. Bender|Timnit Gebru (DAIR)|Gary Marcus',
- 'İçerik Üreticileri':'Dan Fitzpatrick|Philippa Hardman',
+ 'İçerik Üreticileri':'Dan Fitzpatrick|Philippa Hardman|Çiçek ile Teknoloji|Erhan Meydan',
  'Topluluk Liderleri':'Maha Bali|Ethan Mollick',
  'Yatırımcılar':''
  },
  'Yayın':{
- 'Akademik Dergiler':'Int. Journal of AI in Education (IJAIED)|Computers & Education: AI|Journal of Learning Analytics|British Journal of Educational Technology',
+ 'Akademik Dergiler':'Int. Journal of AI in Education (IJAIED)|Computers & Education: AI|Computers & Education|Journal of Learning Analytics|British Journal of Educational Technology',
  'Eğitim Teknolojisi Yayınları':'EdSurge|EdTech Insiders'
  },
  'Etkinlik':{
