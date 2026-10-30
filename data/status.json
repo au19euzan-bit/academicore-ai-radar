@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-10-29T11:06:24Z",
+ "lastRun": "2026-10-30T11:01:41Z",
  "summaries": false,
  "sources": {
   "mollick": {
@@ -9,7 +9,7 @@
   },
   "mishra": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 10
   },
   "cae": {
@@ -24,8 +24,8 @@
   },
   "ijaied": {
    "ok": true,
-   "new": 0,
-   "count": 0
+   "new": 1,
+   "count": 1
   },
   "unesco": {
    "ok": false,
@@ -34,13 +34,13 @@
   },
   "oecd": {
    "ok": true,
-   "new": 0,
-   "count": 4
+   "new": 1,
+   "count": 5
   },
   "openai": {
    "ok": true,
    "new": 10,
-   "count": 50
+   "count": 60
   },
   "anthropic": {
    "ok": false,
@@ -49,17 +49,17 @@
   },
   "deepmind": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 11
   },
   "cicek": {
    "ok": true,
-   "new": 5,
-   "count": 21
+   "new": 4,
+   "count": 25
   },
   "erhan": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 4
   }
  }
