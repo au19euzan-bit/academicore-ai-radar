@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T12:50:25Z",
+ "generatedAt": "2026-10-30T12:55:35Z",
  "items": [
   {
    "id": "cicek-3fd08f916c17",
@@ -665,6 +665,19 @@
    "addedAt": "2026-10-27T17:14:30Z"
   },
   {
+   "id": "willison-d4fc15392e5c",
+   "sourceId": "willison",
+   "title": "webframe: evaluated as a scraper and a sandbox",
+   "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
+   "published": "2026-10-26T16:15:00Z",
+   "precision": "time",
+   "excerpt": "Research: webframe: evaluated as a scraper and a sandbox webframe is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a hidden headless web view and outputs console.log() to standard…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
    "id": "googleedu-be77c96c39b4",
    "sourceId": "googleedu",
    "title": "Our newest AI Quest: Mapping the human brain",
@@ -728,6 +741,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-10-27T17:14:30Z"
+  },
+  {
+   "id": "importai-39ff90ce9b1e",
+   "sourceId": "importai",
+   "title": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means",
+   "url": "https://jack-clark.net/2026/10/26/import-ai-478-math-for-alignment-programbench-and-mirendil-shows-what-rsi-means/",
+   "published": "2026-10-26T12:31:52Z",
+   "precision": "time",
+   "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now How math could help alignment:…What the “industrialization of mathematics” means for safety…AI…",
+   "summary": "",
+   "image": "https://i0.wp.com/jack-clark.net/wp-content/uploads/2026/10/https3A2F2Fsubstack-post-media.s3.amazonaws.com2Fpublic2Fimages2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258-IAEEMa.png?resize=150%2C150&ssl=1",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
   },
   {
    "id": "openai-64d59b55a8fb",
@@ -795,6 +821,19 @@
    "addedAt": "2026-10-30T12:50:25Z"
   },
   {
+   "id": "willison-0c0ce1d91251",
+   "sourceId": "willison",
+   "title": "Seam Cutter",
+   "url": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+   "published": "2026-10-25T15:10:19Z",
+   "precision": "time",
+   "excerpt": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
    "id": "interconnects-cb0e6541c41d",
    "sourceId": "interconnects",
    "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
@@ -834,6 +873,19 @@
    "addedAt": "2026-10-27T17:14:30Z"
   },
   {
+   "id": "willison-3812b4d599bb",
+   "sourceId": "willison",
+   "title": "battledrones v14: Compass Rose, a four player map",
+   "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+   "published": "2026-10-24T03:59:57Z",
+   "precision": "time",
+   "excerpt": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works…",
+   "summary": "",
+   "image": "https://raw.githubusercontent.com/simonw/battledrones/v14/progress-shots/v14/compass-rose.jpg",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
    "id": "mishra-5caf2a574f7b",
    "sourceId": "mishra",
    "title": "Remembering the original Influencers: JP, Jack, Nadu & Bandy",
@@ -845,6 +897,32 @@
    "image": "https://punyamishra.com/wp-content/uploads/2026/10/influencers-real21.jpg",
    "videoId": null,
    "addedAt": "2026-10-27T17:14:30Z"
+  },
+  {
+   "id": "willison-ece6c921b830",
+   "sourceId": "willison",
+   "title": "Quick Study",
+   "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+   "published": "2026-10-23T21:35:13Z",
+   "precision": "time",
+   "excerpt": "Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush See also my previous experiment getting Claude Fable to simulate a…",
+   "summary": "",
+   "image": "https://static.simonwillison.net/static/2026/heron-oil.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
+   "id": "willison-2e71264ea893",
+   "sourceId": "willison",
+   "title": "Introducing Kimi K3.1 Pro",
+   "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+   "published": "2026-10-23T19:40:54Z",
+   "precision": "time",
+   "excerpt": "Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\". They're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token…",
+   "summary": "",
+   "image": "https://static.simonwillison.net/static/2026-10-23/image-2.png",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
   },
   {
    "id": "openai-298c8de07d18",
@@ -925,6 +1003,19 @@
    "addedAt": "2026-10-27T17:16:08Z"
   },
   {
+   "id": "willison-474d46551650",
+   "sourceId": "willison",
+   "title": "DE STAAT - FREEDOM (Official Music Video)",
+   "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+   "published": "2026-10-22T19:42:26Z",
+   "precision": "time",
+   "excerpt": "DE STAAT - FREEDOM (Official Music Video) OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat : The visual effects are credited to Matties Grooten of Fake it or Leave it . Via flir on Hacker News Tags: music , ai …",
+   "summary": "",
+   "image": "https://static.simonwillison.net/static/2026/freedom-pelican-poster.jpg",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
    "id": "openai-27825e300358",
    "sourceId": "openai",
    "title": "Build more responsive apps with the Decisions API",
@@ -938,6 +1029,19 @@
    "addedAt": "2026-10-27T17:16:08Z"
   },
   {
+   "id": "willison-09776931f465",
+   "sourceId": "willison",
+   "title": "Donating Agent Skills to the Agentic AI Foundation",
+   "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+   "published": "2026-10-22T18:09:56Z",
+   "precision": "time",
+   "excerpt": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
    "id": "cae-e1a9925c4b99",
    "sourceId": "cae",
    "title": "Self-regulated learning trajectories, predictors, and cognitive outcomes in animation-facilitated computational thinking: A growth mixture modelling study of primary students",
@@ -949,6 +1053,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "willison-0acbee798fb2",
+   "sourceId": "willison",
+   "title": "Quoting Armin Ronacher",
+   "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+   "published": "2026-10-22T15:34:13Z",
+   "precision": "time",
+   "excerpt": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. — Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-security-research , llms",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
   },
   {
    "id": "deepmind-e66e9796ba6b",
@@ -1003,6 +1120,19 @@
    "addedAt": "2026-10-27T17:16:08Z"
   },
   {
+   "id": "willison-952285572a8e",
+   "sourceId": "willison",
+   "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+   "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+   "published": "2026-10-21T18:41:53Z",
+   "precision": "time",
+   "excerpt": "Today's PHP Security Release, and How We're Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
    "id": "openai-4ab93569e260",
    "sourceId": "openai",
    "title": "How AT&T is rethinking in-house legal work with OpenAI",
@@ -1014,6 +1144,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "willison-6c1da1b548c0",
+   "sourceId": "willison",
+   "title": "Panache — RTS Belle Époque pour mobile",
+   "url": "https://simonwillison.net/2026/Oct/21/panache/",
+   "published": "2026-10-21T16:25:16Z",
+   "precision": "time",
+   "excerpt": "Panache — RTS Belle Époque pour mobile Well this is delightful: I released Battle Drones yesterday under an Apache 2.0 License and there's already a French language fork by Gabriel Turpin which reskins the game to take place in steampunk 1900s France and adds an animated intro!…",
+   "summary": "",
+   "image": "https://static.simonwillison.net/static/2026/battledrones-french.jpg",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
   },
   {
    "id": "openai-74fcf21eca7a",
@@ -1313,6 +1456,19 @@
    "image": "https://i1.ytimg.com/vi/xb0PaCKt-r8/hqdefault.jpg",
    "videoId": "xb0PaCKt-r8",
    "addedAt": "2026-10-27T17:14:30Z"
+  },
+  {
+   "id": "importai-5be7b24c47cf",
+   "sourceId": "importai",
+   "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
+   "url": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/",
+   "published": "2026-10-19T12:31:37Z",
+   "precision": "time",
+   "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Here’s a speech I gave on Saturday the 17th of October at the IMF meeting in Bangkok. This speech…",
+   "summary": "",
+   "image": "https://i0.wp.com/jack-clark.net/wp-content/uploads/2026/10/bab50107-8241-4342-a473-f546f17cf9a4_1826x1084-cJNAZg.png?resize=150%2C150&ssl=1",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
   },
   {
    "id": "mishra-9fc84ad52f98",
@@ -1731,6 +1887,45 @@
    "addedAt": "2026-10-29T11:06:24Z"
   },
   {
+   "id": "edsurge-edf63b102201",
+   "sourceId": "edsurge",
+   "title": "Child Protective Services Contact Linked to Higher Absenteeism, Study Finds",
+   "url": "https://www.edsurge.com/news/child-protective-services-contact-linked-to-higher-absenteeism-study-finds",
+   "published": "2026-10-14T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Researchers say school connectedness and targeted support can keep vulnerable students in class.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/7iFIXECehrAYX3MtxuCTp7/5cba3aa777ceb06b189b0e970a5cf492/shutterstock_2532673191.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
+   "id": "edsurge-fcb6fabba5e6",
+   "sourceId": "edsurge",
+   "title": "Tech Addiction Was a Problem for My Student — and Myself",
+   "url": "https://www.edsurge.com/news/tech-addiction-was-a-problem-for-my-student-and-myself",
+   "published": "2026-10-14T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Educators need to recognize the warning signs, then have honest conversations in our classrooms and at home.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/6ktV6J2HONWzC5XLNWzVFZ/1a636b60f03b552faa91929a7cd67fb4/shutterstock_2737152641.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
+   "id": "edsurge-89f01cdc594d",
+   "sourceId": "edsurge",
+   "title": "Who Is Building the AI Foundation for K-12 Classrooms?",
+   "url": "https://www.edsurge.com/news/who-is-building-the-ai-foundation-for-k-12-classrooms",
+   "published": "2026-10-14T00:00:00Z",
+   "precision": "time",
+   "excerpt": "How Learning Commons’ new open platform could help edtech companies and schools implement technology.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/7qhYBTmlEgu57ZokxfP0Cw/2e0b970a5d9845df4e3e1c8643ef159c/shutterstock_2618426961.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
    "id": "deepmind-471508c04c30",
    "sourceId": "deepmind",
    "title": "Developing Gemini 4 Argon responsibly and safely",
@@ -1833,6 +2028,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "importai-af44b9beb35b",
+   "sourceId": "importai",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "url": "https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/",
+   "published": "2026-10-12T12:30:39Z",
+   "precision": "time",
+   "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now New benchmark shows how AI models lack intuitive visual reasoning:…Humanity’s Sixth Sense…",
+   "summary": "",
+   "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvczAud3AuY29tXC9pXC9ibGFuay5qcGciLCJ0eHQiOiJJbXBvcnQgQUkgIiwidGVtcGxhdGUiOiJoaWdod2F5IiwiZm9udCI6IiIsImJsb2dfaWQiOjEwNzM4NzM3fQ.5lSAiEzyUNRFqGNJt0fHiWtUevhr506J_0PofiEO9WIMQ",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
   },
   {
    "id": "mishra-4d0522838656",
@@ -2082,6 +2290,45 @@
    "addedAt": "2026-10-30T11:01:41Z"
   },
   {
+   "id": "edsurge-232105efbfbc",
+   "sourceId": "edsurge",
+   "title": "How Coding Can Cultivate Deep Civic Engagement",
+   "url": "https://www.edsurge.com/news/how-coding-can-cultivate-deep-civic-engagement",
+   "published": "2026-10-07T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Incorporating learning from historic social movements into tech education ignites student interest in shaping the future.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/1WQqOkqEYeOiKGMyxRASlh/4d78638d5f1bf0de600844800e618691/herovoc.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
+   "id": "edsurge-41d96f10f282",
+   "sourceId": "edsurge",
+   "title": "Why Do So Many Teachers Crash in October?",
+   "url": "https://www.edsurge.com/news/why-do-so-many-teachers-crash-in-october",
+   "published": "2026-10-07T00:00:00Z",
+   "precision": "time",
+   "excerpt": "In this episode, author Mike Anderson discusses ways teachers can fight off the October Blues.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/3p4FFdpHZdWfGaFVGa3DDA/0c6a871fbad052c9f88239faa85b339f/shutterstock_2033497547.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
+   "id": "edsurge-fb48505088b0",
+   "sourceId": "edsurge",
+   "title": "How Some Small, Rural Districts Are Winning the Attendance Struggle",
+   "url": "https://www.edsurge.com/news/how-some-small-rural-districts-are-winning-the-attendance-struggle",
+   "published": "2026-10-07T00:00:00Z",
+   "precision": "time",
+   "excerpt": "New study finds that small and rural districts lead the fight against absenteeism.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/6ednn5jGKuwwZgQGmvDDzD/9b2d0de2de4fce46f47150481445b898/shutterstock_2811795383.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
    "id": "deepmind-4dd290070848",
    "sourceId": "deepmind",
    "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
@@ -2238,6 +2485,84 @@
    "addedAt": "2026-10-30T12:50:25Z"
   },
   {
+   "id": "googleedu-b235f2ec1126",
+   "sourceId": "googleedu",
+   "title": "My eighth-grade students built our school newscast from scratch with Gemini.",
+   "url": "https://blog.google/products-and-platforms/products/education/gemini-student-newscast/",
+   "published": "2026-10-05T16:00:00Z",
+   "precision": "time",
+   "excerpt": "Eighth graders built The Cougar Rumble newscast using Gemini and Google Docs. See how these students streamlined their production workflow today.",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tori_1.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
+   "id": "googleedu-19d2cb09d93c",
+   "sourceId": "googleedu",
+   "title": "My students use Gemini to brainstorm creative ideas.",
+   "url": "https://blog.google/products-and-platforms/products/education/teacher-voices-gemini-creativity/",
+   "published": "2026-10-05T16:00:00Z",
+   "precision": "time",
+   "excerpt": "Fifth graders use Google Gemini to write songs about history and create art. See how this teacher integrates AI into the classroom.",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Rayna_1.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
+   "id": "googleedu-6d121789f599",
+   "sourceId": "googleedu",
+   "title": "Technology is helping my fellow math teachers trade weekend prep for personalized learning.",
+   "url": "https://blog.google/products-and-platforms/products/education/education-officer-gemini/",
+   "published": "2026-10-05T16:00:00Z",
+   "precision": "time",
+   "excerpt": "Teachers use Gemini to build custom K-6 math worksheets and save hours of prep time. See how Google AI transforms classroom instruction.",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KateThomas.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
+   "id": "googleedu-c00c6a75f519",
+   "sourceId": "googleedu",
+   "title": "Gemini helps me bring hands-on learning into the classroom.",
+   "url": "https://blog.google/products-and-platforms/products/education/english-teacher-gemini/",
+   "published": "2026-10-05T16:00:00Z",
+   "precision": "time",
+   "excerpt": "A teacher uses Google Gemini to design interactive role-playing simulations and nutrition lessons. See how AI boosts classroom engagement.",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Cheryl.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
+   "id": "googleedu-67b0b753591b",
+   "sourceId": "googleedu",
+   "title": "I replaced traditional coding tests with real conversations about how my students solve problems using AI.",
+   "url": "https://blog.google/products-and-platforms/products/education/gemini-google-colab/",
+   "published": "2026-10-05T16:00:00Z",
+   "precision": "time",
+   "excerpt": "Replace coding tests with AI-driven interviews using Google Gemini in Colab. See how this professor evaluates student judgment. Read the full report.",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ProfMY2.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
+   "id": "googleedu-04133777c4cc",
+   "sourceId": "googleedu",
+   "title": "Gemini helps me give a voice to students who cannot write.",
+   "url": "https://blog.google/products-and-platforms/products/education/special-education-gemini/",
+   "published": "2026-10-05T16:00:00Z",
+   "precision": "time",
+   "excerpt": "Special education teachers use Google Gemini to generate visual guides and voice prompts, empowering non-writing students. Read the full story.",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IMG-20261001-WA0009.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
    "id": "openai-78ad53815846",
    "sourceId": "openai",
    "title": "Our approach to EU text provenance rules",
@@ -2251,6 +2576,19 @@
    "addedAt": "2026-10-30T11:11:26Z"
   },
   {
+   "id": "importai-b7c6af430fe6",
+   "sourceId": "importai",
+   "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
+   "url": "https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/",
+   "published": "2026-10-05T12:32:30Z",
+   "precision": "time",
+   "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now When should you use swarms? When you are in a hurry:…How does swarm scaling work?…Toby Ord has a…",
+   "summary": "",
+   "image": "https://i0.wp.com/jack-clark.net/wp-content/uploads/2026/10/https3A2F2Fsubstack-post-media.s3.amazonaws.com2Fpublic2Fimages2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258-icWL54.png?resize=150%2C150&ssl=1",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
    "id": "openai-3cbec84de8bf",
    "sourceId": "openai",
    "title": "Building advertising for the way people use AI",
@@ -2262,6 +2600,32 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-10-30T11:11:26Z"
+  },
+  {
+   "id": "googleedu-8b93b5bfd227",
+   "sourceId": "googleedu",
+   "title": "Making AI training available to UK and Ireland educators",
+   "url": "https://blog.google/products-and-platforms/products/education/making-ai-training-available-to-uk-and-ireland-educators/",
+   "published": "2026-10-05T07:00:00Z",
+   "precision": "time",
+   "excerpt": "A collage of floating Google Workspace for Education interface elements on a soft, light background.",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ISTE_2026_Collections_BlogHeade.max-600x600.format-webp_CkzTCJX.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
+   "id": "edsurge-2baf9c53157e",
+   "sourceId": "edsurge",
+   "title": "Will Kids Pay the Price for AI Panic?",
+   "url": "https://www.edsurge.com/news/will-kids-pay-the-price-for-ai-panic",
+   "published": "2026-10-05T00:00:00Z",
+   "precision": "time",
+   "excerpt": "A backlash against classroom AI is sweeping public schools. But as New Mexico shows, blanket bans risk robbing students of early literacy interventions.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/2kcmOtiddcZLz5pAaVVdUZ/c54fef3dd5667169a66f84d95c6ff320/shutterstock_2626229709.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
   },
   {
    "id": "bjet-df4cdedfc497",
@@ -2407,6 +2771,19 @@
    "addedAt": "2026-10-30T11:11:26Z"
   },
   {
+   "id": "googleedu-ad9111e5e974",
+   "sourceId": "googleedu",
+   "title": "1,400 educators joined our Badge-a-thon: Day of AI Learning.",
+   "url": "https://blog.google/products-and-platforms/products/education/ai-educator-series-badge-a-thon/",
+   "published": "2026-10-01T16:00:00Z",
+   "precision": "time",
+   "excerpt": "Many stars bursting out of a laptop",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/wagtailvideo-mx6wrk7a_thumb.jpg",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
+  },
+  {
    "id": "mollick-ee61659f9646",
    "sourceId": "mollick",
    "title": "The Dot and the Swarm",
@@ -2444,6 +2821,19 @@
    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png",
    "videoId": null,
    "addedAt": "2026-10-27T17:16:08Z"
+  },
+  {
+   "id": "googleedu-b8326c504367",
+   "sourceId": "googleedu",
+   "title": "Supporting AI readiness in higher education",
+   "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/educause-2026/",
+   "published": "2026-09-30T16:43:00Z",
+   "precision": "time",
+   "excerpt": "Graduation caps and icons in different colors",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ORG-44_Blog_Header_EDUCAUSE.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-10-30T12:55:35Z"
   },
   {
    "id": "deepmind-0a622a33b8e3",

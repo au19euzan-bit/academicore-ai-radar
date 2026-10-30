@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-10-30T12:50:25Z",
+ "lastRun": "2026-10-30T12:55:35Z",
  "summaries": false,
  "sources": {
   "mollick": {
@@ -65,21 +65,21 @@
   "willison": {
    "ok": true,
    "new": 10,
-   "count": 10
+   "count": 20
   },
   "importai": {
-   "ok": false,
-   "note": "Okunamadı: https://importai.substack.com/feed okunamadi: HTTP Error 403: Forbidden",
-   "count": 0
+   "ok": true,
+   "new": 4,
+   "count": 4
   },
   "interconnects": {
    "ok": true,
-   "new": 6,
+   "new": 0,
    "count": 6
   },
   "normaltech": {
    "ok": true,
-   "new": 3,
+   "new": 0,
    "count": 3
   },
   "marcus": {
@@ -104,7 +104,7 @@
   },
   "furze": {
    "ok": true,
-   "new": 4,
+   "new": 0,
    "count": 4
   },
   "hardman": {
@@ -129,13 +129,13 @@
   },
   "alexander": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 1
   },
   "edsurge": {
    "ok": true,
-   "new": 10,
-   "count": 10
+   "new": 7,
+   "count": 17
   },
   "edtechinsiders": {
    "ok": false,
@@ -144,12 +144,12 @@
   },
   "googleedu": {
    "ok": true,
-   "new": 10,
-   "count": 10
+   "new": 9,
+   "count": 19
   },
   "caeai": {
    "ok": true,
-   "new": 2,
+   "new": 0,
    "count": 2
   }
  }
