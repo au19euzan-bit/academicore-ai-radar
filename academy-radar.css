@@ -1,0 +1,259 @@
+#academyRadar .outline{fill:none;stroke:#c9d4e2;stroke-width:1}#academyRadar .follow-ring-white{fill:none;stroke:#fff;stroke-width:5;opacity:.96;pointer-events:none}#academyRadar .follow-ring-gray{fill:none;stroke:#a4b0c0;stroke-width:1;stroke-dasharray:3 6;opacity:.79;pointer-events:none}#academyRadar:not(.no-matches) .follow-ring-gray{opacity:0}#academyRadar .subarc{fill:none;stroke-linecap:round;stroke-width:7;cursor:pointer;transition:opacity .2s}#academyRadar .subwedge{cursor:pointer;transition:opacity .2s}#academyRadar .node{cursor:pointer;will-change:opacity}#academyRadar .subarc,#academyRadar .subwedge{will-change:opacity}#academyRadar .subcaption{font-weight:400}#academyRadar .node:hover .disc,#academyRadar .node.active .disc{stroke:#243c63;stroke-width:3}#academyRadar .connector{stroke:#7c899c;stroke-width:.74;stroke-dasharray:2.2 5.6;stroke-linecap:round;fill:none;pointer-events:none}#academyRadar .leader{stroke:#99a5b5;stroke-width:.74;stroke-dasharray:3.2 4.1;stroke-linecap:round;fill:none;pointer-events:none}#academyRadar .leader-dot{fill:#9ba6b6;pointer-events:none}#academyRadar .subcaption{font-size:19px;fill:#263954;font-weight:400;cursor:pointer;stroke:none;paint-order:normal}#academyRadar .maincaption{font-size:var(--text-3xl);font-weight:400;letter-spacing:.15px;pointer-events:none;dominant-baseline:central}#academyRadar .mainband{pointer-events:none}#academyRadar .nodeText{font-size:var(--text-3xs);font-weight:750;fill:#263751;pointer-events:none}#academyRadar .distance{font-size:var(--text-2xs);letter-spacing:.12em;fill:#95a4b8;font-weight:500;pointer-events:none}#academyRadar .node:focus{outline:none}#academyRadar .node:focus-visible .disc{stroke:#172c55;stroke-width:4}
+
+#academyRadar.fit{width:100%;min-width:0;height:auto}
+#academyRadar:not(.fit){width:100%;min-width:850px;height:auto}
+#academyRadar .scan-fan,#academyRadar .scan-lead,#academyRadar .scan-info{pointer-events:none}
+#academyRadar .node.scanned .disc{stroke:#18a4dd;stroke-width:2.2}
+#academyRadar .node .source-dot{transition:opacity 90ms linear}
+#academyRadar .node .scan-badge{pointer-events:none;will-change:transform,opacity}
+#academyRadar .subcaption{stroke:none;paint-order:normal}
+
+#academyRadar{display:block;width:100%;height:auto;min-width:850px;max-width:none;aspect-ratio:1270/1090;touch-action:pan-x pan-y pinch-zoom;background:var(--surface,#fff)}
+#academyRadar.fit{min-width:0;max-width:100%}
+#academyRadar[hidden]{display:none!important}
+html.academy-engine #radarBox .radar-scroll{overflow:auto;height:auto;min-height:0;max-height:none}
+#academyRadar .subcaption{fill:var(--ink,#263954)}
+#academyRadar .node.source-linked .source-dot,#academyRadar .node.listed .source-dot{stroke:var(--accent,#b91b49);stroke-width:2.5}
+#radarSettingsButton{font:inherit;padding:7px 12px;border:1px solid var(--line,#ddd);border-radius:var(--radius-4xl);color:var(--ink,#222);background:var(--surface,#fff);cursor:pointer;margin-left:auto}
+#radarSettings{box-sizing:border-box;width:min(440px,calc(100vw - 24px));max-height:calc(100dvh - 32px);overflow:auto;border:1px solid var(--line,#ddd);background:var(--surface,#fff);color:var(--ink,#222);font:var(--text-md)/1.5 var(--f-body,system-ui)}
+#radarSettings::backdrop{background:#0006}
+#radarSettings h2{margin:0}
+#radarSettings header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}
+#radarSettings label{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:12px 0;border-bottom:1px solid var(--line,#eee)}
+#radarSettings input[type=checkbox]{width:20px;height:20px;accent-color:var(--accent,#b91b49)}
+#radarSettings select{font:inherit;max-width:60%;padding:8px;background:var(--surface,#fff);color:inherit;border:1px solid var(--line,#ccc)}
+#radarSettings button{padding:8px 14px;cursor:pointer}
+#radarSettings p{font-size:var(--text-xs);color:var(--muted,#65748b)}
+#radarSettings fieldset{border:0;padding:0;margin:0;min-width:0}
+#radarSettings fieldset:disabled{opacity:.45}
+@media(prefers-reduced-motion:reduce){#academyRadar *{transition:none!important}}
+html.academy-engine body #radarBox .radar-scroll{height:100%;position:relative;display:flex;align-items:center;overflow:auto}
+html.academy-engine body #radarBox #academyRadar{height:100%;flex:0 0 100%;align-self:center}
+html.academy-engine body #radarBox #academyRadar:not(.fit){flex-basis:850px;width:850px!important;min-height:730px!important}
+#radarSettingsButton{display:grid;place-items:center;padding:8px;border:0;border-radius:var(--radius-round);margin:0;background:transparent;color:var(--muted)}
+#radarSettingsButton svg{display:block}
+html.mobile-source-mode #radarSettingsButton{display:none}
+html.academy-engine #radarBox .radar-scroll.has-no-results #academyRadar{visibility:hidden}
+
+#academyRadar .maincaption{dominant-baseline:alphabetic;alignment-baseline:alphabetic}
+
+#academyRadar .maincaption{font-weight:500}
+
+#academyRadar .status-new-halo,#academyRadar .status-saved-marker{display:none;pointer-events:none}
+#academyRadar.status-markers .node.is-new-source .status-new-halo{display:block}
+#academyRadar.status-markers .node.listed .status-saved-marker{display:block}
+#academyRadar.status-markers .node.listed .source-dot{opacity:0}
+#academyRadar.status-markers .node.listed .scan-badge{visibility:hidden}
+#academyRadar.status-markers.highlight-saved .node:not(.listed){filter:opacity(.2)}
+.academy-status-key{position:absolute;bottom:3px;left:50%;transform:translateX(-50%);display:flex;justify-content:center;gap:12px;white-space:nowrap;padding:5px 9px;border-radius:var(--radius-lg);background:var(--surface,#fff);color:var(--muted,#58677a);font:var(--text-2xs)/1.3 var(--f-body,system-ui);pointer-events:none;z-index:1}
+.academy-status-key[hidden]{display:none!important}
+.academy-status-key span{display:inline-flex;align-items:center;gap:5px}
+.academy-status-key i{display:inline-flex;align-items:center;justify-content:center;width:9px;height:9px;border-radius:var(--radius-round);font-style:normal}
+.academy-status-key .key-normal{width:5px;height:5px;background:#68768c}
+.academy-status-key .key-saved{width:13px;height:13px;background:var(--brand-saved);color:white;font-size:var(--text-4xs);line-height:1}
+.academy-status-key .key-new{border:1.5px solid #c98512;background:#f5ac2f38;box-sizing:border-box;width:13px;height:13px}
+
+#academyRadar.status-markers .node.listed .status-new-halo{r:13}
+#academyRadar.status-markers .node.is-new-source:not(.listed) .status-new-halo{animation:academy-new-source-pulse 1.8s ease-in-out infinite}
+@keyframes academy-new-source-pulse{0%,100%{opacity:.18}50%{opacity:1}}
+@media(prefers-reduced-motion:reduce){#academyRadar.status-markers .node.is-new-source:not(.listed) .status-new-halo{animation:none;opacity:.65}}
+/* New sources use their own category-colored dot; no additional halo. */
+#academyRadar.status-markers .node.is-new-source .status-new-halo{display:none;animation:none}
+#academyRadar.status-markers .node.is-new-source:not(.listed) .source-dot{animation:academy-new-dot-pulse 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes academy-new-dot-pulse{0%,100%{r:4.8;opacity:.3}50%{r:8;opacity:1}}
+.academy-status-key .key-new{width:7px;height:7px;border:0;background:#68768c;animation:academy-key-pulse 1.8s ease-in-out infinite}
+@keyframes academy-key-pulse{0%,100%{transform:scale(.8);opacity:.3}50%{transform:scale(1.3);opacity:1}}
+@media(prefers-reduced-motion:reduce){#academyRadar.status-markers .node.is-new-source:not(.listed) .source-dot,.academy-status-key .key-new{animation:none;opacity:1}}
+
+/* 0.8s growth, 1s hold with a thin black ring, 0.8s shrink. */
+#academyRadar .status-new-peak-ring{display:none;pointer-events:none}
+#academyRadar.status-markers .node.is-new-source:not(.listed) .source-dot{animation:academy-new-dot-hold 2.6s ease-in-out infinite}
+#academyRadar.status-markers .node.is-new-source:not(.listed) .status-new-peak-ring{display:block;animation:academy-new-ring-hold 2.6s linear infinite}
+@keyframes academy-new-dot-hold{0%,100%{r:4.8;opacity:.3}30.769%,69.231%{r:8;opacity:1}}
+@keyframes academy-new-ring-hold{0%,30.768%{opacity:0}30.769%,69.231%{opacity:1}69.232%,100%{opacity:0}}
+@media(prefers-reduced-motion:reduce){#academyRadar.status-markers .node.is-new-source:not(.listed) .source-dot{animation:none;opacity:1}#academyRadar.status-markers .node.is-new-source:not(.listed) .status-new-peak-ring{display:none;animation:none}}
+
+/* Restore the continuous pulse; the peak changes the dot itself to black. */
+#academyRadar.status-markers .node.is-new-source:not(.listed) .status-new-peak-ring{display:none;animation:none}
+#academyRadar.status-markers .node.is-new-source:not(.listed) .source-dot{animation:academy-new-dot-black-peak 1.8s ease-in-out infinite}
+@keyframes academy-new-dot-black-peak{
+  0%,100%{r:4.8;opacity:.3;fill:var(--source-category)}
+  40%{r:7.6;opacity:.95;fill:var(--source-category)}
+  50%{r:8;opacity:1;fill:#000}
+  60%{r:7.6;opacity:.95;fill:var(--source-category)}
+}
+@media(prefers-reduced-motion:reduce){#academyRadar.status-markers .node.is-new-source:not(.listed) .source-dot{animation:none;opacity:1;fill:var(--source-category)}}
+/* Slower breathing; black is only a brief accent at the size peak. */
+#academyRadar.status-markers .node.is-new-source:not(.listed) .source-dot{animation:academy-new-dot-black-peak 2.4s ease-in-out infinite}
+@keyframes academy-new-dot-black-peak{
+  0%,100%{r:4.8;opacity:.3;fill:var(--source-category)}
+  46%{r:7.9;opacity:.98;fill:var(--source-category)}
+  50%{r:8;opacity:1;fill:#000}
+  54%{r:7.9;opacity:.98;fill:var(--source-category)}
+}
+.academy-status-key .key-new{animation-duration:2.4s}
+@media(prefers-reduced-motion:reduce){#academyRadar.status-markers .node.is-new-source:not(.listed) .source-dot{animation:none;opacity:1;fill:var(--source-category)}}
+
+.academy-status-key{bottom:66px}
+.academy-quick-controls{position:absolute;bottom:4px;left:0;right:0;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:6px;padding:0 6px;z-index:2;box-sizing:border-box}
+.academy-quick-controls[hidden]{display:none!important}
+.academy-quick-controls button{min-height:36px;padding:7px 11px;border:1px solid var(--line,#dde2e8);border-radius:var(--radius-3xl);background:var(--surface,#fff);color:var(--ink,#263954);font:500 var(--text-2xs)/1.3 var(--f-body,system-ui);cursor:pointer;white-space:nowrap}
+.academy-quick-controls button[data-quick-saved][aria-pressed=true]{color:var(--accent,var(--brand-saved));border-color:var(--accent,var(--brand-saved));background:var(--accent-soft,#fff2f4)}
+
+#academyRadar .nodeText{fill:#fff}
+
+/* Keep avatar dimensions; scale initials to the same proportions as source rows. */
+html body #newStrip .recent-avatar-stack .av-mono{font-size:calc(var(--s) * .36);line-height:1;letter-spacing:0;text-align:center;overflow:hidden;white-space:nowrap}
+html body #newStrip .recent-avatar-stack .av-mono.l3{font-size:calc(var(--s) * .30)}
+html body #newStrip .recent-avatar-stack .av-mono.l4{font-size:calc(var(--s) * .24)}
+html body #sources #groups .item .rn,html body #sepet .my-saved-info b{font-size:var(--text-sm)}
+html body #sources #groups .item .rsub,html body #sepet .my-saved-info small{font-size:var(--text-2xs)}
+html#iosDesign body #newStrip .recent-avatar-stack .av-mono{font-size:calc(var(--s) * .36);line-height:1;letter-spacing:0}
+html#iosDesign body #newStrip .recent-avatar-stack .av-mono.l3{font-size:calc(var(--s) * .30)}
+html#iosDesign body #newStrip .recent-avatar-stack .av-mono.l4{font-size:calc(var(--s) * .24)}
+html#iosDesign body #sources #groups .item .rn,html#iosDesign body #sepet .my-saved-info b{font-size:var(--text-sm)}
+html#iosDesign body #sources #groups .item .rsub,html#iosDesign body #sepet .my-saved-info small{font-size:var(--text-2xs)}
+
+#sources #groups .list-action[data-bookmark-state=saved]{color:var(--brand-saved)}
+#basket .my-list-remove svg{width:20px;height:20px;fill:none;stroke:currentColor}
+#myListUndo{bottom:calc(90px + env(safe-area-inset-bottom,0px))}
+
+html body #basket .my-list-remove{display:grid;place-items:center;width:36px;height:36px;min-width:36px;min-height:36px;padding:8px;border:0;border-radius:var(--radius-round);background:var(--well,#f1f1f3);color:var(--accent,var(--brand-saved));box-sizing:border-box}
+html body #basket .my-list-remove svg,html body #sources #groups .list-action svg{width:20px;height:20px;fill:none;stroke-width:2}
+html#iosDesign body #sources #groups .item .profile-actions .list-action{background:#F1F2F4;color:#596675}
+html#iosDesign body #sources #groups .item .profile-actions .list-action[aria-pressed=true]{background:#F8E9EE;color:var(--brand-saved)}
+html#iosDesign body #basket .my-list-remove{background:#F1F2F4;color:var(--brand-saved)}
+
+html body #radarBox .academy-top-tools{position:absolute;right:10px;top:48px;display:flex;align-items:center;gap:6px;z-index:5}
+html body #radarBox .academy-top-tools button{display:grid;place-items:center;padding:8px;border:1px solid var(--line,#e1e5eb);border-radius:var(--radius-round);background:var(--surface,#fff);color:var(--muted,#596675);cursor:pointer;box-sizing:border-box}
+html body #radarBox .academy-top-tools button svg{min-width:20px;max-width:20px}
+html.mobile-source-mode body #radarBox .academy-top-tools{display:none}
+html body .camera-filters>.academy-quick-controls{position:static;transform:none;display:flex;order:-2;width:100%;padding:0 4px 8px;gap:8px;grid-column:1/-1}
+html body .camera-filters>.academy-quick-controls button{flex:1;max-width:220px;min-height:36px}
+
+html.mobile-source-mode body .academy-quick-controls{display:none}
+.academy-status-key{bottom:6px}
+@media(max-width:759px){html.academy-engine body .radar-workspace>#radarBox{height:calc(var(--mobile-radar-space) - 44px)!important}}
+
+/* Shared centered modal shell, matching platform preferences. */
+html#iosDesign body :is(#radarSettings,#radarHelpDialog,#cardPlatformDialog).academy-shared-modal{position:fixed;inset:auto;left:50%;top:50%;right:auto;bottom:auto;transform:translate(-50%,-50%);margin:0;box-sizing:border-box;width:calc(100vw - 32px);max-width:400px;max-height:calc(100dvh - 48px);overflow:auto;overscroll-behavior:contain;padding:22px;border:1px solid color-mix(in srgb,var(--ink) 7%,transparent);border-radius:var(--radius-7xl);background:var(--ios-glass,#f8f8facc);color:var(--ink);box-shadow:0 18px 60px #11112426;backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);font:var(--text-sm)/1.5 var(--f-body,system-ui)}
+html#iosDesign body :is(#radarSettings,#radarHelpDialog,#cardPlatformDialog).academy-shared-modal::backdrop{background:#15152633;backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px)!important}
+html#iosDesign body .academy-shared-modal :is(header,.platform-dialog-head,.radar-read-head){display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0;margin:0 0 16px;min-height:36px;background:transparent;color:var(--ink)}
+html#iosDesign body .academy-shared-modal :is(h2,h3#radarReadTitle){margin:0;color:var(--ink)}
+html#iosDesign body .academy-shared-modal button.academy-modal-close{display:grid;place-items:center;}
+html#iosDesign body .academy-modal-close svg{display:block;width:18px;height:18px}
+html#iosDesign body #radarSettings label{display:flex;align-items:center;gap:14px;min-height:44px;padding:10px 12px;margin:8px 0;border:0;border-radius:var(--radius-xl);background:var(--well,#ececf0);font:var(--text-sm)/1.4 var(--f-body)}
+html#iosDesign body #radarSettings select{font-size:var(--text-sm);max-width:57%;padding:6px;border:1px solid var(--line-soft);border-radius:var(--radius-md);background:var(--surface,#fff)}
+html#iosDesign body #radarSettings input[type=checkbox]{flex:0 0 18px;width:18px;height:18px}
+html#iosDesign body #radarSettings p{font:var(--text-xs)/1.5 var(--f-body);color:var(--muted);margin:12px 0}
+html#iosDesign body #radarSettings legend{font:var(--text-xs)/1.5 var(--f-body);color:var(--muted);margin:12px 0 4px}
+html#iosDesign body #radarSettings [data-reset]{display:block;width:100%;border-radius:var(--radius-pill);font:600 var(--text-sm) var(--f-body);margin-top:16px}
+html#iosDesign body #radarHelpDialog .shared-help-body{position:static;inset:auto;width:100%;max-width:none;height:auto;max-height:none;padding:0;margin:0;border:0;border-radius:0;background:transparent;box-shadow:none;overflow:visible;transform:none}
+.shared-help-body .radar-guide-section{padding:14px 0;border-top:1px solid var(--line-soft,#e4e5e9)}
+.shared-help-body .radar-guide-section strong{font-weight:600;color:var(--ink)}
+.shared-help-body p{font:var(--text-sm)/1.55 var(--f-body);color:var(--muted);margin:6px 0}
+.shared-help-body .radar-frequency-key{display:flex;align-items:center;gap:10px}
+
+.shared-help-body .radar-frequency-key{flex-wrap:wrap;font-size:var(--text-2xs);color:var(--muted)}
+.shared-help-body .radar-frequency-key svg{width:20px;height:20px;flex:0 0 20px}
+
+html#iosDesign body #radarHelpDialog .shared-help-body{font-size:var(--text-xs);line-height:1.5}
+html#iosDesign body #radarHelpDialog .radar-guide-section{padding:10px 0}
+html#iosDesign body #radarHelpDialog .radar-guide-section p{font-size:var(--text-xs);line-height:1.5;margin:5px 0}
+html#iosDesign body #radarHelpDialog .radar-guide-section>strong{font-size:var(--text-xs)}
+
+html#iosDesign body #radarSettings :is(label,select,legend,p,.academy-choice-trigger,.academy-choice-options button){font-size:var(--text-xs);line-height:1.5}
+html#iosDesign body #radarSettings select[hidden]{display:none}
+.academy-choice{position:relative;display:inline-block;flex:0 0 auto;max-width:57%;min-width:70px}
+html#iosDesign body #radarSettings .academy-choice-trigger{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:34px;padding:6px 10px;border:1px solid var(--line-soft,#e0e2e7);background:var(--surface,#fff);color:var(--ink);font:var(--text-xs)/1.5 var(--f-body);white-space:nowrap}
+.academy-choice-trigger svg{display:block;width:16px;height:16px;flex:0 0 16px;margin:0}
+.academy-choice-options{position:absolute;right:0;top:calc(100% + 5px);z-index:10;display:flex;flex-direction:column;gap:3px;min-width:100%;width:max-content;max-width:220px;padding:5px;border:1px solid var(--line-soft,#e0e2e7);border-radius:13px;background:var(--surface,#fff);box-shadow:0 8px 24px #17232e26;box-sizing:border-box}
+.academy-choice-options[hidden]{display:none}
+html#iosDesign body #radarSettings .academy-choice-options button{border:0;border-radius:9px;background:transparent;text-align:left;padding:7px 10px;min-height:34px;white-space:nowrap;color:var(--ink)}
+html#iosDesign body #radarSettings .academy-choice-options button[aria-selected=true]{background:var(--accent-soft,#f8e9ee);color:var(--accent,var(--brand-saved));font-weight:600}
+html#iosDesign body #radarSettings .academy-choice-options button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+html#iosDesign body :is(.academy-top-tools button,.camera-filter-clear,.camera-list-jump,.camera-mobile-sort,#introBtn,.my-list-tool,.academy-modal-close,.platform-dialog-close,.profile-back,.list-action,.my-list-remove){display:grid;place-items:center;align-content:center;justify-content:center;box-sizing:border-box}
+html#iosDesign body :is(.academy-top-tools button,.camera-filter-clear,.camera-list-jump,.camera-mobile-sort,#introBtn,.my-list-tool,.academy-modal-close,.platform-dialog-close,.profile-back,.list-action,.my-list-remove)>svg{display:block;margin:0;align-self:center;justify-self:center;flex-shrink:0}
+html#iosDesign body #radarBox .academy-top-tools button{border:0;background:#F1F2F4;color:#596675;box-shadow:0 4px 16px #17232e0a}
+html#iosDesign body #introBtn{background:var(--neutral-chip-dark);color:#fff;border:0}
+
+/* Keep secondary radar options out of the mobile settings panel. */
+@media(max-width:759px){
+ html#iosDesign body #radarSettings label.radar-desktop-option{display:none}
+}
+html#iosDesign body #radarSettings .radar-settings-actions{position:sticky;bottom:-22px;padding:12px 0 4px;background:var(--surface,#f8f8fa);border-radius:var(--radius-2xl);display:flex;flex-direction:column;gap:8px}
+html#iosDesign body #radarSettings [data-save]{display:block;width:100%;border:0;background:var(--accent,var(--brand-saved));color:#fff;font:600 var(--text-sm) var(--f-body);cursor:pointer}
+html#iosDesign body #radarSettings [data-reset]{margin-top:0;cursor:pointer}
+
+/* The source key cycles through the same five category colors as the radar. */
+.academy-status-key .key-normal{animation:academy-category-key 10s linear infinite}
+@keyframes academy-category-key{
+ 0%,16%,100%{background:#3b82f6}
+ 20%,36%{background:#0fbaa3}
+ 40%,56%{background:#9655ed}
+ 60%,76%{background:#f0647e}
+ 80%,96%{background:#f5ac2f}
+}
+@media(prefers-reduced-motion:reduce){.academy-status-key .key-normal{animation:none;background:conic-gradient(#3b82f6 0% 20%,#0fbaa3 20% 40%,#9655ed 40% 60%,#f0647e 60% 80%,#f5ac2f 80% 100%)}}
+
+/* v1.3.312: Academy radar in dark mode. The SVG writes light presentation
+   colors, so CSS repaints the background layers, hub and scan label. */
+@media(prefers-color-scheme:dark){
+ html:not([data-theme=light]) #academyRadar{background:var(--surface)}
+ html:not([data-theme=light]) #academicNeutralRamp stop:nth-of-type(-n+2){stop-color:#33363b}
+ html:not([data-theme=light]) #academicNeutralRamp stop:nth-of-type(3),html:not([data-theme=light]) #academicNeutralRamp stop:nth-of-type(4){stop-color:#2b2d31}
+ html:not([data-theme=light]) #academicNeutralRamp stop:nth-of-type(5),html:not([data-theme=light]) #academicNeutralRamp stop:nth-of-type(6){stop-color:#252629}
+ html:not([data-theme=light]) #academicNeutralRamp stop:nth-of-type(n+7){stop-color:#202022}
+ html:not([data-theme=light]) #academyRadar .mainband{fill:var(--dark-raised);stroke:var(--surface)}
+ html:not([data-theme=light]) #academyRadar [fill="#e7f3ff"]{fill:#1f2a38}
+ html:not([data-theme=light]) #academyRadar [fill="#dff9f3"]{fill:#1c2e2b}
+ html:not([data-theme=light]) #academyRadar [fill="#f0e6ff"]{fill:#2a2436}
+ html:not([data-theme=light]) #academyRadar [fill="#ffebf0"]{fill:#33232a}
+ html:not([data-theme=light]) #academyRadar [fill="#fff5d9"]{fill:#332c1e}
+ html:not([data-theme=light]) #academyRadar .subarc-track{stroke:#3a3d43}
+ html:not([data-theme=light]) #academyRadar .follow-ring-white{stroke:var(--surface)}
+ html:not([data-theme=light]) #academyRadar .outline{stroke:#3d424a}
+ html:not([data-theme=light]) #academyRadar .follow-ring-gray{stroke:#5b636e}
+ html:not([data-theme=light]) #academyRadar .source-dot{stroke:var(--surface)}
+ html:not([data-theme=light]) #academyRadar .node:hover .disc,html:not([data-theme=light]) #academyRadar .node.active .disc{stroke:#e8edf3}
+ html:not([data-theme=light]) #academyRadar .node:focus-visible .disc{stroke:#fff}
+ html:not([data-theme=light]) #academyRadar .radar-hub>circle{fill:var(--dark-raised);stroke:#41454c}
+ html:not([data-theme=light]) #academyRadar .radar-hub>text{fill:#ececec}
+ html:not([data-theme=light]) #academyRadar .radar-hub tspan[fill]{fill:var(--dark-brand-pink)}
+ html:not([data-theme=light]) #academyRadar .radar-hub>path{stroke:var(--dark-brand-pink)}
+ html:not([data-theme=light]) #academyRadar .scan-info rect{fill:var(--dark-raised);stroke:#2f7c99}
+ html:not([data-theme=light]) #academyRadar .scan-info text{fill:#ececec}
+}
+html[data-theme=dark] #academyRadar{background:var(--surface)}
+html[data-theme=dark] #academicNeutralRamp stop:nth-of-type(-n+2){stop-color:#33363b}
+html[data-theme=dark] #academicNeutralRamp stop:nth-of-type(3),html[data-theme=dark] #academicNeutralRamp stop:nth-of-type(4){stop-color:#2b2d31}
+html[data-theme=dark] #academicNeutralRamp stop:nth-of-type(5),html[data-theme=dark] #academicNeutralRamp stop:nth-of-type(6){stop-color:#252629}
+html[data-theme=dark] #academicNeutralRamp stop:nth-of-type(n+7){stop-color:#202022}
+html[data-theme=dark] #academyRadar .mainband{fill:var(--dark-raised);stroke:var(--surface)}
+html[data-theme=dark] #academyRadar [fill="#e7f3ff"]{fill:#1f2a38}
+html[data-theme=dark] #academyRadar [fill="#dff9f3"]{fill:#1c2e2b}
+html[data-theme=dark] #academyRadar [fill="#f0e6ff"]{fill:#2a2436}
+html[data-theme=dark] #academyRadar [fill="#ffebf0"]{fill:#33232a}
+html[data-theme=dark] #academyRadar [fill="#fff5d9"]{fill:#332c1e}
+html[data-theme=dark] #academyRadar .subarc-track{stroke:#3a3d43}
+html[data-theme=dark] #academyRadar .follow-ring-white{stroke:var(--surface)}
+html[data-theme=dark] #academyRadar .outline{stroke:#3d424a}
+html[data-theme=dark] #academyRadar .follow-ring-gray{stroke:#5b636e}
+html[data-theme=dark] #academyRadar .source-dot{stroke:var(--surface)}
+html[data-theme=dark] #academyRadar .node:hover .disc,html[data-theme=dark] #academyRadar .node.active .disc{stroke:#e8edf3}
+html[data-theme=dark] #academyRadar .node:focus-visible .disc{stroke:#fff}
+html[data-theme=dark] #academyRadar .radar-hub>circle{fill:var(--dark-raised);stroke:#41454c}
+html[data-theme=dark] #academyRadar .radar-hub>text{fill:#ececec}
+html[data-theme=dark] #academyRadar .radar-hub tspan[fill]{fill:var(--dark-brand-pink)}
+html[data-theme=dark] #academyRadar .radar-hub>path{stroke:var(--dark-brand-pink)}
+html[data-theme=dark] #academyRadar .scan-info rect{fill:var(--dark-raised);stroke:#2f7c99}
+html[data-theme=dark] #academyRadar .scan-info text{fill:#ececec}
+
+/* v1.3.331: sub-area captions run along the radar edge; their size comes from
+   fitRadar (labelPx in academy-radar.js) on every screen. Main captions share
+   one size. Dots are not tappable on phones; cards open from Kaynaklar and Listem. */
+#academyRadar .subcaption{font-size:var(--radar-label-size,19px);font-weight:400}
+#academyRadar .maincaption{font-size:23.8px;font-weight:700}
+@media(max-width:759px){
+ #academyRadar .node,#academyRadar .node *{pointer-events:none!important;cursor:default}
+}

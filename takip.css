@@ -1,0 +1,255 @@
+/* v1.3.347-test: takip döngüsü (aşama 1). Amber is the one new colour: "bakma zamanı". */
+:root{--tk-due-fill:#f5b94f;--tk-due-ink:#8a5300;--tk-due-soft:#fdf1da;--tk-ok:#2f8a67;--tk-ok-soft:#e3f3ec;--tk-new:#2f6fd6}
+html.look-black{--tk-due-ink:#f5b94f;--tk-due-soft:#33250c;--tk-ok:#5fbf9a;--tk-ok-soft:#10261d;--tk-new:#7aa9f5}
+
+/* ---------- Radar: durum kartı (the "Yeni" row's place) ---------- */
+#newStrip.tk-strip{display:flex;align-items:center;gap:12px}
+.tk-status-card{display:flex;align-items:center;gap:10px;flex:1 1 auto;min-width:0}
+.tk-status-card .tk-ic{flex:0 0 34px;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--ios-control,rgba(120,120,128,.12));color:var(--muted)}
+.tk-status-card .tk-ic svg{width:19px;height:19px}
+.tk-status-card.is-due .tk-ic,.tk-status-card.is-busy .tk-ic{background:var(--tk-due-soft);color:var(--tk-due-ink)}
+.tk-status-card.is-ok .tk-ic{background:var(--tk-ok-soft);color:var(--tk-ok)}
+.tk-status-card.is-busy .tk-ic svg{animation:tk-spin 1.6s linear infinite}
+@keyframes tk-spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.tk-status-card.is-busy .tk-ic svg{animation:none}}
+.tk-txt{display:flex;flex-direction:column;min-width:0;flex:1 1 auto;line-height:1.25}
+.tk-txt strong{font:600 var(--text-sm,14px)/1.25 var(--f-body);color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tk-txt span{font:400 var(--text-xs,12px)/1.3 var(--f-body);color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tk-btn{flex:0 0 auto;min-height:40px;padding:0 16px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:600 var(--text-sm,14px)/1 var(--f-body);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:6px}
+.tk-btn.primary{background:var(--tk-due-fill);border-color:var(--tk-due-fill);color:#1f1606}
+.tk-btn.ghost{background:transparent}
+.tk-btn:focus-visible,.tk-chip:focus-visible,.tk-link:focus-visible,.tk-open:focus-visible,.tk-item:focus-visible,.tk-back:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media(max-width:759px){
+ html#iosDesign.app body #radarBox>#newStrip.tk-strip{height:calc(52px * var(--ui-scale))}
+ #newStrip.tk-strip .recent-source-count{display:none}
+ .tk-btn{min-height:calc(40px * var(--ui-scale))}
+}
+
+/* ---------- Radar noktaları ---------- */
+#academyRadar .node.tk-due .source-dot{fill:var(--tk-due-fill);r:6.2px;stroke:var(--surface);stroke-width:1.2px}
+#academyRadar .node.tk-new:not(.tk-due) .source-dot{stroke:var(--tk-new);stroke-width:2.2px}
+
+/* ---------- Kartta "Takip" bölümü ---------- */
+#sheetBody .tk-card{display:flex;flex-direction:column;gap:10px;margin:14px 0 4px;padding:14px;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
+.tk-status{display:flex;align-items:center;gap:8px;margin:0;font:600 var(--text-sm,14px)/1.35 var(--f-body);color:var(--muted)}
+.tk-dot{width:9px;height:9px;border-radius:50%;background:var(--line);flex:0 0 9px}
+.tk-status.is-due{color:var(--tk-due-ink)}.tk-status.is-due .tk-dot{background:var(--tk-due-fill)}
+.tk-status.is-done{color:var(--tk-ok)}.tk-status.is-done .tk-dot{background:var(--tk-ok)}
+.tk-h{margin:4px 0 0;font:600 var(--text-xs,12px)/1.3 var(--f-body);letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.tk-chips,.tk-links{display:flex;flex-wrap:wrap;gap:8px}
+.tk-chip{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--ink);font:500 var(--text-sm,14px)/1 var(--f-body);cursor:pointer}
+.tk-chip svg{width:15px;height:15px}
+.tk-chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--surface)}
+.tk-link,.tk-open{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:999px;background:var(--tk-due-fill);border:1px solid var(--tk-due-fill);color:#1f1606;font:700 var(--text-sm,14px)/1 var(--f-body);text-decoration:none}
+.tk-link svg,.tk-open svg{width:16px;height:16px;flex:0 0 16px}
+.tk-link em,.tk-open em{display:inline-flex;align-items:center;gap:4px;font:600 var(--text-xs,12px)/1 var(--f-body);font-style:normal}
+.tk-link.is-visited,.tk-open.is-visited{background:transparent;border-color:var(--line);color:var(--tk-ok)}
+.tk-link.is-visited span,.tk-open.is-visited span{color:var(--ink)}
+.tk-pending{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin:0;font:500 var(--text-xs,12px)/1.35 var(--f-body);color:var(--tk-due-ink)}
+.tk-pending button{min-height:40px;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--ink);font:600 var(--text-sm,14px)/1 var(--f-body);cursor:pointer}
+.tk-hint{margin:0;font:400 var(--text-xs,12px)/1.45 var(--f-body);color:var(--muted)}
+
+/* ---------- Sonuç penceresi ---------- */
+.tk-sheet{border:0;padding:12px 20px calc(20px + env(safe-area-inset-bottom,0px));width:min(560px,100%);max-width:100%;max-height:min(82dvh,720px);margin:auto auto 0;border-radius:24px 24px 0 0;background:var(--surface);color:var(--ink);overflow:auto;box-sizing:border-box}
+@media(min-width:760px){.tk-sheet{margin:auto;border-radius:24px;padding-bottom:20px}}
+.tk-sheet::backdrop{background:rgba(0,0,0,.5)}
+.tk-grab{display:block;width:40px;height:4px;border-radius:2px;background:var(--line);margin:0 auto 14px}
+.tk-sheet h2{margin:0 0 6px;font:700 var(--text-xl,20px)/1.25 var(--f-body)}
+.tk-lede{margin:0 0 14px;font:400 var(--text-sm,14px)/1.5 var(--f-body);color:var(--muted)}
+.tk-rows,.tk-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.tk-rows li{display:flex;align-items:center;gap:12px;padding:8px 0;border-bottom:1px solid var(--line-soft,var(--line))}
+.tk-rows .av,.tk-item .av,.tk-who .av{flex:0 0 auto}
+.tk-row-txt{display:flex;flex-direction:column;min-width:0;flex:1 1 auto;line-height:1.3}
+.tk-row-txt b{font:600 var(--text-sm,14px)/1.3 var(--f-body);color:var(--ink);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tk-row-txt span{font:400 var(--text-xs,12px)/1.35 var(--f-body);color:var(--muted)}
+.tk-when{flex:0 0 auto;font:600 var(--text-xs,12px)/1 var(--f-body);color:var(--tk-due-ink)}
+.tk-actions{display:flex;gap:10px;margin-top:16px}
+.tk-actions .tk-btn{flex:1 1 0;min-height:48px}
+
+/* ---------- Takip turu ---------- */
+html.tk-tour-open,html.tk-tour-open body{overflow:hidden}
+.tk-tour{position:fixed;inset:0;z-index:300;background:var(--bg);color:var(--ink);overflow-y:auto;overscroll-behavior:contain;padding:env(safe-area-inset-top,0px) 0 calc(24px + env(safe-area-inset-bottom,0px))}
+.tk-tour-head{position:sticky;top:0;z-index:1;display:flex;align-items:center;gap:12px;padding:12px max(16px,env(safe-area-inset-left,0px));background:var(--bg)}
+.tk-back{width:40px;height:40px;border-radius:50%;border:0;display:grid;place-items:center;background:var(--ios-control,rgba(120,120,128,.12));color:var(--ink);cursor:pointer}
+.tk-back svg{width:20px;height:20px}
+.tk-tour-head h1{margin:0;font:700 var(--text-xl,20px)/1.2 var(--f-body)}
+.tk-tour-body{display:flex;flex-direction:column;gap:14px;max-width:640px;margin:0 auto;padding:4px max(16px,env(safe-area-inset-right,0px)) 0 max(16px,env(safe-area-inset-left,0px))}
+.tk-progress{display:flex;flex-direction:column;gap:10px;padding:16px;border:1px solid var(--line);border-radius:18px;background:var(--surface)}
+.tk-progress>div:first-child{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.tk-progress strong{font:700 var(--text-lg,17px)/1.2 var(--f-body)}
+.tk-progress span{font:600 var(--text-sm,14px)/1 var(--f-body);color:var(--tk-due-ink)}
+.tk-bar{height:8px;border-radius:4px;background:var(--line);overflow:hidden}
+.tk-bar i{display:block;height:100%;border-radius:4px;background:var(--tk-due-fill);transition:width .3s}
+.tk-toast{display:flex;align-items:center;gap:8px;margin:0;padding:10px 14px;border-radius:14px;background:var(--tk-ok-soft);color:var(--tk-ok);font:600 var(--text-sm,14px)/1.35 var(--f-body)}
+.tk-toast svg{width:16px;height:16px;flex:0 0 16px}
+.tk-current{display:flex;flex-direction:column;gap:12px;padding:16px;border:1.5px solid var(--tk-due-fill);border-radius:18px;background:var(--surface)}
+.tk-eyebrow{font:700 var(--text-xs,12px)/1 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--tk-due-ink)}
+.tk-who{display:flex;align-items:center;gap:12px}
+.tk-who div{display:flex;flex-direction:column;min-width:0}
+.tk-who strong{font:600 var(--text-lg,17px)/1.25 var(--f-body)}
+.tk-who span{font:400 var(--text-xs,12px)/1.35 var(--f-body);color:var(--muted)}
+.tk-open-list{display:flex;flex-direction:column;gap:8px}
+.tk-open{justify-content:space-between}
+.tk-open span{flex:1 1 auto}
+.tk-row-actions{display:flex;flex-wrap:wrap;gap:8px}
+.tk-complete{display:flex;gap:12px;padding:16px;border-radius:18px;background:var(--tk-ok-soft)}
+.tk-complete .tk-ic{flex:0 0 36px;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:var(--tk-ok);color:var(--surface)}
+.tk-complete .tk-ic svg{width:18px;height:18px}
+.tk-complete div{display:flex;flex-direction:column;gap:6px;align-items:flex-start}
+.tk-complete strong{font:700 var(--text-md,15px)/1.3 var(--f-body)}
+.tk-complete span{font:400 var(--text-sm,14px)/1.45 var(--f-body);color:var(--ink)}
+.tk-empty{margin:0;color:var(--muted)}
+.tk-sub{margin:8px 0 0;font:700 var(--text-sm,14px)/1.3 var(--f-body);color:var(--muted)}
+.tk-item{display:flex;align-items:center;gap:12px;width:100%;padding:12px;border:1px solid var(--line);border-radius:14px;background:var(--surface);color:inherit;text-align:left;font:inherit;cursor:pointer}
+.tk-item.static{cursor:default;border:0;padding:0;background:transparent}
+.tk-done{display:flex;flex-direction:column;gap:8px;padding:12px;border:1px solid var(--line-soft,var(--line));border-radius:14px}
+.tk-ic.small{flex:0 0 32px;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:var(--tk-ok-soft);color:var(--tk-ok)}
+.tk-ic.small svg{width:16px;height:16px}
+.tk-done .tk-row-txt span{color:var(--tk-ok)}
+.tk-others{display:flex;flex-wrap:wrap;gap:8px;padding-left:44px}
+.tk-chip-link{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:0 14px;border-radius:999px;border:1px solid var(--line);color:var(--ink);font:600 var(--text-xs,12px)/1 var(--f-body);text-decoration:none}
+.tk-chip-link svg{width:14px;height:14px}
+html#iosDesign body .tk-tour-head h1{flex:1 1 auto;min-width:0;text-align:left;font:700 var(--text-xl,20px)/1.2 var(--f-body);color:var(--ink)}
+.tk-link:not(.is-visited) svg,.tk-open:not(.is-visited) svg,.tk-link:not(.is-visited) svg *,.tk-open:not(.is-visited) svg *{color:#1f1606;stroke:currentColor}
+
+/* ---------- Aşama 2 ---------- */
+.tk-btn.brand{background:var(--brand-legacy,#a42c43);border-color:var(--brand-legacy,#a42c43);color:#fff}
+html.look-black .tk-btn.brand{background:#a42c43;border-color:#a42c43}
+.tk-btn:disabled{opacity:.45;cursor:default}
+.tk-btn.small{min-height:36px;padding:0 12px;font-size:var(--text-xs,12px)}
+.tk-btn.wide{flex:1 1 auto}
+.tk-status-card.is-filter .tk-ic{background:var(--accent-soft);color:var(--accent)}
+/* sonuçta yeni kaynaklar */
+.tk-new-block{display:flex;align-items:center;gap:10px;margin-top:14px;padding:10px 12px;border-radius:16px;background:color-mix(in srgb,var(--tk-new) 10%,transparent);font:500 var(--text-sm,14px)/1.35 var(--f-body);color:var(--ink)}
+.tk-new-block>span:nth-child(2){flex:1 1 auto;min-width:0}
+.tk-new-av{display:flex}.tk-new-av .av+.av{margin-left:-8px}
+.tk-new-block .tk-btn{color:var(--tk-new);border-color:transparent;min-height:36px}
+/* Kaynaklar: seçili filtre etiketleri */
+.tk-fchips{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:4px 0 12px}
+.tk-fchip{display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:0 12px;border-radius:999px;border:1px solid var(--accent);background:var(--accent-soft);color:var(--accent);font:600 var(--text-xs,12px)/1 var(--f-body);cursor:pointer}
+.tk-fchip svg{width:14px;height:14px}
+.tk-fclear{min-height:36px;padding:0 10px;border:0;background:transparent;color:var(--muted);font:600 var(--text-xs,12px)/1 var(--f-body);cursor:pointer}
+@media(max-width:759px){#tkFilterChips{padding-inline:var(--bar-x,16px)}}
+/* ilk açılış kurulumu */
+.tk-setup{display:flex;flex-direction:column;overflow:hidden;padding-bottom:0}
+.tk-setup .tk-tour-body{flex:1 1 auto;overflow-y:auto;width:100%;box-sizing:border-box;padding-bottom:24px;gap:12px}
+.tk-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;max-width:640px;width:100%;margin:0 auto;padding:16px max(16px,env(safe-area-inset-right,0px)) 8px max(16px,env(safe-area-inset-left,0px));box-sizing:border-box}
+.tk-steps span{height:4px;border-radius:2px;background:var(--line)}
+.tk-steps span.on{background:var(--brand-legacy,#a42c43)}
+.tk-steps small{grid-column:1/-1;margin-top:6px;font:600 var(--text-xs,12px)/1.3 var(--f-body);color:var(--muted)}
+.tk-setup h1{margin:8px 0 0;font:700 var(--text-3xl,26px)/1.2 var(--f-body);color:var(--ink);text-wrap:balance}
+.tk-setup .tk-lede{margin:0 0 4px}
+.tk-setup .tk-h{margin-top:10px}
+.tk-plats{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.tk-plat{display:flex;flex-direction:column;align-items:flex-start;gap:4px;min-height:104px;padding:12px;border-radius:16px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);text-align:left;cursor:pointer;font:inherit}
+.tk-plat[aria-pressed="true"]{border-color:var(--brand-legacy,#a42c43);background:color-mix(in srgb,var(--brand-legacy,#a42c43) 8%,var(--surface))}
+html.look-black .tk-plat[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.tk-plat-ic{width:32px;height:32px;border-radius:10px;display:grid;place-items:center;background:var(--ios-control,rgba(120,120,128,.12));margin-bottom:4px}
+.tk-plat-ic svg,.tk-plat-ic img{width:18px;height:18px}
+.tk-plat b{font:600 var(--text-sm,14px)/1.25 var(--f-body)}
+.tk-plat span:last-child{font:400 var(--text-xs,12px)/1.35 var(--f-body);color:var(--muted)}
+.tk-match{display:flex;flex-direction:column;gap:12px;padding:16px;border:1px solid var(--line);border-radius:18px;background:var(--surface)}
+.tk-match>div:first-child{display:flex;align-items:baseline;gap:8px}
+.tk-match strong{font:700 36px/1 var(--f-body);color:var(--ink);font-variant-numeric:tabular-nums}
+.tk-match>div:first-child span{color:var(--muted)}
+.tk-match-types{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.tk-match-types span{display:flex;flex-direction:column;padding:8px;border-radius:12px;background:var(--bg);font:400 11px/1.3 var(--f-body);color:var(--muted);min-width:0}
+.tk-match-types i{font:700 var(--text-lg,17px)/1.2 var(--f-body);font-style:normal;color:var(--ink)}
+.tk-review{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.tk-review li{display:flex;flex-direction:column;gap:10px;padding:12px;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
+.tk-review li.is-on{border-color:var(--tk-due-fill)}
+.tk-review-head{display:flex;align-items:center;gap:10px}
+.tk-setup-foot{display:flex;align-items:center;gap:10px;max-width:640px;width:100%;margin:0 auto;box-sizing:border-box;padding:12px max(16px,env(safe-area-inset-right,0px)) calc(12px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));border-top:1px solid var(--line);background:var(--bg)}
+.tk-setup-foot .tk-btn{min-height:48px}
+.tk-foot-txt{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;font:400 var(--text-xs,12px)/1.35 var(--f-body);color:var(--muted)}
+.tk-foot-txt b{font:700 var(--text-sm,14px)/1.3 var(--f-body);color:var(--ink)}
+.tk-redo{margin-top:6px;min-height:40px;border:0;background:transparent;color:var(--muted);font:600 var(--text-sm,14px)/1 var(--f-body);cursor:pointer;width:100%}
+html#iosDesign body .tk-btn.brand,html#iosDesign body .tk-btn.brand:hover{background:#a42c43!important;border-color:#a42c43!important;color:#fff!important}
+html#iosDesign body .tk-btn.primary{color:#1f1606!important}
+html#iosDesign body .tk-setup-foot{display:flex;flex-direction:row;align-items:center;justify-content:flex-end;text-align:left}
+.tk-status-card.is-filter .tk-btn{padding:0 12px}
+html#iosDesign body .tk-btn{font:600 calc(14px * var(--ui-scale,1))/1 var(--f-body)}
+html#iosDesign body .tk-setup-foot .tk-btn,html#iosDesign body .tk-actions .tk-btn{font-size:calc(15px * var(--ui-scale,1))}
+
+/* ---------- 1.3.348-test: derleme ---------- */
+/* Radar: tek tarama (durum kartı); eski sürekli ışın düğmesi, ayarları ve ayrı rehber kalkar */
+html#iosDesign body .academy-quick-controls [data-quick-scan],html#iosDesign body #radarBox .radar-read-toggle,
+#radarSettings label:has([data-option="scan"]),#radarSettings label:has([data-option="speed"]){display:none!important}
+/* Kart: bağlantılar tek "Takip" bölümünde */
+html#iosDesign body #sheetBody .cd-logos{display:none}
+.tk-link.plain{background:transparent;border-color:var(--line);color:var(--ink);font-weight:600}
+.tk-link.plain svg,.tk-link.plain svg *{color:var(--ink)!important}
+.tk-more summary{cursor:pointer;font:600 var(--text-xs,12px)/1.3 var(--f-body);color:var(--muted);list-style:none;min-height:32px;display:flex;align-items:center}
+.tk-more summary::-webkit-details-marker{display:none}
+.tk-more .tk-links{margin-top:6px}
+/* Listem: Bugün bakılacaklar */
+.tk-today{display:flex;flex-direction:column;gap:10px;margin:0 0 16px;padding:14px;border:1px solid var(--line);border-radius:18px;background:var(--surface)}
+@media(max-width:759px){html#iosDesign body #sepet .tk-today{margin-inline:var(--bar-x,16px)}}
+.tk-today-title{margin:0;font:700 var(--text-lg,17px)/1.25 var(--f-body);color:var(--ink)}
+.tk-today .tk-progress{padding:0;border:0;background:transparent}
+.tk-today .tk-current{padding:12px}
+.tk-today-row{display:flex;align-items:center;gap:12px}
+.tk-who{display:flex;align-items:center;gap:12px;border:0;background:transparent;padding:0;color:inherit;text-align:left;font:inherit;cursor:pointer}
+.tk-who>span{display:flex;flex-direction:column;min-width:0}
+.tk-complete-line,.tk-done-line{display:flex;align-items:flex-start;gap:8px;margin:0;font:500 var(--text-sm,14px)/1.4 var(--f-body);color:var(--tk-ok)}
+.tk-done-line{color:var(--muted);font-size:var(--text-xs,12px)}
+.tk-complete-line svg,.tk-done-line svg{width:16px;height:16px;flex:0 0 16px;margin-top:2px;color:var(--tk-ok)}
+.tk-row-meta{display:block;margin-top:2px;font:500 var(--text-2xs,11px)/1.35 var(--f-body);color:var(--muted)}
+.tk-row-meta.is-due{color:var(--tk-due-ink)}
+/* Keşfet: takip listesini kur */
+.tk-start{display:flex;flex-direction:column;gap:8px;margin:0 0 16px;padding:16px;border:1px solid var(--line);border-radius:18px;background:var(--surface)}
+.tk-start h2{margin:0;font:700 var(--text-lg,17px)/1.25 var(--f-body);color:var(--ink)}
+.tk-start p{margin:0;font:400 var(--text-sm,14px)/1.45 var(--f-body);color:var(--muted)}
+.tk-start-row{display:flex;align-items:center;gap:12px;margin-top:4px}
+.tk-start-row span{flex:1 1 auto;min-width:0;font:500 var(--text-xs,12px)/1.35 var(--f-body);color:var(--muted)}
+/* Nasıl çalışır? */
+.about-guide{display:flex;flex-direction:column;gap:8px;margin:8px 0 16px}
+.about-guide h2{margin:0;font:700 var(--text-lg,17px)/1.3 var(--f-body);color:var(--ink)}
+.about-guide p{margin:0;font:400 var(--text-sm,14px)/1.5 var(--f-body);color:var(--muted)}
+.about-guide b{color:var(--ink)}
+html#iosDesign.look-black body #colls article.coll{background:var(--surface);border-color:var(--line)}
+html#iosDesign body #radarBox .academy-top-tools button.radar-read-toggle.radar-guide-control{display:none!important}
+@media(min-width:760px){.tk-txt strong,.tk-txt span{white-space:normal}}
+
+/* ---------- 1.3.350-test: içerik akışı ---------- */
+.tk-feed{display:flex;flex-direction:column;gap:10px;margin:0 0 16px}
+@media(max-width:759px){html#iosDesign body #sepet .tk-feed{margin-inline:var(--bar-x,16px)}}
+.tk-feed-head{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.tk-feed-head h2{margin:0;font:700 var(--text-lg,17px)/1.25 var(--f-body);color:var(--ink)}
+.tk-seg{display:flex;gap:4px;padding:3px;border-radius:999px;background:var(--ios-control,rgba(120,120,128,.12))}
+.tk-seg button{min-height:34px;padding:0 12px;border:0;border-radius:999px;background:transparent;color:var(--muted);font:600 var(--text-xs,12px)/1 var(--f-body);cursor:pointer}
+.tk-seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.tk-seg i{font-style:normal;color:var(--muted);margin-left:2px}
+.tk-feed-note{margin:0;font:400 var(--text-sm,14px)/1.5 var(--f-body);color:var(--muted)}
+.tk-inline{border:0;background:none;padding:0;color:var(--accent);font:inherit;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+.tk-feed-day{margin:6px 0 0;font:700 var(--text-xs,12px)/1.3 var(--f-body);letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.tk-fi{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 12px;padding:12px 0;border-bottom:1px solid var(--line-soft,var(--line))}
+.tk-fi-main{display:flex;flex-direction:column;gap:4px;min-width:0;color:inherit;text-decoration:none}
+.tk-fi-meta{display:flex;align-items:center;gap:6px;font:500 var(--text-2xs,11px)/1.3 var(--f-body);color:var(--muted)}
+.tk-fi-meta .av{flex:0 0 auto}
+.tk-fi-meta em{font-style:normal;font-weight:700;color:var(--tk-new);margin-left:2px}
+.tk-fi-main b{font:700 var(--text-md,15px)/1.3 var(--f-body);color:var(--ink);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.tk-fi-ex{font:400 var(--text-sm,13px)/1.45 var(--f-body);color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.tk-fi.is-read .tk-fi-main b{color:var(--muted);font-weight:600}
+.tk-fi-img{grid-row:1;grid-column:2;width:84px;height:84px;object-fit:cover;border-radius:12px;background:var(--ios-control,rgba(120,120,128,.12))}
+.tk-fi-act{grid-column:1/-1;display:flex;gap:6px}
+.tk-fi-act button{display:inline-flex;align-items:center;gap:6px;min-width:40px;min-height:36px;padding:0 10px;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--muted);font:600 var(--text-xs,12px)/1 var(--f-body);cursor:pointer;justify-content:center}
+.tk-fi-act button svg{width:16px;height:16px}
+.tk-fi-act button[data-fi-star][aria-pressed="true"]{color:var(--tk-due-ink);border-color:var(--tk-due-fill)}
+.tk-fi-act button[data-fi-star][aria-pressed="true"] svg{fill:var(--tk-due-fill);stroke:var(--tk-due-fill)}
+.tk-fi-act button[data-fi-read][aria-pressed="true"]{color:var(--tk-ok);border-color:var(--tk-ok)}
+.tk-fi-act button[data-fi-play]{color:var(--ink)}
+.tk-card-feed{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.tk-card-feed a{display:flex;flex-direction:column;gap:2px;color:inherit;text-decoration:none;padding:8px 10px;border-radius:12px;background:var(--ios-control,rgba(120,120,128,.08))}
+.tk-card-feed span{font:500 var(--text-2xs,11px)/1.3 var(--f-body);color:var(--muted)}
+.tk-card-feed em{font-style:normal;font-weight:700;color:var(--tk-new)}
+.tk-card-feed b{font:600 var(--text-sm,14px)/1.35 var(--f-body);color:var(--ink)}
+.tk-player{border:0;padding:0;background:#000;width:min(420px,100vw);max-width:100vw;max-height:100dvh;border-radius:20px;overflow:hidden}
+.tk-player::backdrop{background:rgba(0,0,0,.8)}
+.tk-player-bar{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 10px;color:#fff}
+.tk-player-bar a{display:inline-flex;align-items:center;gap:6px;color:#fff;font:600 13px/1 var(--f-body);text-decoration:none;min-height:40px}
+.tk-player-bar a svg{width:14px;height:14px}
+.tk-player-bar button{width:40px;height:40px;border-radius:50%;border:0;background:rgba(255,255,255,.16);color:#fff;display:grid;place-items:center;cursor:pointer}
+.tk-player-bar button svg{width:18px;height:18px}
+.tk-player-frame{aspect-ratio:9/16;max-height:calc(100dvh - 80px);width:100%}
+.tk-player-frame iframe{width:100%;height:100%;border:0;display:block}

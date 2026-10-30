@@ -1,0 +1,55 @@
+/* AcademyAI Radar — Keşfet.
+   Kurallar app.css yamalarından (v1.3.327) özgün sırasıyla toplandı;
+   her bölümün başındaki etiket kuralın geldiği yamayı gösterir. */
+
+/* --- block-3 --- */
+.colls-wrap{display:flex;flex-direction:column;gap:12px}
+.colls{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.coll{background:var(--surface);border:1px solid var(--line);padding:16px;display:flex;flex-direction:column;gap:10px}
+.coll .ch b{font:700 var(--text-xl) var(--f-display)}
+.coll p{margin:0;font-size:var(--text-md);color:var(--muted);line-height:1.45;min-height:2.9em}
+@media (max-width:759px){
+.colls{grid-auto-flow:column;grid-template-columns:none;grid-auto-columns:82%;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin-inline:-16px;padding-inline:16px}
+.colls::-webkit-scrollbar{display:none}
+.coll{scroll-snap-align:start}
+}
+
+/* --- edumind-card-scroll-v1-1 --- */
+@media(max-width:759px){
+.nscroll,.colls{min-width:0;max-width:100%;box-sizing:border-box;scroll-snap-type:x mandatory;scroll-padding-inline:0;overscroll-behavior-x:contain}
+.colls{grid-auto-columns:88%;margin-inline:0;padding:2px 0 6px}
+.coll{min-width:0;box-sizing:border-box;scroll-snap-align:start}
+}
+
+/* --- edumind-consistent-mobile-type-v1-2-2 --- */
+@media(max-width:759px){
+.coll p,.lens p,.week>p,.prog .pt{font-size:var(--text-sm);line-height:1.5}
+.coll .ch b,.lens b,.wdays b{font-size:var(--text-md)}
+}
+
+/* --- v1.3.331 tasarım birliği (rapor maddesi C, D6) --- */
+/* C — Keşfet: the same large title as Kaynaklar and Listem, folding into the toolbar */
+.discover-page-name{display:none}
+/* v1.3.341: Keşfet has no search; nothing sits under its title. */
+#discover .route-search-slot:empty{display:none}
+html#iosDesign body #discover>.route-large-header:has(>.route-search-slot:empty){padding-bottom:0}
+@media(max-width:759px){
+ html#iosDesign.app body #discover .discover-page-heading h1{display:none}
+ html#iosDesign.app body #discover>.route-large-header{margin:calc(-16px * var(--ui-scale)) -16px 0;padding-bottom:calc(12px * var(--ui-scale))}
+ html#iosDesign.app body #discover .route-large-title{position:relative;top:auto;font-size:calc(var(--text-6xl) * var(--ui-scale))!important;line-height:1.2;margin:0 0 calc(14px * var(--ui-scale))}
+ html#iosDesign.app body #discover .discover-toolbar{gap:8px}
+ html#iosDesign.app body #discover .discover-page-name{display:block;font:600 var(--text-xl)/1.2 var(--f-body);color:var(--ink);opacity:0;transition:opacity .15s}
+ html#iosDesign.app body #discover .discover-toolbar.route-title-folded .discover-page-name{opacity:1}
+ html#iosDesign.app body #discover .discover-page-heading p{margin:calc(4px * var(--ui-scale)) 0 calc(16px * var(--ui-scale))}
+}
+
+/* D6 — radius scale: rows 8, fields 12, boxes 20, dialogs 24 */
+html#iosDesign body #discover .route-time-options button{border-radius:var(--ui-radius-field)!important}
+html#iosDesign body #discover :is(.coll,.my-list-route,.my-list-discover,.personal-role){border-radius:var(--ui-radius-box)}
+
+/* --- v1.3.332: tablet Keşfet gets the phone toolbar and folding title --- */
+html.radar-tablet #discover .discover-toolbar{display:flex;align-items:center;gap:8px;position:sticky;top:var(--appbar-h,57px);z-index:6;height:56px;box-sizing:border-box;background:var(--bg);border-bottom:1px solid var(--line-soft)}
+html.radar-tablet #discover .discover-page-name{display:block;font:600 var(--text-xl)/1.2 var(--f-body);color:var(--ink);opacity:0;transition:opacity .15s}
+html.radar-tablet #discover .discover-toolbar.route-title-folded .discover-page-name{opacity:1}
+html.radar-tablet #discover .discover-page-heading h1{display:none}
+html.radar-tablet #discover .discover-back{display:grid;place-items:center;padding:0;border:1px solid var(--line-soft);border-radius:var(--radius-round);background:var(--ios-control,var(--well));color:var(--ink)}

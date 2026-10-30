@@ -1,0 +1,71 @@
+/* AcademyAI Radar design tokens (v1.3.322).
+   One place for the type scale, corner radii and recurring brand/neutral
+   colours. Values match the ones the CSS already used, so nothing moved;
+   off-scale values are listed in STYLE-TOKENS.md for a later, visible pass. */
+:root{
+  /* type scale */
+  --text-4xs:9px;
+  --text-3xs:10px;
+  --text-2xs:11px;
+  --text-xs:12px;
+  --text-sm:13px;
+  --text-md:14px;
+  --text-lg:15px;
+  --text-xl:16px;
+  --text-2xl:18px;
+  --text-3xl:20px;
+  --text-4xl:22px;
+  --text-5xl:24px;
+  --text-6xl:28px;
+  --text-7xl:32px;
+  /* corner radii */
+  --radius-pill:999px;
+  --radius-round:50%;
+  --radius-xs:6px;
+  --radius-sm:8px;
+  --radius-md:10px;
+  --radius-lg:12px;
+  --radius-xl:14px;
+  --radius-2xl:16px;
+  --radius-3xl:18px;
+  --radius-4xl:20px;
+  --radius-5xl:22px;
+  --radius-6xl:24px;
+  /* added with the scale pass (v1.3.323) */
+  --radius-2xs:4px;
+  --radius-7xl:28px;
+  --display-sm:52px;
+  --display-md:56px;
+  /* added with the scale pass (v1.3.323) */
+  /* brand and neutral colours */
+  --brand-saved:#b21632;
+  --brand-accent-fallback:#ad2443;
+  --brand-legacy:#990000;
+  --brand-legacy-hover:#820000;
+  --state-listed:#c45a0a;
+  --neutral-ink-slate:#303740;
+  --neutral-chip-dark:#292929;
+  --neutral-muted-slate:#5b6977;
+  --neutral-line-cool:#d8dde4;
+  --neutral-muted-gray:#59616b;
+  --neutral-ink-navy:#17232e;
+  --neutral-line-soft:#eceef0;
+  --neutral-fill-1:#f3f5f7;
+  --neutral-fill-2:#f5f6f7;
+  --neutral-fill-3:#f0f1f3;
+  --neutral-line-2:#e5e8ec;
+  --neutral-icon:#687583;
+  --neutral-ink-dark:#20252b;
+  --dark-raised:#2a2b2f;
+  --dark-brand-pink:#ff8aa6;
+}
+
+/* v1.3.331: ui scale — rows 8, fields 12, boxes 20, dialogs 24; buttons 48/40/32 */
+:root{
+ --ui-radius-row:var(--radius-sm);   /* 8: menu rows */
+ --ui-radius-field:var(--radius-lg); /* 12: inputs, selects, segmented options */
+ --ui-radius-box:var(--radius-4xl);  /* 20: popovers, cards inside pages */
+ --ui-radius-panel:var(--radius-6xl);/* 24: dialogs */
+ --ui-btn-lg:48px;--ui-btn-md:40px;--ui-btn-sm:32px;
+ --ui-icon-btn:40px;--ui-close:36px;--ui-icon:22px;--ui-stroke:1.75;
+}

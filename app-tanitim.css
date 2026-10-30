@@ -1,0 +1,46 @@
+/* AcademyAI Radar — Tanıtım ve akademik alan seçimi.
+   Kurallar app.css yamalarından (v1.3.327) özgün sırasıyla toplandı;
+   her bölümün başındaki etiket kuralın geldiği yamayı gösterir. */
+
+/* --- block-3 --- */
+.introbtn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:var(--radius-pill);padding:7px 12px;font-size:var(--text-sm);font-weight:500;cursor:pointer}
+.introbtn svg{width:18px;height:18px}
+.introbtn:hover{color:var(--accent);border-color:var(--accent)}
+.intro-card{width:100%;max-width:760px;margin:0 auto;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-5xl);padding:28px;display:flex;flex-direction:column;gap:16px}
+
+.intro h1{font-size:clamp(36px,6vw,var(--display-md));margin:0}
+.intro h1 em{font-style:normal;color:var(--accent)}
+.intro .lede{font-size:var(--text-xl);max-width:60ch;margin:0;color:var(--ink)}
+.app .intro-card{border:0;background:transparent;padding:4px 0 8px;min-height:calc(100vh - var(--appbar-h,57px) - 48px);min-height:calc(100dvh - var(--appbar-h,57px) - 48px);justify-content:center}
+.app .intro .actions{flex-direction:column}
+.app .intro .actions .btn{justify-content:center;width:100%}
+.intro-mode .bottomnav{display:none}
+.intro-mode .wrap{padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))}
+.intro-mode footer{display:none}
+@media (max-width:759px){
+.introbtn span{display:none}
+.introbtn{padding:7px}
+}
+html.th-acad .introbtn{border-radius:var(--radius)}
+
+
+
+/* --- edumind-aligned-mobile-tools-v1-3-43 --- */
+@media(max-width:759px){
+.appbar-r .introbtn{display:inline-grid;place-items:center;width:32px;height:32px;min-width:32px;min-height:32px;padding:7px;border-radius:var(--radius-round)!important;box-sizing:border-box;border:1px solid transparent;background:var(--neutral-chip-dark);color:#fff;box-shadow:none}
+.appbar-r .introbtn svg{width:16px;height:16px}
+}
+
+/* --- edumind-filled-toolbar-icons-v1-3-46 --- */
+@media(max-width:759px){
+.appbar-r .introbtn:hover{background:#3b3b3b;border-color:transparent;color:#fff}
+}
+
+/* --- edumind-standard-icon-buttons-v1-3-48 --- */
+@media(max-width:759px){
+.appbar-r .introbtn{width:var(--tool-button-size);height:var(--tool-button-size);min-width:var(--tool-button-size);min-height:var(--tool-button-size);padding:8px}
+.appbar-r .introbtn svg{width:var(--tool-icon-size);height:var(--tool-icon-size)}
+}
+
+/* --- edumind-black-brand-fixed-card-header-v1-3-53 --- */
+.appbar .appbar-r .introbtn{background:var(--neutral-chip-dark);border-color:transparent;color:#fff}

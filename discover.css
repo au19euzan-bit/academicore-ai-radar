@@ -1,0 +1,57 @@
+/* A shared glass dock; the indicator stays mounted while tabs change. */
+html#iosDesign.app body #bottomnav{
+ --dock-pad:calc(5px * var(--ui-scale,1));
+ grid-template-columns:repeat(4,minmax(0,1fr));gap:0;
+ padding:var(--dock-pad);isolation:isolate;
+ background:color-mix(in srgb,var(--surface,#fff) 56%,transparent);
+ -webkit-backdrop-filter:blur(26px) saturate(180%)!important;backdrop-filter:blur(26px) saturate(180%);
+ border:1px solid color-mix(in srgb,var(--surface,#fff) 72%,transparent);
+ box-shadow:0 8px 30px #17232e20,inset 0 1px 1px #ffffffa6,inset 0 -1px 1px #17232e0b;
+ overflow:visible;
+}
+html#iosDesign.app body #bottomnav::before{
+ content:'';position:absolute;z-index:-1;left:var(--dock-pad);top:var(--dock-pad);bottom:var(--dock-pad);
+ width:calc((100% - 2 * var(--dock-pad))/4);border-radius:var(--radius-pill);
+ background:color-mix(in srgb,var(--muted,var(--neutral-icon)) 14%,transparent);
+ box-shadow:inset 0 1px 1px #ffffff70;
+ transform:translateX(calc(var(--dock-index,0) * 100%));
+ transition:transform .28s cubic-bezier(.2,.8,.2,1);
+ pointer-events:none;
+}
+html#iosDesign.app body #bottomnav .navbtn,
+html#iosDesign.app body #bottomnav .navbtn[aria-current=page]{background:transparent;border-radius:var(--radius-pill);transition:transform .16s ease,color .16s ease}
+html#iosDesign.app body #bottomnav .navbtn:active{transform:scale(.94)}
+html#iosDesign.app body #bottomnav .navbtn[aria-current=page] svg{color:var(--accent)}
+html#iosDesign.app body #bottomnav .navbtn[aria-current=page]>span{color:var(--ink)}
+@media(prefers-reduced-motion:reduce){html#iosDesign.app body #bottomnav::before,html#iosDesign.app body #bottomnav .navbtn{transition:none}}
+@media(prefers-reduced-transparency:reduce){html#iosDesign.app body #bottomnav{background:var(--surface)!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}}
+/* Both discovery tools share a dedicated, scrollable page. */
+#discover{min-width:0;box-sizing:border-box}
+#discover .discover-page-heading h1{font:700 var(--text-6xl)/1.2 var(--f-body);margin:0 0 12px;letter-spacing:-.6px}
+#discover .discover-page-heading p{font:400 var(--text-sm)/1.5 var(--f-body);color:var(--muted);margin:0 0 22px}
+#discover .discovery-sections{display:flex;flex-direction:column;gap:18px;min-width:0}
+html#iosDesign body #discover :is(.my-list-route,.my-list-discover){margin:0;padding:18px;border:1px solid var(--line-soft)!important;background:var(--surface);box-shadow:0 2px 10px #17232e06}
+#discover :is(.my-list-route,.my-list-discover)>summary{font:600 var(--text-lg)/1.4 var(--f-body);cursor:pointer}
+#discover .route-controls{max-width:100%}
+#discover .route-time-options{display:flex;flex-wrap:wrap;gap:8px}
+#discover .colls{max-width:100%;min-width:0}
+#discover .discover-toolbar{display:none}
+@media(max-width:759px){
+ html#iosDesign.app.mobile-discover-mode body::before{background:var(--bg)}
+ html#iosDesign.app.mobile-discover-mode body #appbar{display:none}
+ html#iosDesign.app.mobile-discover-mode body main.wrap{padding-top:0!important}
+ html#iosDesign.app.mobile-discover-mode body #discover{padding-top:calc(var(--layout-header) + 8px * var(--ui-scale))}
+ #discover .discover-toolbar{position:fixed;top:0;left:0;right:0;z-index:40;display:flex;align-items:center;height:var(--layout-header);box-sizing:border-box;padding:var(--layout-safe-top) calc(12px * var(--ui-scale)) 0;background:var(--bg);border-bottom:1px solid var(--line-soft)}
+ #discover .discover-back{display:grid;place-items:center;border:0;border-radius:var(--radius-round);background:var(--ios-control);color:var(--ink);padding:10px}
+ #discover .discover-page-heading h1{font-size:calc(var(--text-6xl) * var(--ui-scale))}
+ #discover .discover-page-heading p{font-size:max(var(--text-xs),calc(var(--text-sm) * var(--ui-scale)))}
+}
+#discover .route-time-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));height:auto;max-width:none;padding:4px;gap:4px;overflow:visible;border-radius:var(--radius-3xl);background:var(--ios-control)}
+#discover .route-time-options button{height:36px;min-height:36px;min-width:0;padding:6px 8px;border:0;font:500 var(--text-xs)/1.4 var(--f-body);background:transparent;color:var(--muted)}
+#discover .route-time-options button[aria-pressed=true]{background:var(--surface);color:var(--ink);box-shadow:0 1px 5px #17232e14}
+#discover .personal-role-cards{display:grid;grid-template-columns:minmax(0,1fr);overflow:visible;gap:12px}
+
+html#iosDesign body #discover .my-list-route .personal-role-cards{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;overflow:visible;max-width:100%}
+
+html#iosDesign body #discover .my-list-route .personal-role-cards{grid-auto-flow:row;grid-auto-columns:auto;grid-auto-rows:auto;width:100%;min-width:0}
+html#iosDesign body #discover .my-list-route .personal-role-cards>.coll{grid-area:auto;grid-column:auto;grid-row:auto;min-width:0;width:100%;max-width:100%;flex:none;box-sizing:border-box;display:flex;flex-direction:column;gap:12px;padding:16px;border:1px solid var(--line-soft);border-radius:var(--radius-2xl);background:var(--surface);box-shadow:none}

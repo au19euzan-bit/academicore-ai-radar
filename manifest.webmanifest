@@ -1,16 +1,1 @@
-{
-  "name": "AcademiCore AI Radar",
-  "short_name": "Radar",
-  "description": "Eğitimde yapay zekâ kaynaklarının günlük akışı",
-  "lang": "tr",
-  "start_url": "./",
-  "scope": "./",
-  "display": "standalone",
-  "background_color": "#0A0A0B",
-  "theme_color": "#0A0A0B",
-  "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
-  ]
-}
+{"id": "./", "name": "AcademiCore AI Radar", "short_name": "AcademiCore", "lang": "tr", "start_url": "./", "scope": "./", "display": "standalone", "background_color": "#ffffff", "theme_color": "#ffffff", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"}, {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}, {"src": "icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable"}, {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}], "orientation": "portrait"}

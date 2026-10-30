@@ -1,0 +1,456 @@
+/* Independent iOS-inspired design experiment; v1.3.206 remains untouched. */
+html:root,html.th-acad{--f-body:-apple-system,BlinkMacSystemFont,'Helvetica Neue',system-ui,sans-serif;--f-display:var(--f-body);--f-mono:var(--f-body);--bg:#f3f3f7;--surface:#fff;--ink:#1c1c1e;--muted:#62626b;--line:#dedee5;--line-soft:#ededf2;--accent:#a42c43;--accent-soft:#f9e9ed;--accent-ink:#fff;--radius:22px;--ios-glass:rgba(250,250,253,.90);--ios-control:rgba(118,118,128,.10);--ios-shadow:0 6px 28px #21213212;--ios-bottom:80px}
+@media(prefers-color-scheme:dark){html:not([data-theme=light]){--bg:#101012;--surface:#1c1c1f;--ink:#f5f5f7;--muted:#b0b0ba;--line:#39393f;--line-soft:#2d2d32;--accent:#ff8da2;--accent-soft:#42242e;--accent-ink:#1c1c1e;--ios-glass:rgba(29,29,33,.92);--ios-control:rgba(180,180,194,.13)}}
+html[data-theme=dark],html.th-acad[data-theme=dark]{--bg:#101012;--surface:#1c1c1f;--ink:#f5f5f7;--muted:#b0b0ba;--line:#39393f;--line-soft:#2d2d32;--accent:#ff8da2;--accent-soft:#42242e;--accent-ink:#1c1c1e;--ios-glass:rgba(29,29,33,.92);--ios-control:rgba(180,180,194,.13)}
+html body{font-family:var(--f-body);background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased;border-top:0!important}
+html body button,html body input,html body textarea,html body select{font-family:var(--f-body)}
+@media(max-width:759px){
+ html body #appbar,html body #appbar .appbar-in,html.mobile-source-mode body .camera-filter-head.is-source-navigation,html.mobile-my-list-mode body #sepet .my-list-title-row,html body .about-header{background:var(--ios-glass);color:var(--ink);border-bottom:1px solid var(--line-soft)!important;backdrop-filter:blur(24px) saturate(160%);-webkit-backdrop-filter:blur(24px) saturate(160%)}
+ html body .brand,html body .appbar-in a,html body .brand span,html body #myListCount,html.mobile-source-mode body .camera-filter-head .camera-result-count{color:var(--ink)!important}
+ html body .brand{font-size:var(--text-2xl);letter-spacing:-.6px}
+ html body .brand em{color:var(--accent)!important}
+ html body .appbar-r #topnav .navbtn:not([aria-current=page]),html body .appbar-r #introBtn,html.mobile-my-list-mode body #sepet .my-list-tool,html.mobile-source-mode body .camera-filter-head .camera-head-actions button,html.mobile-source-mode body .camera-filter-head .mobile-source-search,html body .about-header .iconbtn{background:var(--ios-control)!important;color:var(--ink)!important;border:1px solid color-mix(in srgb,var(--ink) 5%,transparent)!important;box-shadow:inset 0 1px 0 #ffffff40!important}
+ html.mobile-source-mode body .camera-filter-head .camera-head-actions button:active,html body .appbar-r #introBtn:active,html.mobile-my-list-mode body #sepet .my-list-tool:active{background:var(--line)!important}
+ html body #myListSearch,html.mobile-source-mode body .camera-filter-head input{color:var(--ink);caret-color:var(--accent)}
+ html body #myListSearch::placeholder,html.mobile-source-mode body .camera-filter-head input::placeholder{color:var(--muted)}
+ html body #bottomnav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-flow:row;position:fixed;left:16px;right:16px;bottom:calc(10px + env(safe-area-inset-bottom,0px));height:62px;min-height:62px;box-sizing:border-box;padding:5px 6px;border:1px solid color-mix(in srgb,var(--ink) 8%,transparent);border-radius:var(--radius-7xl);background:var(--ios-glass);backdrop-filter:blur(24px) saturate(180%);-webkit-backdrop-filter:blur(24px) saturate(180%);box-shadow:0 6px 28px #19192b20;z-index:85;gap:3px}
+ html body #bottomnav .navbtn{position:relative;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:3px;border:0;border-radius:var(--radius-7xl);padding:5px;min-height:50px;background:transparent;color:var(--muted);font:500 var(--text-3xs)/1.2 var(--f-body)}
+ html body #bottomnav .navbtn[aria-current=page]{color:var(--accent);background:var(--accent-soft)}
+ html body #bottomnav .navbtn svg{background:none;padding:0}
+ html body #bottomnav .badge{position:absolute;top:1px;left:calc(50% + 11px);font-size:var(--text-4xs);min-width:16px;height:16px;border:2px solid var(--surface);display:grid;place-items:center;background:var(--accent);color:var(--accent-ink);padding:0 3px;border-radius:var(--radius-md);box-sizing:content-box}
+ html.intro-mode body #bottomnav,html.sheet-open body #bottomnav,html.phone-landscape body #bottomnav{display:none}
+ html.mobile-source-mode body main.wrap,html.mobile-my-list-mode body main.wrap{padding-bottom:calc(90px + env(safe-area-inset-bottom,0px))}
+ html body #sepet{background:transparent}
+ html.mobile-radar-screen:not(.mobile-source-mode) body .view[data-view=radar],html.mobile-radar-screen:not(.mobile-source-mode) body #radarBox{background:var(--bg)!important}
+ html.mobile-radar-screen:not(.mobile-source-mode) body .radar-workspace{padding-bottom:18px;box-sizing:border-box}
+ html body #newStrip{background:transparent}
+ html body #newStrip .nhead{font-family:var(--f-body)!important}
+ html body #radarBox .radar-scroll{background:radial-gradient(ellipse at center,var(--surface) 0%,transparent 70%);border:0}
+ html body .camera-filters{padding-inline:12px;gap:8px}
+ html:not(.mobile-source-mode) body .camera-filter-head{background:transparent}
+ html body .camera-filter-modes{border-radius:var(--radius-3xl);background:var(--ios-control);border:0;box-shadow:none;padding-block:3px;gap:2px}
+ html body .camera-filter-mode{height:34px;padding-inline:14px}
+ html body .camera-filter-options{background:transparent;border:0;box-shadow:none;gap:6px}
+ html body .camera-filter-option{height:34px;border:1px solid var(--line-soft);}
+ html body .camera-filter-option[aria-pressed=true]{border-color:transparent;}
+ html body #sources #groups{padding:8px 0 24px}
+ html body #sources #groups .group{border:0;border-radius:var(--radius-6xl);overflow:hidden;background:var(--surface);margin-bottom:18px;box-shadow:0 2px 12px #15152b04}
+ html body #sources #groups .group h3,html body #sources #groups .gh{font:600 var(--text-xs)/1.5 var(--f-body);letter-spacing:.03em;color:var(--muted);background:var(--bg);padding:16px 12px 8px}
+ html body #sources #groups .item{background:var(--surface);padding:16px 12px;min-height:82px;border-bottom:1px solid var(--line-soft);gap:12px}
+ html body #sources #groups .item:last-child{border-bottom:0}
+ html body #sources #groups .item .nm b,html body #sources #groups .item .name,html body #sepet .my-saved-info b{font-size:var(--text-lg);font-weight:600;line-height:1.35;letter-spacing:-.2px}
+ html body #sources #groups .item .meta,html body #sources #groups .item .sub,html body #sepet .my-saved-info span{font-size:var(--text-xs);line-height:1.45;color:var(--muted)}
+ html body #sources #groups .item .profile-actions .list-action{background:var(--ios-control);border-radius:var(--radius-round)}
+ html body #sources #groups .item .profile-actions .list-action[aria-pressed=true]{background:var(--accent-soft);color:var(--accent)}
+ html body #sepet .my-list-platforms{background:var(--ios-control);border:0;border-radius:var(--radius-4xl);padding:4px!important;margin:4px 0 20px}
+ html body #sepet .my-list-platforms button{min-height:36px;padding:8px 12px;border:0;font-size:var(--text-xs);border-radius:var(--radius-2xl);background:transparent;color:var(--muted)}
+ html body #sepet .my-list-platforms button[aria-pressed=true]{background:var(--surface);color:var(--ink);box-shadow:0 2px 6px #19192b14;font-weight:600}
+ html body #sepet .my-saved-items{border-radius:var(--radius-6xl);overflow:hidden;background:var(--surface)}
+ html body #sepet .my-saved-row{padding:16px 12px;gap:12px;border-bottom:1px solid var(--line-soft)}
+ html body :is(#sepet,#discover) .my-list-discover,html body :is(#sepet,#discover) .my-list-route{background:var(--surface);border:0;padding:18px;margin-top:14px}
+ html body :is(#sepet,#discover) .my-list-discover>summary,html body :is(#sepet,#discover) .my-list-route>summary{font-size:var(--text-md);font-weight:600}
+ html body .about-content{padding:28px 24px 32px}
+ html body .intro-card.about-page{background:var(--bg)}
+ html body .about-content h1{font-size:var(--text-6xl)!important;font-weight:700;line-height:1.12;letter-spacing:-1px;max-width:300px;margin:10px 0 18px}
+ html body .about-kicker{color:var(--accent);font-size:var(--text-xs);letter-spacing:.03em}
+ html body .about-lead{font-size:var(--text-lg);line-height:1.6;margin-bottom:24px}
+ html body .about-steps{background:var(--surface);padding:4px 18px;border-radius:var(--radius-6xl);margin-bottom:20px}
+ html body .about-steps li{margin:0;padding:18px 0 18px 38px}
+ html body .about-steps li:last-child{border-bottom:0}
+ html body .about-steps li:before{top:20px;background:var(--accent-soft);color:var(--accent);font-weight:700}
+ html body .about-steps b{font-size:var(--text-md)}
+ html body .about-steps span{font-size:var(--text-xs)}
+ html body #introStart{background:var(--accent);color:var(--accent-ink);border:0;min-height:50px;font-size:var(--text-lg)}
+ html body .about-suggest{background:var(--surface);border:0;min-height:48px;color:var(--accent)}
+ html body #sheetPanel{background:var(--bg);border-radius:var(--radius-7xl) var(--radius-7xl) 0 0;overflow:hidden}
+ html body #sheetPanel #sheetBody{padding-inline:20px;background:var(--bg)}
+ html body #sheetPanel .cd{background:transparent}
+ html body #sheetPanel .sheet-top{background:var(--card-header-color,var(--card-category-dark));border:0}
+ html body #sheetPanel .sheet-top #profileBack,html body #sheetPanel .sheet-top #sheetPrev,html body #sheetPanel .sheet-top #sheetNext{background:#ffffff24;border:1px solid #ffffff25;box-shadow:inset 0 1px 0 #ffffff20}
+ html body #sheetPanel .profile-cover{border-radius:0 0 var(--radius-7xl) var(--radius-7xl);box-shadow:none}
+ html body #sheetPanel #sheetTitle{font:700 var(--text-5xl)/1.16 var(--f-body)!important;letter-spacing:-.7px}
+ html body #sheetPanel .cd-desc{font:400 var(--text-lg)/1.6 var(--f-body);color:var(--muted)}
+ html body #sheetPanel .cd-why,html body #sheetPanel .cd-logos{background:var(--surface);border:0;border-radius:var(--radius-6xl);padding:18px;margin-top:16px}
+ html body #sheetPanel .profile-category-badge,html body #sheetPanel .lchip{border-radius:var(--radius-pill)!important}
+ html body #sheetPanel .cd-logos .lgrow{border:0;padding:10px 0!important}
+ html body #sheetPanel .cd-logos .ibtn{border-radius:var(--radius-xl)!important;background:var(--bg)!important}
+ html body :is(#cardPlatformDialog,#transferDialog,#badgeDialog,#suggestionDialog){border:1px solid color-mix(in srgb,var(--ink) 7%,transparent);background:var(--ios-glass);color:var(--ink);box-shadow:0 18px 60px #11112426;backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);}
+ html body :is(#cardPlatformDialog,#transferDialog,#badgeDialog,#suggestionDialog)::backdrop{background:#15152633;backdrop-filter:blur(3px)}
+ html body .platform-dialog-options label{border:0;border-radius:var(--radius-2xl);background:var(--ios-control);color:var(--ink);min-height:44px;box-sizing:border-box}
+ html body .platform-dialog-options label:has(input:checked){background:var(--accent-soft);box-shadow:inset 0 0 0 1px var(--accent)}
+ html body .platform-dialog-options input{accent-color:var(--accent)}
+ html body .platform-dialog-options svg,html body .platform-dialog-intro{color:var(--muted)}
+ html body .platform-dialog-done,html body #transferDialog .utility-primary,html body #transferDialog .utility-done,html body #badgeDialog .utility-done,html body #suggestionDialog .suggest-send{background:var(--accent);color:var(--accent-ink);border-color:transparent;min-height:46px;}
+ html body #sepet .my-list-menu-panel,html body #cameraMobileSortMenu,html body .source-filter-popover,html body .radar-read-popover{border:1px solid var(--line-soft);background:var(--ios-glass);color:var(--ink);box-shadow:0 12px 40px #15152b20;backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px)}
+ html body #sepet .my-list-menu-panel button,html body #cameraMobileSortMenu button{min-height:44px;padding:12px 16px;font:400 var(--text-md)/1.4 var(--f-body)}
+ html body #updateNotice{background:var(--ios-glass);border-radius:var(--radius-6xl);bottom:calc(88px + env(safe-area-inset-bottom,0px));box-shadow:var(--ios-shadow)}
+}
+@media(prefers-reduced-transparency:reduce){html:root{--ios-glass:var(--surface)}html body :is(#bottomnav,#appbar,.about-header){backdrop-filter:none!important}}
+@media(max-width:759px){
+ html:not(.sheet-open) body::before{background:var(--bg)}
+ html:not(.sheet-open) body #appbar{box-shadow:none;left:0;right:0;width:100%;margin:0}
+ html body #appbar .appbrand b{color:var(--ink);font-size:var(--text-xl);letter-spacing:-.6px}
+ html body #appbar .appbrand em{color:var(--accent)}
+ html.mobile-source-mode body .camera-filter-head .camera-result-count :is(b,span){color:var(--ink)}
+ html.mobile-my-list-mode body #sepet #myListCount :is(b,span){color:var(--ink)}
+ html body #sheetPanel #sheetTitle{white-space:normal;overflow:visible;text-overflow:clip;display:block;-webkit-line-clamp:unset}
+ html body #bottomnav .navbtn{min-width:0;isolation:isolate;overflow:visible;transform:none}
+ html body #bottomnav .navbtn span{display:block;white-space:nowrap}
+}
+@media(max-width:759px){
+ html#iosDesign:not(.sheet-open),html#iosDesign:not(.sheet-open) body{background:var(--bg)!important}
+ html#iosDesign #appbar,html#iosDesign #appbar .appbar-in{background:var(--ios-glass);box-shadow:none;color:var(--ink)}
+ html#iosDesign #sepet .my-list-title-row :is(#myListClose,#myListPrefs,.my-list-toolbar-search,#myListMenu>summary){background:var(--ios-control)!important;color:var(--ink);border:1px solid var(--line-soft)!important}
+ html#iosDesign #sepet .my-list-title-row :is(#myListClose,#myListPrefs,.my-list-toolbar-search,#myListMenu>summary) svg{color:inherit}
+ html#iosDesign #sepet .my-list-title-row .my-list-toolbar-search input{color:var(--ink)!important;caret-color:var(--accent)!important}
+ html#iosDesign #sepet,html#iosDesign #sources{background:var(--bg)!important}
+ html#iosDesign .camera-filter-modes{background:var(--ios-control);background-image:none;box-shadow:none;border:0}
+ html#iosDesign .camera-filter-options{background:transparent;background-image:none;box-shadow:none;border:0}
+ html#iosDesign:not(.mobile-source-mode) .camera-filter-head .camera-head-actions button{background:var(--surface);border:1px solid var(--line-soft);color:var(--muted);box-shadow:var(--ios-shadow)}
+ html#iosDesign #sheetPanel #sheetBody{background:var(--bg)}
+ html#iosDesign #sheetPanel .profile-actions .list-action{background:var(--card-category-dark);color:#fff}
+}
+/* One continuous glass layer behind both the status area and toolbar. */
+html#iosDesign{--ios-glass:rgba(243,243,247,.82)}
+@media(prefers-color-scheme:dark){html#iosDesign:not([data-theme=light]){--ios-glass:rgba(16,16,18,.82)}}
+html#iosDesign[data-theme=dark]{--ios-glass:rgba(16,16,18,.82)}
+@media(max-width:759px){
+ html#iosDesign:not(.sheet-open) body::before{content:"";position:fixed;inset:0 0 auto;height:calc(var(--app-header-height,68px) + env(safe-area-inset-top,0px));background:var(--ios-glass);backdrop-filter:blur(24px) saturate(160%);-webkit-backdrop-filter:blur(24px) saturate(160%);border-bottom:1px solid var(--line-soft);box-sizing:border-box;z-index:35;pointer-events:none}
+ html#iosDesign:not(.sheet-open) body #appbar,
+ html#iosDesign:not(.sheet-open) body #appbar .appbar-in,
+ html#iosDesign:not(.sheet-open) body .camera-filter-head.is-source-navigation,
+ html#iosDesign:not(.sheet-open) body #sepet .my-list-title-row,
+ html#iosDesign:not(.sheet-open) body .about-header{background:transparent;backdrop-filter:none;-webkit-backdrop-filter:none!important;border-bottom:0!important;box-shadow:none;z-index:40}
+ html#iosDesign body #appbar{width:100vw;max-width:none;margin-inline:calc(50% - 50vw);border-radius:0}
+ html#iosDesign body #appbar .appbar-in{width:100%;max-width:none;margin:0;padding-inline:16px;box-sizing:border-box}
+ html#iosDesign body .about-header{position:sticky;top:env(safe-area-inset-top,0px)}
+}
+@media(prefers-reduced-transparency:reduce){html#iosDesign:not(.sheet-open) body::before{background:var(--bg)!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}}
+/* A single segmented-control style for Listem and both Radar filter rails. */
+@media(max-width:759px){
+ html#iosDesign body .camera-filter-modes,html#iosDesign body .camera-filter-options,html#iosDesign body #sepet .my-list-platforms{height:44px;min-height:44px;box-sizing:border-box;padding-block:4px;border:0;border-radius:var(--radius-5xl)!important;background:var(--ios-control);background-image:none;box-shadow:none;gap:6px;backdrop-filter:blur(18px) saturate(150%);-webkit-backdrop-filter:blur(18px) saturate(150%)}
+ html#iosDesign body .camera-filter-mode,html#iosDesign body .camera-filter-option,html#iosDesign body #sepet .my-list-platforms button{height:36px;box-sizing:border-box;padding:8px 12px;border:0;border-radius:var(--radius-3xl)!important;background:transparent;color:var(--muted);font:400 var(--text-xs)/1.4 var(--f-body);gap:6px}
+ html#iosDesign body #sepet .my-list-platforms button[aria-pressed=true]{background:var(--surface)!important;color:var(--ink);font-weight:600;box-shadow:0 2px 6px #19192b14}
+ html#iosDesign body .camera-filter-mode .camera-mode-count,html#iosDesign body #sepet .my-list-platforms button small{background:transparent;color:inherit;font:400 var(--text-3xs)/1.4 var(--f-body)!important;opacity:.8;font-variant-numeric:tabular-nums}
+ html#iosDesign body .camera-filter-mode .camera-mode-count:empty{display:none}
+}
+@media(max-width:759px){
+ html#iosDesign body .camera-filters{padding-inline:0;gap:14px}
+ html#iosDesign body .camera-filters>.camera-rail-frame{width:100%;max-width:100%;height:44px;min-height:44px;margin:0;padding:0;border:0;border-radius:var(--radius-5xl);background:transparent;box-shadow:none;box-sizing:border-box;overflow:hidden}
+ html#iosDesign body .camera-filter-modes,html#iosDesign body .camera-filter-options{width:100%;margin:0;align-items:center;flex-shrink:0}
+}
+/* Compact, shared source rows: avatar / wrapping text / existing action. */
+@media(max-width:759px){
+ html#iosDesign body #sources #groups .group,html#iosDesign body #sepet .my-saved-items{border-radius:0;box-shadow:none;background:var(--surface);overflow:visible}
+ html#iosDesign body #sources #groups .item,html#iosDesign body #sepet .my-saved-row{position:relative;box-sizing:border-box;min-height:76px;height:auto;padding:12px 0;gap:12px!important;border:0!important;border-radius:0;background:var(--surface);box-shadow:none}
+ html#iosDesign body #sources #groups .item{grid-template-columns:48px minmax(0,1fr) 44px!important;align-items:center}
+ html#iosDesign body #sources #groups .item::after,html#iosDesign body #sepet .my-saved-row::after{content:"";position:absolute;left:60px;right:0;bottom:0;height:1px;background:var(--line-soft);pointer-events:none}
+ html#iosDesign body #sources #groups .item:last-child::after,html#iosDesign body #sepet .my-saved-row:last-child::after{display:none}
+ html#iosDesign body #sources #groups .item .rav,html#iosDesign body #sources #groups .item .source-avatar-wrap,html#iosDesign body #sepet .my-saved-avatar{width:48px;height:48px;min-width:48px;flex:0 0 48px}
+ html#iosDesign body #sources #groups .item .av,html#iosDesign body #sepet .my-saved-card .av{--s:48px!important;width:48px;height:48px;min-width:48px;flex:0 0 48px;border-radius:var(--radius-round)}
+ html#iosDesign body #sources #groups .item .rinfo,html#iosDesign body #sources #groups .item .rtx,html#iosDesign body #sepet .my-saved-info{min-width:0;gap:3px!important}
+ html#iosDesign body #sources #groups .item .rn,html#iosDesign body #sepet .my-saved-info b{display:block;white-space:normal;overflow:visible;text-overflow:clip;font:600 var(--text-md)/1.3 var(--f-body);letter-spacing:-.15px;overflow-wrap:anywhere}
+ html#iosDesign body #sources #groups .item .source-name-line{display:flex;align-items:baseline;gap:5px;min-width:0;flex-wrap:wrap}
+ html#iosDesign body #sources #groups .item .rsub,html#iosDesign body #sepet .my-saved-info small,html#iosDesign body #sepet .my-saved-info small span,html#iosDesign body #sources #groups .item .rsub span{font:400 var(--text-xs)/1.4 var(--f-body)!important;color:var(--muted);white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere}
+ html#iosDesign body #sepet .my-saved-card{gap:12px;align-items:center}
+ html#iosDesign body #sepet .my-saved-actions{flex:0 0 auto;max-width:100px;min-width:44px}
+ html#iosDesign body #sources #groups .item>.profile-actions{align-self:center;justify-self:end;width:44px}
+ html#iosDesign body #sources #groups .item .profile-actions .list-action,html#iosDesign body #sepet .my-list-remove{width:44px;height:44px;min-width:44px;min-height:44px;padding:11px;border-radius:var(--radius-round);box-sizing:border-box}
+ html#iosDesign body #sources #groups .item .profile-actions .list-action svg,html#iosDesign body #sepet .my-list-remove svg{width:20px;height:20px}
+ html#iosDesign body #sources #groups .item .source-saved-badge,html#iosDesign body #sepet .my-saved-badge{width:18px;height:18px;min-width:18px;min-height:18px;right:-2px;bottom:-2px;border:2px solid var(--surface);box-sizing:content-box}
+ html#iosDesign body #sources #groups .item .source-saved-badge svg,html#iosDesign body #sepet .my-saved-badge svg{width:11px;height:11px}
+ html#iosDesign body #sources #groups .items{padding-inline:12px;background:var(--surface)}
+ html#iosDesign body #sepet .my-saved-items{padding-inline:12px}
+}
+html#iosDesign{--bg:var(--surface);--ios-glass:rgba(255,255,255,.82)}
+@media(prefers-color-scheme:dark){html#iosDesign:not([data-theme=light]){--ios-glass:rgba(28,28,31,.86)}}
+html#iosDesign[data-theme=dark]{--ios-glass:rgba(28,28,31,.86)}
+@media(max-width:759px){
+ html#iosDesign body .corner-panel[data-corner]{position:fixed!important;inset:auto!important;width:var(--corner-width)!important;left:var(--corner-left)!important;top:var(--corner-top)!important;right:auto!important;bottom:auto!important;margin:0!important;max-height:var(--corner-height)!important;transform-origin:var(--corner-origin);animation:corner-panel-in .18s cubic-bezier(.2,.8,.2,1);overscroll-behavior:contain;overflow-y:auto}
+ html#iosDesign body .corner-panel.source-filter-popover{overflow:hidden!important}
+}
+@keyframes corner-panel-in{from{opacity:0;transform:scale(.86)}to{opacity:1;transform:scale(1)}}
+@media(prefers-reduced-motion:reduce){html#iosDesign body .corner-panel[data-corner]{animation:none}}
+@media(max-width:759px){
+ html#iosDesign body :is(#cardPlatformDialog,#transferDialog,#badgeDialog,#suggestionDialog){position:fixed;width:calc(100% - 32px);max-width:400px;left:0;right:0;top:var(--panel-top);bottom:auto;margin:0 auto;max-height:var(--panel-max-height);transform:none;box-sizing:border-box}
+ html#iosDesign body .platform-dialog-options label span{min-width:0;overflow-wrap:anywhere}
+}
+@media(max-width:759px){
+ html#iosDesign body #sources #groups>.source-heading-group>h3{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0;padding:18px 12px 12px;background:var(--surface);color:var(--ink);font:600 var(--text-md)/1.4 var(--f-body)!important;letter-spacing:0}
+ html#iosDesign body #sources #groups>.source-heading-group>h3 small{font:400 var(--text-2xs)/1.4 var(--f-body);color:var(--muted)}
+ html#iosDesign body #sources #groups>.source-heading-group .item:first-child::before{content:"";position:absolute;left:60px;right:0;top:0;height:1px;background:var(--line-soft);pointer-events:none}
+}
+@media(max-width:759px){
+ html#iosDesign body #sources{width:100vw;max-width:none;margin-inline:calc(50% - 50vw);padding-inline:0;box-sizing:border-box}
+ html#iosDesign body #sources #groups,html#iosDesign body #sources #groups>.group{width:100%;max-width:none;margin-inline:0;padding-inline:0;box-sizing:border-box}
+ html#iosDesign body #sources #groups>.source-heading-group>h3{padding-inline:16px}
+ html#iosDesign body #sources #groups .items{padding-inline:0}
+ html#iosDesign body #sources #groups .item{width:100%;margin-inline:0;padding-inline:16px!important}
+ html#iosDesign body #sources #groups .item::after,html#iosDesign body #sources #groups>.source-heading-group .item:first-child::before{left:76px;right:16px}
+}
+@media(max-width:759px){
+ html#iosDesign body #sources #groups .item:last-child::after,
+ html#iosDesign body #sepet .my-saved-row:last-child::after{display:block}
+}
+@media(max-width:759px){
+ html#iosDesign body #sepet #basket{width:100vw;max-width:none;margin-inline:calc(50% - 50vw);padding-inline:0;box-sizing:border-box}
+ html#iosDesign body #sepet .my-saved-items{width:100%;max-width:none;padding-inline:0;margin-inline:0;box-sizing:border-box}
+ html#iosDesign body #sepet .my-saved-row{width:100%;margin-inline:0;padding-inline:16px}
+ html#iosDesign body #sepet .my-saved-row::after{left:76px;right:16px}
+ html#iosDesign body #sepet .my-saved-row:first-child::before{content:"";position:absolute;top:0;left:76px;right:16px;height:1px;background:var(--line-soft);pointer-events:none}
+}
+
+/* v1.3.266 — card cover, fixed navigation and aligned copy. */
+@media(max-width:759px){
+html#iosDesign body #sheetPanel .profile-cover{margin-inline:-20px;width:calc(100% + 40px);border-radius:0}
+html#iosDesign body #sheetPanel .sheet-top .sheet-nav{grid-template-columns:44px 76px 44px;gap:12px;width:188px;flex:0 0 188px;max-width:none}
+html#iosDesign body #sheetPanel #sheetPos{display:flex;align-items:center;justify-content:center;width:76px;min-width:76px;text-align:center;transform:none;font-variant-numeric:tabular-nums}
+html#iosDesign body #sheetPanel #sheetPos::before{content:none}
+html#iosDesign body #sheetPanel .profile-actions .list-action{background:#111;color:#fff;transition:opacity .15s,background .15s}
+html#iosDesign body #sheetPanel .profile-actions .list-action:hover{opacity:1}
+html#iosDesign body #sheetPanel .profile-actions .list-action[aria-pressed=true]{background:var(--brand-saved);opacity:1}
+html#iosDesign body #sheetPanel .cd-desc{font-size:var(--text-sm);line-height:1.4}
+}
+
+/* Pointer feedback without a transient focus ring; keyboard focus stays visible. */
+html#iosDesign body #sheetPanel #dAdd{-webkit-tap-highlight-color:transparent;border:0!important;box-shadow:none}
+html#iosDesign body #sheetPanel #dAdd:focus:not(:focus-visible){outline:none!important;box-shadow:none!important}
+
+/* v1.3.266 — balanced action spacing and stable icon colors. */
+html#iosDesign body #sheetPanel .cd-why{margin-top:0}
+html#iosDesign body #sheetPanel :is(.card-topic-link,.card-platform-settings){color:var(--card-category-dark)}
+html#iosDesign body #sheetPanel :is(.card-topic-link,.card-platform-settings,.card-rhythm-link,.cd-row-label) svg{color:var(--muted);opacity:1}
+html#iosDesign body #sheetPanel #dAdd{opacity:1}
+
+/* v1.3.266 — neutral section headings and scrolling from the description. */
+html#iosDesign body #sheetPanel :is(.card-topic-link,.card-platform-settings){color:var(--muted)}
+html#iosDesign body #sheetPanel .cd-desc{color:var(--ink)}
+@media(max-width:759px){
+html#iosDesign body #sheetPanel #cardIdentity{flex:0 0 auto;min-height:0;padding:0 20px 30px;gap:30px;box-sizing:border-box;background:var(--bg)!important;z-index:2}
+html#iosDesign body #sheetPanel #sheetBody{flex:1 1 auto;min-height:0;overflow-y:auto;padding-top:0}
+}
+
+/* v1.3.266 — compact topic, rhythm and list hierarchy. */
+html#iosDesign body #sheetPanel .cd-why{gap:10px;padding:18px}
+html#iosDesign body #sheetPanel .cd-why :is(.card-topic-link,.card-rhythm-link,.cd-row-label){color:var(--ink)}
+html#iosDesign body #sheetPanel .cd-why :is(.card-topic p,.lchip){color:var(--muted)}
+html#iosDesign body #sheetPanel .cd-why .card-rhythm-link{padding-block:0;min-height:20px}
+html#iosDesign body #sheetPanel .cd-why .cd-lists{gap:8px}
+html#iosDesign body #sheetPanel .cd-why .lchips{margin-left:0;width:100%;gap:6px}
+
+/* v1.3.266 — match the bottom inset to the top inset. */
+html#iosDesign body #sheetPanel .cd-why{padding-block:18px}
+html#iosDesign body #sheetPanel .cd-why .lchips{min-height:0;align-items:flex-start;padding-block:0;margin-block:0}
+
+/* v1.3.266 — equal outer spacing around the topic box. */
+html#iosDesign body #sheetPanel .cd-logos{margin-top:0;padding-top:0}
+html#iosDesign body #sheetPanel .cd-logos .lgrow:first-child{padding-top:0!important}
+
+/* v1.3.266 — source information starts collapsed. */
+html#iosDesign body #sheetPanel details.audit>summary{display:flex;align-items:center;justify-content:space-between;gap:12px;list-style:none;cursor:pointer;font:600 var(--text-md)/1.4 var(--f-body);color:var(--ink);padding:0;margin:0}
+html#iosDesign body #sheetPanel details.audit>summary::-webkit-details-marker{display:none}
+html#iosDesign body #sheetPanel details.audit>summary::after{content:'';width:7px;height:7px;border-right:1.5px solid var(--muted);border-bottom:1.5px solid var(--muted);transform:rotate(45deg);margin-right:3px;flex:none}
+html#iosDesign body #sheetPanel details.audit[open]>summary::after{transform:rotate(225deg)}
+html#iosDesign body #sheetPanel details.audit[open]>summary{margin-bottom:16px}
+
+/* v1.3.266 — disclosure is the last row inside the topic box. */
+html#iosDesign body #sheetPanel .cd-why details.audit{margin:0!important;padding:0 0 0 23px!important;border:0!important;box-shadow:none!important;background:transparent!important;width:100%;box-sizing:border-box}
+html#iosDesign body #sheetPanel .cd-why details.audit>summary{position:relative;font:400 var(--text-xs)/1.4 var(--f-body);min-height:20px}
+html#iosDesign body #sheetPanel .cd-why details.audit>summary>svg{position:absolute;left:-23px;top:2px;width:16px;height:16px;color:var(--muted);flex:none}
+html#iosDesign body #sheetPanel .cd-why details.audit>dl{margin-top:0!important}
+
+/* v1.3.266 — a subtle divider above source details, with unchanged spacing. */
+html#iosDesign body #sheetPanel .cd-why details.audit{position:relative}
+html#iosDesign body #sheetPanel .cd-why details.audit::before{content:'';position:absolute;left:23px;right:0;top:-5px;height:1px;background:var(--line-soft);pointer-events:none}
+
+/* v1.3.266 — compact source context. */
+html#iosDesign body #sheetPanel .cd-why{background:var(--ios-control);box-shadow:none;border-radius:var(--radius-6xl);gap:14px;padding:18px}
+html#iosDesign body #sheetPanel .card-topic h3{font-size:var(--text-md)}
+
+html#iosDesign body #sheetPanel .cd-why .cd-lists{position:relative}
+html#iosDesign body #sheetPanel .cd-why .cd-lists::before{content:'';position:absolute;left:0;top:6px;width:16px;height:16px;background:var(--muted);mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.8'%3E%3Crect x='7' y='7' width='14' height='14' rx='2'/%3E%3Cpath d='M17 7V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h2M11 12h6M11 16h6'/%3E%3C/svg%3E") center/contain no-repeat}
+html#iosDesign body #sheetPanel .cd-why .lchip{background:var(--surface);border-color:transparent;color:var(--ink);font-weight:400}
+html#iosDesign body #sheetPanel .card-source-credit{border-top:1px solid var(--line-soft);padding-top:12px;color:var(--muted);font:400 var(--text-2xs)/1.5 var(--f-body)}
+
+/* v1.3.266 — topic uses the same type as the other context rows. */
+html#iosDesign body #sheetPanel .cd-why .card-topic h3{font:400 var(--text-sm)/1.5 var(--f-body);margin:0}
+html#iosDesign body #sheetPanel .cd-why .card-topic-link{font:inherit;min-height:20px}
+
+/* v1.3.266 — smaller context copy, without repeated location. */
+html#iosDesign body #sheetPanel .cd-why .card-topic h3,
+html#iosDesign body #sheetPanel .cd-why .card-rhythm-link{font:400 var(--text-xs)/1.5 var(--f-body)!important}
+html#iosDesign body #sheetPanel .cd-why .lchip{font-size:var(--text-2xs)}
+html#iosDesign body #sheetPanel .card-source-credit{font-size:var(--text-3xs)}
+
+/* v1.3.266 — faint category tint and a clearer fixed-width counter. */
+html#iosDesign body #sheetPanel .cd-why{background:color-mix(in srgb,var(--card-category-dark) 7%,var(--surface))!important}
+html#iosDesign body #sheetPanel #sheetPos{font-size:var(--text-md)}
+
+/* v1.3.266 — slightly more breathing room for platform icons. */
+html#iosDesign body #sheetPanel .cd-logos .lgrow{row-gap:10px}
+html#iosDesign body #sheetPanel .cd-logos .lgi{gap:10px}
+/* v1.3.266 — large titles and inline route search. */
+.route-large-header{display:none}
+@media(max-width:759px){
+html#iosDesign body .route-large-header{display:block;position:relative;padding:0 16px 12px;background:var(--bg);isolation:isolate}
+html#iosDesign body .route-large-title{position:sticky;z-index:2;background:var(--bg);padding:8px 0 10px;font:700 var(--text-7xl)/1.2 var(--f-body);letter-spacing:-.8px}
+html#iosDesign body .route-search-slot{padding-top:2px;padding-bottom:6px}
+html#iosDesign body .route-search-slot .route-search-field{position:relative;inset:auto;display:flex;align-items:center;gap:8px;width:100%;max-width:none;height:40px;min-height:40px;padding:8px 12px!important;margin:0;background:var(--ios-control)!important;border:0;border-radius:var(--radius-xl);overflow:hidden;color:var(--muted);box-sizing:border-box;transform:none}
+html#iosDesign body .route-search-field svg{width:18px;height:18px!important;flex:none}
+html#iosDesign body .route-search-field input{position:static!important;inset:auto!important;display:block;width:100%;height:24px!important;opacity:1!important;transform:none;padding:0;border:0;background:transparent;color:var(--ink)!important;caret-color:var(--accent)!important;font:400 var(--text-xl)/24px var(--f-body)!important;min-width:0}
+html#iosDesign body .route-search-field input::placeholder{color:var(--muted)!important}
+html#iosDesign.mobile-source-mode body .camera-result-count .toolbar-page-label,html#iosDesign.mobile-my-list-mode body .my-list-page-name{opacity:0;transition:opacity .15s}
+html#iosDesign.mobile-source-mode body .route-title-folded .toolbar-page-label,html#iosDesign.mobile-my-list-mode body .route-title-folded .my-list-page-name{opacity:1}
+html#iosDesign.mobile-source-mode body #sources>h2{display:none!important}
+}
+@media(max-width:759px){
+html#iosDesign body .route-large-header .route-large-title{font-weight:700;}
+html#iosDesign body #sepet>.route-large-header{margin-inline:-16px;width:calc(100% + 32px)}
+html#iosDesign.mobile-source-mode body .camera-filter-head .camera-result-count,html#iosDesign.mobile-my-list-mode body #sepet .my-list-title-row h2{opacity:0;pointer-events:none;transition:opacity .15s}
+html#iosDesign.mobile-source-mode body .camera-filter-head.route-title-folded .camera-result-count,html#iosDesign.mobile-my-list-mode body #sepet .my-list-title-row.route-title-folded h2{opacity:1!important}
+}
+/* v1.3.266 — consistent page headers and a pinned saved-platform rail. */
+@media(max-width:759px){
+html#iosDesign.mobile-my-list-mode body #sepet{padding-top:calc(70px + env(safe-area-inset-top,0px))}
+html#iosDesign.mobile-source-mode body .camera-filter-head .camera-result-count,
+html#iosDesign.mobile-source-mode body .camera-filter-head .camera-result-count :is(b,span),
+html#iosDesign.mobile-my-list-mode body #sepet .my-list-title-row h2,
+html#iosDesign.mobile-my-list-mode body #sepet #myListCount,
+html#iosDesign.mobile-my-list-mode body #sepet #myListCount :is(b,span){font-size:var(--text-lg)}
+html#iosDesign body :is(#sources,#sepet) .route-large-header .route-search-slot .route-search-field,
+html#iosDesign body :is(#sources,#sepet) .route-large-header .route-search-slot .route-search-field:is(:hover,:focus-within,.has-query){border-radius:var(--radius-pill)!important;left:auto!important;right:auto!important;top:auto!important;width:100%!important;max-width:none!important;position:relative!important}
+html#iosDesign.mobile-my-list-mode body #sepet #myListPlatforms{position:sticky;top:calc(90px + env(safe-area-inset-top,0px));z-index:25;overflow-x:auto}
+html#iosDesign.mobile-my-list-mode body #sepet #myListPlatforms::before{content:'';position:absolute;inset:-22px -16px -12px;z-index:-1;background:var(--bg);pointer-events:none}
+}
+@media(max-width:759px){
+html#iosDesign.mobile-my-list-mode body #sepet .saved-platform-sticky{position:sticky;top:calc(68px + env(safe-area-inset-top,0px));z-index:25;background:var(--bg);padding:22px 16px 12px;margin-inline:-16px;width:calc(100% + 32px);box-sizing:border-box}
+html#iosDesign.mobile-my-list-mode body #sepet .saved-platform-sticky #myListPlatforms{position:relative;top:auto;z-index:auto;margin:0}
+html#iosDesign.mobile-my-list-mode body #sepet #myListPlatforms::before{content:none}
+}
+/* v1.3.266 — matching toolbar typography and balanced filter band. */
+@media(max-width:759px){
+html#iosDesign.mobile-source-mode body .camera-filter-head .camera-result-count,
+html#iosDesign.mobile-source-mode body .camera-filter-head .camera-result-count :is(b,span),
+html#iosDesign.mobile-my-list-mode body #sepet .my-list-title-row h2,
+html#iosDesign.mobile-my-list-mode body #sepet #myListCount,
+html#iosDesign.mobile-my-list-mode body #sepet #myListCount :is(b,span){font-family:var(--f-body);font-weight:700;letter-spacing:-.4px;line-height:1.2}
+html#iosDesign.mobile-my-list-mode body #sepet>.route-large-header{padding-bottom:0}
+html#iosDesign.mobile-my-list-mode body #sepet .saved-platform-sticky{padding-block:16px}
+}
+
+/* v1.3.266 — row controls smaller than 48px avatars. */
+html#iosDesign body #sources #groups .item .profile-actions .list-action,
+html#iosDesign body #sepet .my-list-remove{width:36px;height:36px;min-width:36px;min-height:36px;padding:9px}
+html#iosDesign body #sources #groups .item .profile-actions .list-action svg,
+html#iosDesign body #sepet .my-list-remove svg{width:18px;height:18px}
+
+/* v1.3.266 — simplified appbar and centered information icon. */
+html#iosDesign body .appbar #topnav{display:none}
+html#iosDesign body .appbar #introBtn{display:grid;place-items:center;padding:0!important;gap:0;line-height:0}
+html#iosDesign body .appbar #introBtn svg{display:block;width:20px;height:20px;margin:0;transform:none;align-self:center;justify-self:center}
+html#iosDesign body .appbar #introBtn span{display:none}
+
+/* v1.3.266 — centered back arrow and left-side radar guide. */
+html#iosDesign body #sepet #myListClose{display:grid;place-items:center;padding:0!important;line-height:0}
+html#iosDesign body #sepet #myListClose svg{display:block;margin:0;transform:none;justify-self:center;align-self:center}
+html#iosDesign:not(.mobile-source-mode) body .camera-filter-head .radar-read-toggle.radar-guide-control{display:grid!important;place-items:center!important;grid-column:1;justify-self:start;padding:0!important;width:36px!important;height:36px!important;border-radius:var(--radius-round)!important;background:var(--surface)!important;border:1px solid var(--line-soft)!important;box-shadow:var(--ios-shadow)}
+html#iosDesign body .camera-filter-head .radar-read-toggle.radar-guide-control svg{width:18px!important;height:18px!important;min-width:18px!important;max-width:18px!important;flex:none;margin:0}
+
+/* v1.3.266 — consistent line weight and optical placement of controls. */
+html#iosDesign body :is(.introbtn,.my-list-tool,.camera-head-actions button,.camera-filter-clear,.camera-list-jump,.camera-mobile-sort,.profile-action,.my-list-remove,#profileBack,#sheetPrev,#sheetNext,#myListClose,#bottomnav .navbtn) svg{stroke-width:1.7!important;stroke-linecap:round;stroke-linejoin:round;display:block;margin:0;transform:none}
+html#iosDesign body :is(.my-list-tool,.camera-head-actions button,.camera-filter-clear,.camera-list-jump,.camera-mobile-sort,.my-list-remove,#profileBack,#sheetPrev,#sheetNext){display:grid;place-items:center}
+html#iosDesign body :is(.my-list-tool,.camera-head-actions button,.camera-filter-clear,.camera-list-jump,.camera-mobile-sort,.my-list-remove,#profileBack,#sheetPrev,#sheetNext) svg{justify-self:center;align-self:center}
+html#iosDesign body #bottomnav .navbtn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding-block:8px;line-height:1.2}
+html#iosDesign body #bottomnav .navbtn svg{flex:0 0 22px;}
+html#iosDesign body #bottomnav .navbtn>span{display:block;text-align:center;margin:0;line-height:1.2}
+
+/* v1.3.266 — keep source back navigation separate from radar help. */
+html#iosDesign:not(.mobile-source-mode) body .camera-filter-head .camera-list-jump{display:none}
+html#iosDesign.mobile-source-mode body .camera-filter-head .radar-guide-control{display:none!important}
+html#iosDesign.mobile-source-mode body .camera-filter-head .camera-list-jump,
+html#iosDesign body #introClose{display:grid;place-items:center;padding:0!important;gap:0;line-height:0}
+html#iosDesign.mobile-source-mode body .camera-filter-head .camera-list-jump svg,
+html#iosDesign body #introClose svg{display:block;width:20px;height:20px;margin:0;transform:none;justify-self:center;align-self:center;stroke-width:1.7}
+html#iosDesign:not(.mobile-source-mode) body .camera-filter-head .camera-head-actions .camera-list-jump{display:none}
+
+/* v1.3.266 — neutral selected dock surface and burgundy icon. */
+html#iosDesign body #bottomnav .navbtn{color:var(--muted)}
+html#iosDesign body #bottomnav .navbtn:not([aria-current=page]) :is(svg,span){color:var(--muted)}
+html#iosDesign body #bottomnav .navbtn[aria-current=page]{background:color-mix(in srgb,var(--muted) 10%,transparent)}
+html#iosDesign body #bottomnav .navbtn[aria-current=page] svg{color:var(--accent)}
+
+/* v1.3.266 — sorting remains available on Sources only. */
+html#iosDesign:not(.mobile-source-mode) body .camera-filter-head .camera-head-actions .camera-mobile-sort{display:none}
+
+/* v1.3.266 — clearer radar summary. */
+html#iosDesign body #newStrip :is(.recent-summary-label,.recent-summary-more,.recent-source-count){font-size:var(--text-xs)}
+html#iosDesign body #newStrip .recent-source-count b{font-size:var(--text-xs)}
+html#iosDesign body #newStrip .recent-avatar-stack .av{--s:26px!important;width:26px;height:26px;font-size:var(--text-4xs)}
+
+/* v1.3.266 — black Radar and About headers. */
+html#iosDesign:not(.mobile-source-mode):not(.mobile-my-list-mode):not(.sheet-open) body::before{background:#000!important;backdrop-filter:none;border-color:#222}
+html#iosDesign:not(.mobile-source-mode):not(.mobile-my-list-mode) body :is(.appbar,.appbar-in,.about-header){background:#000;color:#fff;border-color:#222;backdrop-filter:none}
+html#iosDesign body .about-header>span{font:700 var(--text-lg)/1.2 var(--f-body);letter-spacing:-.4px;color:#fff}
+html#iosDesign:not(.mobile-source-mode):not(.mobile-my-list-mode) body .appbar .appbrand b{color:#fff}
+html#iosDesign body :is(.appbar #introBtn,.about-header #introClose){background:var(--neutral-chip-dark)!important;color:#fff!important;border:1px solid #373737!important;box-shadow:none!important}
+html#iosDesign:not(.sheet-open):not(.mobile-source-mode):not(.mobile-my-list-mode) body .appbar.appbar,
+html#iosDesign:not(.sheet-open):not(.mobile-source-mode):not(.mobile-my-list-mode) body .about-header.about-header{background:#000;color:#fff;backdrop-filter:none;border-color:#222!important}
+
+/* v1.3.266 — slightly larger brand, compact about control. */
+html#iosDesign body #appbar .appbrand b{font-size:var(--text-3xl)}
+html#iosDesign body .appbar #introBtn{width:36px;height:36px;min-width:36px;min-height:36px;max-width:36px;max-height:36px;box-sizing:border-box}
+html#iosDesign body .appbar #introBtn svg{width:18px;height:18px}
+
+/* v1.3.266 — each source group owns its sticky heading. */
+@media(max-width:759px){
+html#iosDesign.mobile-source-mode body #sources #groups>.source-heading-group>h3{position:sticky;top:calc(68px + env(safe-area-inset-top,0px));z-index:24;background:var(--bg);padding-block:16px;min-height:52px;box-sizing:border-box}
+}
+
+/* v1.3.266 — align source row controls with saved row controls. */
+html#iosDesign body #sources #groups .item>.profile-actions{justify-content:flex-start}
+/* v1.3.266 — local academic area setup. */
+html#iosDesign body #academicAreasDialog{position:fixed;inset:0;width:100%;max-width:520px;height:100dvh;max-height:100dvh;margin:0 auto;padding:0;border:0;background:var(--bg);color:var(--ink);border-radius:0;overflow:hidden;box-sizing:border-box}
+#academicAreasDialog::backdrop{background:#16161d66}
+.academic-areas-form{height:100%;display:flex;flex-direction:column;padding:0 20px;box-sizing:border-box}
+.academic-areas-form>header{display:flex;justify-content:space-between;align-items:center;padding:calc(20px + env(safe-area-inset-top,0px)) 0 8px;gap:12px}
+.areas-eyebrow{font:500 var(--text-xs)/1.4 var(--f-body);color:var(--muted)}
+#academicAreasTitle{font:700 25px/1.2 var(--f-body);margin:6px 0}
+.areas-close{width:36px;height:36px;flex:none;border:0;border-radius:var(--radius-round);background:var(--ios-control);color:var(--ink);font-size:var(--text-5xl)}
+.academic-areas-form>p{font:400 var(--text-sm)/1.5 var(--f-body);margin:6px 0}
+.academic-areas-form>.areas-catalog-note{font-size:var(--text-2xs);color:var(--muted);margin-bottom:14px}
+.areas-options{overflow:auto;flex:1;min-height:0;overscroll-behavior:contain}
+.area-group{border-bottom:1px solid var(--line-soft)}
+.area-group-head{display:flex;align-items:center;gap:8px;min-height:56px}
+.area-group-head>label{flex:1;font-weight:600}
+#academicAreasDialog label{display:flex;align-items:center;gap:12px;font-size:var(--text-sm);cursor:pointer;min-height:44px}
+#academicAreasDialog input{accent-color:var(--accent);width:18px;height:18px;flex:none;margin:0}
+.area-expand{width:40px;height:40px;background:transparent;border:0;color:var(--muted);font-size:var(--text-4xl)}
+.area-expand[aria-expanded=true]{transform:rotate(180deg)}
+.area-children{padding:0 0 10px 30px}
+.academic-areas-form>footer{padding:12px 0 calc(16px + env(safe-area-inset-bottom,0px));background:var(--bg);border-top:1px solid var(--line-soft)}
+.areas-count{font-size:var(--text-xs);color:var(--muted)}
+.areas-save{display:block;margin-top:10px;width:100%;min-height:46px;border:0;border-radius:var(--radius-pill);background:var(--accent);color:var(--accent-ink);font:600 var(--text-md) var(--f-body)}
+.areas-error{font-size:var(--text-xs);color:var(--accent)}
+html#iosDesign body #academicAreasDialog .academic-areas-form>footer{display:block;position:static;flex:0 0 auto;visibility:visible}
+html#iosDesign body #academicAreasDialog .academic-areas-form>header{flex:0 0 auto}
+
+/* v1.3.266 — nested subject education choices. */
+#academicAreasDialog .area-subgroup{border-top:1px solid var(--line-soft);margin-top:6px}
+#academicAreasDialog .area-subgroup>.area-children{padding-left:20px}
+.academic-empty-area{margin:12px 16px;padding:16px;border-radius:var(--radius-3xl);background:var(--surface);border:1px solid var(--line-soft);font:400 var(--text-sm)/1.5 var(--f-body);color:var(--muted)}
+.academic-empty-area p{margin:0 0 8px}
+.academic-empty-area button{border:0;background:transparent;color:var(--accent);padding:4px 0;font:600 var(--text-sm) var(--f-body)}
+
+/* v1.3.266 — no empty new-source label; separate the overflow count. */
+html#iosDesign body #newStrip .recent-summary[hidden]{display:none!important}
+html#iosDesign body #newStrip .recent-source-count{margin-left:auto}
+html#iosDesign body #newStrip .recent-avatar-stack{flex:0 0 auto;overflow:visible}
+html#iosDesign body #newStrip .recent-summary-more{position:static;display:block;flex:0 0 auto;margin-left:8px;padding:0;transform:none;white-space:nowrap}
+html#iosDesign body #academicAreasDialog .areas-options{padding-inline:12px;box-sizing:border-box}
+
+/* v1.3.266 — lower the dock and radar controls by ten pixels. */
+@media(max-width:759px){html#iosDesign body #bottomnav{bottom:env(safe-area-inset-bottom,0px)}}
+
+/* v1.3.266 — inset row avatars slightly, without shifting row text. */
+html#iosDesign body #sources #groups .item .rav,
+html#iosDesign body #sepet .my-saved-avatar{transform:translateX(4px)}

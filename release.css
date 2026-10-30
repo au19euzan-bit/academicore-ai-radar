@@ -1,0 +1,156 @@
+#desktopGate{display:none}html.radar-desktop body>*{display:none!important}html.radar-desktop body>#desktopGate{display:block!important}html.radar-desktop body>#transferDialog[open]{display:block!important}#desktopGate{max-width:540px;margin:10vh auto;padding:32px;text-align:center;font:var(--text-xl)/1.7 system-ui}#phoneURL{overflow-wrap:anywhere}#transferDialog{max-width:540px;max-height:85vh;overflow:auto;border:1px solid #ddd;font:var(--text-lg)/1.5 system-ui}#transferDialog::backdrop{background:#0008}#transferDialog button,#desktopGate button{padding:12px;border:1px solid #ccc;border-radius:var(--radius-md);background:#f7f7f7;cursor:pointer}#transferDialog input{max-width:100%}
+#qrSlot{width:fit-content;margin:16px auto;padding:16px;background:#fff;color:#26313b}#qrSlot img,#qrSlot canvas{margin:auto}
+#updateNotice{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:10000;display:flex;align-items:center;flex-wrap:wrap;gap:10px;box-sizing:border-box;max-width:540px;margin:auto;padding:14px;border:1px solid #ddd;border-radius:var(--radius-2xl);background:#fff;color:var(--neutral-ink-dark);box-shadow:0 6px 30px #0003;font:var(--text-md)/1.4 system-ui}#updateNotice[hidden]{display:none}#updateMessage{flex:1 1 130px}#updateNotice button{padding:10px 12px;border:1px solid #ccc;border-radius:var(--radius-md);font:inherit;cursor:pointer;background:#f6f6f6;color:var(--neutral-ink-dark)}#updateNotice #updateNow{background:var(--neutral-ink-slate);color:#fff;border-color:var(--neutral-ink-slate)}html.radar-desktop body>#updateNotice:not([hidden]){display:flex!important}
+#badgeDialog{box-sizing:border-box;width:calc(100% - 32px);max-width:460px;max-height:80dvh;overflow:auto;border:1px solid #ddd;font:var(--text-lg)/1.5 system-ui;color:var(--neutral-ink-dark);background:#fff}#badgeDialog::backdrop{background:#0008}
+html.radar-desktop body>#badgeDialog[open]{display:block!important}
+html:not(.radar-desktop),html:not(.radar-desktop) body{touch-action:pan-x pan-y}
+#portraitGuard{box-sizing:border-box;position:fixed;inset:0;width:100vw;max-width:none;height:100dvh;max-height:none;margin:0;padding:max(16px,env(safe-area-inset-top)) max(24px,env(safe-area-inset-right)) max(16px,env(safe-area-inset-bottom)) max(24px,env(safe-area-inset-left));border:0;border-radius:0;background:#fff;color:#26313b;text-align:center;font:var(--text-xl)/1.5 system-ui;overflow:auto}
+#portraitGuard[open]{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px}#portraitGuard h1{margin:0;font-size:var(--text-5xl)}#portraitGuard p{margin:0}#portraitGuard::backdrop{background:#fff}
+html.phone-landscape,html.phone-landscape body{overflow:hidden}
+html:not(.radar-desktop) input[type=text],html:not(.radar-desktop) input[type=search],html:not(.radar-desktop) input[type=url],html:not(.radar-desktop) input[type=email],html:not(.radar-desktop) textarea,html:not(.radar-desktop) select{font-size:var(--text-xl)}
+/* Utility dialogs share the existing platform preference dialog's visual language. */
+#transferDialog,#badgeDialog{width:calc(100% - 32px);max-width:400px;max-height:calc(100dvh - 64px);box-sizing:border-box;border:1px solid var(--line-soft);background:var(--surface);color:var(--ink);box-shadow:0 16px 48px #17232e33;overflow:auto;font:400 var(--text-sm)/1.5 var(--f-body)}
+#transferDialog::backdrop,#badgeDialog::backdrop{background:rgba(23,35,46,.38)}
+#transferDialog .platform-dialog-head h2,#badgeDialog .platform-dialog-head h2{margin:0;}
+#transferDialog button,#badgeDialog button{appearance:none;-webkit-appearance:none;min-height:40px;box-sizing:border-box;padding:10px 14px;border:1px solid var(--line);border-radius:var(--radius-pill);background:var(--surface);color:var(--ink);font:500 var(--text-sm)/1.4 var(--f-body);cursor:pointer}
+#transferDialog .utility-intro,#badgeDialog .utility-intro{margin:10px 0 16px;color:var(--muted);font:400 var(--text-sm)/1.5 var(--f-body)}
+#transferDialog .utility-note,#badgeDialog .utility-note{margin:12px 0;color:var(--muted);font:400 var(--text-xs)/1.55 var(--f-body)}
+#transferDialog .utility-status,#badgeDialog .utility-status{margin:12px 0;padding:10px 12px;border:1px solid var(--line-soft);border-radius:var(--radius-md);background:var(--bg);color:var(--ink);font:400 var(--text-xs)/1.5 var(--f-body);overflow-wrap:anywhere}
+#transferDialog .utility-status:empty,#badgeDialog .utility-status:empty{display:none}
+.utility-divider{height:1px;background:var(--line-soft);margin:18px 0}
+.utility-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+#transferDialog .utility-primary,#badgeDialog .utility-primary,#transferDialog .utility-done,#badgeDialog .utility-done{border-color:var(--neutral-ink-slate);background:var(--neutral-ink-slate);color:#fff}
+#transferDialog .utility-wide,#transferDialog .utility-done,#badgeDialog .utility-done{display:block;width:100%}
+#transferDialog .utility-done,#badgeDialog .utility-done{margin-top:18px;}
+#transferDialog button:disabled,#badgeDialog button:disabled{opacity:.4;cursor:default}
+#transferDialog button:focus,#badgeDialog button:focus{outline:none}
+#transferDialog button:focus-visible,#badgeDialog button:focus-visible,.utility-file:focus-within{outline:2px solid var(--accent);outline-offset:3px}
+#transferDialog .utility-file{position:relative;display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:12px;border:1px dashed var(--line);border-radius:var(--radius-lg);cursor:pointer}
+#transferDialog .utility-file input{position:absolute;inset:0;width:100%;height:100%;max-width:none;opacity:0;cursor:pointer;font-size:var(--text-xl)}
+.utility-file-action{display:inline-block;border:1px solid var(--line);border-radius:var(--radius-pill);background:var(--surface);padding:7px 12px;font:500 var(--text-xs)/1.4 var(--f-body);color:var(--ink)}
+.utility-filename{flex:1 1 140px;min-width:0;overflow-wrap:anywhere;color:var(--muted);font:400 var(--text-xs)/1.4 var(--f-body)}
+#updateNotice{font:400 var(--text-sm)/1.5 var(--f-body);border-radius:var(--radius-4xl);background:var(--surface);color:var(--ink);border-color:var(--line-soft)}
+#updateNotice button{font:500 var(--text-xs)/1.4 var(--f-body);border-radius:var(--radius-pill);min-height:40px;border-color:var(--line);background:var(--surface);color:var(--ink)}
+#portraitGuard{font-family:var(--f-body)}#portraitGuard h1{font:600 var(--text-3xl)/1.4 var(--f-body)}
+body .source-filter-popover{border-color:var(--line);background:var(--surface);color:var(--ink);padding:14px;overflow:hidden}
+body .source-filter-popover:not([hidden]){display:flex;flex-direction:column;gap:0}
+body .source-filter-popover-head{flex:0 0 auto;margin-bottom:10px}
+body .source-filter-popover-options{display:flex;flex-direction:column;flex-wrap:nowrap;gap:6px;min-height:0;overflow-y:auto;overscroll-behavior:contain}
+body .source-filter-popover-options button{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;flex:0 0 auto;min-height:36px;text-align:left;border-radius:var(--radius-md);padding:8px 10px;background:var(--bg);border-color:var(--line-soft);color:var(--ink);font:400 var(--text-xs)/1.4 var(--f-body)}
+body .source-filter-popover-options button span{margin-left:auto;flex:0 0 auto;color:var(--muted);font-size:var(--text-xl)}
+body .source-filter-popover-options p{color:var(--muted);font:400 var(--text-xs)/1.5 var(--f-body)}
+body .source-filter-reset{flex:0 0 auto;width:100%;margin-top:12px;}
+/* Shared phone header controls: 44 px targets, 12 px between targets. */
+@media(max-width:759px){
+html body .appbar-r #topnav .navbtn:not([aria-current="page"]),html body .appbar-r #introBtn,
+html.mobile-my-list-mode body #sepet .my-list-title-row .my-list-tool,
+html.mobile-my-list-mode body #sepet .my-list-toolbar-search{display:grid;place-items:center;box-sizing:border-box;width:44px;height:44px;min-width:44px;min-height:44px;flex:0 0 44px;padding:11px!important;border:0;border-radius:var(--radius-round);background:var(--neutral-chip-dark);color:#fff;box-shadow:none}
+html body .appbar-r #topnav .navbtn svg,html body .appbar-r #introBtn svg,
+html.mobile-my-list-mode body #sepet .my-list-title-row .my-list-tool svg,
+html.mobile-my-list-mode body #sepet .my-list-toolbar-search svg{display:block;width:22px;height:22px;min-width:22px;}
+html body .appbar-r{gap:12px;align-items:center}
+html body .appbar-r #topnav{gap:12px;align-items:center}
+html body .appbar-in{min-height:68px;padding-block:12px;gap:12px}
+html.mobile-my-list-mode body #sepet .my-list-title-row{grid-template-columns:44px minmax(0,1fr) 156px;gap:12px;height:68px;min-height:68px;padding:12px}
+html.mobile-my-list-mode body #sepet .my-list-title-row h2{padding-left:0;overflow:hidden;text-overflow:ellipsis}
+html.mobile-my-list-mode body #sepet .my-list-tools{width:156px;gap:12px;justify-content:flex-end;align-items:center}
+html.mobile-my-list-mode body #sepet #myListMenu{width:44px;min-width:44px;height:44px;flex:0 0 44px}
+html.mobile-my-list-mode body #sepet{padding-top:calc(80px + env(safe-area-inset-top,0px))}
+html.mobile-my-list-mode body #sepet .my-list-toolbar-search:is(:focus-within,.has-query){position:absolute;left:68px;right:124px;top:12px;width:auto;max-width:none;border-radius:var(--radius-pill)!important;display:flex;gap:6px}
+html.mobile-my-list-mode body #sepet .my-list-toolbar-search:is(:focus-within,.has-query) #myListSearch{left:34px;width:calc((100% - 42px) / .8125);transform:translateY(-50%) scale(.8125)}
+html body .appbar-r #topnav .navbtn:active,html body .appbar-r #introBtn:active,html.mobile-my-list-mode body #sepet .my-list-tool:active{background:#414141!important}
+}
+@media(max-width:759px) and (hover:hover){
+html.mobile-my-list-mode body #sepet .my-list-toolbar-search:hover{position:absolute;left:68px;right:124px;top:12px;width:auto;max-width:none;border-radius:var(--radius-pill)!important;display:flex;gap:6px}
+html.mobile-my-list-mode body #sepet .my-list-toolbar-search:hover #myListSearch{left:34px;width:calc((100% - 42px) / .8125);transform:translateY(-50%) scale(.8125)}
+}
+/* Shared navigation geometry across Radar, Listem, Sources, and profile cards. */
+:root{--app-header-height:68px;--app-control-size:44px;--app-control-gap:12px;--app-icon-size:22px}
+@media(max-width:759px){
+html body #appbar,html body #appbar .appbar-in{height:var(--app-header-height);min-height:var(--app-header-height)}
+html.mobile-my-list-mode body #sepet .my-list-title-row{height:var(--app-header-height);min-height:var(--app-header-height)}
+html.mobile-source-mode body .camera-filter-head.is-source-navigation{height:var(--app-header-height);min-height:var(--app-header-height);padding:12px;grid-template-columns:minmax(44px,1fr) repeat(3,var(--app-control-size));column-gap:var(--app-control-gap);row-gap:0;box-sizing:border-box}
+html.mobile-source-mode body #sources{padding-top:calc(var(--app-header-height) + env(safe-area-inset-top,0px) + 2px)}
+html.mobile-source-mode body .camera-filter-head .camera-head-actions button,
+html.mobile-source-mode body .camera-filter-head .mobile-source-search,
+html body #sheetPanel .sheet-top #profileBack,html body #sheetPanel .sheet-top #sheetPrev,html body #sheetPanel .sheet-top #sheetNext{display:grid;place-items:center;box-sizing:border-box;width:var(--app-control-size);height:var(--app-control-size);min-width:var(--app-control-size);min-height:var(--app-control-size);flex:0 0 var(--app-control-size);padding:11px!important;border:0;border-radius:var(--radius-round);background:var(--neutral-chip-dark);color:#fff;box-shadow:none}
+html.mobile-source-mode body .camera-filter-head .camera-head-actions button svg,
+html.mobile-source-mode body .camera-filter-head .mobile-source-search svg,
+html body #sheetPanel .sheet-top #profileBack svg,html body #sheetPanel .sheet-top #sheetPrev svg,html body #sheetPanel .sheet-top #sheetNext svg{display:block;width:var(--app-icon-size);height:var(--app-icon-size);min-width:var(--app-icon-size);}
+html.mobile-source-mode body .camera-filter-head .camera-result-count{left:68px;max-width:calc(100% - 248px);font-size:var(--text-sm);overflow:hidden}
+html.mobile-source-mode body .camera-filter-head .mobile-source-search:is(:focus-within,.has-query){position:absolute;left:68px;right:124px;top:12px;width:auto!important;max-width:none;display:flex;border-radius:var(--radius-pill)!important;gap:6px}
+html.mobile-source-mode body .camera-filter-head .mobile-source-search:is(:focus-within,.has-query) input{left:34px;width:calc((100% - 42px) / .8125);transform:translateY(-50%) scale(.8125)}
+html body #sheetPanel .sheet-top{height:calc(var(--app-header-height) + env(safe-area-inset-top,0px));min-height:calc(var(--app-header-height) + env(safe-area-inset-top,0px));padding:calc(12px + env(safe-area-inset-top,0px)) 12px 12px;box-sizing:border-box;align-items:center;background:var(--card-header-color,var(--card-category-dark))}
+html body #sheetPanel .sheet-top .sheet-nav{grid-template-columns:var(--app-control-size) max-content var(--app-control-size);gap:var(--app-control-gap);max-width:calc(100% - 56px)}
+html body #sheetPanel #sheetPos{font:600 var(--text-xs)/1.4 var(--f-body)}
+html.mobile-source-mode body .camera-filter-head .camera-head-actions button:active,html body #sheetPanel .sheet-top button:active{background:#414141!important}
+}
+@media(max-width:759px) and (hover:hover){
+html.mobile-source-mode body .camera-filter-head.is-source-navigation .mobile-source-search:hover{position:absolute;left:68px;right:124px;top:12px;width:auto!important;max-width:none;display:flex;border-radius:var(--radius-pill)!important;gap:6px}
+html.mobile-source-mode body .camera-filter-head.is-source-navigation .mobile-source-search:hover input{left:34px;width:calc((100% - 42px) / .8125);transform:translateY(-50%) scale(.8125)}
+}
+@media(max-width:359px){
+html.mobile-source-mode body .camera-filter-head .camera-result-count{font-size:var(--text-2xs);line-height:1.2;white-space:normal}
+html.mobile-source-mode body .camera-filter-head .camera-result-count .toolbar-page-label{display:block;font-size:var(--text-2xs)}
+html.mobile-source-mode body .camera-filter-head .camera-result-count b{font-size:var(--text-2xs)}
+}
+
+@media(max-width:759px){
+html body #sheetPanel .sheet-top #profileBack,html body #sheetPanel .sheet-top #sheetPrev,html body #sheetPanel .sheet-top #sheetNext{background:color-mix(in srgb,var(--card-header-color) 72%,black)}
+html body #sheetPanel .sheet-top #profileBack:hover,html body #sheetPanel .sheet-top #sheetPrev:hover,html body #sheetPanel .sheet-top #sheetNext:hover{background:color-mix(in srgb,var(--card-header-color) 60%,black)!important}
+}
+/* About is a full page, sharing the application type and control sizes. */
+html.intro-mode body #appbar{display:none}
+html.intro-mode body .wrap{padding:0;max-width:none}
+html.intro-mode body .view.intro{padding:0;margin:0;display:block;min-height:100dvh;background:var(--surface)}
+html body .intro-card.about-page{margin:0;padding:0;max-width:none;border:0;border-radius:0;box-shadow:none;background:var(--surface);color:var(--ink);font-family:var(--f-body)}
+html body .about-header{height:calc(68px + env(safe-area-inset-top,0px));padding:calc(12px + env(safe-area-inset-top,0px)) 16px 12px;display:flex;align-items:center;gap:16px;background:#000;color:#fff;box-sizing:border-box}
+html body .about-header .iconbtn{width:44px;height:44px;min-width:44px;padding:11px;border:0;border-radius:var(--radius-round);background:var(--neutral-chip-dark);color:white;display:grid;place-items:center}
+html body .about-header svg{width:22px;height:22px}
+html body .about-header span{font:600 var(--text-md)/1.3 var(--f-body)}
+html body .about-content{max-width:560px;margin:auto;padding:28px 20px calc(24px + env(safe-area-inset-bottom,0px))}
+html body .about-kicker{font:600 var(--text-2xs)/1.5 var(--f-body);color:var(--muted)}
+html body .about-content h1{font:650 24px/1.25 var(--f-body);letter-spacing:-.5px;margin:8px 0 14px}
+html body .about-lead{font:400 var(--text-md)/1.6 var(--f-body);margin:0 0 24px;color:var(--muted)}
+html body .about-steps{list-style:none;counter-reset:about;padding:0;margin:0}
+html body .about-steps li{counter-increment:about;position:relative;padding:0 0 18px 40px;margin:0 0 18px;border-bottom:1px solid var(--line)}
+html body .about-steps li::before{content:counter(about);position:absolute;left:0;top:0;width:28px;height:28px;display:grid;place-items:center;border-radius:var(--radius-round);background:var(--ink);color:var(--surface);font:600 var(--text-xs) var(--f-body)}
+html body .about-steps b{display:block;font:600 var(--text-md)/1.5 var(--f-body);margin-bottom:3px}
+html body .about-steps span,html body .about-privacy{font:400 var(--text-sm)/1.6 var(--f-body);color:var(--muted)}
+html body .about-privacy{margin:0 0 22px}
+html body #introStart{width:100%;min-height:44px;border-radius:var(--radius-pill);font:600 var(--text-md)/1.4 var(--f-body);padding:12px 20px;background:var(--ink);color:var(--surface);border:1px solid var(--ink)}
+html.intro-mode body footer.about-credits{display:block;padding:20px 0 0;margin:0;text-align:left;border:0;color:var(--muted);font:400 var(--text-2xs)/1.6 var(--f-body)}
+html body .about-credits p{margin:0 0 10px;font:inherit}
+html body .about-credits summary{cursor:pointer;min-height:32px;font:inherit}
+html body .intro-card.about-page{width:100%;box-sizing:border-box}
+html body .about-header{width:100%;margin:0;justify-content:flex-start;border-radius:0}
+html body .about-header span{margin:0}
+html body #introStart{display:flex;justify-content:center;align-items:center;text-align:center}
+html.intro-mode body main.wrap{width:100%;max-width:none;margin:0;padding:0;box-sizing:border-box}
+html.intro-mode body .view.intro{width:100%;max-width:none;box-sizing:border-box}
+html body .intro-card.about-page{gap:0;justify-content:flex-start;min-height:100dvh}
+html.intro-mode body{padding-inline:0}
+/* Use the browser's native momentum for every source-list entry route. */
+html.mobile-source-mode,html.mobile-source-mode body{scroll-behavior:auto;overscroll-behavior-y:none;scroll-snap-type:none}
+html.mobile-source-mode #sources,html.mobile-source-mode #groups{scroll-behavior:auto;scroll-snap-type:none;touch-action:pan-y}
+html body .about-suggest{width:100%;min-height:44px;border:1px solid var(--line);border-radius:var(--radius-pill);margin-top:12px;background:var(--surface);color:var(--ink);font:600 var(--text-md) var(--f-body);cursor:pointer}
+#suggestionDialog{width:calc(100% - 32px);max-width:420px;max-height:calc(100dvh - 40px);overflow-y:auto;box-sizing:border-box;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:400 var(--text-sm)/1.5 var(--f-body)}
+#suggestionDialog::backdrop{background:#0007}
+#suggestionDialog header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+#suggestionDialog h2{margin:0}
+#suggestionDialog .suggest-close{width:44px;height:44px;border-radius:var(--radius-round);border:1px solid var(--line);background:var(--surface);color:var(--ink);font:400 var(--text-6xl) var(--f-body)}
+#suggestionDialog label{display:block;margin:16px 0;font-weight:600}
+#suggestionDialog label span{font-weight:400;color:var(--muted)}
+#suggestionDialog input,#suggestionDialog textarea{display:block;width:100%;box-sizing:border-box;border:1px solid var(--line);border-radius:var(--radius-md);background:var(--surface);color:var(--ink);padding:12px;margin-top:6px;font:400 var(--text-xl)/1.4 var(--f-body)}
+#suggestionDialog .suggest-privacy{font-size:var(--text-2xs);color:var(--muted)}
+#suggestionDialog .suggest-trap{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(100%)}
+#suggestionDialog .suggest-send{width:100%;min-height:44px;border:0;border-radius:var(--radius-pill);background:var(--ink);color:var(--surface);font:600 var(--text-md) var(--f-body);padding:12px}
+#suggestionDialog button:disabled{opacity:.5}
+#suggestChallenge{max-width:100%;overflow:hidden}
+/* All upper-toolbar panels start on one stable line below the header. */
+@media(max-width:759px){
+ html{--panel-top:calc(var(--app-header-height,68px) + env(safe-area-inset-top,0px) + 2px);--panel-max-height:calc(100dvh - var(--panel-top) - max(16px,env(safe-area-inset-bottom,0px)))}
+ html:not(.radar-desktop) body :is(#cardPlatformDialog,#transferDialog,#badgeDialog,#suggestionDialog){position:fixed;top:var(--panel-top);bottom:auto;left:0;right:0;margin:0 auto;max-height:var(--panel-max-height);overscroll-behavior-y:contain}
+ html.mobile-source-mode body .source-filter-popover{top:var(--panel-top);bottom:auto;max-height:var(--panel-max-height)}
+ html body #sepet .my-list-menu-panel,html.mobile-source-mode body #cameraMobileSortMenu{position:fixed;top:var(--panel-top);bottom:auto;right:16px;max-height:var(--panel-max-height);overflow-y:auto;overscroll-behavior-y:contain}
+}

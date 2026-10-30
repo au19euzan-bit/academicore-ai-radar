@@ -1,0 +1,244 @@
+/* One mobile layout owns safe areas. Dimensions scale from a 440-point canvas. */
+@media(max-width:759px){
+ html#iosDesign{--ui-scale:1;--layout-safe-top:env(safe-area-inset-top,0px);--layout-safe-bottom:env(safe-area-inset-bottom,0px);--dock-inset:max(12px,calc(var(--layout-safe-bottom) - 14px));--layout-bar:calc(68px * var(--ui-scale));--layout-header:calc(var(--layout-safe-top) + var(--layout-bar));--layout-dock:calc(62px * var(--ui-scale));padding:0;scroll-padding-top:var(--layout-header);-webkit-text-size-adjust:100%;text-size-adjust:100%;min-height:100%}
+ html#iosDesign body{margin:0;padding:0;min-height:var(--app-viewport-height,100dvh);overflow-x:hidden}
+ html#iosDesign.app body::before{height:var(--layout-header);top:0;background:#000;backdrop-filter:none;-webkit-backdrop-filter:none!important;border:0;box-shadow:none}
+ html#iosDesign.app:is(.mobile-source-mode,.mobile-my-list-mode,.intro-mode) body::before{background:var(--bg)!important}
+ html#iosDesign.app body #appbar{position:fixed;inset:0 0 auto;width:100%;max-width:none;height:var(--layout-header);min-height:0;margin:0;padding:var(--layout-safe-top) 0 0;box-sizing:border-box;background:#000;border:0!important;box-shadow:none;z-index:40}
+ html#iosDesign.app body #appbar .appbar-in{height:var(--layout-bar);min-height:0;padding:0 calc(16px * var(--ui-scale))!important;margin:0;display:flex;align-items:center;box-sizing:border-box}
+ html#iosDesign.app body #appbar .appbar-in>:is(.brand,.appbar-r){min-height:0;height:100%}
+ html#iosDesign.app body #appbar .brand{font-size:calc(var(--text-2xl) * var(--ui-scale))!important}
+ html#iosDesign.app body main.wrap{margin:0;padding:var(--layout-header) calc(16px * var(--ui-scale)) calc(var(--layout-safe-bottom) + var(--layout-dock) + 20px)!important;width:100%;max-width:none;box-sizing:border-box;min-height:0}
+ html#iosDesign.app.mobile-source-mode body #appbar,html#iosDesign.app.mobile-my-list-mode body #appbar{display:none}
+ html#iosDesign.app body #bottomnav{position:fixed;top:auto;bottom:var(--layout-safe-bottom);left:calc(16px * var(--ui-scale));right:calc(16px * var(--ui-scale));height:var(--layout-dock);min-height:0;margin:0;box-sizing:border-box;padding:calc(5px * var(--ui-scale));border-radius:calc(32px * var(--ui-scale))}
+ html#iosDesign.app body #bottomnav .navbtn{min-height:0;height:100%;padding:calc(5px * var(--ui-scale))!important;gap:calc(3px * var(--ui-scale))!important}
+ /* The radar and its controls share the space between header and dock. */
+ html#iosDesign.app.mobile-radar-screen:not(.mobile-source-mode) body main.wrap{padding-top:var(--layout-header);padding-bottom:0!important}
+ html#iosDesign.app.mobile-radar-screen:not(.mobile-source-mode) body .radar-workspace{position:fixed;top:var(--layout-header);bottom:calc(var(--layout-safe-bottom) + var(--layout-dock) + 18px * var(--ui-scale));left:calc(16px * var(--ui-scale));right:calc(16px * var(--ui-scale));width:auto;height:auto;min-height:0;max-height:none;margin:0;padding:0;display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr) auto;gap:0}
+ html#iosDesign.app.mobile-radar-screen:not(.mobile-source-mode) body .radar-workspace>#radarBox{grid-row:1;width:100%;height:100%!important;max-height:none;min-height:0;display:grid;grid-template-rows:calc(34px * var(--ui-scale)) minmax(0,1fr)!important;padding:0!important;overflow:visible}
+ html#iosDesign.app body #radarBox>#newStrip{position:relative;inset:auto;grid-row:1;height:calc(34px * var(--ui-scale));min-height:0;max-height:none;padding:calc(4px * var(--ui-scale)) 0!important;margin:0;overflow:hidden}
+ html#iosDesign.app body #radarBox:has(>#newStrip[hidden]){grid-template-rows:minmax(0,1fr)!important}
+ html#iosDesign.app body #radarBox>.radar-scroll{grid-row:2;width:100%;height:100%;min-width:0;min-height:0;max-height:none;margin:0;padding:calc(30px * var(--ui-scale)) 0 calc(24px * var(--ui-scale));box-sizing:border-box;overflow:hidden;align-items:center;justify-content:center}
+ html#iosDesign.app body #radarBox:has(>#newStrip[hidden])>.radar-scroll{grid-row:1!important}
+ html#iosDesign.app body #radarBox .academy-top-tools{top:calc(44px * var(--ui-scale));right:0;gap:calc(6px * var(--ui-scale))}
+ html#iosDesign.app body #radarBox .academy-top-tools button{padding:calc(8px * var(--ui-scale))}
+ html#iosDesign.app body .academy-status-key{bottom:calc(4px * var(--ui-scale));font-size:calc(var(--text-2xs) * var(--ui-scale))}
+ html#iosDesign.app:not(.mobile-source-mode) body .camera-filters{grid-row:2;height:auto;min-height:0;max-height:none;padding:0;margin:0;gap:calc(14px * var(--ui-scale))!important}
+ html#iosDesign.app body .camera-filters>.academy-quick-controls{padding:0!important;gap:calc(8px * var(--ui-scale))!important}
+ html#iosDesign.app body .academy-quick-controls button{height:calc(36px * var(--ui-scale));padding:calc(7px * var(--ui-scale)) calc(8px * var(--ui-scale));}
+ html#iosDesign.app:not(.mobile-source-mode) body .camera-filter-head{height:calc(60px * var(--ui-scale));min-height:0;padding:calc(12px * var(--ui-scale)) 0}
+ html#iosDesign.app body .camera-filters>.camera-rail-frame,html#iosDesign.app body .camera-filter-modes,html#iosDesign.app body .camera-filter-options{height:calc(44px * var(--ui-scale));min-height:0}
+ html#iosDesign.app body .camera-filter-mode,html#iosDesign.app body .camera-filter-option{height:calc(36px * var(--ui-scale));min-height:0;padding:calc(8px * var(--ui-scale)) calc(12px * var(--ui-scale))!important}
+ /* List pages consume the top safe area exactly once, above their toolbar. */
+ html#iosDesign.app:is(.mobile-source-mode,.mobile-my-list-mode) body main.wrap{padding-top:0!important;padding-bottom:calc(var(--layout-safe-bottom) + var(--layout-dock) + 20px)}
+ html#iosDesign.app.mobile-source-mode body #sources,html#iosDesign.app.mobile-my-list-mode body #sepet{padding-top:calc(var(--layout-header) + 8px * var(--ui-scale));margin-top:0;scroll-margin-top:0}
+ html#iosDesign.app.mobile-source-mode body .camera-filter-head.is-source-navigation,html#iosDesign.app.mobile-my-list-mode body #sepet .my-list-title-row{position:fixed;top:0;left:0;right:0;height:var(--layout-header);min-height:0;padding:calc(var(--layout-safe-top) + 12px * var(--ui-scale)) calc(12px * var(--ui-scale)) calc(12px * var(--ui-scale))!important;box-sizing:border-box;background:var(--bg)!important;transform:none;z-index:40}
+ html#iosDesign.app body :is(#sources,#sepet) .route-large-header{margin-top:0;padding-bottom:calc(12px * var(--ui-scale))}
+ html#iosDesign.app body :is(#sources,#sepet) .route-large-title{font-size:calc(var(--text-6xl) * var(--ui-scale))!important;line-height:1.2;margin:0 0 calc(14px * var(--ui-scale));top:var(--layout-header)}
+ html#iosDesign.app body .route-search-slot{padding:0 0 calc(6px * var(--ui-scale))}
+ html#iosDesign.app body .route-search-slot .route-search-field{height:calc(40px * var(--ui-scale));min-height:36px}
+ html#iosDesign.app body #sources #groups .source-heading-group>h3{top:var(--layout-header)}
+ html#iosDesign.app body #sepet .saved-platform-sticky{top:var(--layout-header);padding-block:calc(14px * var(--ui-scale)) calc(12px * var(--ui-scale))!important}
+ html#iosDesign.app body :is(#sources #groups .item,#sepet .my-saved-row){min-height:calc(76px * var(--ui-scale));padding-block:calc(12px * var(--ui-scale))!important}
+ html#iosDesign.app body #sources #groups .item .rn,html#iosDesign.app body #sepet .my-saved-info b{font-size:max(var(--text-xs),calc(var(--text-sm) * var(--ui-scale)))}
+ html#iosDesign.app body #sources #groups .item .rsub,html#iosDesign.app body #sepet .my-saved-info small{font-size:max(var(--text-3xs),calc(var(--text-2xs) * var(--ui-scale)))!important}
+}
+
+/* One viewport anchor for the dock on every route, including cold launch. */
+@media(max-width:759px){
+ html#iosDesign.app body{min-height:var(--app-viewport-height,100dvh)}
+ html#iosDesign.app.mobile-radar-screen:not(.mobile-source-mode),html#iosDesign.app.mobile-radar-screen:not(.mobile-source-mode) body{height:var(--app-viewport-height,100dvh)}
+ html#iosDesign.app body #bottomnav{top:calc(var(--app-viewport-height,100dvh) - var(--dock-inset) - var(--layout-dock));bottom:auto;transform:translateZ(0);will-change:transform}
+ html#iosDesign.app.mobile-radar-screen:not(.mobile-source-mode) body .radar-workspace{bottom:auto;height:calc(var(--app-viewport-height,100dvh) - var(--layout-header) - var(--dock-inset) - var(--layout-dock) - 18px * var(--ui-scale))}
+}
+
+/* Cancel the legacy full-bleed negative margin inside the inset workspace. */
+@media(max-width:759px){
+ html#iosDesign.app.mobile-radar-screen:not(.mobile-source-mode) body .radar-workspace>#radarBox{margin:0;left:auto;right:auto;transform:none}
+}
+
+/* Keep all three navigation items inside the currently visible viewport. */
+@media(max-width:759px){
+ html#iosDesign.app body #bottomnav{top:var(--layout-dock-top,calc(var(--app-viewport-height,100dvh) - var(--dock-inset) - var(--layout-dock)));min-width:0;max-width:none;overflow:visible}
+ html#iosDesign.app body #bottomnav .navbtn{min-width:0;max-width:100%;white-space:nowrap}
+ html#iosDesign.app.mobile-radar-screen:not(.mobile-source-mode) body .radar-workspace{height:calc(var(--layout-dock-top,calc(var(--app-viewport-height,100dvh) - var(--dock-inset) - var(--layout-dock))) - var(--layout-header) - 18px * var(--ui-scale))!important}
+}
+
+/* Native scrolling on all list routes; chrome stays on its own fixed layer. */
+@media(max-width:759px){
+ html#iosDesign.app{touch-action:pan-x pan-y}
+ html#iosDesign.app.mobile-source-mode,html#iosDesign.app.mobile-source-mode body{overscroll-behavior-y:auto;scroll-behavior:auto}
+ html#iosDesign.app.mobile-source-mode body #sources{touch-action:pan-y;overflow:visible;scroll-snap-type:none}
+ html#iosDesign.app body #bottomnav{position:fixed;transform:translate3d(0,0,0);backface-visibility:hidden;-webkit-backface-visibility:hidden;contain:layout style;will-change:transform}
+ 
+ html#iosDesign.app.mobile-source-mode body .camera-filter-head .camera-result-count{transition:opacity .18s ease}
+ html#iosDesign.app.mobile-source-mode body #sources .route-large-title{position:relative;top:auto}
+}
+@media(prefers-reduced-motion:reduce){html#iosDesign.app.mobile-source-mode body .camera-filter-head .camera-result-count{transition:none}}
+
+/* Preserve viewport sticky positioning while clipping horizontal overflow. */
+@media(max-width:759px){
+ html#iosDesign.app body{overflow-x:clip;overflow-y:visible}
+ html#iosDesign.app.mobile-my-list-mode body #sepet .saved-platform-sticky{position:sticky;top:var(--layout-header);z-index:30;background:var(--bg);isolation:isolate}
+}
+
+/* Match the search-to-filter gap to the title-to-search gap. */
+@media(max-width:759px){
+ html#iosDesign.app.mobile-my-list-mode body #sepet{row-gap:calc(14px * var(--ui-scale))}
+ html#iosDesign.app.mobile-my-list-mode body #sepet>.route-large-header{padding-bottom:0}
+ html#iosDesign.app.mobile-my-list-mode body #sepet .route-search-slot{padding-bottom:0}
+ html#iosDesign.app.mobile-my-list-mode body #sepet .saved-platform-sticky{padding-top:0!important}
+}
+
+.radar-visible-count{display:none}
+.academy-quick-controls [data-quick-saved]{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.academy-quick-controls [data-quick-saved] i{width:32px;height:20px;flex:0 0 32px;border-radius:var(--radius-pill);background:#d3d5da;position:relative;transition:background .18s}
+.academy-quick-controls [data-quick-saved] i::after{content:'';position:absolute;width:16px;height:16px;left:2px;top:2px;border-radius:var(--radius-round);background:#fff;box-shadow:0 1px 3px #0002;transition:transform .18s}
+.academy-quick-controls [data-quick-saved][aria-checked=true] i{background:var(--accent,var(--brand-accent-fallback))}
+.academy-quick-controls [data-quick-saved][aria-checked=true] i::after{transform:translateX(12px)}
+@media(max-width:759px){
+ html#iosDesign.app:not(.mobile-source-mode) body .camera-filter-head{display:flex;align-items:center;justify-content:space-between;height:calc(44px * var(--ui-scale));min-height:36px;padding:0 calc(12px * var(--ui-scale));border-radius:var(--radius-pill);background:var(--ios-control,var(--neutral-fill-3));gap:8px}
+ html#iosDesign.app:not(.mobile-source-mode) body .camera-filter-head .radar-visible-count{display:block;position:static;font:500 calc(12px * var(--ui-scale))/1.4 var(--f-body);color:var(--muted);white-space:nowrap}
+ html#iosDesign.app:not(.mobile-source-mode) body .camera-filter-head :is(.radar-selected-groups,.camera-result-count){display:none}
+ html#iosDesign.app:not(.mobile-source-mode) body .camera-filter-head .camera-head-actions{position:static;transform:none;width:auto;margin:0;display:flex}
+ html#iosDesign.app:not(.mobile-source-mode) body .camera-filter-head .camera-filter-clear{background:transparent;border:0;box-shadow:none}
+ html#iosDesign.app body .academy-quick-controls [data-quick-scan]{background:var(--accent,var(--brand-accent-fallback));border-color:var(--accent,var(--brand-accent-fallback));color:#fff;}
+ html#iosDesign.app body .academy-quick-controls [data-quick-saved]{border:0;background:transparent;padding-inline:0;max-width:none}
+}
+@media(prefers-reduced-motion:reduce){.academy-quick-controls [data-quick-saved] i,.academy-quick-controls [data-quick-saved] i::after{transition:none}}
+
+/* One radar control row: saved visibility, scan, filters. */
+@media(max-width:759px){
+ html#iosDesign.app:not(.mobile-source-mode) body .camera-filter-head{display:grid;grid-template-columns:minmax(0,1fr) auto calc(32px * var(--ui-scale));gap:calc(8px * var(--ui-scale))!important;padding:0;background:transparent}
+ html#iosDesign.app:not(.mobile-source-mode) body .camera-filter-head .radar-visible-count{display:none}
+ html#iosDesign.app body .camera-filter-head>.academy-quick-controls:not([hidden]){display:contents}
+ html#iosDesign.app body .camera-filter-head .academy-quick-controls [data-quick-saved]{grid-column:1;grid-row:1;display:flex;justify-content:flex-start;gap:calc(6px * var(--ui-scale));height:calc(36px * var(--ui-scale));min-width:0;font-size:calc(var(--text-3xs) * var(--ui-scale));white-space:nowrap}
+ html#iosDesign.app body .camera-filter-head .academy-quick-controls [data-quick-saved] i{width:26px;height:17px;flex-basis:26px}
+ html#iosDesign.app body .camera-filter-head .academy-quick-controls [data-quick-saved] i::after{width:13px;height:13px}
+ html#iosDesign.app body .camera-filter-head .academy-quick-controls [data-quick-saved][aria-checked=true] i::after{transform:translateX(9px)}
+ html#iosDesign.app body .camera-filter-head .academy-quick-controls [data-quick-scan]{grid-column:2;grid-row:1;max-width:none;height:calc(36px * var(--ui-scale));padding:calc(7px * var(--ui-scale)) calc(10px * var(--ui-scale))!important}
+ html#iosDesign.app:not(.mobile-source-mode) body .camera-filter-head .camera-head-actions{grid-column:3;grid-row:1}
+ html#iosDesign.app:not(.mobile-source-mode) body .camera-filter-head .camera-filter-clear{padding:calc(6px * var(--ui-scale))}
+}
+@media(max-width:759px){
+ html#iosDesign.app:not(.mobile-source-mode) body .camera-filter-head{grid-template-columns:auto minmax(0,1fr) calc(32px * var(--ui-scale))}
+ html#iosDesign.app body .camera-filter-head .academy-quick-controls [data-quick-scan]{justify-self:center}
+}
+
+/* Symmetric side controls keep the scan button at the screen center. */
+@media(max-width:759px){
+ html#iosDesign.app:not(.mobile-source-mode) body .camera-filter-head{grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)}
+ html#iosDesign.app body .camera-filter-head .academy-quick-controls [data-quick-saved]{justify-self:start;justify-content:center;width:calc(36px * var(--ui-scale));height:calc(36px * var(--ui-scale));min-height:30px;padding:calc(8px * var(--ui-scale))!important;border:0;border-radius:var(--radius-round);background:var(--ios-control,var(--neutral-fill-3))!important;color:var(--muted);box-sizing:border-box}
+ html#iosDesign.app body .camera-filter-head .academy-quick-controls [data-quick-saved] svg{width:100%;height:100%;flex:0 0 auto}
+ html#iosDesign.app body .camera-filter-head .academy-quick-controls [data-quick-saved][aria-checked=true]{background:var(--accent-soft,#fff0f3)!important;color:var(--accent,var(--brand-accent-fallback))!important;box-shadow:inset 0 0 0 1px currentColor!important}
+ html#iosDesign.app:not(.mobile-source-mode) body .camera-filter-head .camera-head-actions{justify-self:end}
+ html#iosDesign.app:not(.mobile-source-mode) body .camera-filter-head .camera-filter-clear{padding:calc(8px * var(--ui-scale))!important;background:var(--ios-control,var(--neutral-fill-3))!important;border-radius:var(--radius-round)}
+}
+.academy-quick-controls [data-quick-saved] svg{width:20px;height:20px}
+.academy-quick-controls [data-quick-saved][aria-checked=false] .saved-visibility-slash{opacity:.5}
+@media(max-width:759px){
+ html#iosDesign.app.mobile-source-mode body .camera-filter-head>.academy-quick-controls{display:none}
+}
+
+/* Three compact legend rows share the help/settings buttons' vertical bounds. */
+@media(max-width:759px){
+ html#iosDesign.app body #radarBox>.academy-status-key{top:calc(44px * var(--ui-scale));bottom:auto;left:0;transform:none;height:calc(36px * var(--ui-scale));display:grid;grid-template-rows:repeat(3,minmax(0,1fr));align-items:center;justify-content:start;gap:0;padding:0;background:transparent;border-radius:0;font-size:calc(8px * var(--ui-scale));line-height:1;box-sizing:border-box}
+ html#iosDesign.app body #radarBox>.academy-status-key span{gap:calc(4px * var(--ui-scale));height:100%}
+ html#iosDesign.app body #radarBox>.academy-status-key i{width:calc(6px * var(--ui-scale));height:calc(6px * var(--ui-scale));flex-shrink:0}
+ html#iosDesign.app body #radarBox>.academy-status-key .key-saved{width:calc(9px * var(--ui-scale));height:calc(9px * var(--ui-scale));font-size:calc(6px * var(--ui-scale))}
+}
+
+@media(max-width:759px){
+ html#iosDesign.app body #radarBox>.academy-status-key i{display:grid;place-items:center;width:calc(9px * var(--ui-scale));height:calc(9px * var(--ui-scale));box-sizing:border-box;line-height:0;padding:0}
+ html#iosDesign.app body #radarBox>.academy-status-key .key-saved svg{display:block;width:calc(7px * var(--ui-scale));height:calc(7px * var(--ui-scale));margin:0}
+}
+@media(max-width:759px){
+ html#iosDesign.app body #radarBox>.academy-status-key .key-new{animation-name:legend-new-opacity;transform:none}
+}
+@keyframes legend-new-opacity{0%,100%{opacity:.3}50%{opacity:1}}
+
+/* v1.3.312: one primary action style. Filled brand color for the action,
+   soft brand tint once it is done (saved), in light and dark themes. */
+html body .btn.primary:not(:disabled),
+html body .areas-save,
+html body #introStart,
+html body .academy-quick-controls [data-quick-scan],
+html#iosDesign.app body .camera-filter-head .academy-quick-controls [data-quick-scan],
+html body #sheetPanel .detail-actions .profile-action.list-action,
+html#iosDesign body #sheetPanel .profile-actions .profile-action.list-action{background:var(--accent)!important;border-color:var(--accent)!important;color:var(--accent-ink)!important}
+html body #sheetPanel .detail-actions .profile-action.list-action[aria-pressed=true],
+html body #sheetPanel .detail-actions .profile-action.list-action[aria-pressed=true]:hover,
+html#iosDesign body #sheetPanel .profile-actions .profile-action.list-action[aria-pressed=true]{background:var(--accent-soft)!important;border-color:var(--accent-soft)!important;color:var(--accent)!important}
+@media(hover:hover){html body .btn.primary:not(:disabled):hover,html body .areas-save:hover,html body #introStart:hover{filter:brightness(.92)}}
+
+/* v1.3.313: fewer, less overlapped "Yeni" avatars so initials stay readable. */
+@media(max-width:759px){html body #newStrip .recent-avatar-stack .av+.av,html#iosDesign body #newStrip .recent-avatar-stack .av+.av{margin-left:-8px}}
+
+/* v1.3.313: Keşfet uses the same large title as Kaynaklar and Listem. */
+html#iosDesign.app body #discover .discover-page-heading h1{font:700 calc(28px * var(--ui-scale))/1.2 var(--f-body)!important;letter-spacing:-.8px}
+/* Section toggles use the same right-hand chevron as the academic-area picker. */
+html body :is(#sepet,#discover) :is(.my-list-route,.my-list-discover)>summary{list-style:none;display:flex;align-items:center;gap:12px;min-height:44px}
+html body :is(#sepet,#discover) :is(.my-list-route,.my-list-discover)>summary::-webkit-details-marker{display:none}
+html body :is(#sepet,#discover) :is(.my-list-route,.my-list-discover)>summary::after{content:"";flex:0 0 auto;width:8px;height:8px;margin:0 6px 4px auto;border-right:1.6px solid var(--muted);border-bottom:1.6px solid var(--muted);transform:rotate(45deg)}
+html body :is(#sepet,#discover) :is(.my-list-route,.my-list-discover)[open]>summary::after{margin-bottom:-4px;transform:rotate(225deg)}
+
+/* v1.3.321: the card cover grows with the notch, like the fixed header above
+   it (60px + safe area), so the profile image always clears the header. */
+@media(max-width:759px){html body #sheetPanel .profile-cover{height:calc(120px + env(safe-area-inset-top,0px))}}
+
+/* --- v1.3.333: one top bar for Radar, Kaynaklar, Listem and Keşfet (phones) --- */
+/* Every bar is the same height with the same side inset as the page content; its
+   buttons are 40px circles, vertically centred, one gap apart, with no rule under
+   the bar. The large titles start at the same point on every page. */
+@media(max-width:759px){
+ html#iosDesign.app{--bar-x:calc(16px * var(--ui-scale));--bar-gap:calc(12px * var(--ui-scale))}
+ html#iosDesign.app.mobile-source-mode body .camera-filter-head.is-source-navigation,html#iosDesign.app.mobile-my-list-mode body #sepet .my-list-title-row,html#iosDesign.app body #discover .discover-toolbar{height:var(--layout-header);box-sizing:border-box;padding:var(--layout-safe-top) var(--bar-x) 0!important;column-gap:var(--bar-gap)!important;align-items:center;border-bottom:0!important}
+ html#iosDesign.app.mobile-source-mode body .camera-filter-head.is-source-navigation{grid-template-columns:var(--ui-icon-btn) minmax(0,1fr) var(--ui-icon-btn) var(--ui-icon-btn)!important}
+ html#iosDesign.app.mobile-my-list-mode body #sepet .my-list-title-row{grid-template-columns:var(--ui-icon-btn) minmax(0,1fr) auto!important}
+ html#iosDesign.app.mobile-my-list-mode body #sepet .my-list-tools{width:auto!important;gap:var(--bar-gap)!important}
+ html#iosDesign.app.mobile-my-list-mode body #sepet :is(#myListPrefs,#myListMenu,#myListMenu>summary){width:var(--ui-icon-btn)!important;height:var(--ui-icon-btn)!important;min-width:var(--ui-icon-btn)!important;flex:0 0 var(--ui-icon-btn)!important}
+ html#iosDesign.app body #discover .discover-toolbar{gap:var(--bar-gap)}
+ html#iosDesign.app body #discover .discover-back{display:grid;place-items:center;padding:0}
+ html#iosDesign.app body #discover>.route-large-header{margin-top:0}
+ html#iosDesign.app body #appbar #introBtn{width:var(--ui-icon-btn)!important;height:var(--ui-icon-btn)!important;min-width:var(--ui-icon-btn)!important;max-height:none!important;flex:0 0 var(--ui-icon-btn)!important}
+ html#iosDesign.app.mobile-source-mode body #sources>.route-large-header{padding-inline:var(--bar-x)}
+ html#iosDesign.app body #radarBox .academy-top-tools{gap:var(--bar-gap)}
+ /* the folded page name sits one gap after the back button, in one type style */
+ html#iosDesign.app.mobile-source-mode body .camera-filter-head.is-source-navigation .camera-result-count{top:calc(var(--layout-safe-top) + var(--layout-bar) / 2);left:calc(var(--bar-x) + var(--ui-icon-btn) + var(--bar-gap))!important;right:calc(var(--bar-x) + 2 * var(--ui-icon-btn) + 2 * var(--bar-gap))!important;width:auto!important;max-width:none!important;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ html#iosDesign.app.mobile-source-mode body .camera-filter-head.is-source-navigation .camera-result-count .toolbar-page-label{display:inline!important}
+ html#iosDesign.app body #discover .discover-page-name{font:700 var(--text-lg)/1.2 var(--f-body)}
+ /* v1.3.344: after an in-app page change, iOS 26 home-screen apps paint the status bar
+    as a soft shade of the page background instead of the top bar's colour (WebKit bug
+    305546). The page background takes the top bar's colour so that shade blends in. */
+ html#iosDesign.app:not(.sheet-open){background-color:#000!important}
+ html#iosDesign.app:is(.mobile-source-mode,.mobile-my-list-mode,.mobile-discover-mode):not(.sheet-open){background-color:var(--bg)!important}
+ html#iosDesign.app.mobile-discover-mode:not(.sheet-open) body::before{background:var(--bg)!important}
+}
+
+/* v1.3.346: Siyah görünüm. The dark appearance (Settings › Görünüm › Siyah, or Otomatik
+   when the phone is dark) uses pure black backgrounds and white text. */
+@media(prefers-color-scheme:dark){html#iosDesign:not([data-theme=light]){color-scheme:dark;--bg:#000;--surface:#000;--ink:#fff;--muted:#b8b8c0;--line:#2c2c31;--line-soft:#1d1d21;--well:#121214;--gray-dark:#3a3a40;--ios-glass:rgba(0,0,0,.9);--ios-control:rgba(255,255,255,.13);--shadow:none}}
+html#iosDesign[data-theme=dark]{color-scheme:dark;--bg:#000;--surface:#000;--ink:#fff;--muted:#b8b8c0;--line:#2c2c31;--line-soft:#1d1d21;--well:#121214;--gray-dark:#3a3a40;--ios-glass:rgba(0,0,0,.9);--ios-control:rgba(255,255,255,.13);--shadow:none}
+/* Light-only fills that have no dark value: circle buttons take the dark control fill, the
+   primary action is the brand burgundy with white text, the danger text is lightened. */
+html#iosDesign.look-black body #radarBox .academy-top-tools button,
+html#iosDesign.look-black body #sources #groups .item .profile-actions .list-action,
+html#iosDesign.look-black body #basket .my-list-remove{background:var(--ios-control);color:var(--ink)}
+html#iosDesign.look-black body #sources #groups .item .profile-actions .list-action[aria-pressed=true]{background:var(--accent-soft);color:var(--accent)}
+html#iosDesign.look-black body #basket .my-list-remove{color:var(--accent)}
+html#iosDesign.look-black body .btn.primary:not(:disabled),
+html#iosDesign.look-black body .areas-save,
+html#iosDesign.look-black body #introStart,
+html#iosDesign.look-black body .academy-quick-controls [data-quick-scan],
+html#iosDesign.look-black.app body .camera-filter-head .academy-quick-controls [data-quick-scan],
+html#iosDesign.look-black body #sheetPanel .detail-actions .profile-action.list-action:not([aria-pressed=true]),
+html#iosDesign.look-black body #sheetPanel .profile-actions .profile-action.list-action:not([aria-pressed=true]),
+html#iosDesign.look-black body :is(.platform-dialog-done,#transferDialog .utility-primary,#transferDialog .utility-done,#badgeDialog .utility-done,#suggestionDialog .suggest-send,#radarSettings [data-save]){background:#a42c43!important;border-color:#a42c43!important;color:#fff!important}
+html#iosDesign.look-black body #bClear{color:#ff8a9c}
+/* The radar page's light-only white (app-ortak, app-kaynaklar) on tablets and desktop. */
+html#iosDesign.look-black:not(.sheet-open),html#iosDesign.look-black:not(.sheet-open) body,html#iosDesign.look-black .view[data-view="radar"]:not([hidden]){background:var(--bg)}
+html#iosDesign.look-black body #sepet .my-list-tool{background:var(--ios-control);border-color:var(--line);color:var(--ink)}
+html#iosDesign.look-black body #sectionJump{background:rgba(28,28,30,.72);border-color:rgba(255,255,255,.14);color:var(--ink)}
+html#iosDesign.look-black body .platform-dialog-intro{color:var(--muted)}
+html#iosDesign.look-black body .platform-dialog-options label:has(input:checked){background:color-mix(in srgb,var(--platform-dialog-accent) 22%,black)}
+html#iosDesign.look-black body #desktopTransfer{background:var(--ios-control);border-color:var(--line);color:var(--ink)}
