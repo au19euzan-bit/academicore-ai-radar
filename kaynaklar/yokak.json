@@ -1,0 +1,48 @@
+{
+  "katalog": {
+    "n": "YÖKAK",
+    "s": "tr",
+    "l": "pol",
+    "p": 1,
+    "r": "a",
+    "t": "AI, kalite ve yükseköğretimde dönüşüm",
+    "w": "X · LinkedIn · YouTube",
+    "u": "https://www.yokak.gov.tr",
+    "x": "ykalitekurulu",
+    "li": "https://www.linkedin.com/company/yokak",
+    "yt": "https://www.youtube.com/channel/UC801LOvL2WoCFG9ofln4ImQ"
+  },
+  "sira": 71,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Türkiye Kamu ve Akademi",
+    "sira": 7
+  },
+  "kunye": [
+    "Kurum",
+    "Türkiye · Ankara"
+  ],
+  "aciklama": "Yükseköğretim Kalite Kurulu. Kalite güvencesi ve akreditasyon süreçlerini yönetir; yapay zekânın öğrenme-öğretme kalitesine etkisine dair etkinlik ve raporlarını izlemek için kaynak.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "ig",
+        "u": "https://www.instagram.com/ykalitekurulu/"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:9",
+    "education:4",
+    "education:1"
+  ],
+  "gorsel": "gorseller/yokak.webp",
+  "baglanti_denetimi": {
+    "url": "https://www.yokak.gov.tr",
+    "checkedAt": "2026-10-18T11:03:59.849727+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.yokak.gov.tr/"
+  }
+}

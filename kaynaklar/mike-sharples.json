@@ -1,0 +1,52 @@
+{
+  "katalog": {
+    "n": "Mike Sharples",
+    "s": "ars",
+    "p": 3,
+    "r": "g",
+    "t": "Üretken AI + pedagoji + değerlendirme",
+    "w": "X",
+    "c": 1,
+    "l": "ele",
+    "x": "sharplm"
+  },
+  "sira": 34,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Araştırmacılar",
+    "sira": 4
+  },
+  "kunye": [
+    "Araştırmacı",
+    "The Open University, BK"
+  ],
+  "aciklama": "Open University'de emeritus profesör, Story Machines kitabının ortak yazarı. Üretken AI'nın yazma, pedagoji ve değerlendirme üzerindeki etkisini erken tartışanlardandır.",
+  "ek_baglantilar": {
+    "vs": {
+      "x": "p"
+    },
+    "L": [
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0000-0001-7081-3320",
+        "v": "o"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5049629485",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:2",
+    "education:1",
+    "education:9"
+  ],
+  "gorsel": "gorseller/mike-sharples.webp",
+  "baglanti_denetimi": {
+    "checkedAt": "2026-10-18T11:03:56.589265+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "missing"
+  }
+}

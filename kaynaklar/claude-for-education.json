@@ -1,0 +1,48 @@
+{
+  "katalog": {
+    "n": "Claude for Education",
+    "p": 3,
+    "r": "h",
+    "t": "Üniversiteler için Claude ve öğrenme modu",
+    "u": "https://www.anthropic.com/education",
+    "s": "plat",
+    "l": "prat",
+    "nw": true,
+    "at": "2026-10-17"
+  },
+  "sira": 82,
+  "radar": {
+    "bolum": "Platform",
+    "alt": "Eğitim Platformları",
+    "sira": 2
+  },
+  "kunye": [
+    "Eğitim programı",
+    "Anthropic"
+  ],
+  "aciklama": "Anthropic'in yükseköğretim programı. Öğrenciyi sorularla düşündüren öğrenme modunu, kurumsal anlaşmaları ve ücretsiz Claude kurslarını tanıtır; üniversitedeki uygulamaları izlemek için yararlıdır.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "community",
+        "u": "https://academy.claude.com",
+        "lb": "Claude kursları"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:9",
+    "education:3",
+    "education:0"
+  ],
+  "kisaltma": "CFE",
+  "ust_kurum": "Anthropic (Claude)",
+  "baglanti_denetimi": {
+    "url": "https://www.anthropic.com/education",
+    "checkedAt": "2026-10-18T11:04:00.773013+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://claude.com/solutions/education"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "katalog": {
+    "n": "Andrej Karpathy",
+    "s": "ai",
+    "p": 3,
+    "r": "h",
+    "t": "LLM'lerin nasıl çalıştığını sade anlatır; ders niteliğinde videolar ve kısa notlar",
+    "w": "X · YouTube · Blog",
+    "u": "https://karpathy.ai",
+    "l": "hiz",
+    "x": "karpathy",
+    "yt": "https://www.youtube.com/@AndrejKarpathy",
+    "f": {
+      "n": "Karpathy (bear blog)",
+      "rss": "https://karpathy.bearblog.dev/feed/",
+      "sub": "https://karpathy.bearblog.dev/blog/"
+    }
+  },
+  "sira": 52,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Geliştiriciler",
+    "sira": 2
+  },
+  "kunye": [
+    "AI uzmanı",
+    "Eureka Labs"
+  ],
+  "aciklama": "OpenAI'nin kurucu ekibinden, Tesla'nın eski AI direktörü. LLM'lerin nasıl çalıştığını sıfırdan anlatan ders videolarıyla bilinir; Eureka Labs ile AI destekli eğitime odaklanır.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "blog",
+        "u": "https://karpathy.bearblog.dev/blog/",
+        "lb": "Bear blog"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5009290031",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "engineering:0",
+    "education:10",
+    "education:subject:13"
+  ],
+  "gorsel": "gorseller/andrej-karpathy.webp",
+  "baglanti_denetimi": {
+    "url": "https://karpathy.ai",
+    "checkedAt": "2026-10-18T11:03:57.999413+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://karpathy.ai/"
+  }
+}

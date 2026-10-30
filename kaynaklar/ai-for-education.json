@@ -1,0 +1,57 @@
+{
+  "katalog": {
+    "n": "AI for Education",
+    "s": "uyg",
+    "l": "prat",
+    "p": 3,
+    "r": "a",
+    "t": "Öğretmenlerin AI okuryazarlığı, okul politikaları",
+    "w": "X · YouTube",
+    "u": "https://www.aiforeducation.io",
+    "x": "AI_forEducation",
+    "yt": "https://www.youtube.com/@AI4Education"
+  },
+  "sira": 16,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Eğitim ve Sivil Toplum",
+    "sira": 5
+  },
+  "kunye": [
+    "Kurum",
+    "ABD"
+  ],
+  "aciklama": "Amanda Bickerstaff'ın kurduğu kuruluş. Öğretmen ve okul yöneticilerine AI okuryazarlığı eğitimleri, ücretsiz prompt kütüphanesi, politika şablonları ve webinarlar sunar.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "ig",
+        "u": "https://www.instagram.com/ai_foreducation/"
+      },
+      {
+        "p": "fb",
+        "u": "https://www.facebook.com/profile.php?id=100091956776588"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:0",
+    "education:3",
+    "education:subject:13",
+    "education:8",
+    "education:subject:0",
+    "education:subject:1",
+    "education:subject:5",
+    "education:subject:7",
+    "education:subject:8"
+  ],
+  "gorsel": "gorseller/ai-for-education.webp",
+  "baglanti_denetimi": {
+    "url": "https://www.aiforeducation.io",
+    "checkedAt": "2026-10-18T11:03:55.039617+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.aiforeducation.io/"
+  }
+}

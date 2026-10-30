@@ -1,0 +1,52 @@
+{
+  "katalog": {
+    "n": "Digital Promise",
+    "s": "kurum",
+    "p": 3,
+    "r": "h",
+    "t": "Öğrenme bilimleri + EdTech + AI; kanıt temelli uygulamalar",
+    "w": "X · LinkedIn · YouTube",
+    "u": "https://digitalpromise.org",
+    "l": "ars",
+    "x": "DigitalPromise",
+    "li": "https://www.linkedin.com/company/digital-promise/",
+    "yt": "https://www.youtube.com/digitalpromise"
+  },
+  "sira": 8,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Eğitim ve Sivil Toplum",
+    "sira": 2
+  },
+  "kunye": [
+    "Kurum",
+    "ABD · Washington, DC"
+  ],
+  "aciklama": "ABD'li kâr amacı gütmeyen kuruluş. Öğrenme bilimleri, eğitim teknolojisi ve AI'yı kanıt temelli uygulamayla buluşturur; ürün sertifikaları ve öğretmen kaynakları yayımlar.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "ig",
+        "u": "https://www.instagram.com/digitalpromise/"
+      },
+      {
+        "p": "fb",
+        "u": "https://www.facebook.com/digitalpromise"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:0",
+    "education:2",
+    "education:3"
+  ],
+  "gorsel": "gorseller/digital-promise.webp",
+  "baglanti_denetimi": {
+    "url": "https://digitalpromise.org",
+    "checkedAt": "2026-10-18T11:03:54.463920+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://digitalpromise.org/"
+  }
+}

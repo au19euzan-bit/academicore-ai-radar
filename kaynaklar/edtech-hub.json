@@ -1,0 +1,44 @@
+{
+  "katalog": {
+    "n": "EdTech Hub",
+    "s": "kurum",
+    "p": 3,
+    "r": "a",
+    "t": "\"AI öğrenmeye gerçekten katkı sağlıyor mu?\" sorusuna kanıt temelli yaklaşım",
+    "w": "X · LinkedIn · Bluesky · YouTube · Bülten",
+    "u": "https://edtechhub.org",
+    "l": "ars",
+    "x": "globaledtechhub",
+    "li": "https://www.linkedin.com/company/edtechhub/",
+    "bs": "edtech-hub.bsky.social",
+    "yt": "https://www.youtube.com/@edtechhub9416",
+    "f": {
+      "n": "EdTech Hub bülteni",
+      "sub": "https://edtechhub.org/newsletters/"
+    }
+  },
+  "sira": 9,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Eğitim ve Sivil Toplum",
+    "sira": 3
+  },
+  "kunye": [
+    "Kurum",
+    "Birleşik Krallık"
+  ],
+  "aciklama": "Düşük ve orta gelirli ülkelerde eğitim teknolojisine dair kanıt üreten küresel ortaklık. \"AI öğrenmeye gerçekten katkı sağlıyor mu?\" sorusunu açık erişimli raporlarla inceler.",
+  "ilgi_alanlari": [
+    "education:3",
+    "education:4"
+  ],
+  "gorsel": "gorseller/edtech-hub.webp",
+  "baglanti_denetimi": {
+    "url": "https://edtechhub.org",
+    "checkedAt": "2026-10-18T11:03:54.629678+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "restricted",
+    "code": 403,
+    "finalUrl": "https://edtechhub.org/"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "katalog": {
+    "n": "Punya Mishra",
+    "s": "ars",
+    "p": 3,
+    "r": "h",
+    "t": "Yaratıcılık, TPACK, üretken AI ve öğretmen eğitimi üzerine yazılar",
+    "w": "X · Blog",
+    "u": "https://punyamishra.com",
+    "l": "ele",
+    "x": "punyamishra",
+    "f": {
+      "n": "Punya Mishra – blog",
+      "rss": "https://punyamishra.com/feed/"
+    },
+    "nw": true,
+    "at": "2026-10-30"
+  },
+  "sira": 85,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Araştırmacılar",
+    "sira": 2
+  },
+  "kunye": [
+    "Araştırmacı",
+    "Arizona State University"
+  ],
+  "aciklama": "Arizona State University'de öğretim üyesi ve TPACK çerçevesini geliştirenlerden. Blogunda yaratıcılık, tasarım ve üretken yapay zekânın öğretmen eğitimine etkisini eleştirel ve çoğu zaman esprili bir dille tartışır.",
+  "ilgi_alanlari": [
+    "education:0",
+    "education:3",
+    "education:9"
+  ],
+  "kisaltma": "PM",
+  "ajan": {
+    "id": "mishra",
+    "name": "Punya Mishra",
+    "folder": "aka",
+    "ini": "P",
+    "home": "https://punyamishra.com/",
+    "method": "rss",
+    "feed": "https://punyamishra.com/feed/",
+    "sira": 2
+  }
+}

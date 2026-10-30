@@ -6,7 +6,7 @@ on:
   workflow_dispatch: {}     # Actions sekmesinden elle çalıştırma
   push:                     # ajan ya da kaynak listesi değişince hemen çalışır
     branches: [main]
-    paths: ["radar_ajan.py", "sources.json", ".github/workflows/radar.yml"]
+    paths: ["radar_ajan.py", "kaynaklar/**", "build_katalog.py", ".github/workflows/radar.yml"]
 
 permissions:
   contents: write
@@ -24,6 +24,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Kataloğu derle (kaynaklar/ -> sources.js, sources.json)
+        run: python build_katalog.py
       - name: Kaynakları oku
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -33,9 +35,9 @@ jobs:
         run: |
           git config user.name "radar-bot"
           git config user.email "radar-bot@users.noreply.github.com"
-          git add data/
+          git add data/ sources.js source-areas.js sources.json index.html version.json sw.js
           git diff --cached --quiet && exit 0
-          git commit -m "Radar: günlük güncelleme"
-          # bu arada yönetim sayfasından kaynak listesi kaydedildiyse önce onu al
+          git commit -m "Radar: günlük güncelleme ve katalog derlemesi"
+          # bu arada depoya başka bir değişiklik geldiyse önce onu al
           git pull --rebase origin main
           git push

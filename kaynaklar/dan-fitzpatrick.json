@@ -1,0 +1,39 @@
+{
+  "katalog": {
+    "n": "Dan Fitzpatrick",
+    "s": "akis",
+    "l": "prat",
+    "p": 2,
+    "r": "a",
+    "t": "AI ve öğretmen uygulamaları",
+    "w": "LinkedIn",
+    "li": "https://www.linkedin.com/in/theaieducator"
+  },
+  "sira": 44,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "İçerik Üreticileri",
+    "sira": 1
+  },
+  "kunye": [
+    "Eğitimci",
+    "Birleşik Krallık"
+  ],
+  "aciklama": "İngiliz eğitimci, The AI Classroom kitabının ortak yazarı. Öğretmenlerin AI'yı ders planlama, geri bildirim ve sınıf uygulamalarında nasıl kullanabileceğine dair içerikler üretir.",
+  "ilgi_alanlari": [
+    "education:0",
+    "education:3",
+    "education:subject:13",
+    "education:8",
+    "education:subject:0",
+    "education:subject:1",
+    "education:subject:5",
+    "education:subject:7",
+    "education:subject:8"
+  ],
+  "baglanti_denetimi": {
+    "checkedAt": "2026-10-18T11:03:57.016121+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "missing"
+  }
+}

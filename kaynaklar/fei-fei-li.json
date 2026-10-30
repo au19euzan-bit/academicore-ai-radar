@@ -1,0 +1,52 @@
+{
+  "katalog": {
+    "n": "Fei-Fei Li",
+    "s": "ai",
+    "p": 2,
+    "r": "a",
+    "t": "İnsan merkezli AI, bilgisayarlı görü, uzamsal zekâ, AI politikası",
+    "w": "X · Bluesky",
+    "l": "ars",
+    "x": "drfeifei",
+    "bs": "drfeifei.bsky.social"
+  },
+  "sira": 58,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Araştırmacılar",
+    "sira": 9
+  },
+  "kunye": [
+    "Araştırmacı",
+    "Stanford University · World Labs"
+  ],
+  "aciklama": "Stanford'da bilgisayar bilimi profesörü, Stanford HAI'nin eş direktörü ve ImageNet'in yaratıcısı. İnsan merkezli AI ve uzamsal zekâ üzerine çalışır; World Labs'i kurmuştur.",
+  "ek_baglantilar": {
+    "vs": {
+      "x": "p",
+      "bs": "b"
+    },
+    "L": [
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0000-0002-7481-0810",
+        "v": "o"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5100450462",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "engineering:0",
+    "law:1"
+  ],
+  "gorsel": "gorseller/fei-fei-li.webp",
+  "baglanti_denetimi": {
+    "checkedAt": "2026-10-18T11:03:58.466792+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "missing"
+  }
+}

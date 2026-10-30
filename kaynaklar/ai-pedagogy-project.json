@@ -1,0 +1,52 @@
+{
+  "katalog": {
+    "n": "AI Pedagogy Project (Harvard)",
+    "s": "uyg",
+    "p": 3,
+    "r": "a",
+    "t": "AI destekli ödev ve etkinlik havuzu, sınıf politikaları, sorumlu kullanım",
+    "w": "Web",
+    "u": "https://aipedagogy.org",
+    "c": 1,
+    "l": "ele"
+  },
+  "sira": 13,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Üniversite ve Araştırma Merkezleri",
+    "sira": 3
+  },
+  "kunye": [
+    "Kurum",
+    "ABD · metaLAB, Harvard"
+  ],
+  "aciklama": "Harvard metaLAB'ın açık kaynağı. Farklı disiplinlerden eğitimcilerin paylaştığı AI destekli ödev ve etkinlikler, başlangıç rehberi ve sınıf politikası örnekleri sunar; sorumlu kullanımı öne çıkarır.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "newsletter",
+        "u": "https://aipedagogy.org/",
+        "lb": "Bülten kaydı (sayfa altı)"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:2",
+    "education:1",
+    "education:9",
+    "education:subject:0",
+    "education:subject:1",
+    "education:subject:5",
+    "education:subject:7",
+    "education:subject:8"
+  ],
+  "kisaltma": "APP",
+  "baglanti_denetimi": {
+    "url": "https://aipedagogy.org",
+    "checkedAt": "2026-10-18T11:03:54.920246+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://aipedagogy.org/"
+  }
+}

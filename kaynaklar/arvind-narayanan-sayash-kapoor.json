@@ -1,0 +1,75 @@
+{
+  "katalog": {
+    "n": "Arvind Narayanan & Sayash Kapoor",
+    "s": "ai",
+    "p": 3,
+    "r": "h",
+    "t": "\"AI as Normal Technology\": abartıyı ayıklayan, kanıta dayalı değerlendirme (Princeton)",
+    "w": "Bülten · X · LinkedIn · YouTube · Mastodon",
+    "u": "https://www.normaltech.ai",
+    "l": "ger",
+    "x": "random_walker",
+    "li": "https://www.linkedin.com/in/randomwalker",
+    "yt": "https://www.youtube.com/@ArvindOnAI",
+    "md": {
+      "a": "randomwalker@mastodon.social",
+      "u": "https://mastodon.social/@randomwalker"
+    },
+    "f": {
+      "n": "AI as Normal Technology",
+      "rss": "https://www.normaltech.ai/feed",
+      "sub": "https://www.normaltech.ai/subscribe"
+    }
+  },
+  "sira": 55,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Araştırmacılar",
+    "sira": 10
+  },
+  "kunye": [
+    "Araştırmacı",
+    "Princeton University"
+  ],
+  "aciklama": "Princeton'dan iki bilgisayar bilimci. AI Snake Oil kitabı ve \"AI as Normal Technology\" yaklaşımıyla abartıyı ayıklar; hangi AI iddialarının kanıta dayandığını sade biçimde değerlendirir.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "substack",
+        "u": "https://www.normaltech.ai",
+        "lb": "AI as Normal Technology"
+      },
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0000-0001-7176-4479",
+        "v": "o",
+        "lb": "Arvind Narayanan"
+      },
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0000-0001-5695-280X",
+        "v": "o",
+        "lb": "Sayash Kapoor"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5058102069",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "engineering:0",
+    "law:1",
+    "humanities:1"
+  ],
+  "gorsel": "gorseller/arvind-narayanan-sayash-kapoor.webp",
+  "baglanti_denetimi": {
+    "url": "https://www.normaltech.ai",
+    "checkedAt": "2026-10-18T11:03:58.323605+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.normaltech.ai/"
+  }
+}

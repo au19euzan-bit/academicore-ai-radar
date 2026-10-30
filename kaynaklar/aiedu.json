@@ -1,0 +1,39 @@
+{
+  "katalog": {
+    "n": "aiEDU",
+    "s": "uyg",
+    "l": "prat",
+    "p": 2,
+    "r": "a",
+    "t": "K–12 AI eğitim materyalleri",
+    "w": "YouTube · Web",
+    "u": "https://www.aiedu.org",
+    "yt": "https://www.youtube.com/@aieducation"
+  },
+  "sira": 17,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Eğitim ve Sivil Toplum",
+    "sira": 6
+  },
+  "kunye": [
+    "Kurum",
+    "ABD"
+  ],
+  "aciklama": "ABD'li kâr amacı gütmeyen kuruluş (The AI Education Project). K–12 için ücretsiz AI okuryazarlığı dersleri, proje etkinlikleri ve öğretmen eğitimleri hazırlar; okullarla birlikte çalışır.",
+  "ilgi_alanlari": [
+    "education:subject:13",
+    "education:8",
+    "education:0",
+    "education:2"
+  ],
+  "kisaltma": "aiE",
+  "baglanti_denetimi": {
+    "url": "https://www.aiedu.org",
+    "checkedAt": "2026-10-18T11:03:55.113110+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.aiedu.org/"
+  }
+}

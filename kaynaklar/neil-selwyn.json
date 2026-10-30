@@ -1,0 +1,57 @@
+{
+  "katalog": {
+    "n": "Neil Selwyn",
+    "s": "ars",
+    "p": 3,
+    "r": "a",
+    "t": "Eleştirel EdTech ve AI",
+    "w": "Bluesky",
+    "l": "ele",
+    "bs": "neilselwyn.bsky.social"
+  },
+  "sira": 40,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Araştırmacılar",
+    "sira": 7
+  },
+  "kunye": [
+    "Araştırmacı",
+    "Monash University, Avustralya"
+  ],
+  "aciklama": "Monash Üniversitesi'nde eğitim profesörü. Eğitim teknolojisine ve AI'ya eleştirel sosyolojik bakışıyla tanınır; Should Robots Replace Teachers? kitabının yazarı.",
+  "ek_baglantilar": {
+    "vs": {
+      "bs": "b"
+    },
+    "L": [
+      {
+        "p": "inst",
+        "u": "https://research.monash.edu/en/persons/neil-selwyn/",
+        "lb": "Monash University",
+        "v": "r"
+      },
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0000-0001-9489-2692",
+        "v": "o"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5003881064",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:4",
+    "education:3",
+    "law:1",
+    "humanities:1"
+  ],
+  "baglanti_denetimi": {
+    "checkedAt": "2026-10-18T11:03:56.956432+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "missing"
+  }
+}

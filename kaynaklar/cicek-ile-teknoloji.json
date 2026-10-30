@@ -1,0 +1,41 @@
+{
+  "katalog": {
+    "n": "Çiçek ile Teknoloji",
+    "s": "tr",
+    "p": 2,
+    "r": "g",
+    "t": "Yapay zekâ ve teknoloji gündemi, Türkçe kısa videolar",
+    "w": "YouTube",
+    "l": "hiz",
+    "yt": "https://www.youtube.com/@cicekileteknoloji",
+    "nw": true,
+    "at": "2026-10-30"
+  },
+  "sira": 87,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "İçerik Üreticileri",
+    "sira": 3
+  },
+  "kunye": [
+    "İçerik üreticisi",
+    "Türkiye · YouTube"
+  ],
+  "aciklama": "Yapay zekâ ve teknoloji dünyasındaki gelişmeleri Türkçe kısa videolarla aktaran YouTube kanalı. Günlük gündemi hızlıca takip etmek için uygun.",
+  "ilgi_alanlari": [
+    "engineering:0",
+    "education:3"
+  ],
+  "kisaltma": "ÇT",
+  "ajan": {
+    "id": "cicek",
+    "name": "Çiçek ile Teknoloji",
+    "folder": "sho",
+    "ini": "Ç",
+    "home": "https://www.youtube.com/@cicekileteknoloji/shorts",
+    "method": "youtube",
+    "channel": "UCLGTx8RPgoB7DpsfQz8aBcA",
+    "kind": "shorts",
+    "sira": 11
+  }
+}

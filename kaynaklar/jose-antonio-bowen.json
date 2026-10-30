@@ -1,0 +1,43 @@
+{
+  "katalog": {
+    "n": "José Antonio Bowen",
+    "s": "akis",
+    "l": "prat",
+    "p": 2,
+    "r": "a",
+    "t": "AI ve yükseköğretimde öğretim",
+    "w": "X · Blog",
+    "u": "https://teachingnaked.com",
+    "x": "josebowen"
+  },
+  "sira": 47,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Eğitimciler",
+    "sira": 4
+  },
+  "kunye": [
+    "Eğitimci",
+    "ABD"
+  ],
+  "aciklama": "Eski üniversite rektörü ve öğretim üzerine kitapların yazarı. C. Edward Watson ile yazdığı Teaching with AI kitabıyla AI destekli öğretim ve değerlendirmeyi pratik bir dille anlatır.",
+  "ek_baglantilar": {
+    "vs": {
+      "x": "p"
+    }
+  },
+  "ilgi_alanlari": [
+    "education:9",
+    "education:2",
+    "education:1"
+  ],
+  "gorsel": "gorseller/jose-antonio-bowen.webp",
+  "baglanti_denetimi": {
+    "url": "https://teachingnaked.com",
+    "checkedAt": "2026-10-18T11:03:57.016260+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://teachingnaked.com/"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "katalog": {
+    "n": "British Journal of Educational Technology",
+    "s": "akd",
+    "l": "ars",
+    "p": 3,
+    "r": "a",
+    "t": "AI, EdTech ve öğretmenlik",
+    "w": "Dergi · RSS",
+    "u": "https://bera-journals.onlinelibrary.wiley.com/journal/14678535",
+    "f": {
+      "n": "BJET – yeni sayılar",
+      "rss": "https://bera-journals.onlinelibrary.wiley.com/feed/14678535/most-recent"
+    }
+  },
+  "sira": 30,
+  "radar": {
+    "bolum": "Yayın",
+    "alt": "Akademik Dergiler",
+    "sira": 5
+  },
+  "kunye": [
+    "Dergi",
+    "Wiley · BERA"
+  ],
+  "aciklama": "İngiliz Eğitim Araştırmaları Derneği'nin (BERA) eğitim teknolojisi dergisi. AI, öğrenme analitiği ve öğretmenlik üzerine hakemli makaleler ve özel sayılar yayımlar.",
+  "ilgi_alanlari": [
+    "education:0",
+    "education:2",
+    "education:3"
+  ],
+  "kisaltma": "BJET",
+  "baglanti_denetimi": {
+    "url": "https://bera-journals.onlinelibrary.wiley.com/journal/14678535",
+    "checkedAt": "2026-10-18T11:03:56.479843+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "restricted",
+    "code": 403,
+    "finalUrl": "https://bera-journals.onlinelibrary.wiley.com/journal/14678535"
+  },
+  "ajan": {
+    "id": "bjet",
+    "name": "BJET",
+    "folder": "der",
+    "ini": "BJ",
+    "home": "https://onlinelibrary.wiley.com/journal/14678535",
+    "method": "crossref",
+    "issn": "1467-8535",
+    "sira": 4
+  }
+}

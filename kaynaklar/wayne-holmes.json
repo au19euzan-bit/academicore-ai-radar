@@ -1,0 +1,55 @@
+{
+  "katalog": {
+    "n": "Wayne Holmes",
+    "s": "ars",
+    "p": 3,
+    "r": "g",
+    "t": "Etik, politika, AI ve eğitime eleştirel bakış, insan hakları",
+    "w": "X · Bluesky",
+    "c": 1,
+    "l": "ele",
+    "x": "wayneholmes",
+    "bs": "wayne-holmes.bsky.social"
+  },
+  "sira": 32,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Politika ve Etik Uzmanları",
+    "sira": 1
+  },
+  "kunye": [
+    "Araştırmacı",
+    "UCL, Londra"
+  ],
+  "aciklama": "UCL'de yapay zekâ ve eğitimin eleştirel incelemesi üzerine profesör. UNESCO ve Avrupa Konseyi için AI, etik ve insan hakları raporları yazmış; politikaya eleştirel bakar.",
+  "ek_baglantilar": {
+    "vs": {
+      "x": "p",
+      "bs": "b"
+    },
+    "L": [
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0000-0002-8352-1594",
+        "v": "o"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5033299848",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:4",
+    "education:3",
+    "law:1",
+    "humanities:1"
+  ],
+  "gorsel": "gorseller/wayne-holmes.webp",
+  "baglanti_denetimi": {
+    "checkedAt": "2026-10-18T11:03:56.589250+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "missing"
+  }
+}

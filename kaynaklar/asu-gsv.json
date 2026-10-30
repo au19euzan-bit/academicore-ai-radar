@@ -1,0 +1,48 @@
+{
+  "katalog": {
+    "n": "ASU+GSV",
+    "s": "uyg",
+    "l": "hiz",
+    "p": 2,
+    "r": "a",
+    "t": "Yeni eğitim-AI ürünleri ve girişimleri",
+    "w": "X · LinkedIn · YouTube",
+    "u": "https://www.asugsvsummit.com",
+    "x": "asugsvsummit",
+    "li": "https://www.linkedin.com/company/asu-gsv-summit/",
+    "yt": "https://www.youtube.com/channel/UCRcHDNWSvYi9aL9OQ5FSoNg"
+  },
+  "sira": 20,
+  "radar": {
+    "bolum": "Etkinlik",
+    "alt": "Zirveler",
+    "sira": 1
+  },
+  "kunye": [
+    "Konferans",
+    "ABD · San Diego"
+  ],
+  "aciklama": "Arizona State University ile GSV'nin yıllık eğitim teknolojisi zirvesi. Yeni eğitim-AI ürünleri, girişimler ve yatırımcılar burada buluşur; oturum kayıtları sektörün yönünü gösterir.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "ig",
+        "u": "https://www.instagram.com/asugsvsummit/"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:3",
+    "education:4",
+    "business:0"
+  ],
+  "gorsel": "gorseller/asu-gsv.webp",
+  "baglanti_denetimi": {
+    "url": "https://www.asugsvsummit.com",
+    "checkedAt": "2026-10-18T11:03:55.410516+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://asugsvsummit.com/"
+  }
+}

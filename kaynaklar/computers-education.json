@@ -1,0 +1,45 @@
+{
+  "katalog": {
+    "n": "Computers & Education",
+    "s": "akd",
+    "p": 3,
+    "r": "h",
+    "t": "Dijital teknolojinin öğretme ve öğrenmeye etkisi; AI çalışmaları dahil",
+    "w": "Dergi · RSS",
+    "u": "https://www.sciencedirect.com/journal/computers-and-education",
+    "l": "ars",
+    "f": {
+      "n": "Computers & Education – yeni makaleler",
+      "rss": "https://rss.sciencedirect.com/publication/science/03601315"
+    },
+    "nw": true,
+    "at": "2026-10-30"
+  },
+  "sira": 86,
+  "radar": {
+    "bolum": "Yayın",
+    "alt": "Akademik Dergiler",
+    "sira": 3
+  },
+  "kunye": [
+    "Dergi",
+    "Elsevier"
+  ],
+  "aciklama": "Elsevier'in eğitim teknolojisi alanındaki köklü dergisi. Dijital teknolojinin öğretme ve öğrenmeye etkisini inceleyen hakemli çalışmalar yayımlar; üretken yapay zekâ üzerine makaleler giderek artıyor. Aynı yayınevinin açık erişimli Computers & Education: AI dergisinden farklıdır.",
+  "ilgi_alanlari": [
+    "education:0",
+    "education:2",
+    "education:3"
+  ],
+  "kisaltma": "C&E",
+  "ajan": {
+    "id": "cae",
+    "name": "Computers & Education",
+    "folder": "der",
+    "ini": "C&E",
+    "home": "https://www.sciencedirect.com/journal/computers-and-education",
+    "method": "crossref",
+    "issn": "0360-1315",
+    "sira": 3
+  }
+}

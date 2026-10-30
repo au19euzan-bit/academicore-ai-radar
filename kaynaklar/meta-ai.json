@@ -1,0 +1,49 @@
+{
+  "katalog": {
+    "n": "Meta AI",
+    "p": 2,
+    "r": "h",
+    "l": "hiz",
+    "t": "Llama açık modelleri ve Meta AI asistanı",
+    "u": "https://ai.meta.com/blog/",
+    "x": "aiatmeta",
+    "li": "https://www.linkedin.com/showcase/aiatmeta",
+    "yt": "https://www.youtube.com/@aiatmeta",
+    "s": "plat",
+    "nw": true,
+    "at": "2026-10-17"
+  },
+  "sira": 76,
+  "radar": {
+    "bolum": "Platform",
+    "alt": "Temel Modeller",
+    "sira": 5
+  },
+  "kunye": [
+    "Platform",
+    "ABD · Menlo Park, Kaliforniya"
+  ],
+  "aciklama": "Meta'nın yapay zekâ birimi. Açık ağırlıklı Llama modellerini ve Instagram, WhatsApp içindeki Meta AI asistanını geliştirir; öğrencilerin her gün karşılaştığı AI özelliklerinin kaynağını burada görürsünüz.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "fb",
+        "u": "https://www.facebook.com/aiatmeta"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "engineering:0",
+    "education:3",
+    "business:0"
+  ],
+  "kisaltma": "META",
+  "baglanti_denetimi": {
+    "url": "https://ai.meta.com/blog/",
+    "checkedAt": "2026-10-18T11:04:00.251781+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://ai.meta.com/blog/"
+  }
+}

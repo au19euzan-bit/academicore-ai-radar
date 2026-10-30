@@ -1,0 +1,57 @@
+{
+  "katalog": {
+    "n": "Jack Clark (Import AI)",
+    "s": "ai",
+    "p": 3,
+    "r": "h",
+    "t": "Haftalık Import AI bülteni: öne çıkan araştırmalar ve politika gelişmeleri",
+    "w": "Bülten · X · Bluesky",
+    "u": "https://jack-clark.net",
+    "l": "pol",
+    "x": "jackclarkSF",
+    "bs": "jackclarksf.bsky.social",
+    "f": {
+      "n": "Import AI",
+      "rss": "https://importai.substack.com/feed",
+      "sub": "https://importai.substack.com/subscribe"
+    }
+  },
+  "sira": 54,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Sektör Uzmanları",
+    "sira": 2
+  },
+  "kunye": [
+    "AI uzmanı",
+    "Anthropic"
+  ],
+  "aciklama": "Anthropic'in kurucu ortaklarından. Haftalık Import AI bülteninde öne çıkan araştırmaları, politika gelişmelerini ve AI'nın toplumsal etkilerini kısa, okunur özetlerle aktarır.",
+  "ek_baglantilar": {
+    "vs": {
+      "x": "p",
+      "bs": "b"
+    },
+    "L": [
+      {
+        "p": "substack",
+        "u": "https://importai.substack.com",
+        "lb": "Import AI"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "engineering:0",
+    "law:1",
+    "humanities:1"
+  ],
+  "gorsel": "gorseller/jack-clark.webp",
+  "baglanti_denetimi": {
+    "url": "https://jack-clark.net",
+    "checkedAt": "2026-10-18T11:03:58.209378+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://jack-clark.net/"
+  }
+}

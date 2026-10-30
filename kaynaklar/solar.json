@@ -1,0 +1,47 @@
+{
+  "katalog": {
+    "n": "SoLAR",
+    "s": "akd",
+    "p": 3,
+    "r": "h",
+    "t": "Learning analytics; eğitim araştırması, veri bilimi, AI kesişimi",
+    "w": "X · LinkedIn · Web",
+    "u": "https://www.solaresearch.org",
+    "l": "ars",
+    "x": "SoLAResearch",
+    "li": "https://www.linkedin.com/company/society-for-learning-analytics-research/"
+  },
+  "sira": 24,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Akademik Topluluklar",
+    "sira": 2
+  },
+  "kunye": [
+    "Topluluk",
+    "Uluslararası"
+  ],
+  "aciklama": "Öğrenme analitiği araştırmaları topluluğu (Society for Learning Analytics Research). LAK konferansını ve Journal of Learning Analytics'i yürütür; webinar ve yaz okulları düzenler.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "fb",
+        "u": "https://www.facebook.com/solaresearch/"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:1",
+    "education:3",
+    "engineering:0"
+  ],
+  "gorsel": "gorseller/solar.webp",
+  "baglanti_denetimi": {
+    "url": "https://www.solaresearch.org",
+    "checkedAt": "2026-10-18T11:03:55.829325+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.solaresearch.org/"
+  }
+}

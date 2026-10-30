@@ -1,0 +1,60 @@
+{
+  "katalog": {
+    "n": "Anthropic (Claude)",
+    "p": 3,
+    "r": "g",
+    "l": "hiz",
+    "t": "Claude modelleri, özellikleri ve güvenlik araştırmaları",
+    "u": "https://www.anthropic.com/news",
+    "x": "AnthropicAI",
+    "li": "https://www.linkedin.com/company/anthropicresearch",
+    "yt": "https://www.youtube.com/@anthropic-ai",
+    "s": "plat",
+    "nw": true,
+    "at": "2026-10-17"
+  },
+  "sira": 73,
+  "radar": {
+    "bolum": "Platform",
+    "alt": "Temel Modeller",
+    "sira": 2
+  },
+  "kunye": [
+    "Platform",
+    "ABD · San Francisco"
+  ],
+  "aciklama": "Claude modellerini geliştiren şirket. Haber sayfasında model duyuruları, güvenlik ve politika yazıları yer alır; sürüm notları ise Claude uygulamasına eklenen yeni özellikleri gün gün kaydeder.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "blog",
+        "u": "https://support.claude.com/en/articles/12138966-release-notes",
+        "lb": "Claude sürüm notları"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "engineering:0",
+    "education:3",
+    "business:0"
+  ],
+  "kisaltma": "ANT",
+  "baglanti_denetimi": {
+    "url": "https://www.anthropic.com/news",
+    "checkedAt": "2026-10-18T11:04:00.062694+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.anthropic.com/news"
+  },
+  "ajan": {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "folder": "yz",
+    "ini": "A",
+    "home": "https://www.anthropic.com/news",
+    "method": "page",
+    "page": "https://www.anthropic.com/news",
+    "sira": 9
+  }
+}

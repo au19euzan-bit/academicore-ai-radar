@@ -1,0 +1,38 @@
+{
+  "katalog": {
+    "n": "Journal of Learning Analytics",
+    "s": "akd",
+    "l": "ars",
+    "p": 2,
+    "r": "a",
+    "t": "Öğrenme analitiği",
+    "w": "Dergi · X",
+    "u": "https://learning-analytics.info",
+    "x": "jla_editorial"
+  },
+  "sira": 26,
+  "radar": {
+    "bolum": "Yayın",
+    "alt": "Akademik Dergiler",
+    "sira": 4
+  },
+  "kunye": [
+    "Dergi",
+    "SoLAR · açık erişim"
+  ],
+  "aciklama": "SoLAR'ın açık erişimli hakemli dergisi. Öğrenme analitiği yöntemleri, kuramsal çerçeveler ve sınıf uygulamaları üzerine çalışmalar; ölçme ve değerlendirme için özellikle yararlı.",
+  "ilgi_alanlari": [
+    "education:1",
+    "education:3",
+    "engineering:0"
+  ],
+  "gorsel": "gorseller/journal-of-learning-analytics.webp",
+  "baglanti_denetimi": {
+    "url": "https://learning-analytics.info",
+    "checkedAt": "2026-10-18T11:03:56.108611+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://learning-analytics.info/index.php/JLA"
+  }
+}

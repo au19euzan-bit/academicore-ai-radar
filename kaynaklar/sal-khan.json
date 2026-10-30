@@ -1,0 +1,41 @@
+{
+  "katalog": {
+    "n": "Sal Khan",
+    "s": "akis",
+    "l": "prat",
+    "p": 2,
+    "r": "a",
+    "t": "AI tutor'lar, Khanmigo",
+    "w": "X",
+    "x": "salkhanacademy"
+  },
+  "sira": 50,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Girişimciler",
+    "sira": 1
+  },
+  "kunye": [
+    "Eğitimci",
+    "Khan Academy"
+  ],
+  "aciklama": "Khan Academy'nin kurucusu. Brave New Words kitabında AI tutor'ların eğitimi nasıl dönüştürebileceğini anlatır; Khanmigo'nun gelişimini ve öğrenme vizyonunu paylaşır.",
+  "ek_baglantilar": {
+    "vs": {
+      "x": "p"
+    }
+  },
+  "ilgi_alanlari": [
+    "education:subject:0",
+    "education:subject:1",
+    "education:8",
+    "education:3"
+  ],
+  "gorsel": "gorseller/sal-khan.webp",
+  "ust_kurum": "Khan Academy / Khanmigo",
+  "baglanti_denetimi": {
+    "checkedAt": "2026-10-18T11:03:57.996487+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "missing"
+  }
+}

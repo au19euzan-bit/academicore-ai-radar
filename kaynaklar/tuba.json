@@ -1,0 +1,50 @@
+{
+  "katalog": {
+    "n": "TÜBA",
+    "s": "tr",
+    "l": "pol",
+    "p": 2,
+    "r": "a",
+    "t": "Akademik AI gündemi",
+    "w": "X · YouTube",
+    "u": "https://www.tuba.gov.tr",
+    "x": "TUBAakademi",
+    "yt": "https://www.youtube.com/c/T%C3%BCrkiyeBilimlerAkademisi"
+  },
+  "sira": 70,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Türkiye Kamu ve Akademi",
+    "sira": 6
+  },
+  "kunye": [
+    "Kurum",
+    "Türkiye · Ankara"
+  ],
+  "aciklama": "Türkiye Bilimler Akademisi. Yapay zekâ üzerine raporlar, paneller ve bilim politikası değerlendirmeleriyle akademik gündemi yansıtır; etkinlik kayıtları YouTube kanalında yayımlanır.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "fb",
+        "u": "https://www.facebook.com/TUBAakademi"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:9",
+    "engineering:0",
+    "science:0",
+    "science:1",
+    "science:2",
+    "science:3"
+  ],
+  "gorsel": "gorseller/tuba.webp",
+  "baglanti_denetimi": {
+    "url": "https://www.tuba.gov.tr",
+    "checkedAt": "2026-10-18T11:03:59.660248+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.tuba.gov.tr/tr/"
+  }
+}

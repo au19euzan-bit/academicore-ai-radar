@@ -1,0 +1,54 @@
+{
+  "katalog": {
+    "n": "Bryan Alexander",
+    "s": "akis",
+    "l": "hiz",
+    "p": 2,
+    "r": "a",
+    "t": "Yükseköğretimin geleceği",
+    "w": "X · Bluesky · Blog",
+    "u": "https://bryanalexander.org",
+    "x": "BryanAlexander",
+    "bs": "edufuturist.bsky.social",
+    "f": {
+      "n": "Bryan Alexander (blog)",
+      "rss": "https://bryanalexander.org/feed/",
+      "sub": "https://bryanalexander.org"
+    }
+  },
+  "sira": 49,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Sektör Uzmanları",
+    "sira": 3
+  },
+  "kunye": [
+    "Eğitimci",
+    "Georgetown University"
+  ],
+  "aciklama": "Fütürist ve yükseköğretim araştırmacısı, Universities on Fire kitabının yazarı. Blogunda ve Future Trends Forum'da AI'nın üniversitelerin geleceğini nasıl etkileyeceğini tartışır.",
+  "ek_baglantilar": {
+    "vs": {
+      "bs": "b"
+    },
+    "L": [
+      {
+        "p": "blog",
+        "u": "https://bryanalexander.org"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:9",
+    "education:4"
+  ],
+  "gorsel": "gorseller/bryan-alexander.webp",
+  "baglanti_denetimi": {
+    "url": "https://bryanalexander.org",
+    "checkedAt": "2026-10-18T11:03:57.238477+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://bryanalexander.org/"
+  }
+}

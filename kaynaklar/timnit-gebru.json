@@ -1,0 +1,61 @@
+{
+  "katalog": {
+    "n": "Timnit Gebru (DAIR)",
+    "s": "ai",
+    "p": 2,
+    "r": "a",
+    "t": "AI etiği, yanlılık ve topluluk merkezli AI araştırması",
+    "w": "Bluesky · LinkedIn (DAIR)",
+    "u": "https://www.dair-institute.org",
+    "l": "ger",
+    "bs": "timnitgebru.blacksky.app",
+    "li": "https://www.linkedin.com/company/dair-institute/"
+  },
+  "sira": 63,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Politika ve Etik Uzmanları",
+    "sira": 3
+  },
+  "kunye": [
+    "Araştırmacı",
+    "DAIR Institute"
+  ],
+  "aciklama": "DAIR (Distributed AI Research Institute) kurucusu. AI etiği, algoritmik yanlılık ve topluluk merkezli AI araştırması üzerine çalışır; \"Stochastic Parrots\" makalesinin ortak yazarıdır.",
+  "ek_baglantilar": {
+    "vs": {
+      "bs": "b"
+    },
+    "L": [
+      {
+        "p": "bs",
+        "u": "https://bsky.app/profile/dairinstitute.bsky.social",
+        "h": "dairinstitute.bsky.social",
+        "lb": "DAIR Institute"
+      },
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0009-0007-4814-1944",
+        "v": "o"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5089275971",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "law:1",
+    "humanities:1",
+    "engineering:0"
+  ],
+  "baglanti_denetimi": {
+    "url": "https://www.dair-institute.org",
+    "checkedAt": "2026-10-18T11:03:58.884010+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://dair-institute.org/"
+  }
+}

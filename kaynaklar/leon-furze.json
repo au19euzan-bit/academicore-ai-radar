@@ -1,0 +1,72 @@
+{
+  "katalog": {
+    "n": "Leon Furze",
+    "s": "akis",
+    "p": 2,
+    "r": "a",
+    "t": "Öğretmenler için GenAI, etik, sınıf içi uygulama",
+    "w": "X · Bluesky · Blog",
+    "u": "https://leonfurze.com",
+    "l": "ele",
+    "x": "LeonFurze",
+    "bs": "leonfurze.com",
+    "f": {
+      "n": "Leon Furze (blog ve haftalık bülten)",
+      "rss": "https://leonfurze.com/feed/",
+      "sub": "https://leonfurze.com"
+    }
+  },
+  "sira": 43,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Eğitimciler",
+    "sira": 1
+  },
+  "kunye": [
+    "Eğitimci",
+    "Avustralya"
+  ],
+  "aciklama": "Avustralyalı eğitimci ve araştırmacı. AI Assessment Scale (AIAS) çerçevesinin ortak geliştiricisi; öğretmenler için üretken AI, etik ve değerlendirme üzerine pratik yazılar yazar.",
+  "ek_baglantilar": {
+    "vs": {
+      "x": "p"
+    },
+    "L": [
+      {
+        "p": "blog",
+        "u": "https://leonfurze.com",
+        "lb": "leonfurze.com"
+      },
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0000-0002-3739-2357",
+        "v": "o"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5028231740",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:0",
+    "education:3",
+    "education:subject:13",
+    "education:8",
+    "education:subject:0",
+    "education:subject:1",
+    "education:subject:5",
+    "education:subject:7",
+    "education:subject:8"
+  ],
+  "gorsel": "gorseller/leon-furze.webp",
+  "baglanti_denetimi": {
+    "url": "https://leonfurze.com",
+    "checkedAt": "2026-10-18T11:03:56.956533+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://leonfurze.com/"
+  }
+}

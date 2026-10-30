@@ -1,0 +1,57 @@
+{
+  "katalog": {
+    "n": "EDUCAUSE",
+    "s": "kurum",
+    "p": 3,
+    "r": "h",
+    "t": "Yükseköğretimde üretken AI, değerlendirme, üniversite politikaları",
+    "w": "X · LinkedIn · Bluesky · YouTube",
+    "u": "https://www.educause.edu",
+    "l": "pol",
+    "x": "educause",
+    "li": "https://www.linkedin.com/company/educause",
+    "bs": "educause.bsky.social",
+    "yt": "https://www.youtube.com/user/educause"
+  },
+  "sira": 10,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Yükseköğretim ve Teknoloji Ağları",
+    "sira": 1
+  },
+  "kunye": [
+    "Kurum",
+    "ABD · Louisville, Colorado"
+  ],
+  "aciklama": "Yükseköğretimde bilgi teknolojileri birliği. Horizon Raporu, üretken AI anketleri ve kurumsal politika rehberleriyle üniversitelerin AI'ya nasıl uyum sağladığını izler.",
+  "ek_baglantilar": {
+    "vs": {
+      "x": "p",
+      "bs": "b"
+    },
+    "L": [
+      {
+        "p": "ig",
+        "u": "https://www.instagram.com/educause"
+      },
+      {
+        "p": "fb",
+        "u": "https://www.facebook.com/EDUCAUSE"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:9",
+    "education:4",
+    "education:1"
+  ],
+  "gorsel": "gorseller/educause.webp",
+  "baglanti_denetimi": {
+    "url": "https://www.educause.edu",
+    "checkedAt": "2026-10-18T11:03:54.737151+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "restricted",
+    "code": 403,
+    "finalUrl": "https://www.educause.edu/"
+  }
+}

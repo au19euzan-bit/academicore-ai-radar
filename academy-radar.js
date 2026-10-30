@@ -18,40 +18,7 @@ const CATEGORIES=[
  {n:'Yayın',a:242,b:290,c:'#f0647e',f:'#ffebf0',subs:['Akademik Dergiler','Eğitim Teknolojisi Yayınları']},
  {n:'Etkinlik',a:290,b:316,c:'#f5ac2f',f:'#fff5d9',subs:['Konferanslar','Zirveler']}
 ];
-const GROUPS={
- 'Platform':{
- 'Temel Modeller':'OpenAI|Anthropic (Claude)|Google DeepMind / Gemini|Microsoft AI (Copilot)|Meta AI|Mistral AI|xAI (Grok)|DeepSeek',
- 'Yapay Zekâ Arama':'Perplexity',
- 'Eğitim Platformları':'OpenAI Eğitim|Claude for Education|Google for Education|Microsoft Education|Code.org / CodeAI|Khan Academy / Khanmigo'
- },
- 'Kurum':{
- 'Üniversite ve Araştırma Merkezleri':'MIT RAISE|Stanford HAI|AI Pedagogy Project (Harvard)|TÜBİTAK BİLGEM',
- 'Uluslararası Kurumlar':'UNESCO – Dijital Eğitim ve AI|OECD Education and Skills|European Digital Education Hub',
- 'Akademik Topluluklar':'International AIED Society (IAIED)|SoLAR|Educational Data Mining Society|ISLS',
- 'Eğitim ve Sivil Toplum':'TeachAI|Digital Promise|EdTech Hub|ISTE|AI for Education|aiEDU',
- 'Yükseköğretim ve Teknoloji Ağları':'EDUCAUSE|Jisc',
- 'Türkiye Kamu ve Akademi':'MEB YEĞİTEK|MEB|YÖK|BTK Akademi|TÜBİTAK|TÜBA|YÖKAK'
- },
- 'Kişi':{
- 'Araştırmacılar':'Rose Luckin|Punya Mishra|Mutlu Cukurova|Mike Sharples|Ryan S. Baker|George Siemens|Neil Selwyn|Melanie Mitchell|Fei-Fei Li|Arvind Narayanan & Sayash Kapoor',
- 'Eğitimciler':'Leon Furze|Anna Mills|Marc Watkins|José Antonio Bowen|Lance Eaton|Pat Yongpradit',
- 'Geliştiriciler':'Simon Willison|Andrej Karpathy|Lilian Weng|Yann LeCun',
- 'Girişimciler':'Sal Khan|Andrew Ng|Amanda Bickerstaff',
- 'Sektör Uzmanları':'Nathan Lambert (Interconnects)|Jack Clark (Import AI)|Bryan Alexander',
- 'Politika ve Etik Uzmanları':'Wayne Holmes|Emily M. Bender|Timnit Gebru (DAIR)|Gary Marcus',
- 'İçerik Üreticileri':'Dan Fitzpatrick|Philippa Hardman|Çiçek ile Teknoloji|Erhan Meydan',
- 'Topluluk Liderleri':'Maha Bali|Ethan Mollick',
- 'Yatırımcılar':''
- },
- 'Yayın':{
- 'Akademik Dergiler':'Int. Journal of AI in Education (IJAIED)|Computers & Education: AI|Computers & Education|Journal of Learning Analytics|British Journal of Educational Technology',
- 'Eğitim Teknolojisi Yayınları':'EdSurge|EdTech Insiders'
- },
- 'Etkinlik':{
- 'Konferanslar':'AIED Conference|LAK Conference|EDM Conference',
- 'Zirveler':'ASU+GSV'
- }
-};
+const GROUPS=EDUMIND_GEN.groups;
 const FOLLOW_RING_RADII=[208,296,380];
 const FOLLOW_BANDS=[
  {key:'g',name:'Günlük',inside:112,outside:FOLLOW_RING_RADII[0]},

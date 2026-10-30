@@ -1,0 +1,48 @@
+{
+  "katalog": {
+    "n": "Anna Mills",
+    "s": "akis",
+    "l": "prat",
+    "p": 2,
+    "r": "a",
+    "t": "AI, yazma ve değerlendirme",
+    "w": "X · Bluesky",
+    "x": "EnglishOER",
+    "bs": "annamillsoer.bsky.social"
+  },
+  "sira": 45,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Eğitimciler",
+    "sira": 2
+  },
+  "kunye": [
+    "Eğitimci",
+    "College of Marin, ABD"
+  ],
+  "aciklama": "ABD'de yazma dersleri veren eğitimci. AI ve yazma öğretimi, değerlendirme ve akademik dürüstlük üzerine yazar; öğretmenler için açık erişimli kaynaklar ve pratik rehberler paylaşır.",
+  "ek_baglantilar": {
+    "vs": {
+      "x": "p",
+      "bs": "b"
+    },
+    "L": [
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5050492754",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:subject:7",
+    "education:1",
+    "education:9"
+  ],
+  "gorsel": "gorseller/anna-mills.webp",
+  "baglanti_denetimi": {
+    "checkedAt": "2026-10-18T11:03:57.016192+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "missing"
+  }
+}

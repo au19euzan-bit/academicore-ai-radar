@@ -1,0 +1,39 @@
+{
+  "katalog": {
+    "n": "International AIED Society (IAIED)",
+    "s": "kurum",
+    "p": 3,
+    "r": "h",
+    "t": "AI in Education araştırmaları; AIED konferansı ve IJAIED dergisinin çatısı",
+    "w": "X · Web",
+    "u": "https://iaied.org",
+    "c": 1,
+    "l": "ars",
+    "x": "IAIEDsociety"
+  },
+  "sira": 1,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Akademik Topluluklar",
+    "sira": 1
+  },
+  "kunye": [
+    "Topluluk",
+    "Uluslararası"
+  ],
+  "aciklama": "Yapay zekâ ve eğitim alanının uluslararası akademik topluluğu. Her yıl AIED konferansını düzenler, IJAIED dergisinin çatı kuruluşudur; alanın araştırma gündemi burada şekillenir.",
+  "ilgi_alanlari": [
+    "education:3",
+    "education:2",
+    "education:1"
+  ],
+  "gorsel": "gorseller/international-aied-society.webp",
+  "baglanti_denetimi": {
+    "url": "https://iaied.org",
+    "checkedAt": "2026-10-18T11:03:54.463121+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://iaied.org/"
+  }
+}

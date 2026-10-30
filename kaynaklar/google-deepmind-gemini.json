@@ -1,0 +1,66 @@
+{
+  "katalog": {
+    "n": "Google DeepMind / Gemini",
+    "p": 3,
+    "r": "g",
+    "l": "hiz",
+    "t": "Gemini modelleri ve uygulama güncellemeleri",
+    "u": "https://deepmind.google/discover/blog/",
+    "x": "GoogleDeepMind",
+    "s": "plat",
+    "nw": true,
+    "at": "2026-10-17"
+  },
+  "sira": 74,
+  "radar": {
+    "bolum": "Platform",
+    "alt": "Temel Modeller",
+    "sira": 3
+  },
+  "kunye": [
+    "Platform",
+    "Birleşik Krallık · Londra"
+  ],
+  "aciklama": "Google'ın yapay zekâ araştırma birimi ve Gemini modellerinin geliştiricisi. Blogda araştırma ve model duyuruları, Gemini sürüm notlarında ise uygulamaya gelen yeni özellikler tarih sırasıyla yayımlanır.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "blog",
+        "u": "https://gemini.google/release-notes/",
+        "lb": "Gemini sürüm notları"
+      },
+      {
+        "p": "tiktok",
+        "u": "https://www.tiktok.com/@googlegemini"
+      },
+      {
+        "p": "discord",
+        "u": "https://discord.gg/gemini"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "engineering:0",
+    "education:3",
+    "business:0"
+  ],
+  "kisaltma": "GDM",
+  "baglanti_denetimi": {
+    "url": "https://deepmind.google/discover/blog/",
+    "checkedAt": "2026-10-18T11:04:00.072556+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://deepmind.google/blog/"
+  },
+  "ajan": {
+    "id": "deepmind",
+    "name": "Google DeepMind",
+    "folder": "yz",
+    "ini": "GD",
+    "home": "https://deepmind.google/discover/blog/",
+    "method": "rss",
+    "feed": "https://deepmind.google/blog/rss.xml",
+    "sira": 10
+  }
+}

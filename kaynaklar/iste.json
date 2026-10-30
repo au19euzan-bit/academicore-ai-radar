@@ -1,0 +1,58 @@
+{
+  "katalog": {
+    "n": "ISTE",
+    "s": "uyg",
+    "l": "prat",
+    "p": 3,
+    "r": "a",
+    "t": "Öğretmen teknoloji/AI yeterlikleri, standartlar, mesleki gelişim",
+    "w": "X · LinkedIn · YouTube",
+    "u": "https://iste.org",
+    "x": "ISTE_ASCD",
+    "li": "https://www.linkedin.com/company/isteofficial/",
+    "yt": "https://www.youtube.com/@ISTEofficial"
+  },
+  "sira": 12,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Eğitim ve Sivil Toplum",
+    "sira": 4
+  },
+  "kunye": [
+    "Kurum",
+    "ABD · Arlington, Virginia"
+  ],
+  "aciklama": "Eğitim teknolojisi birliği (bugün ISTE+ASCD). Öğrenci ve öğretmenler için ISTE Standartları'nı geliştirir; AI odaklı mesleki gelişim kursları ve ISTELive konferansı sunar.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "ig",
+        "u": "https://www.instagram.com/ISTEconnects/"
+      },
+      {
+        "p": "fb",
+        "u": "https://www.facebook.com/ISTEofficial"
+      },
+      {
+        "p": "podcast",
+        "u": "https://iste.org/learning-library/podcasts",
+        "lb": "ISTE podcast kitaplığı"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:0",
+    "education:3",
+    "education:subject:13",
+    "education:8"
+  ],
+  "gorsel": "gorseller/iste.webp",
+  "baglanti_denetimi": {
+    "url": "https://iste.org",
+    "checkedAt": "2026-10-18T11:03:54.910211+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://iste.org/"
+  }
+}

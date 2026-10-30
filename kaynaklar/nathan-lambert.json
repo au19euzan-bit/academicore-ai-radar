@@ -1,0 +1,63 @@
+{
+  "katalog": {
+    "n": "Nathan Lambert (Interconnects)",
+    "s": "ai",
+    "p": 2,
+    "r": "h",
+    "t": "Açık modeller, model eğitimi, RLHF; teknik ama okunur analizler",
+    "w": "Bülten · X · LinkedIn · Bluesky · YouTube",
+    "u": "https://www.interconnects.ai",
+    "l": "ars",
+    "x": "natolambert",
+    "li": "https://www.linkedin.com/in/natolambert/",
+    "bs": "natolambert.bsky.social",
+    "yt": "https://www.youtube.com/@natolambert",
+    "f": {
+      "n": "Interconnects",
+      "rss": "https://www.interconnects.ai/feed",
+      "sub": "https://www.interconnects.ai/subscribe"
+    }
+  },
+  "sira": 56,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Sektör Uzmanları",
+    "sira": 1
+  },
+  "kunye": [
+    "AI uzmanı",
+    "Allen Institute for AI (Ai2)"
+  ],
+  "aciklama": "Allen Institute for AI'da araştırmacı. Interconnects bülteninde açık modeller, model eğitimi ve RLHF üzerine teknik ama okunur analizler yazar; açık kaynak AI'yı izlemek için iyi.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "substack",
+        "u": "https://www.interconnects.ai",
+        "lb": "Interconnects"
+      },
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0000-0002-9997-6817",
+        "v": "o"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5083548887",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "engineering:0"
+  ],
+  "gorsel": "gorseller/nathan-lambert.webp",
+  "baglanti_denetimi": {
+    "url": "https://www.interconnects.ai",
+    "checkedAt": "2026-10-18T11:03:58.402492+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.interconnects.ai/"
+  }
+}

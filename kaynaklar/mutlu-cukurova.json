@@ -1,0 +1,52 @@
+{
+  "katalog": {
+    "n": "Mutlu Cukurova",
+    "s": "ars",
+    "p": 3,
+    "r": "g",
+    "t": "İnsan–AI etkileşimi, öğretmen–AI, agency; UNESCO öğretmen AI yeterlik çerçevesi yazarlarından",
+    "w": "X · LinkedIn",
+    "l": "ele",
+    "x": "MutluCukurova",
+    "note": "Öğretmen adayı–AI etkileşimi, soru sorma ve öğretmen eğitimi çalışmalarıyla doğrudan kesişir."
+  },
+  "sira": 33,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Araştırmacılar",
+    "sira": 3
+  },
+  "kunye": [
+    "Araştırmacı",
+    "UCL, Londra"
+  ],
+  "aciklama": "UCL'de öğrenme ve yapay zekâ profesörü. İnsan–AI etkileşimi ve öğretmen–AI iş birliği üzerine çalışır; UNESCO'nun öğretmen AI yeterlik çerçevesinin yazarlarındandır.",
+  "ek_baglantilar": {
+    "vs": {
+      "x": "p"
+    },
+    "L": [
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0000-0001-5843-4854",
+        "v": "o"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5010726815",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:0",
+    "education:2",
+    "education:3"
+  ],
+  "gorsel": "gorseller/mutlu-cukurova.webp",
+  "baglanti_denetimi": {
+    "checkedAt": "2026-10-18T11:03:56.589258+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "missing"
+  }
+}

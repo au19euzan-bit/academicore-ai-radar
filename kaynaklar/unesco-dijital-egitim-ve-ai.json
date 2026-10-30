@@ -1,0 +1,73 @@
+{
+  "katalog": {
+    "n": "UNESCO – Dijital Eğitim ve AI",
+    "s": "kurum",
+    "p": 3,
+    "r": "h",
+    "t": "Öğretmen ve öğrenciler için AI yeterlik çerçeveleri, etik, küresel rehberler",
+    "w": "X · LinkedIn · YouTube · Bülten",
+    "u": "https://www.unesco.org/en/digital-education/artificial-intelligence",
+    "c": 1,
+    "l": "pol",
+    "x": "UNESCO",
+    "li": "https://www.linkedin.com/company/unesco",
+    "yt": "https://www.youtube.com/UNESCO",
+    "f": {
+      "n": "UNESCO bülteni",
+      "sub": "https://unesco.us1.list-manage.com/subscribe?u=72ebfe189bdcd1c4b7aedc782&id=a25899b075"
+    }
+  },
+  "sira": 4,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Uluslararası Kurumlar",
+    "sira": 1
+  },
+  "kunye": [
+    "Kurum",
+    "Fransa · Paris"
+  ],
+  "aciklama": "Öğrenci ve öğretmenler için AI yeterlik çerçeveleri ile eğitimde üretken AI rehberi burada. Etik, kapsayıcılık ve ülke politikaları için küresel ölçekte başvurulan kaynak.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "ig",
+        "u": "https://www.instagram.com/unesco/"
+      },
+      {
+        "p": "fb",
+        "u": "https://www.facebook.com/unesco/"
+      },
+      {
+        "p": "tiktok",
+        "u": "https://www.tiktok.com/@unesco"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:0",
+    "education:4",
+    "education:2",
+    "education:subject:13",
+    "law:1"
+  ],
+  "gorsel": "gorseller/unesco-dijital-egitim-ve-ai.webp",
+  "baglanti_denetimi": {
+    "url": "https://www.unesco.org/en/digital-education/artificial-intelligence",
+    "checkedAt": "2026-10-18T11:03:54.463704+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.unesco.org/en/digital-education/artificial-intelligence"
+  },
+  "ajan": {
+    "id": "unesco",
+    "name": "UNESCO · YZ ve eğitim",
+    "folder": "kur",
+    "ini": "U",
+    "home": "https://www.unesco.org/en/digital-education/artificial-intelligence",
+    "method": "page",
+    "page": "https://www.unesco.org/en/digital-education/artificial-intelligence",
+    "sira": 6
+  }
+}

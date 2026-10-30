@@ -1,0 +1,40 @@
+{
+  "katalog": {
+    "n": "European Digital Education Hub",
+    "s": "kurum",
+    "p": 3,
+    "r": "a",
+    "t": "Avrupa'da AI, dijital yeterlik, etik; webinar ve çalışma grupları",
+    "w": "X · Platform",
+    "u": "https://education.ec.europa.eu/focus-topics/digital-education/hub",
+    "l": "pol",
+    "x": "EUDigitalEdu"
+  },
+  "sira": 6,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Uluslararası Kurumlar",
+    "sira": 3
+  },
+  "kunye": [
+    "Kurum",
+    "Avrupa Birliği · Brüksel"
+  ],
+  "aciklama": "Avrupa Komisyonu'nun dijital eğitim topluluğu. AI, dijital yeterlik ve etik üzerine webinarlar, çevrim içi çalışma grupları ve raporlar sunar; Avrupa gündemini izlemek için yararlı.",
+  "ilgi_alanlari": [
+    "education:0",
+    "education:4",
+    "education:2",
+    "education:subject:13",
+    "law:1"
+  ],
+  "gorsel": "gorseller/european-digital-education-hub.webp",
+  "baglanti_denetimi": {
+    "url": "https://education.ec.europa.eu/focus-topics/digital-education/hub",
+    "checkedAt": "2026-10-18T11:03:54.463833+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://education.ec.europa.eu/focus-topics/digital-education/hub"
+  }
+}

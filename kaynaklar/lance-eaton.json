@@ -1,0 +1,75 @@
+{
+  "katalog": {
+    "n": "Lance Eaton",
+    "s": "akis",
+    "l": "prat",
+    "p": 2,
+    "r": "a",
+    "t": "Yükseköğretimde AI politikaları",
+    "w": "X · Bluesky · Bülten",
+    "x": "leaton01",
+    "bs": "leaton01.bsky.social",
+    "f": {
+      "n": "AI + Education = Simplified",
+      "rss": "https://aiedusimplified.substack.com/feed",
+      "sub": "https://aiedusimplified.substack.com/subscribe"
+    }
+  },
+  "sira": 48,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Eğitimciler",
+    "sira": 5
+  },
+  "kunye": [
+    "Eğitimci",
+    "Northeastern University"
+  ],
+  "aciklama": "Northeastern'de öğretimde AI üzerine çalışan eğitimci. Üniversitelerin AI ders politikalarını derleyen açık koleksiyonuyla tanınır; bülteninde kurumsal uygulamaları tartışır.",
+  "ek_baglantilar": {
+    "vs": {
+      "x": "p",
+      "bs": "b"
+    },
+    "L": [
+      {
+        "p": "substack",
+        "u": "https://aiedusimplified.substack.com/",
+        "lb": "AI + Education = Simplified",
+        "v": "r"
+      },
+      {
+        "p": "web",
+        "u": "http://www.LanceEaton.com",
+        "v": "r"
+      },
+      {
+        "p": "blog",
+        "u": "http://www.byanyothernerd.com",
+        "lb": "By Any Other Nerd",
+        "v": "r"
+      },
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0000-0003-1335-277X",
+        "v": "o"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5069186012",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:9",
+    "education:4",
+    "education:1"
+  ],
+  "gorsel": "gorseller/lance-eaton.webp",
+  "baglanti_denetimi": {
+    "checkedAt": "2026-10-18T11:03:57.238384+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "missing"
+  }
+}

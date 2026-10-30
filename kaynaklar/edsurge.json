@@ -1,0 +1,72 @@
+{
+  "katalog": {
+    "n": "EdSurge",
+    "s": "uyg",
+    "p": 2,
+    "r": "a",
+    "t": "EdTech ve AI gündemi; hızlı haber akışı",
+    "w": "X · LinkedIn · Bluesky · YouTube · Bülten",
+    "u": "https://www.edsurge.com",
+    "l": "hiz",
+    "x": "edsurge",
+    "li": "https://www.linkedin.com/company/edsurge",
+    "bs": "edsurge.com",
+    "yt": "https://www.youtube.com/user/EdSurge",
+    "f": {
+      "n": "EdSurge",
+      "rss": "https://www.edsurge.com/articles_rss",
+      "sub": "https://www.edsurge.com/newsletters"
+    }
+  },
+  "sira": 18,
+  "radar": {
+    "bolum": "Yayın",
+    "alt": "Eğitim Teknolojisi Yayınları",
+    "sira": 1
+  },
+  "kunye": [
+    "Yayın",
+    "ABD · ISTE+ASCD"
+  ],
+  "aciklama": "Eğitim teknolojisi haber yayını. Okul ve üniversitelerde AI kullanımı, yeni ürünler, araştırma haberleri ve öğretmen deneyimlerini hızlı ve anlaşılır biçimde aktarır; podcast'i de var.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "ig",
+        "u": "https://www.instagram.com/edsurge"
+      },
+      {
+        "p": "fb",
+        "u": "https://www.facebook.com/edsurge"
+      },
+      {
+        "p": "tiktok",
+        "u": "https://www.tiktok.com/@edsurgenews"
+      },
+      {
+        "p": "apple",
+        "u": "https://podcasts.apple.com/us/podcast/edsurge-podcast/id972239500",
+        "lb": "EdSurge Podcast"
+      },
+      {
+        "p": "spotify",
+        "u": "https://open.spotify.com/show/5Omg7s9kRYFgt4jEynpdoL",
+        "lb": "EdSurge Podcast"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:3",
+    "education:4",
+    "business:0"
+  ],
+  "gorsel": "gorseller/edsurge.webp",
+  "baglanti_denetimi": {
+    "url": "https://www.edsurge.com",
+    "checkedAt": "2026-10-18T11:03:55.176574+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.edsurge.com/"
+  }
+}

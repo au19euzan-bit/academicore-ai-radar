@@ -1,0 +1,67 @@
+{
+  "katalog": {
+    "n": "OpenAI Eğitim",
+    "p": 3,
+    "r": "h",
+    "t": "ChatGPT for Education, OpenAI Academy ve eğitim bülteni",
+    "u": "https://openai.com/education/",
+    "f": {
+      "n": "OpenAI Eğitim bülteni",
+      "sub": "https://edunewsletter.openai.com"
+    },
+    "s": "plat",
+    "l": "prat",
+    "nw": true,
+    "at": "2026-10-17"
+  },
+  "sira": 81,
+  "radar": {
+    "bolum": "Platform",
+    "alt": "Eğitim Platformları",
+    "sira": 1
+  },
+  "kunye": [
+    "Eğitim programı",
+    "OpenAI"
+  ],
+  "aciklama": "OpenAI'nin okullar, üniversiteler ve öğrenciler için sayfası. ChatGPT for Education, ülke programları ve OpenAI Academy'deki ücretsiz öğretmen etkinlikleri burada toplanır; ayrı bir eğitim bülteni de var.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "community",
+        "u": "https://academy.openai.com/public/clubs/k-12-education-aacga",
+        "lb": "OpenAI Academy · K-12 Eğitim"
+      },
+      {
+        "p": "events",
+        "u": "https://academy.openai.com",
+        "lb": "OpenAI Academy"
+      },
+      {
+        "p": "community",
+        "u": "https://forum.openai.com/public/collections/ai-in-higher-education",
+        "lb": "OpenAI Forum · Yükseköğretimde AI"
+      },
+      {
+        "p": "rss",
+        "u": "https://edunewsletter.openai.com/feed",
+        "lb": "ChatGPT for Education bülteni (RSS)"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:9",
+    "education:3",
+    "education:0"
+  ],
+  "kisaltma": "OAI",
+  "ust_kurum": "OpenAI",
+  "baglanti_denetimi": {
+    "url": "https://openai.com/education/",
+    "checkedAt": "2026-10-18T11:04:00.745305+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "restricted",
+    "code": 403,
+    "finalUrl": "https://openai.com/education/"
+  }
+}

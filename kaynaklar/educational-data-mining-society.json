@@ -1,0 +1,50 @@
+{
+  "katalog": {
+    "n": "Educational Data Mining Society",
+    "s": "akd",
+    "p": 3,
+    "r": "a",
+    "t": "Eğitsel veri madenciliği ve AI",
+    "w": "Web · E-posta listesi",
+    "u": "https://educationaldatamining.org",
+    "l": "ars",
+    "f": {
+      "n": "EDM e-posta listesi",
+      "sub": "https://educationaldatamining.org/mailing-list"
+    }
+  },
+  "sira": 27,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Akademik Topluluklar",
+    "sira": 3
+  },
+  "kunye": [
+    "Topluluk",
+    "Uluslararası"
+  ],
+  "aciklama": "Uluslararası eğitsel veri madenciliği topluluğu. Öğrenme verisinden bilgi çıkaran yöntemler geliştirir; EDM konferansını ve açık erişimli Journal of Educational Data Mining'i yürütür.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "community",
+        "u": "https://educationaldatamining.org/mailing-list",
+        "lb": "E-posta listesi"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:1",
+    "education:3",
+    "engineering:0"
+  ],
+  "kisaltma": "EDM",
+  "baglanti_denetimi": {
+    "url": "https://educationaldatamining.org",
+    "checkedAt": "2026-10-18T11:03:56.111178+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://educationaldatamining.org/"
+  }
+}

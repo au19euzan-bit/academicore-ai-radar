@@ -1,0 +1,57 @@
+{
+  "katalog": {
+    "n": "Marc Watkins",
+    "s": "akis",
+    "l": "ele",
+    "p": 2,
+    "r": "a",
+    "t": "GenAI, yazma, yükseköğretim",
+    "w": "X · Bluesky · Bülten",
+    "x": "Marc__Watkins",
+    "bs": "marcwatkins.bsky.social",
+    "f": {
+      "n": "Rhetorica",
+      "rss": "https://marcwatkins.substack.com/feed",
+      "sub": "https://marcwatkins.substack.com/subscribe"
+    }
+  },
+  "sira": 46,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Eğitimciler",
+    "sira": 3
+  },
+  "kunye": [
+    "Eğitimci",
+    "University of Mississippi"
+  ],
+  "aciklama": "Mississippi Üniversitesi'nde yazma ve retorik alanında öğretim elemanı. Rhetorica bülteninde üretken AI'nın yazma eğitimi, ödev tasarımı ve yükseköğretime etkisini ele alır.",
+  "ek_baglantilar": {
+    "vs": {
+      "bs": "b"
+    },
+    "L": [
+      {
+        "p": "substack",
+        "u": "https://marcwatkins.substack.com",
+        "lb": "Rhetorica"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5026516418",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:subject:7",
+    "education:1",
+    "education:9"
+  ],
+  "gorsel": "gorseller/marc-watkins.webp",
+  "baglanti_denetimi": {
+    "checkedAt": "2026-10-18T11:03:57.016201+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "missing"
+  }
+}

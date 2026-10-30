@@ -1,0 +1,46 @@
+{
+  "katalog": {
+    "n": "Ryan S. Baker",
+    "s": "ars",
+    "p": 3,
+    "r": "a",
+    "t": "AIED, EDM, learning analytics; Penn Center for Learning Analytics",
+    "w": "LinkedIn · Web",
+    "l": "ars"
+  },
+  "sira": 35,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Araştırmacılar",
+    "sira": 5
+  },
+  "kunye": [
+    "Araştırmacı",
+    "Adelaide University, Avustralya"
+  ],
+  "aciklama": "Eğitsel veri madenciliği ve AIED'nin öncülerinden; Penn Center for Learning Analytics'i kurdu, bugün Adelaide'de. Öğrenci modelleme ve algoritmik yanlılık üzerine çalışır.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0000-0002-3051-3232",
+        "v": "o"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5088695714",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:1",
+    "education:3",
+    "engineering:0"
+  ],
+  "baglanti_denetimi": {
+    "checkedAt": "2026-10-18T11:03:56.589269+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "missing"
+  }
+}

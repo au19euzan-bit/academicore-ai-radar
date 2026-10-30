@@ -1,0 +1,38 @@
+{
+  "katalog": {
+    "n": "ISLS",
+    "s": "akd",
+    "p": 3,
+    "r": "h",
+    "t": "Öğrenme bilimleri; öğretmen eğitiminde AI ve AI yeterliği çalışmaları",
+    "w": "X · Proceedings",
+    "u": "https://www.isls.org",
+    "l": "ars",
+    "x": "islsnews"
+  },
+  "sira": 29,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Akademik Topluluklar",
+    "sira": 4
+  },
+  "kunye": [
+    "Topluluk",
+    "Uluslararası"
+  ],
+  "aciklama": "Uluslararası öğrenme bilimleri topluluğu; ICLS ve CSCL konferanslarını düzenler. Öğretmen eğitiminde AI, iş birlikli öğrenme ve AI yeterliği çalışmalarını kuramsal bir çerçeveyle izletir.",
+  "ilgi_alanlari": [
+    "education:0",
+    "education:2",
+    "education:3"
+  ],
+  "gorsel": "gorseller/isls.webp",
+  "baglanti_denetimi": {
+    "url": "https://www.isls.org",
+    "checkedAt": "2026-10-18T11:03:56.421915+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "restricted",
+    "code": 403,
+    "finalUrl": "https://www.isls.org/"
+  }
+}

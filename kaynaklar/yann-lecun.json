@@ -1,0 +1,60 @@
+{
+  "katalog": {
+    "n": "Yann LeCun",
+    "s": "ai",
+    "p": 2,
+    "r": "a",
+    "t": "AI araştırmasının yönü, açık modeller; LLM'lerin sınırlarına teknik eleştiri. Meta'dan ayrılıp yeni bir girişim kurdu.",
+    "w": "X · LinkedIn · Bluesky · Threads",
+    "u": "http://yann.lecun.com",
+    "l": "ger",
+    "x": "ylecun",
+    "li": "https://www.linkedin.com/in/yann-lecun/",
+    "bs": "yann-lecun.bsky.social"
+  },
+  "sira": 59,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Geliştiriciler",
+    "sira": 4
+  },
+  "kunye": [
+    "AI uzmanı",
+    "AMI Labs, Paris"
+  ],
+  "aciklama": "Derin öğrenmenin öncülerinden, Turing Ödülü sahibi. Meta'dan ayrılıp dünya modellerine odaklanan AMI Labs'i kurdu; açık modelleri savunur, LLM'lerin sınırlarını eleştirir.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "threads",
+        "u": "https://www.threads.net/@yannlecun"
+      },
+      {
+        "p": "fb",
+        "u": "https://www.facebook.com/yann.lecun"
+      },
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0000-0002-1992-2684",
+        "v": "o"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5001226970",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "engineering:0"
+  ],
+  "gorsel": "gorseller/yann-lecun.webp",
+  "baglanti_denetimi": {
+    "url": "http://yann.lecun.com",
+    "checkedAt": "2026-10-18T11:03:58.466828+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "http://yann.lecun.com/"
+  }
+}

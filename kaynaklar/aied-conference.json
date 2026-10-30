@@ -1,0 +1,37 @@
+{
+  "katalog": {
+    "n": "AIED Conference",
+    "s": "akd",
+    "p": 3,
+    "r": "a",
+    "t": "En yeni AIED araştırmaları",
+    "w": "Konferans",
+    "u": "https://iaied.org",
+    "l": "ars"
+  },
+  "sira": 23,
+  "radar": {
+    "bolum": "Etkinlik",
+    "alt": "Konferanslar",
+    "sira": 1
+  },
+  "kunye": [
+    "Konferans",
+    "IAIED · her yıl"
+  ],
+  "aciklama": "IAIED'nin yıllık uluslararası konferansı. Akıllı öğretim sistemleri, LLM tabanlı tutorlar ve öğrenme analitiğindeki en yeni çalışmalar ilk kez burada sunulur; bildiriler Springer'de.",
+  "ilgi_alanlari": [
+    "education:3",
+    "education:2",
+    "education:1"
+  ],
+  "kisaltma": "AIED",
+  "baglanti_denetimi": {
+    "url": "https://iaied.org",
+    "checkedAt": "2026-10-18T11:03:55.758445+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://iaied.org/"
+  }
+}

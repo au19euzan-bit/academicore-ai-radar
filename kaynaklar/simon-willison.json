@@ -1,0 +1,55 @@
+{
+  "katalog": {
+    "n": "Simon Willison",
+    "s": "ai",
+    "p": 3,
+    "r": "g",
+    "t": "Yeni LLM araçlarını her gün deneyip not eder; prompt injection ve güvenlik konularında açık yazar",
+    "w": "Blog · X · Bluesky · Mastodon",
+    "u": "https://simonwillison.net",
+    "l": "hiz",
+    "x": "simonw",
+    "bs": "simonwillison.net",
+    "md": {
+      "a": "simon@fedi.simonwillison.net",
+      "u": "https://fedi.simonwillison.net/@simon"
+    },
+    "f": {
+      "n": "Simon Willison's Weblog",
+      "rss": "https://simonwillison.net/atom/everything/",
+      "sub": "https://simonw.substack.com/subscribe"
+    }
+  },
+  "sira": 51,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Geliştiriciler",
+    "sira": 1
+  },
+  "kunye": [
+    "AI uzmanı",
+    "Bağımsız"
+  ],
+  "aciklama": "Django'nun ortak yaratıcısı, Datasette'in geliştiricisi. Yeni LLM araçlarını her gün deneyip blogunda not eder; prompt injection ve güvenlik konularında açık ve anlaşılır yazar.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "substack",
+        "u": "https://simonw.substack.com",
+        "lb": "Simon Willison's Newsletter"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "engineering:0"
+  ],
+  "gorsel": "gorseller/simon-willison.webp",
+  "baglanti_denetimi": {
+    "url": "https://simonwillison.net",
+    "checkedAt": "2026-10-18T11:03:57.996558+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://simonwillison.net/"
+  }
+}

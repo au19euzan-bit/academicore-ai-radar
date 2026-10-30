@@ -1,0 +1,41 @@
+{
+  "katalog": {
+    "n": "MIT RAISE",
+    "s": "kurum",
+    "p": 3,
+    "r": "g",
+    "t": "AI okuryazarlığı, K–12, öğretmenlere yönelik mesleki gelişim, sorumlu AI",
+    "w": "LinkedIn · Bluesky · Web",
+    "u": "https://raise.mit.edu",
+    "c": 1,
+    "l": "ars",
+    "li": "https://www.linkedin.com/company/raise-mit",
+    "bs": "mit-raise.bsky.social"
+  },
+  "sira": 2,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Üniversite ve Araştırma Merkezleri",
+    "sira": 1
+  },
+  "kunye": [
+    "Kurum",
+    "ABD · Cambridge, Massachusetts"
+  ],
+  "aciklama": "MIT'nin sorumlu yapay zekâ ve eğitim girişimi. K–12 için ücretsiz AI okuryazarlığı materyalleri, öğretmen eğitimleri ve sınıfta kullanılabilecek etkinlikler üretir; Day of AI bunlardan biri.",
+  "ilgi_alanlari": [
+    "education:0",
+    "education:3",
+    "education:subject:13",
+    "education:8"
+  ],
+  "kisaltma": "MIT",
+  "baglanti_denetimi": {
+    "url": "https://raise.mit.edu",
+    "checkedAt": "2026-10-18T11:03:54.463527+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://raise.mit.edu/"
+  }
+}

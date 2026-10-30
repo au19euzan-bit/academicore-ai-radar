@@ -1,0 +1,51 @@
+{
+  "katalog": {
+    "n": "George Siemens",
+    "s": "ars",
+    "l": "ars",
+    "p": 3,
+    "r": "a",
+    "t": "Learning analytics, AI ve yükseköğretim",
+    "w": "X · Bülten",
+    "x": "gsiemens"
+  },
+  "sira": 36,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Araştırmacılar",
+    "sira": 6
+  },
+  "kunye": [
+    "Araştırmacı",
+    "Adelaide University, Avustralya"
+  ],
+  "aciklama": "Bağlantıcılık kuramının ve ilk MOOC'ların öncüsü, öğrenme analitiğinin kurucularından. Adelaide'de bir araştırma merkezini yönetir; AI'nın öğrenmeyi nasıl dönüştürdüğünü tartışır.",
+  "ek_baglantilar": {
+    "vs": {
+      "x": "p"
+    },
+    "L": [
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0000-0002-9567-9794",
+        "v": "o"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5025890612",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:9",
+    "education:3",
+    "education:10"
+  ],
+  "gorsel": "gorseller/george-siemens.webp",
+  "baglanti_denetimi": {
+    "checkedAt": "2026-10-18T11:03:56.589275+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "missing"
+  }
+}

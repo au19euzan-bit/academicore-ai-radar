@@ -1,29 +1,188 @@
 {
   "folders": [
-    { "id": "aka", "name": "Akademisyenler" },
-    { "id": "der", "name": "Dergiler" },
-    { "id": "kur", "name": "Kurumlar" },
-    { "id": "yz", "name": "YZ firmaları" },
-    { "id": "sho", "name": "Shorts" }
+    {
+      "id": "aka",
+      "name": "Akademisyenler"
+    },
+    {
+      "id": "der",
+      "name": "Dergiler"
+    },
+    {
+      "id": "kur",
+      "name": "Kurumlar"
+    },
+    {
+      "id": "yz",
+      "name": "YZ firmaları"
+    },
+    {
+      "id": "sho",
+      "name": "Shorts"
+    }
   ],
   "sources": [
-    { "id": "mollick", "name": "One Useful Thing", "folder": "aka", "ini": "O", "home": "https://www.oneusefulthing.org/", "method": "rss", "feed": "https://www.oneusefulthing.org/feed" },
-    { "id": "mishra", "name": "Punya Mishra", "folder": "aka", "ini": "P", "home": "https://punyamishra.com/", "method": "rss", "feed": "https://punyamishra.com/feed/" },
-    { "id": "cae", "name": "Computers & Education", "folder": "der", "ini": "C&E", "home": "https://www.sciencedirect.com/journal/computers-and-education", "method": "crossref", "issn": "0360-1315" },
-    { "id": "bjet", "name": "BJET", "folder": "der", "ini": "BJ", "home": "https://onlinelibrary.wiley.com/journal/14678535", "method": "crossref", "issn": "1467-8535" },
-    { "id": "ijaied", "name": "Int. J. of AI in Education", "folder": "der", "ini": "AI", "home": "https://link.springer.com/journal/40593", "method": "crossref", "issn": "1560-4292" },
-    { "id": "unesco", "name": "UNESCO · YZ ve eğitim", "folder": "kur", "ini": "U", "home": "https://www.unesco.org/en/digital-education/artificial-intelligence", "method": "page", "page": "https://www.unesco.org/en/digital-education/artificial-intelligence" },
-    { "id": "oecd", "name": "OECD Education Today", "folder": "kur", "ini": "OE", "home": "https://oecdedutoday.com/", "method": "rss", "feed": "https://oecdedutoday.com/feed/" },
-    { "id": "openai", "name": "OpenAI", "folder": "yz", "ini": "OA", "home": "https://openai.com/news/", "method": "rss", "feed": "https://openai.com/news/rss.xml" },
-    { "id": "anthropic", "name": "Anthropic", "folder": "yz", "ini": "A", "home": "https://www.anthropic.com/news", "method": "page", "page": "https://www.anthropic.com/news" },
-    { "id": "deepmind", "name": "Google DeepMind", "folder": "yz", "ini": "GD", "home": "https://deepmind.google/discover/blog/", "method": "rss", "feed": "https://deepmind.google/blog/rss.xml" },
-    { "id": "cicek", "name": "Çiçek ile Teknoloji", "folder": "sho", "ini": "Ç", "home": "https://www.youtube.com/@cicekileteknoloji/shorts", "method": "youtube", "channel": "UCLGTx8RPgoB7DpsfQz8aBcA", "kind": "shorts" },
-    { "id": "erhan", "name": "Erhan Meydan", "folder": "sho", "ini": "E", "home": "https://www.youtube.com/@erhanmeydan/shorts", "method": "youtube", "channel": "UC6E0xxW6o3QacO-rx71x26Q", "kind": "shorts" }
+    {
+      "id": "mollick",
+      "name": "One Useful Thing",
+      "folder": "aka",
+      "ini": "O",
+      "home": "https://www.oneusefulthing.org/",
+      "method": "rss",
+      "feed": "https://www.oneusefulthing.org/feed"
+    },
+    {
+      "id": "mishra",
+      "name": "Punya Mishra",
+      "folder": "aka",
+      "ini": "P",
+      "home": "https://punyamishra.com/",
+      "method": "rss",
+      "feed": "https://punyamishra.com/feed/"
+    },
+    {
+      "id": "cae",
+      "name": "Computers & Education",
+      "folder": "der",
+      "ini": "C&E",
+      "home": "https://www.sciencedirect.com/journal/computers-and-education",
+      "method": "crossref",
+      "issn": "0360-1315"
+    },
+    {
+      "id": "bjet",
+      "name": "BJET",
+      "folder": "der",
+      "ini": "BJ",
+      "home": "https://onlinelibrary.wiley.com/journal/14678535",
+      "method": "crossref",
+      "issn": "1467-8535"
+    },
+    {
+      "id": "ijaied",
+      "name": "Int. J. of AI in Education",
+      "folder": "der",
+      "ini": "AI",
+      "home": "https://link.springer.com/journal/40593",
+      "method": "crossref",
+      "issn": "1560-4292"
+    },
+    {
+      "id": "unesco",
+      "name": "UNESCO · YZ ve eğitim",
+      "folder": "kur",
+      "ini": "U",
+      "home": "https://www.unesco.org/en/digital-education/artificial-intelligence",
+      "method": "page",
+      "page": "https://www.unesco.org/en/digital-education/artificial-intelligence"
+    },
+    {
+      "id": "oecd",
+      "name": "OECD Education Today",
+      "folder": "kur",
+      "ini": "OE",
+      "home": "https://oecdedutoday.com/",
+      "method": "rss",
+      "feed": "https://oecdedutoday.com/feed/"
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "folder": "yz",
+      "ini": "OA",
+      "home": "https://openai.com/news/",
+      "method": "rss",
+      "feed": "https://openai.com/news/rss.xml"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "folder": "yz",
+      "ini": "A",
+      "home": "https://www.anthropic.com/news",
+      "method": "page",
+      "page": "https://www.anthropic.com/news"
+    },
+    {
+      "id": "deepmind",
+      "name": "Google DeepMind",
+      "folder": "yz",
+      "ini": "GD",
+      "home": "https://deepmind.google/discover/blog/",
+      "method": "rss",
+      "feed": "https://deepmind.google/blog/rss.xml"
+    },
+    {
+      "id": "cicek",
+      "name": "Çiçek ile Teknoloji",
+      "folder": "sho",
+      "ini": "Ç",
+      "home": "https://www.youtube.com/@cicekileteknoloji/shorts",
+      "method": "youtube",
+      "channel": "UCLGTx8RPgoB7DpsfQz8aBcA",
+      "kind": "shorts"
+    },
+    {
+      "id": "erhan",
+      "name": "Erhan Meydan",
+      "folder": "sho",
+      "ini": "E",
+      "home": "https://www.youtube.com/@erhanmeydan/shorts",
+      "method": "youtube",
+      "channel": "UC6E0xxW6o3QacO-rx71x26Q",
+      "kind": "shorts"
+    }
   ],
   "x_streams": [
-    { "name": "Akademisyenler", "who": "Mollick, Ng, Luckin, Selwyn, Siemens, Mishra, Reich", "handles": ["emollick", "AndrewYNg", "Knowldgillusion", "neil_selwyn", "gsiemens", "punyamishra", "bjfr"] },
-    { "name": "Kurumlar", "who": "UNESCO, OECD Eğitim, Khan Academy, ISTE, EDUCAUSE, Jisc", "handles": ["UNESCO", "OECDEduSkills", "khanacademy", "ISTEofficial", "educause", "Jisc"] },
-    { "name": "Dergiler ve yayınlar", "who": "Nature, Science, EdSurge, Inside Higher Ed, THE, Edutopia", "handles": ["Nature", "ScienceMagazine", "EdSurge", "insidehighered", "timeshighered", "edutopia"] },
-    { "name": "YZ firmaları", "who": "OpenAI, Anthropic, DeepMind, Google ve Microsoft Eğitim, Meta AI, Mistral", "handles": ["OpenAI", "AnthropicAI", "GoogleDeepMind", "GoogleForEdu", "MicrosoftEDU", "AIatMeta", "MistralAI"] }
+    {
+      "name": "Akademisyenler",
+      "who": "Mollick, Ng, Luckin, Selwyn, Siemens, Mishra, Reich",
+      "handles": [
+        "emollick",
+        "AndrewYNg",
+        "Knowldgillusion",
+        "neil_selwyn",
+        "gsiemens",
+        "punyamishra",
+        "bjfr"
+      ]
+    },
+    {
+      "name": "Kurumlar",
+      "who": "UNESCO, OECD Eğitim, Khan Academy, ISTE, EDUCAUSE, Jisc",
+      "handles": [
+        "UNESCO",
+        "OECDEduSkills",
+        "khanacademy",
+        "ISTEofficial",
+        "educause",
+        "Jisc"
+      ]
+    },
+    {
+      "name": "Dergiler ve yayınlar",
+      "who": "Nature, Science, EdSurge, Inside Higher Ed, THE, Edutopia",
+      "handles": [
+        "Nature",
+        "ScienceMagazine",
+        "EdSurge",
+        "insidehighered",
+        "timeshighered",
+        "edutopia"
+      ]
+    },
+    {
+      "name": "YZ firmaları",
+      "who": "OpenAI, Anthropic, DeepMind, Google ve Microsoft Eğitim, Meta AI, Mistral",
+      "handles": [
+        "OpenAI",
+        "AnthropicAI",
+        "GoogleDeepMind",
+        "GoogleForEdu",
+        "MicrosoftEDU",
+        "AIatMeta",
+        "MistralAI"
+      ]
+    }
   ]
 }

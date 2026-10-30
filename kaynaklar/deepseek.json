@@ -1,0 +1,51 @@
+{
+  "katalog": {
+    "n": "DeepSeek",
+    "p": 2,
+    "r": "h",
+    "l": "hiz",
+    "t": "Açık ağırlıklı, düşük maliyetli büyük dil modelleri",
+    "u": "https://www.deepseek.com/en/news/",
+    "x": "deepseek_ai",
+    "s": "plat",
+    "nw": true,
+    "at": "2026-10-17"
+  },
+  "sira": 79,
+  "radar": {
+    "bolum": "Platform",
+    "alt": "Temel Modeller",
+    "sira": 8
+  },
+  "kunye": [
+    "Platform",
+    "Çin · Hangzhou"
+  ],
+  "aciklama": "Çinli yapay zekâ şirketi. Açık ağırlıklı, düşük maliyetli modelleriyle sektörün fiyat dengesini değiştirdi; yeni sürümler haber sayfasında, model dosyaları GitHub ve Hugging Face'te yayımlanır.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "github",
+        "u": "https://github.com/deepseek-ai"
+      },
+      {
+        "p": "hf",
+        "u": "https://huggingface.co/deepseek-ai"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "engineering:0",
+    "education:3",
+    "business:0"
+  ],
+  "kisaltma": "DS",
+  "baglanti_denetimi": {
+    "url": "https://www.deepseek.com/en/news/",
+    "checkedAt": "2026-10-18T11:04:00.654969+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.deepseek.com/en/news/"
+  }
+}

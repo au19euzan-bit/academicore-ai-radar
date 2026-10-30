@@ -1,0 +1,44 @@
+{
+  "katalog": {
+    "n": "Jisc",
+    "s": "uyg",
+    "p": 3,
+    "r": "a",
+    "t": "Üniversitelerde GenAI, değerlendirme, akademik bütünlük, kurumsal politika",
+    "w": "LinkedIn · Bluesky · YouTube",
+    "u": "https://www.jisc.ac.uk",
+    "l": "pol",
+    "li": "https://www.linkedin.com/company/jisc",
+    "bs": "jisc.bsky.social",
+    "yt": "https://www.youtube.com/user/JISCmedia"
+  },
+  "sira": 11,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Yükseköğretim ve Teknoloji Ağları",
+    "sira": 2
+  },
+  "kunye": [
+    "Kurum",
+    "Birleşik Krallık · Bristol"
+  ],
+  "aciklama": "Birleşik Krallık yükseköğretiminin dijital hizmet kuruluşu. Üretken AI, değerlendirme ve akademik bütünlük üzerine öğrenci ve personel anketleri, rehberler ve pratik öneriler yayımlar.",
+  "ek_baglantilar": {
+    "vs": {
+      "bs": "b"
+    }
+  },
+  "ilgi_alanlari": [
+    "education:9",
+    "education:4",
+    "education:1"
+  ],
+  "baglanti_denetimi": {
+    "url": "https://www.jisc.ac.uk",
+    "checkedAt": "2026-10-18T11:03:54.819304+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "restricted",
+    "code": 403,
+    "finalUrl": "https://www.jisc.ac.uk/"
+  }
+}

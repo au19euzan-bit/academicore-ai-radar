@@ -1,0 +1,48 @@
+{
+  "katalog": {
+    "n": "Microsoft AI (Copilot)",
+    "p": 2,
+    "r": "h",
+    "l": "hiz",
+    "t": "Copilot ve Microsoft'un kendi AI modelleri",
+    "u": "https://microsoft.ai/news/",
+    "x": "MicrosoftAI",
+    "li": "https://www.linkedin.com/company/microsoft-ai/",
+    "s": "plat",
+    "nw": true,
+    "at": "2026-10-17"
+  },
+  "sira": 75,
+  "radar": {
+    "bolum": "Platform",
+    "alt": "Temel Modeller",
+    "sira": 4
+  },
+  "kunye": [
+    "Platform",
+    "ABD · Redmond, Washington"
+  ],
+  "aciklama": "Microsoft'un tüketiciye yönelik yapay zekâ birimi. Copilot uygulamasındaki yenilikleri ve şirketin kendi MAI modellerini duyurur; Office ve Windows'a gelen AI özelliklerini anlamak için yararlıdır.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "ig",
+        "u": "https://www.instagram.com/microsoftai/"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "engineering:0",
+    "education:3",
+    "business:0"
+  ],
+  "kisaltma": "MAI",
+  "baglanti_denetimi": {
+    "url": "https://microsoft.ai/news/",
+    "checkedAt": "2026-10-18T11:04:00.150737+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://microsoft.ai/blog/"
+  }
+}

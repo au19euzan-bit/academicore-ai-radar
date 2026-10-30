@@ -1,0 +1,41 @@
+{
+  "katalog": {
+    "n": "Pat Yongpradit",
+    "s": "akis",
+    "p": 3,
+    "r": "g",
+    "t": "TeachAI, AI okuryazarlığı, bilgisayar bilimi eğitimi, politika",
+    "w": "X · LinkedIn",
+    "l": "pol",
+    "x": "MrYongpradit"
+  },
+  "sira": 41,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Eğitimciler",
+    "sira": 6
+  },
+  "kunye": [
+    "Eğitimci",
+    "Code.org · TeachAI"
+  ],
+  "aciklama": "Code.org'un akademik sorumlusu ve TeachAI'nin yöneticisi. Eski bir bilgisayar bilimi öğretmeni; okullar için AI politikası ve AI okuryazarlığı üzerine güncel gelişmeleri paylaşır.",
+  "ek_baglantilar": {
+    "vs": {
+      "x": "p"
+    }
+  },
+  "ilgi_alanlari": [
+    "education:subject:13",
+    "education:8",
+    "education:0",
+    "education:2"
+  ],
+  "gorsel": "gorseller/pat-yongpradit.webp",
+  "ust_kurum": "TeachAI",
+  "baglanti_denetimi": {
+    "checkedAt": "2026-10-18T11:03:56.956516+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "missing"
+  }
+}

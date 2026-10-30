@@ -1,0 +1,42 @@
+{
+  "katalog": {
+    "n": "EdTech Insiders",
+    "s": "uyg",
+    "l": "hiz",
+    "p": 2,
+    "r": "a",
+    "t": "EdTech/AI sektör gelişmeleri, podcast",
+    "w": "Bülten · Podcast",
+    "u": "https://edtechinsiders.substack.com",
+    "f": {
+      "n": "Edtech Insiders",
+      "rss": "https://edtechinsiders.substack.com/feed",
+      "sub": "https://edtechinsiders.substack.com/subscribe"
+    }
+  },
+  "sira": 19,
+  "radar": {
+    "bolum": "Yayın",
+    "alt": "Eğitim Teknolojisi Yayınları",
+    "sira": 2
+  },
+  "kunye": [
+    "Yayın",
+    "ABD"
+  ],
+  "aciklama": "Alex Sarlin ve Ben Kornell'in bülten ve podcast'i. Eğitim teknolojisi ve AI sektöründeki ürünler, yatırımlar ve girişimler üzerine haftalık analizler ve söyleşiler sunar.",
+  "ilgi_alanlari": [
+    "education:3",
+    "education:4",
+    "business:0"
+  ],
+  "kisaltma": "ETI",
+  "baglanti_denetimi": {
+    "url": "https://edtechinsiders.substack.com",
+    "checkedAt": "2026-10-18T11:03:55.296049+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://edtechinsiders.substack.com/"
+  }
+}

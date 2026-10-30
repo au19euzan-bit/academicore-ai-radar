@@ -1,0 +1,38 @@
+{
+  "katalog": {
+    "n": "MEB",
+    "s": "tr",
+    "p": 3,
+    "r": "a",
+    "t": "Ulusal eğitim politikaları",
+    "w": "X · YouTube",
+    "u": "https://www.meb.gov.tr",
+    "l": "pol",
+    "x": "tcmeb",
+    "yt": "https://www.youtube.com/mebbasin"
+  },
+  "sira": 65,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Türkiye Kamu ve Akademi",
+    "sira": 2
+  },
+  "kunye": [
+    "Kurum",
+    "Türkiye · Ankara"
+  ],
+  "aciklama": "Millî Eğitim Bakanlığı. Müfredat, öğretmen yetiştirme ve okullardaki dijital dönüşüme ilişkin kararlar buradan duyurulur; eğitimde yapay zekâ düzenlemeleri için resmî kaynak.",
+  "ilgi_alanlari": [
+    "education:4",
+    "education:0"
+  ],
+  "gorsel": "gorseller/meb.webp",
+  "baglanti_denetimi": {
+    "url": "https://www.meb.gov.tr",
+    "checkedAt": "2026-10-18T11:03:59.089284+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.meb.gov.tr/"
+  }
+}

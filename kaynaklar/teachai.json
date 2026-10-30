@@ -1,0 +1,48 @@
+{
+  "katalog": {
+    "n": "TeachAI",
+    "s": "kurum",
+    "p": 3,
+    "r": "h",
+    "t": "Okullarda AI politikası, AI okuryazarlığı, müfredat",
+    "w": "Web",
+    "u": "https://www.teachai.org",
+    "l": "pol"
+  },
+  "sira": 7,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Eğitim ve Sivil Toplum",
+    "sira": 1
+  },
+  "kunye": [
+    "Kurum",
+    "ABD · Code.org çatısı altında"
+  ],
+  "aciklama": "Code.org, ETS, ISTE ve Khan Academy öncülüğündeki küresel girişim. Okullar için AI politika araç seti, AI okuryazarlığı çerçeveleri ve müfredat önerileri yayımlar.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "blog",
+        "u": "https://www.teachai.org/announcements",
+        "lb": "Duyurular"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:0",
+    "education:4",
+    "education:2",
+    "education:subject:13",
+    "law:1"
+  ],
+  "kisaltma": "TAI",
+  "baglanti_denetimi": {
+    "url": "https://www.teachai.org",
+    "checkedAt": "2026-10-18T11:03:54.463879+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.teachai.org/"
+  }
+}

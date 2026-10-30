@@ -1,0 +1,60 @@
+{
+  "katalog": {
+    "n": "Emily M. Bender",
+    "s": "ai",
+    "p": 2,
+    "r": "a",
+    "t": "Dilbilim, dil modelleri ve AI abartısının eleştirisi",
+    "w": "Bluesky · Mastodon · X",
+    "u": "https://faculty.washington.edu/ebender/",
+    "l": "ger",
+    "x": "emilymbender",
+    "bs": "emilymbender.bsky.social",
+    "md": {
+      "a": "emilymbender@dair-community.social",
+      "u": "https://dair-community.social/@emilymbender"
+    }
+  },
+  "sira": 62,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Politika ve Etik Uzmanları",
+    "sira": 2
+  },
+  "kunye": [
+    "Araştırmacı",
+    "University of Washington"
+  ],
+  "aciklama": "Washington Üniversitesi'nde dilbilim profesörü. \"Stochastic Parrots\" makalesinin ve The AI Con kitabının ortak yazarı; dil modellerinin sınırlarını ve AI abartısını eleştirir.",
+  "ek_baglantilar": {
+    "vs": {
+      "bs": "b"
+    },
+    "L": [
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0000-0001-5384-6227",
+        "v": "o"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5023750515",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "humanities:2",
+    "engineering:0",
+    "law:1"
+  ],
+  "gorsel": "gorseller/emily-m-bender.webp",
+  "baglanti_denetimi": {
+    "url": "https://faculty.washington.edu/ebender/",
+    "checkedAt": "2026-10-18T11:03:58.729790+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://faculty.washington.edu/ebender/"
+  }
+}

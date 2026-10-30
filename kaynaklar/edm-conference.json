@@ -1,0 +1,37 @@
+{
+  "katalog": {
+    "n": "EDM Conference",
+    "s": "akd",
+    "l": "ars",
+    "p": 3,
+    "r": "a",
+    "t": "Öğrenci modelleme ve eğitsel veri",
+    "w": "Konferans",
+    "u": "https://educationaldatamining.org/conferences/"
+  },
+  "sira": 28,
+  "radar": {
+    "bolum": "Etkinlik",
+    "alt": "Konferanslar",
+    "sira": 3
+  },
+  "kunye": [
+    "Konferans",
+    "EDM Society · her yıl"
+  ],
+  "aciklama": "Eğitsel veri madenciliğinin yıllık konferansı. Öğrenci modelleme, bilgi izleme, tahmin modelleri ve eğitsel veride makine öğrenmesi çalışmaları açık erişimle yayımlanır.",
+  "ilgi_alanlari": [
+    "education:1",
+    "education:3",
+    "engineering:0"
+  ],
+  "kisaltma": "EDM",
+  "baglanti_denetimi": {
+    "url": "https://educationaldatamining.org/conferences/",
+    "checkedAt": "2026-10-18T11:03:56.114138+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://educationaldatamining.org/conferences/"
+  }
+}

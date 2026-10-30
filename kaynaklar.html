@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Radar Kaynak Kataloğu</title>
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: read-only catalog — header with search and section chips, sources grouped by radar section › sub-section, one card per source (image, tags, description, links, file name) */
+:root {
+  --bg: #F7F5F6; --surface: #FFFFFF; --sunken: #F0ECEE; --fg: #1B1719; --muted: #6B6266; --line: #E6DFE2;
+  --accent: #8E2639; --accent-soft: #F6E6EA; --ok: #2F7D6B; --ok-soft: #E2F1EC; --warn-soft: #FFF3DC; --warn: #6B4A08;
+  --display: "Bricolage Grotesque", "IBM Plex Sans", system-ui, sans-serif;
+  --body: "IBM Plex Sans", -apple-system, "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #121011; --surface: #1C191A; --sunken: #262223; --fg: #F2EEF0; --muted: #A69CA0; --line: #332D2F;
+    --accent: #F0657C; --accent-soft: #3A1F25; --ok: #5FBF9A; --ok-soft: #1A2E27; --warn-soft: #2E2614; --warn: #F2D493; color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--fg); font: 15px/1.5 var(--body); }
+a { color: var(--accent); }
+.gut { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.wrap { max-width: 1080px; margin: 0 auto; }
+header { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); padding-top: env(safe-area-inset-top, 0px); }
+header .wrap { padding-block: 14px 12px; display: flex; flex-direction: column; gap: 10px; }
+.top { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+h1 { margin: 0; font: 800 24px/1.15 var(--display); letter-spacing: -0.02em; }
+h1 em { font-style: normal; color: var(--accent); }
+.sub { color: var(--muted); font-size: 14px; }
+.tools { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+input[type=search] { flex: 1 1 240px; min-width: 0; height: 40px; padding: 0 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); font: 16px var(--body); color: var(--fg); }
+.chips { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+.chips::-webkit-scrollbar { display: none; }
+.chip { flex: none; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); font: 600 13px var(--body); color: var(--muted); cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+main { padding-block: 18px 48px; }
+.section { margin-bottom: 26px; }
+.section h2 { margin: 0 0 4px; font: 800 19px var(--display); }
+.subsec { margin: 14px 0 8px; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.head { display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 10px; align-items: center; }
+.av { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; background: var(--sunken); display: grid; place-items: center; font: 800 14px var(--display); color: var(--accent); overflow: hidden; }
+.name { font-weight: 600; font-size: 16px; line-height: 1.25; overflow-wrap: anywhere; }
+.kunye { font-size: 13px; color: var(--muted); }
+.tags { display: flex; flex-wrap: wrap; gap: 5px; }
+.tag { font-size: 12px; padding: 2px 8px; border-radius: 6px; background: var(--sunken); color: var(--muted); font-weight: 500; }
+.tag.core { background: var(--accent-soft); color: var(--accent); }
+.tag.feed { background: var(--ok-soft); color: var(--ok); }
+.tag.new { background: var(--warn-soft); color: var(--warn); }
+.desc { font-size: 14px; line-height: 1.5; }
+.short { font-size: 13px; color: var(--muted); }
+.links { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 13px; }
+.links a { text-decoration: none; font-weight: 500; }
+.file { margin-top: auto; padding-top: 8px; border-top: 1px dashed var(--line); display: flex; align-items: center; justify-content: space-between; gap: 8px; font: 12px var(--mono); color: var(--muted); }
+.file button { font: 600 12px var(--body); border: 1px solid var(--line); background: transparent; color: var(--fg); border-radius: 999px; padding: 3px 10px; cursor: pointer; }
+.empty { color: var(--muted); padding: 32px 0; text-align: center; }
+.chip:focus-visible, .file button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+</style>
+</head>
+<body>
+<header class="gut"><div class="wrap">
+  <div class="top">
+    <h1>AcademiCore <em>AI</em> Radar · Kaynak kataloğu</h1>
+    <a href="./">Uygulamaya dön</a>
+  </div>
+  <div class="sub" id="summary">Yükleniyor…</div>
+  <div class="tools"><input type="search" id="q" placeholder="Ad, etiket ya da açıklamada ara…" aria-label="Kaynaklarda ara"></div>
+  <div class="chips" id="chips" role="toolbar" aria-label="Radar bölümü"></div>
+</div></header>
+<main class="gut"><div class="wrap" id="list"></div></main>
+<script src="./sources.js"></script>
+<script>
+(function () {
+  var C = typeof EDUMIND_CATALOG !== "undefined" ? EDUMIND_CATALOG : null, G = typeof EDUMIND_GEN !== "undefined" ? EDUMIND_GEN : null;
+  if (!C || !G) { document.getElementById("summary").textContent = "Katalog yüklenemedi."; return; }
+  var L = G.labels || {}, S = L.s || {}, LN = L.l || {}, R = L.r || {};
+  var META = C.META || {}, DX = C.DX || {};
+  var where = {};
+  Object.keys(G.groups).forEach(function (b) { Object.keys(G.groups[b]).forEach(function (a) { G.groups[b][a].split("|").filter(Boolean).forEach(function (n, i) { where[n] = { b: b, a: a, i: i }; }); }); });
+  var feedOf = {}; Object.keys(G.feedMap || {}).forEach(function (id) { feedOf[G.feedMap[id]] = id; });
+  var state = { q: "", b: "Tümü" };
+  function el(t, c, x) { var n = document.createElement(t); if (c) n.className = c; if (x != null) n.textContent = x; return n; }
+  function link(href, text) { var a = el("a", null, text); a.href = href; a.target = "_blank"; a.rel = "noopener"; return a; }
+  function initials(d) { return G.ini[d.n] || d.n.replace(/\(.*?\)/g, "").split(/\s+/).filter(Boolean).slice(0, 2).map(function (w) { return w[0]; }).join("").toLocaleUpperCase("tr-TR"); }
+  function hay(d) { return [d.n, d.t, DX[d.n], (META[d.n] || []).join(" "), S[d.s], LN[d.l], R[d.r], (where[d.n] || {}).a, G.files[d.n]].join(" ").toLocaleLowerCase("tr-TR"); }
+
+  function card(d) {
+    var c = el("article", "card");
+    var h = el("div", "head"), av;
+    var img = G.avByName[d.n];
+    if (img) { av = el("img", "av"); av.src = img; av.alt = ""; av.loading = "lazy"; }
+    else av = el("div", "av", initials(d));
+    var t = el("div"); t.appendChild(el("div", "name", d.n));
+    if (META[d.n]) t.appendChild(el("div", "kunye", META[d.n].filter(Boolean).join(" · ")));
+    h.appendChild(av); h.appendChild(t); c.appendChild(h);
+    var tags = el("div", "tags");
+    if (d.c) tags.appendChild(el("span", "tag core", "Çekirdek"));
+    if (feedOf[d.n]) tags.appendChild(el("span", "tag feed", "Günlük akışta"));
+    if (d.nw) tags.appendChild(el("span", "tag new", "Yeni" + (d.at ? " · " + d.at : "")));
+    [S[d.s], LN[d.l], R[d.r], "Öncelik " + d.p + "/3"].forEach(function (x) { if (x) tags.appendChild(el("span", "tag", x)); });
+    c.appendChild(tags);
+    if (d.t) c.appendChild(el("div", "short", d.t));
+    if (DX[d.n]) c.appendChild(el("div", "desc", DX[d.n]));
+    var ls = el("div", "links");
+    if (d.u) ls.appendChild(link(d.u, "Web"));
+    if (d.x) ls.appendChild(link("https://x.com/" + d.x, "X"));
+    if (d.li) ls.appendChild(link(d.li, "LinkedIn"));
+    if (d.bs) ls.appendChild(link("https://bsky.app/profile/" + d.bs, "Bluesky"));
+    if (d.yt) ls.appendChild(link(d.yt, "YouTube"));
+    if (d.f && d.f.rss) ls.appendChild(link(d.f.rss, "RSS"));
+    if (d.f && d.f.sub) ls.appendChild(link(d.f.sub, "Bülten"));
+    if (ls.childNodes.length) c.appendChild(ls);
+    var f = el("div", "file"), fp = G.files[d.n] || "";
+    f.appendChild(el("span", null, fp));
+    var b = el("button", null, "Kopyala"); b.type = "button";
+    b.addEventListener("click", function () {
+      var done = function () { b.textContent = "Kopyalandı"; setTimeout(function () { b.textContent = "Kopyala"; }, 1500); };
+      try { navigator.clipboard.writeText(fp).then(done, function () {}); } catch (e) {}
+    });
+    f.appendChild(b); c.appendChild(f);
+    return c;
+  }
+
+  function render() {
+    var q = state.q.trim().toLocaleLowerCase("tr-TR"), list = document.getElementById("list"); list.textContent = "";
+    var shown = 0;
+    Object.keys(G.groups).forEach(function (b) {
+      if (state.b !== "Tümü" && state.b !== b) return;
+      var sec = el("section", "section"), any = false;
+      sec.appendChild(el("h2", null, b));
+      Object.keys(G.groups[b]).forEach(function (a) {
+        var items = C.BASE.filter(function (d) { var w = where[d.n]; return w && w.b === b && w.a === a && (!q || hay(d).indexOf(q) !== -1); })
+          .sort(function (x, y) { return where[x.n].i - where[y.n].i; });
+        if (!items.length) return;
+        any = true; shown += items.length;
+        sec.appendChild(el("div", "subsec", a + " · " + items.length));
+        var g = el("div", "grid"); items.forEach(function (d) { g.appendChild(card(d)); }); sec.appendChild(g);
+      });
+      if (any) list.appendChild(sec);
+    });
+    if (!shown) list.appendChild(el("p", "empty", "Bu aramayla eşleşen kaynak yok."));
+    document.getElementById("summary").textContent = C.BASE.length + " kaynak · " + Object.keys(G.feedMap || {}).length + " tanesi günlük akışta" + (q || state.b !== "Tümü" ? " · gösterilen: " + shown : "");
+  }
+
+  var chips = document.getElementById("chips");
+  ["Tümü"].concat(Object.keys(G.groups)).forEach(function (b) {
+    var c = el("button", "chip", b); c.type = "button"; c.setAttribute("aria-pressed", b === state.b ? "true" : "false");
+    c.addEventListener("click", function () { state.b = b; [].forEach.call(chips.children, function (x) { x.setAttribute("aria-pressed", x === c ? "true" : "false"); }); render(); });
+    chips.appendChild(c);
+  });
+  document.getElementById("q").addEventListener("input", function (e) { state.q = e.target.value; render(); });
+  render();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+{
+  "katalog": {
+    "n": "Mistral AI",
+    "p": 1,
+    "r": "a",
+    "l": "hiz",
+    "t": "Avrupa'nın açık ve ticari dil modelleri",
+    "u": "https://mistral.ai/news",
+    "x": "mistralai",
+    "li": "https://www.linkedin.com/company/mistralai/",
+    "yt": "https://www.youtube.com/@MistralAIOfficial",
+    "s": "plat",
+    "nw": true,
+    "at": "2026-10-17"
+  },
+  "sira": 77,
+  "radar": {
+    "bolum": "Platform",
+    "alt": "Temel Modeller",
+    "sira": 6
+  },
+  "kunye": [
+    "Platform",
+    "Fransa · Paris"
+  ],
+  "aciklama": "Avrupa'nın önde gelen yapay zekâ şirketi. Açık ağırlıklı modeller ve Le Chat asistanı geliştirir; Avrupa veri koruma kurallarına uygun alternatifleri ve AB'deki model gelişmelerini izlemek için iyi bir kaynaktır.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "discord",
+        "u": "https://discord.gg/mistralai"
+      },
+      {
+        "p": "reddit",
+        "u": "https://www.reddit.com/r/MistralAI/"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "engineering:0",
+    "education:3",
+    "business:0"
+  ],
+  "kisaltma": "MIS",
+  "baglanti_denetimi": {
+    "url": "https://mistral.ai/news",
+    "checkedAt": "2026-10-18T11:04:00.279609+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://mistral.ai/news/"
+  }
+}

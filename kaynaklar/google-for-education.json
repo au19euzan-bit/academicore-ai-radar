@@ -1,0 +1,58 @@
+{
+  "katalog": {
+    "n": "Google for Education",
+    "p": 3,
+    "r": "h",
+    "t": "Gemini for Education, NotebookLM ve Classroom'daki AI araçları",
+    "u": "https://edu.google.com/intl/ALL_us/ai/gemini-for-education/",
+    "x": "googleforedu",
+    "yt": "https://www.youtube.com/user/eduatgoogle",
+    "f": {
+      "n": "Google eğitim blogu",
+      "rss": "https://blog.google/products-and-platforms/products/education/rss/"
+    },
+    "s": "plat",
+    "l": "prat",
+    "nw": true,
+    "at": "2026-10-17"
+  },
+  "sira": 83,
+  "radar": {
+    "bolum": "Platform",
+    "alt": "Eğitim Platformları",
+    "sira": 3
+  },
+  "kunye": [
+    "Eğitim programı",
+    "Google"
+  ],
+  "aciklama": "Google'ın eğitim birimi. Gemini for Education, NotebookLM, öğrenmeye özel LearnLM modeli ve Classroom'daki AI araçları burada duyurulur; okullardaki en yaygın ekosistemin yönünü gösterir.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "blog",
+        "u": "https://blog.google/outreach-initiatives/education/",
+        "lb": "Google eğitim blogu"
+      },
+      {
+        "p": "fb",
+        "u": "https://www.facebook.com/GoogleforEducation/"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:0",
+    "education:3",
+    "education:8"
+  ],
+  "kisaltma": "GFE",
+  "ust_kurum": "Google",
+  "baglanti_denetimi": {
+    "url": "https://edu.google.com/intl/ALL_us/ai/gemini-for-education/",
+    "checkedAt": "2026-10-18T11:04:00.804631+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://edu.google.com/intl/ALL_us/ai/gemini-for-education/"
+  }
+}

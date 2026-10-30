@@ -1,0 +1,53 @@
+{
+  "katalog": {
+    "n": "Code.org / CodeAI",
+    "s": "uyg",
+    "l": "prat",
+    "p": 3,
+    "r": "a",
+    "t": "Öğrenciler için AI okuryazarlığı; 3–5, 6–8, 9–12. sınıf programları",
+    "w": "X · LinkedIn · YouTube",
+    "u": "https://code.org/ai",
+    "x": "codeorg",
+    "li": "https://www.linkedin.com/company/code-org",
+    "yt": "https://www.youtube.com/codeorg"
+  },
+  "sira": 14,
+  "radar": {
+    "bolum": "Platform",
+    "alt": "Eğitim Platformları",
+    "sira": 5
+  },
+  "kunye": [
+    "Kurum",
+    "ABD · Seattle"
+  ],
+  "aciklama": "Bilgisayar bilimi eğitimini yaygınlaştıran kuruluş. 3–12. sınıflar için AI okuryazarlığı dersleri, \"How AI Works\" video serisi ve öğretmenler için ücretsiz ders planları sunar.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "ig",
+        "u": "https://www.instagram.com/codeorg/"
+      },
+      {
+        "p": "fb",
+        "u": "https://www.facebook.com/Code.org/"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:subject:13",
+    "education:8",
+    "education:0",
+    "education:2"
+  ],
+  "gorsel": "gorseller/code-org-codeai.webp",
+  "baglanti_denetimi": {
+    "url": "https://code.org/ai",
+    "checkedAt": "2026-10-18T11:03:54.967871+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://code.org/en-US/artificial-intelligence"
+  }
+}

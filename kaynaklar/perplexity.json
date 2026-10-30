@@ -1,0 +1,58 @@
+{
+  "katalog": {
+    "n": "Perplexity",
+    "p": 1,
+    "r": "a",
+    "l": "hiz",
+    "t": "Kaynak gösteren AI arama motoru",
+    "u": "https://www.perplexity.ai/hub",
+    "x": "perplexity_ai",
+    "li": "https://www.linkedin.com/company/perplexity-ai",
+    "yt": "https://www.youtube.com/channel/UCYqxnCFtaC4-iC_bwt2bRLg",
+    "s": "plat",
+    "nw": true,
+    "at": "2026-10-17"
+  },
+  "sira": 80,
+  "radar": {
+    "bolum": "Platform",
+    "alt": "Yapay Zekâ Arama",
+    "sira": 1
+  },
+  "kunye": [
+    "Platform",
+    "ABD · San Francisco"
+  ],
+  "aciklama": "Yanıtlarını kaynak göstererek veren yapay zekâ arama motoru. Öğrencilerin araştırma alışkanlıklarını doğrudan etkiler; yeni özellikleri ve eğitimdeki kullanım örneklerini buradan izleyebilirsiniz.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "ig",
+        "u": "https://instagram.com/perplexity"
+      },
+      {
+        "p": "threads",
+        "u": "https://threads.net/@perplexity"
+      },
+      {
+        "p": "community",
+        "u": "https://perplexity.ai/enterprise/use-cases/education",
+        "lb": "Eğitimde kullanım"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "engineering:0",
+    "education:3",
+    "business:0"
+  ],
+  "kisaltma": "PPX",
+  "baglanti_denetimi": {
+    "url": "https://www.perplexity.ai/hub",
+    "checkedAt": "2026-10-18T11:04:00.708876+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "restricted",
+    "code": 403,
+    "finalUrl": "https://www.perplexity.ai/hub"
+  }
+}

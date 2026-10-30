@@ -1,0 +1,77 @@
+{
+  "katalog": {
+    "n": "Ethan Mollick",
+    "s": "ars",
+    "p": 3,
+    "r": "g",
+    "t": "Üretken AI, öğrenme ve çalışma; yeni modelleri erken test eder",
+    "w": "X · Bluesky · Bülten",
+    "u": "https://www.oneusefulthing.org",
+    "c": 1,
+    "l": "hiz",
+    "x": "emollick",
+    "bs": "emollick.bsky.social",
+    "f": {
+      "n": "One Useful Thing",
+      "rss": "https://www.oneusefulthing.org/feed",
+      "sub": "https://www.oneusefulthing.org/subscribe"
+    }
+  },
+  "sira": 37,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Topluluk Liderleri",
+    "sira": 2
+  },
+  "kunye": [
+    "Araştırmacı",
+    "Wharton, University of Pennsylvania"
+  ],
+  "aciklama": "Wharton'da girişimcilik ve inovasyon üzerine çalışan öğretim üyesi. One Useful Thing bülteninde üretken AI'nın öğretme, öğrenme ve işe etkisini kendi denemeleriyle anlatır.",
+  "ek_baglantilar": {
+    "vs": {
+      "bs": "b"
+    },
+    "L": [
+      {
+        "p": "substack",
+        "u": "https://www.oneusefulthing.org",
+        "lb": "One Useful Thing"
+      },
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0000-0001-6231-496X",
+        "v": "o"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5061686034",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:9",
+    "education:2",
+    "business:0"
+  ],
+  "gorsel": "gorseller/ethan-mollick.webp",
+  "baglanti_denetimi": {
+    "url": "https://www.oneusefulthing.org",
+    "checkedAt": "2026-10-18T11:03:56.589279+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.oneusefulthing.org/"
+  },
+  "ajan": {
+    "id": "mollick",
+    "name": "One Useful Thing",
+    "folder": "aka",
+    "ini": "O",
+    "home": "https://www.oneusefulthing.org/",
+    "method": "rss",
+    "feed": "https://www.oneusefulthing.org/feed",
+    "sira": 1
+  }
+}

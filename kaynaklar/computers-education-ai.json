@@ -1,0 +1,41 @@
+{
+  "katalog": {
+    "n": "Computers & Education: AI",
+    "s": "akd",
+    "p": 3,
+    "r": "h",
+    "t": "AI ile öğretme ve öğrenme",
+    "w": "Dergi · RSS",
+    "u": "https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence",
+    "l": "ars",
+    "f": {
+      "n": "Computers & Education: AI – yeni makaleler",
+      "rss": "https://rss.sciencedirect.com/publication/science/2666920X"
+    }
+  },
+  "sira": 22,
+  "radar": {
+    "bolum": "Yayın",
+    "alt": "Akademik Dergiler",
+    "sira": 2
+  },
+  "kunye": [
+    "Dergi",
+    "Elsevier"
+  ],
+  "aciklama": "Elsevier'in açık erişimli dergisi. AI ile öğretme ve öğrenme, üretken AI'nın sınıfta kullanımı, öğretmen ve öğrenci algıları üzerine güncel ampirik çalışmalar yayımlar.",
+  "ilgi_alanlari": [
+    "education:3",
+    "education:2",
+    "education:1"
+  ],
+  "kisaltma": "CE",
+  "baglanti_denetimi": {
+    "url": "https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence",
+    "checkedAt": "2026-10-18T11:03:55.633627+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "restricted",
+    "code": 403,
+    "finalUrl": "https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence"
+  }
+}

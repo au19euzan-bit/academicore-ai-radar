@@ -1,0 +1,62 @@
+{
+  "katalog": {
+    "n": "Stanford HAI",
+    "s": "kurum",
+    "p": 3,
+    "r": "g",
+    "t": "İnsan merkezli AI, AI Index, politika ve eğitim uygulamaları",
+    "w": "X · LinkedIn · Bluesky · YouTube · Bülten",
+    "u": "https://hai.stanford.edu",
+    "c": 1,
+    "l": "ars",
+    "x": "StanfordHAI",
+    "li": "https://www.linkedin.com/company/stanfordhai",
+    "bs": "stanfordhai.bsky.social",
+    "yt": "https://www.youtube.com/channel/UChugFTK0KyrES9terTid8vA",
+    "f": {
+      "n": "Stanford HAI bülteni",
+      "sub": "https://hai.stanford.edu/subscribe-hai-mailing-list"
+    }
+  },
+  "sira": 3,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Üniversite ve Araştırma Merkezleri",
+    "sira": 2
+  },
+  "kunye": [
+    "Kurum",
+    "ABD · Stanford, Kaliforniya"
+  ],
+  "aciklama": "Stanford'un insan merkezli yapay zekâ enstitüsü. Yıllık AI Index raporu, politika özetleri ve eğitimde AI çalışmalarıyla alandaki eğilimleri izlemek için temel bir kaynak.",
+  "ek_baglantilar": {
+    "vs": {
+      "bs": "b"
+    },
+    "L": [
+      {
+        "p": "ig",
+        "u": "https://www.instagram.com/stanfordhai"
+      },
+      {
+        "p": "fb",
+        "u": "https://www.facebook.com/StanfordHAI"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "law:1",
+    "humanities:1",
+    "engineering:0",
+    "education:4"
+  ],
+  "gorsel": "gorseller/stanford-hai.webp",
+  "baglanti_denetimi": {
+    "url": "https://hai.stanford.edu",
+    "checkedAt": "2026-10-18T11:03:54.463645+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://hai.stanford.edu/"
+  }
+}

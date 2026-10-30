@@ -1,0 +1,54 @@
+{
+  "katalog": {
+    "n": "Microsoft Education",
+    "p": 2,
+    "r": "h",
+    "t": "Okullar için Copilot, Teams ve öğrenme araçları",
+    "u": "https://www.microsoft.com/en-us/education/blog/",
+    "x": "MicrosoftEDU",
+    "li": "https://www.linkedin.com/showcase/microsoft-in-education",
+    "yt": "https://www.youtube.com/user/Microsoftedu",
+    "s": "plat",
+    "l": "prat",
+    "nw": true,
+    "at": "2026-10-17"
+  },
+  "sira": 84,
+  "radar": {
+    "bolum": "Platform",
+    "alt": "Eğitim Platformları",
+    "sira": 4
+  },
+  "kunye": [
+    "Eğitim programı",
+    "Microsoft"
+  ],
+  "aciklama": "Microsoft'un eğitim birimi. Okullar için Copilot, öğretmen araçları, öğrenci güvenliği ve veri gizliliği üzerine duyurular yapar; blogda yükseköğretim ve K–12 için uygulama örnekleri paylaşılır.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "ig",
+        "u": "https://www.instagram.com/microsoftedu/"
+      },
+      {
+        "p": "fb",
+        "u": "https://www.facebook.com/microsoftineducation"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:0",
+    "education:3",
+    "education:8"
+  ],
+  "kisaltma": "MSE",
+  "ust_kurum": "Microsoft AI (Copilot)",
+  "baglanti_denetimi": {
+    "url": "https://www.microsoft.com/en-us/education/blog/",
+    "checkedAt": "2026-10-18T11:04:00.845006+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.microsoft.com/en-us/education/blog/"
+  }
+}

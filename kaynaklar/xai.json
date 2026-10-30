@@ -1,0 +1,47 @@
+{
+  "katalog": {
+    "n": "xAI (Grok)",
+    "p": 1,
+    "r": "a",
+    "l": "hiz",
+    "t": "Grok modelleri ve X'e entegre asistan",
+    "u": "https://x.ai/news",
+    "x": "grok",
+    "s": "plat",
+    "nw": true,
+    "at": "2026-10-17"
+  },
+  "sira": 78,
+  "radar": {
+    "bolum": "Platform",
+    "alt": "Temel Modeller",
+    "sira": 7
+  },
+  "kunye": [
+    "Platform",
+    "ABD · Palo Alto, Kaliforniya"
+  ],
+  "aciklama": "Grok modellerini geliştiren şirket. Asistan doğrudan X platformuna gömülüdür; El Salvador'la ülke çapında bir AI eğitim programı yürütür. Duyurular hem haber sayfasında hem de Grok hesabında yayımlanır.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "discord",
+        "u": "https://discord.com/invite/kqCc86jM55"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "engineering:0",
+    "education:3",
+    "business:0"
+  ],
+  "kisaltma": "xAI",
+  "baglanti_denetimi": {
+    "url": "https://x.ai/news",
+    "checkedAt": "2026-10-18T11:04:00.575539+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "restricted",
+    "code": 403,
+    "finalUrl": "https://x.ai/news"
+  }
+}

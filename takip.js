@@ -15,7 +15,7 @@
     data/items.json'a yazar. Eşleşen kaynaklarda "bakma zamanı" takvimden değil, son ziyaretten
     sonra gelen gerçek içerikten çıkar. */
  const FEED_URL='./data/items.json',K_FEED='edumind-feed-cache',K_READ='edumind-feed-read',K_STAR='edumind-feed-star';
- const FEED_MAP={mollick:'Ethan Mollick',mishra:'Punya Mishra',cae:'Computers & Education',cicek:'Çiçek ile Teknoloji',erhan:'Erhan Meydan',bjet:'British Journal of Educational Technology',ijaied:'Int. Journal of AI in Education (IJAIED)',openai:'OpenAI',unesco:'UNESCO – Dijital Eğitim ve AI',oecd:'OECD Education and Skills',anthropic:'Anthropic (Claude)',deepmind:'Google DeepMind / Gemini'};
+ const FEED_MAP=EDUMIND_GEN.feedMap;
  let FEED=read(K_FEED,null),feedState=FEED?'cache':'loading';
  const readSet=new Set((()=>{try{return JSON.parse(localStorage.getItem(K_READ)||'[]')}catch{return[]}})()),starSet=new Set((()=>{try{return JSON.parse(localStorage.getItem(K_STAR)||'[]')}catch{return[]}})());
  const saveSet=(k,set)=>{try{localStorage.setItem(k,JSON.stringify([...set].slice(-2000)))}catch{}};

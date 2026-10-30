@@ -1,0 +1,146 @@
+{
+  "schema": "edumind-catalog-v1",
+  "version": "1.3.266",
+  "radar_sirasi": {
+    "Platform": [
+      "Temel Modeller",
+      "Yapay Zekâ Arama",
+      "Eğitim Platformları"
+    ],
+    "Kurum": [
+      "Üniversite ve Araştırma Merkezleri",
+      "Uluslararası Kurumlar",
+      "Akademik Topluluklar",
+      "Eğitim ve Sivil Toplum",
+      "Yükseköğretim ve Teknoloji Ağları",
+      "Türkiye Kamu ve Akademi"
+    ],
+    "Kişi": [
+      "Araştırmacılar",
+      "Eğitimciler",
+      "Geliştiriciler",
+      "Girişimciler",
+      "Sektör Uzmanları",
+      "Politika ve Etik Uzmanları",
+      "İçerik Üreticileri",
+      "Topluluk Liderleri",
+      "Yatırımcılar"
+    ],
+    "Yayın": [
+      "Akademik Dergiler",
+      "Eğitim Teknolojisi Yayınları"
+    ],
+    "Etkinlik": [
+      "Konferanslar",
+      "Zirveler"
+    ]
+  },
+  "ek_gorseller": {
+    "sabrina_ramonov": "gorseller/ek-sabrina-ramonov.webp",
+    "whartonaiai": "gorseller/ek-whartonaiai.webp"
+  },
+  "ajan": {
+    "folders": [
+      {
+        "id": "aka",
+        "name": "Akademisyenler"
+      },
+      {
+        "id": "der",
+        "name": "Dergiler"
+      },
+      {
+        "id": "kur",
+        "name": "Kurumlar"
+      },
+      {
+        "id": "yz",
+        "name": "YZ firmaları"
+      },
+      {
+        "id": "sho",
+        "name": "Shorts"
+      }
+    ],
+    "x_streams": [
+      {
+        "name": "Akademisyenler",
+        "who": "Mollick, Ng, Luckin, Selwyn, Siemens, Mishra, Reich",
+        "handles": [
+          "emollick",
+          "AndrewYNg",
+          "Knowldgillusion",
+          "neil_selwyn",
+          "gsiemens",
+          "punyamishra",
+          "bjfr"
+        ]
+      },
+      {
+        "name": "Kurumlar",
+        "who": "UNESCO, OECD Eğitim, Khan Academy, ISTE, EDUCAUSE, Jisc",
+        "handles": [
+          "UNESCO",
+          "OECDEduSkills",
+          "khanacademy",
+          "ISTEofficial",
+          "educause",
+          "Jisc"
+        ]
+      },
+      {
+        "name": "Dergiler ve yayınlar",
+        "who": "Nature, Science, EdSurge, Inside Higher Ed, THE, Edutopia",
+        "handles": [
+          "Nature",
+          "ScienceMagazine",
+          "EdSurge",
+          "insidehighered",
+          "timeshighered",
+          "edutopia"
+        ]
+      },
+      {
+        "name": "YZ firmaları",
+        "who": "OpenAI, Anthropic, DeepMind, Google ve Microsoft Eğitim, Meta AI, Mistral",
+        "handles": [
+          "OpenAI",
+          "AnthropicAI",
+          "GoogleDeepMind",
+          "GoogleForEdu",
+          "MicrosoftEDU",
+          "AIatMeta",
+          "MistralAI"
+        ]
+      }
+    ]
+  },
+  "etiket_sozlugu": {
+    "s": {
+      "kurum": "Kurumlar",
+      "uyg": "Uygulama",
+      "akd": "Akademik",
+      "ars": "Araştırmacılar",
+      "akis": "Eğitimciler",
+      "ai": "AI gelişmeleri",
+      "plat": "AI platformları",
+      "tr": "Türkiye"
+    },
+    "l": {
+      "hiz": "Güncel gelişmeler",
+      "ars": "Araştırma",
+      "pol": "Politika ve etik",
+      "ele": "Eleştirel pedagoji",
+      "ger": "Gerçekçi bakış",
+      "prat": "Sınıf ve kampüs"
+    },
+    "r": {
+      "g": "Günlük",
+      "h": "Haftalık",
+      "a": "Dönemsel"
+    },
+    "p": "Öncelik 1–3 (3 en yüksek)",
+    "c": "1 = Çekirdek kaynak (bordo işaret)",
+    "nw/at": "Yeni eklenen; at = eklenme tarihi (30 gün 'Yeni eklenenler'de görünür)"
+  }
+}

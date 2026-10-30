@@ -1,0 +1,52 @@
+{
+  "katalog": {
+    "n": "Rose Luckin",
+    "s": "ars",
+    "p": 3,
+    "r": "g",
+    "t": "AI in Education, öğretmen–AI, AI okuryazarlığı, AI tutor'lar",
+    "w": "X · LinkedIn",
+    "c": 1,
+    "l": "ele",
+    "x": "Knowldgillusion"
+  },
+  "sira": 31,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Araştırmacılar",
+    "sira": 1
+  },
+  "kunye": [
+    "Araştırmacı",
+    "UCL, Londra"
+  ],
+  "aciklama": "UCL Knowledge Lab'de emeritus profesör, Educate Ventures Research'ün kurucusu. Öğretmen–AI iş birliği, AI okuryazarlığı ve AI tutor'lar üzerine uzun yıllardır çalışır.",
+  "ek_baglantilar": {
+    "vs": {
+      "x": "p"
+    },
+    "L": [
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0000-0001-9125-0846",
+        "v": "o"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5036536237",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:0",
+    "education:3",
+    "education:2"
+  ],
+  "gorsel": "gorseller/rose-luckin.webp",
+  "baglanti_denetimi": {
+    "checkedAt": "2026-10-18T11:03:56.589209+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "missing"
+  }
+}

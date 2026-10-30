@@ -1,0 +1,57 @@
+{
+  "katalog": {
+    "n": "OECD Education and Skills",
+    "s": "kurum",
+    "p": 3,
+    "r": "h",
+    "t": "AI okuryazarlığı çerçevesi, PISA, öğretmenlik ve beceriler",
+    "w": "X · LinkedIn · YouTube",
+    "u": "https://www.oecd.org/en/topics/education-and-skills.html",
+    "c": 1,
+    "l": "pol",
+    "x": "OECDEduSkills",
+    "li": "https://www.linkedin.com/company/organisation-eco-cooperation-development-organisation-cooperation-developpement-eco",
+    "yt": "https://www.youtube.com/channel/UCR-Ja1yBcjkhuQblxnroZJg"
+  },
+  "sira": 5,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Uluslararası Kurumlar",
+    "sira": 2
+  },
+  "kunye": [
+    "Kurum",
+    "Fransa · Paris"
+  ],
+  "aciklama": "PISA'yı yürüten OECD birimi. Avrupa Komisyonu ile AI okuryazarlığı çerçevesi geliştirir; Digital Education Outlook raporlarıyla AI'nın eğitimdeki yerini kanıtla tartışır.",
+  "ek_baglantilar": {
+    "vs": {
+      "x": "p"
+    }
+  },
+  "ilgi_alanlari": [
+    "education:0",
+    "education:4",
+    "education:2",
+    "education:subject:13"
+  ],
+  "gorsel": "gorseller/oecd-education-and-skills.webp",
+  "baglanti_denetimi": {
+    "url": "https://www.oecd.org/en/topics/education-and-skills.html",
+    "checkedAt": "2026-10-18T11:03:54.463764+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "restricted",
+    "code": 403,
+    "finalUrl": "https://www.oecd.org/en/topics/education-and-skills.html"
+  },
+  "ajan": {
+    "id": "oecd",
+    "name": "OECD Education Today",
+    "folder": "kur",
+    "ini": "OE",
+    "home": "https://oecdedutoday.com/",
+    "method": "rss",
+    "feed": "https://oecdedutoday.com/feed/",
+    "sira": 7
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "katalog": {
+    "n": "MEB YEĞİTEK",
+    "s": "tr",
+    "p": 3,
+    "r": "h",
+    "t": "Eğitimde AI politika belgesi ve eylem planı 2025–2029, öğretmen el kitabı, AI okuryazarlığı programları",
+    "w": "X · YouTube (EBA)",
+    "u": "https://yegitek.meb.gov.tr",
+    "c": 1,
+    "l": "pol",
+    "x": "mebyegitek",
+    "yt": "https://www.youtube.com/EbaGovTrEba"
+  },
+  "sira": 64,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Türkiye Kamu ve Akademi",
+    "sira": 1
+  },
+  "kunye": [
+    "Kurum",
+    "Türkiye · Ankara"
+  ],
+  "aciklama": "MEB Yenilik ve Eğitim Teknolojileri Genel Müdürlüğü. Eğitimde yapay zekâ politika belgesi, 2025–2029 eylem planı, öğretmen el kitabı ve AI okuryazarlığı programları buradan.",
+  "ilgi_alanlari": [
+    "education:0",
+    "education:4",
+    "education:2",
+    "education:subject:13"
+  ],
+  "gorsel": "gorseller/meb-yegitek.webp",
+  "baglanti_denetimi": {
+    "url": "https://yegitek.meb.gov.tr",
+    "checkedAt": "2026-10-18T11:03:58.944934+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://yegitek.meb.gov.tr/"
+  }
+}

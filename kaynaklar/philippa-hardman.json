@@ -1,0 +1,56 @@
+{
+  "katalog": {
+    "n": "Philippa Hardman",
+    "s": "ars",
+    "p": 3,
+    "r": "g",
+    "t": "Öğrenme bilimi + GenAI + öğretim tasarımı",
+    "w": "LinkedIn · Bülten",
+    "u": "https://drphilippahardman.substack.com",
+    "l": "hiz",
+    "li": "https://www.linkedin.com/in/dr-philippa-hardman-057851120/",
+    "f": {
+      "n": "Dr Phil's Newsletter",
+      "rss": "https://drphilippahardman.substack.com/feed",
+      "sub": "https://drphilippahardman.substack.com/subscribe"
+    }
+  },
+  "sira": 38,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "İçerik Üreticileri",
+    "sira": 2
+  },
+  "kunye": [
+    "Araştırmacı",
+    "Bağımsız"
+  ],
+  "aciklama": "Öğrenme bilimci ve öğretim tasarımcısı. Bülteninde öğrenme bilimi bulgularını üretken AI ile birleştirir; öğretim tasarımında AI araçlarını deneyip kanıta dayalı öneriler paylaşır.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "substack",
+        "u": "https://drphilippahardman.substack.com",
+        "lb": "Dr Phil's Newsletter"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5112753702",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:2",
+    "education:3",
+    "education:10"
+  ],
+  "baglanti_denetimi": {
+    "url": "https://drphilippahardman.substack.com",
+    "checkedAt": "2026-10-18T11:03:56.672218+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://drphilippahardman.substack.com/"
+  }
+}

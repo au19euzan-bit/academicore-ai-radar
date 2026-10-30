@@ -1,0 +1,51 @@
+{
+  "katalog": {
+    "n": "TÜBİTAK",
+    "s": "tr",
+    "l": "pol",
+    "p": 2,
+    "r": "a",
+    "t": "Araştırma çağrıları ve projeler",
+    "w": "X · LinkedIn · YouTube",
+    "u": "https://www.tubitak.gov.tr",
+    "x": "tubitak",
+    "li": "https://tr.linkedin.com/company/tubitak",
+    "yt": "https://www.youtube.com/user/tubitaktv"
+  },
+  "sira": 69,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Türkiye Kamu ve Akademi",
+    "sira": 5
+  },
+  "kunye": [
+    "Kurum",
+    "Türkiye · Ankara"
+  ],
+  "aciklama": "Türkiye Bilimsel ve Teknolojik Araştırma Kurumu. Yapay zekâ ve eğitim alanındaki araştırma destek çağrıları ve proje programları buradan duyurulur; proje planlayanlar için takip edilmeli.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "ig",
+        "u": "https://www.instagram.com/tubitak/"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:9",
+    "engineering:0",
+    "science:0",
+    "science:1",
+    "science:2",
+    "science:3"
+  ],
+  "gorsel": "gorseller/tubitak.webp",
+  "baglanti_denetimi": {
+    "url": "https://www.tubitak.gov.tr",
+    "checkedAt": "2026-10-18T11:03:59.313917+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://tubitak.gov.tr/tr"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "katalog": {
+    "n": "Khan Academy / Khanmigo",
+    "s": "uyg",
+    "l": "prat",
+    "p": 3,
+    "r": "a",
+    "t": "AI tutor ve öğretmen asistanı uygulaması",
+    "w": "X · LinkedIn · Bluesky · YouTube",
+    "u": "https://www.khanmigo.ai",
+    "x": "khanacademy",
+    "li": "https://www.linkedin.com/company/khan-academy",
+    "bs": "khanacademy.org",
+    "yt": "https://www.youtube.com/user/khanacademy"
+  },
+  "sira": 15,
+  "radar": {
+    "bolum": "Platform",
+    "alt": "Eğitim Platformları",
+    "sira": 6
+  },
+  "kunye": [
+    "Uygulama",
+    "ABD · Khan Academy"
+  ],
+  "aciklama": "Khan Academy'nin AI tutoru ve öğretmen asistanı. Cevabı vermek yerine Sokratik sorularla yönlendirir; öğretmenler için ders planı ve soru hazırlar. AI tutor tartışmasının odağında.",
+  "ek_baglantilar": {
+    "vs": {
+      "x": "p",
+      "bs": "b"
+    }
+  },
+  "ilgi_alanlari": [
+    "education:subject:0",
+    "education:subject:1",
+    "education:8",
+    "education:3"
+  ],
+  "gorsel": "gorseller/khan-academy-khanmigo.webp",
+  "baglanti_denetimi": {
+    "url": "https://www.khanmigo.ai",
+    "checkedAt": "2026-10-18T11:03:54.968058+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.khanmigo.ai/"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "katalog": {
+    "n": "Melanie Mitchell",
+    "s": "ai",
+    "p": 3,
+    "r": "a",
+    "t": "AI'nın akıl yürütme ve anlama sınırları; sade, kanıta dayalı yazılar",
+    "w": "Bülten · Bluesky · LinkedIn",
+    "u": "https://melaniemitchell.me",
+    "l": "ger",
+    "li": "https://www.linkedin.com/in/melanie-mitchell-08a04a6/",
+    "bs": "melaniemitchell.bsky.social",
+    "f": {
+      "n": "AI: A Guide for Thinking Humans",
+      "rss": "https://aiguide.substack.com/feed",
+      "sub": "https://aiguide.substack.com/subscribe"
+    }
+  },
+  "sira": 57,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Araştırmacılar",
+    "sira": 8
+  },
+  "kunye": [
+    "Araştırmacı",
+    "Santa Fe Institute"
+  ],
+  "aciklama": "Santa Fe Institute'ta profesör, Artificial Intelligence: A Guide for Thinking Humans kitabının yazarı. AI'nın akıl yürütme, soyutlama ve anlama sınırlarını sade yazılarla tartışır.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "substack",
+        "u": "https://aiguide.substack.com",
+        "lb": "AI: A Guide for Thinking Humans"
+      },
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0000-0001-8881-3505",
+        "v": "o"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5086956524",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "engineering:0",
+    "humanities:0"
+  ],
+  "baglanti_denetimi": {
+    "url": "https://melaniemitchell.me",
+    "checkedAt": "2026-10-18T11:03:58.429655+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://melaniemitchell.me/"
+  }
+}

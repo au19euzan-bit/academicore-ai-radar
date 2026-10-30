@@ -1,0 +1,49 @@
+{
+  "katalog": {
+    "n": "Lilian Weng",
+    "s": "ai",
+    "p": 2,
+    "r": "a",
+    "t": "Ajanlar, halüsinasyon, pekiştirmeli öğrenme gibi konularda uzun, öğretici teknik yazılar",
+    "w": "Blog · X",
+    "u": "https://lilianweng.github.io",
+    "l": "ars",
+    "x": "lilianweng",
+    "f": {
+      "n": "Lil'Log",
+      "rss": "https://lilianweng.github.io/index.xml"
+    }
+  },
+  "sira": 60,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Geliştiriciler",
+    "sira": 3
+  },
+  "kunye": [
+    "AI uzmanı",
+    "Thinking Machines Lab"
+  ],
+  "aciklama": "OpenAI'de güvenlik araştırmalarını yönetmiş, Thinking Machines Lab'in kurucu ekibine katılmış araştırmacı. Blogunda ajanlar ve halüsinasyon üzerine teknik yazılar yayımlar.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "blog",
+        "u": "https://lilianweng.github.io",
+        "lb": "Lil'Log"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "engineering:0"
+  ],
+  "gorsel": "gorseller/lilian-weng.webp",
+  "baglanti_denetimi": {
+    "url": "https://lilianweng.github.io",
+    "checkedAt": "2026-10-18T11:03:58.572887+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://lilianweng.github.io/"
+  }
+}

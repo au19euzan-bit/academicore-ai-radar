@@ -1,0 +1,39 @@
+{
+  "katalog": {
+    "n": "YÖK",
+    "s": "tr",
+    "p": 3,
+    "r": "h",
+    "t": "Yükseköğretimde AI programları ve politikaları",
+    "w": "X · YouTube",
+    "u": "https://www.yok.gov.tr",
+    "l": "pol",
+    "x": "YuksekogretimK",
+    "yt": "https://www.youtube.com/channel/UCJbaCH8vkkRIw2CyCXCw-Hg"
+  },
+  "sira": 66,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Türkiye Kamu ve Akademi",
+    "sira": 3
+  },
+  "kunye": [
+    "Kurum",
+    "Türkiye · Ankara"
+  ],
+  "aciklama": "Yükseköğretim Kurulu. Üniversitelerde yapay zekâ programları, üretken AI kullanımına dair etik rehberler ve yükseköğretim politikaları buradan duyurulur; akademisyenler için resmî kaynak.",
+  "ilgi_alanlari": [
+    "education:9",
+    "education:4",
+    "education:1"
+  ],
+  "gorsel": "gorseller/yok.webp",
+  "baglanti_denetimi": {
+    "url": "https://www.yok.gov.tr",
+    "checkedAt": "2026-10-18T11:03:59.092766+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.yok.gov.tr/tr"
+  }
+}

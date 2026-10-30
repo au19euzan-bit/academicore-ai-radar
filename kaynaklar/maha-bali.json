@@ -1,0 +1,72 @@
+{
+  "katalog": {
+    "n": "Maha Bali",
+    "s": "ars",
+    "p": 3,
+    "r": "a",
+    "t": "Eleştirel dijital pedagoji, AI, değerlendirme, etik",
+    "w": "X · Bluesky · Mastodon · Blog",
+    "u": "https://blog.mahabali.me",
+    "c": 1,
+    "l": "ele",
+    "x": "bali_maha",
+    "bs": "mahabali.bsky.social",
+    "md": {
+      "a": "Mahabali@mastodon.social",
+      "u": "https://mastodon.social/@Mahabali"
+    },
+    "f": {
+      "n": "Reflecting Allowed (blog)",
+      "rss": "https://blog.mahabali.me/feed/",
+      "sub": "https://blog.mahabali.me"
+    }
+  },
+  "sira": 39,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Topluluk Liderleri",
+    "sira": 1
+  },
+  "kunye": [
+    "Araştırmacı",
+    "American University in Cairo"
+  ],
+  "aciklama": "Kahire Amerikan Üniversitesi'nde öğretme ve öğrenme merkezinde profesör. Eleştirel dijital pedagoji, eleştirel AI okuryazarlığı, değerlendirme ve etik üzerine sık yazar.",
+  "ek_baglantilar": {
+    "vs": {
+      "bs": "b"
+    },
+    "L": [
+      {
+        "p": "blog",
+        "u": "https://blog.mahabali.me",
+        "lb": "Reflecting Allowed",
+        "v": "r"
+      },
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0000-0002-8142-7262",
+        "v": "o"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5069258598",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:2",
+    "education:1",
+    "education:9"
+  ],
+  "gorsel": "gorseller/maha-bali.webp",
+  "baglanti_denetimi": {
+    "url": "https://blog.mahabali.me",
+    "checkedAt": "2026-10-18T11:03:56.896825+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://blog.mahabali.me/"
+  }
+}

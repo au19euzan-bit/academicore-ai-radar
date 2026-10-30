@@ -1,0 +1,39 @@
+{
+  "katalog": {
+    "n": "TÜBİTAK BİLGEM",
+    "s": "tr",
+    "l": "ars",
+    "p": 2,
+    "r": "h",
+    "t": "AI araştırmaları, LLM, üretken AI ekosistemi",
+    "w": "X · LinkedIn · YouTube",
+    "u": "https://bilgem.tubitak.gov.tr",
+    "x": "tubitakbilgem",
+    "li": "https://tr.linkedin.com/company/tubitak-bilgem",
+    "yt": "https://www.youtube.com/channel/UCq1gEUn4GC19UEmOxRSOxwg"
+  },
+  "sira": 67,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Üniversite ve Araştırma Merkezleri",
+    "sira": 4
+  },
+  "kunye": [
+    "Kurum",
+    "Türkiye · Gebze, Kocaeli"
+  ],
+  "aciklama": "TÜBİTAK'ın bilişim ve bilgi güvenliği araştırma merkezi. Türkçe büyük dil modelleri, üretken AI ve yapay zekâ altyapısı üzerine çalışmalar yürütür; ulusal AI ekosistemi için önemli.",
+  "ilgi_alanlari": [
+    "engineering:0",
+    "education:subject:13"
+  ],
+  "gorsel": "gorseller/tubitak-bilgem.webp",
+  "baglanti_denetimi": {
+    "url": "https://bilgem.tubitak.gov.tr",
+    "checkedAt": "2026-10-18T11:03:59.113743+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://bilgem.tubitak.gov.tr/"
+  }
+}

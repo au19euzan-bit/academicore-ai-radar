@@ -1,0 +1,35 @@
+{
+  "katalog": {
+    "n": "Amanda Bickerstaff",
+    "s": "akis",
+    "p": 3,
+    "r": "g",
+    "t": "Öğretmen AI okuryazarlığı, okul politikaları (AI for Education)",
+    "w": "LinkedIn",
+    "l": "hiz",
+    "li": "https://www.linkedin.com/in/amanda-bickerstaff-edu/"
+  },
+  "sira": 42,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Girişimciler",
+    "sira": 3
+  },
+  "kunye": [
+    "Eğitimci",
+    "AI for Education"
+  ],
+  "aciklama": "AI for Education'ın kurucusu. Öğretmen ve okul yöneticilerine AI okuryazarlığı eğitimi verir; üretken AI'nın sınıfta güvenli ve etkili kullanımına dair gözlemlerini sık paylaşır.",
+  "ilgi_alanlari": [
+    "education:0",
+    "education:3",
+    "education:subject:13",
+    "education:8"
+  ],
+  "ust_kurum": "AI for Education",
+  "baglanti_denetimi": {
+    "checkedAt": "2026-10-18T11:03:56.956522+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "missing"
+  }
+}

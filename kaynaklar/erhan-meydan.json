@@ -1,0 +1,41 @@
+{
+  "katalog": {
+    "n": "Erhan Meydan",
+    "s": "tr",
+    "p": 2,
+    "r": "h",
+    "t": "Yapay zekâ araçları, ajanlar ve otomasyon; Türkçe uygulamalı videolar",
+    "w": "YouTube",
+    "l": "prat",
+    "yt": "https://www.youtube.com/@erhanmeydan",
+    "nw": true,
+    "at": "2026-10-30"
+  },
+  "sira": 88,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "İçerik Üreticileri",
+    "sira": 4
+  },
+  "kunye": [
+    "İçerik üreticisi",
+    "Türkiye · YouTube"
+  ],
+  "aciklama": "Yapay zekâ araçlarını, ajanları ve otomasyonu uygulamalı Türkçe videolarla anlatan içerik üreticisi. Araçları denemeden önce nasıl kullanıldığını görmek için uygun.",
+  "ilgi_alanlari": [
+    "engineering:0",
+    "education:3"
+  ],
+  "kisaltma": "EM",
+  "ajan": {
+    "id": "erhan",
+    "name": "Erhan Meydan",
+    "folder": "sho",
+    "ini": "E",
+    "home": "https://www.youtube.com/@erhanmeydan/shorts",
+    "method": "youtube",
+    "channel": "UC6E0xxW6o3QacO-rx71x26Q",
+    "kind": "shorts",
+    "sira": 12
+  }
+}

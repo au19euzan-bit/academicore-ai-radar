@@ -1,0 +1,40 @@
+{
+  "katalog": {
+    "n": "BTK Akademi",
+    "s": "tr",
+    "l": "prat",
+    "p": 2,
+    "r": "h",
+    "t": "Güncel AI eğitimleri",
+    "w": "X · LinkedIn · YouTube",
+    "u": "https://www.btkakademi.gov.tr",
+    "x": "BTKAkademi",
+    "li": "https://www.linkedin.com/company/btk-akademi",
+    "yt": "https://www.youtube.com/BTKAkademiTube"
+  },
+  "sira": 68,
+  "radar": {
+    "bolum": "Kurum",
+    "alt": "Türkiye Kamu ve Akademi",
+    "sira": 4
+  },
+  "kunye": [
+    "Kurum",
+    "Türkiye · Ankara"
+  ],
+  "aciklama": "Bilgi Teknolojileri ve İletişim Kurumu'nun ücretsiz çevrim içi eğitim platformu. Yapay zekâ, veri bilimi ve yazılım alanlarında sertifikalı güncel kurslar sunar; öğretmenlere de açık.",
+  "ilgi_alanlari": [
+    "education:10",
+    "education:subject:13",
+    "engineering:0"
+  ],
+  "gorsel": "gorseller/btk-akademi.webp",
+  "baglanti_denetimi": {
+    "url": "https://www.btkakademi.gov.tr",
+    "checkedAt": "2026-10-18T11:03:59.234790+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.btkakademi.gov.tr/"
+  }
+}

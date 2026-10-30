@@ -1,0 +1,57 @@
+{
+  "katalog": {
+    "n": "Andrew Ng",
+    "s": "ai",
+    "p": 3,
+    "r": "h",
+    "t": "AI eğitimi ve sektör gündemi; haftalık The Batch bülteni",
+    "w": "X · LinkedIn · Bülten",
+    "u": "https://www.andrewng.org",
+    "l": "hiz",
+    "x": "AndrewYNg",
+    "li": "https://www.linkedin.com/in/andrewyng/",
+    "f": {
+      "n": "The Batch",
+      "sub": "https://www.deeplearning.ai/the-batch/"
+    }
+  },
+  "sira": 53,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Girişimciler",
+    "sira": 2
+  },
+  "kunye": [
+    "AI uzmanı",
+    "DeepLearning.AI"
+  ],
+  "aciklama": "DeepLearning.AI'ın kurucusu, Coursera'nın kurucu ortağı. Milyonlarca kişiye AI öğreten çevrim içi dersleri ve haftalık The Batch bülteniyle AI eğitimini ve sektör gündemini aktarır.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "orcid",
+        "u": "https://orcid.org/0000-0001-5547-3196",
+        "v": "o"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5102617494",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "engineering:0",
+    "education:10",
+    "education:subject:13"
+  ],
+  "gorsel": "gorseller/andrew-ng.webp",
+  "baglanti_denetimi": {
+    "url": "https://www.andrewng.org",
+    "checkedAt": "2026-10-18T11:03:58.191282+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.andrewng.org/"
+  }
+}

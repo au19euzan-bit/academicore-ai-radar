@@ -1,0 +1,51 @@
+{
+  "katalog": {
+    "n": "LAK Conference",
+    "s": "akd",
+    "p": 3,
+    "r": "a",
+    "t": "Learning Analytics & Knowledge",
+    "w": "Konferans",
+    "u": "https://www.solaresearch.org/events/lak/",
+    "l": "ars"
+  },
+  "sira": 25,
+  "radar": {
+    "bolum": "Etkinlik",
+    "alt": "Konferanslar",
+    "sira": 2
+  },
+  "kunye": [
+    "Konferans",
+    "SoLAR · her yıl"
+  ],
+  "aciklama": "SoLAR'ın yıllık Learning Analytics & Knowledge konferansı. Öğrenme verisi, panolar, başarı tahmini ve üretken AI ile öğrenme analitiğinin buluşmasına dair güncel çalışmalar.",
+  "ek_baglantilar": {
+    "L": [
+      {
+        "p": "events",
+        "u": "https://www.solaresearch.org/events/lak/lak27/",
+        "lb": "LAK 2027 · Recife"
+      },
+      {
+        "p": "x",
+        "u": "https://x.com/SoLAResearch",
+        "lb": "SoLAR (X)"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "education:1",
+    "education:3",
+    "engineering:0"
+  ],
+  "kisaltma": "LAK",
+  "baglanti_denetimi": {
+    "url": "https://www.solaresearch.org/events/lak/",
+    "checkedAt": "2026-10-18T11:03:55.932895+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://www.solaresearch.org/events/lak/"
+  }
+}

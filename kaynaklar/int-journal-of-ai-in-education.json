@@ -1,0 +1,51 @@
+{
+  "katalog": {
+    "n": "Int. Journal of AI in Education (IJAIED)",
+    "s": "akd",
+    "p": 3,
+    "r": "h",
+    "t": "Doğrudan AIED alanının temel dergisi",
+    "w": "Dergi · RSS",
+    "u": "https://link.springer.com/journal/40593",
+    "l": "ars",
+    "f": {
+      "n": "IJAIED – yeni makaleler",
+      "rss": "https://link.springer.com/search.rss?facet-journal-id=40593"
+    }
+  },
+  "sira": 21,
+  "radar": {
+    "bolum": "Yayın",
+    "alt": "Akademik Dergiler",
+    "sira": 1
+  },
+  "kunye": [
+    "Dergi",
+    "Springer · IAIED"
+  ],
+  "aciklama": "IAIED'nin Springer'de yayımlanan resmî dergisi. Akıllı öğretim sistemleri, öğrenci modelleme ve AI destekli öğrenme üzerine hakemli araştırmalar; alanın en köklü dergilerinden.",
+  "ilgi_alanlari": [
+    "education:3",
+    "education:2",
+    "education:1"
+  ],
+  "kisaltma": "IJ",
+  "baglanti_denetimi": {
+    "url": "https://link.springer.com/journal/40593",
+    "checkedAt": "2026-10-18T11:03:55.522735+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://link.springer.com/journal/40593?error=cookies_not_supported&code=01a7cf20-9950-4543-a564-4b347041f877"
+  },
+  "ajan": {
+    "id": "ijaied",
+    "name": "Int. J. of AI in Education",
+    "folder": "der",
+    "ini": "AI",
+    "home": "https://link.springer.com/journal/40593",
+    "method": "crossref",
+    "issn": "1560-4292",
+    "sira": 5
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "katalog": {
+    "n": "Gary Marcus",
+    "s": "ai",
+    "p": 2,
+    "r": "a",
+    "t": "LLM'lere ve AI abartısına sürekli eleştirel bakış",
+    "w": "Bülten · X · Bluesky",
+    "u": "https://garymarcus.substack.com",
+    "l": "ger",
+    "x": "GaryMarcus",
+    "bs": "garymarcus.bsky.social",
+    "f": {
+      "n": "Marcus on AI",
+      "rss": "https://garymarcus.substack.com/feed",
+      "sub": "https://garymarcus.substack.com/subscribe"
+    }
+  },
+  "sira": 61,
+  "radar": {
+    "bolum": "Kişi",
+    "alt": "Politika ve Etik Uzmanları",
+    "sira": 4
+  },
+  "kunye": [
+    "Araştırmacı",
+    "NYU (emeritus)"
+  ],
+  "aciklama": "Bilişsel bilimci, NYU'da emeritus profesör ve Rebooting AI kitabının ortak yazarı. Bülteninde LLM'lerin güvenilirlik sorunlarına ve AI abartısına sürekli eleştirel bir bakış getirir.",
+  "ek_baglantilar": {
+    "vs": {
+      "x": "p",
+      "bs": "b"
+    },
+    "L": [
+      {
+        "p": "substack",
+        "u": "https://garymarcus.substack.com",
+        "lb": "Marcus on AI"
+      },
+      {
+        "p": "openalex",
+        "u": "https://openalex.org/A5110126701",
+        "v": "o"
+      }
+    ]
+  },
+  "ilgi_alanlari": [
+    "engineering:0",
+    "law:1",
+    "humanities:1"
+  ],
+  "gorsel": "gorseller/gary-marcus.webp",
+  "baglanti_denetimi": {
+    "url": "https://garymarcus.substack.com",
+    "checkedAt": "2026-10-18T11:03:58.651977+00:00",
+    "method": "GET with redirects; HTTP status only, response body discarded",
+    "status": "reachable",
+    "code": 200,
+    "finalUrl": "https://garymarcus.substack.com/"
+  }
+}
