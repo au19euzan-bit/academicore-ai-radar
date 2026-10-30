@@ -14,7 +14,7 @@
  /* v1.3.350-test: AcademiCore AI Radar okuyucusunun günlük ajanı (GitHub Actions) içerikleri
     data/items.json'a yazar. Eşleşen kaynaklarda "bakma zamanı" takvimden değil, son ziyaretten
     sonra gelen gerçek içerikten çıkar. */
- const FEED_URL='https://au19euzan-bit.github.io/academicore-ai-radar/data/items.json',K_FEED='edumind-feed-cache',K_READ='edumind-feed-read',K_STAR='edumind-feed-star';
+ const FEED_URL='./data/items.json',K_FEED='edumind-feed-cache',K_READ='edumind-feed-read',K_STAR='edumind-feed-star';
  const FEED_MAP={mollick:'Ethan Mollick',bjet:'British Journal of Educational Technology',ijaied:'Int. Journal of AI in Education (IJAIED)',openai:'OpenAI',unesco:'UNESCO – Dijital Eğitim ve AI',oecd:'OECD Education and Skills',anthropic:'Anthropic (Claude)',deepmind:'Google DeepMind / Gemini'};
  let FEED=read(K_FEED,null),feedState=FEED?'cache':'loading';
  const readSet=new Set((()=>{try{return JSON.parse(localStorage.getItem(K_READ)||'[]')}catch{return[]}})()),starSet=new Set((()=>{try{return JSON.parse(localStorage.getItem(K_STAR)||'[]')}catch{return[]}})());

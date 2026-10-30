@@ -2,7 +2,8 @@
 
 Eğitimde yapay zekâ kaynaklarını her sabah okuyan ve tek akışta gösteren okuyucu.
 
-- **Okuyucu:** `index.html` — GitHub Pages'te yayınlanır, telefonda "Ana Ekrana Ekle" ile uygulama gibi açılır.
+- **Uygulama:** `index.html` ve yanındaki `*.js` / `*.css` dosyaları — AcademiCore AI Radar (radar halkası, Listem, takip turu). Sürüm numarası `index.html`'deki `edumind-version`, `version.json` ve `sw.js`'teki önbellek adında birlikte artırılır; artırılmazsa telefonlar eski sürümde kalır.
+- **Akış okuyucu:** `akis.html` — ajanın topladığı içeriklerin tek akışta gösterildiği basit okuyucu. Uygulama da aynı veriyi (`data/items.json`) `takip.js` üzerinden okur.
 - **Ajan:** `radar_ajan.py` — her sabah 07:47'de GitHub Actions'ta çalışır, `sources.json`'daki kaynakları okur ve `data/items.json` dosyasını günceller.
 - **Kaynaklar:** `sources.json` — kaynak eklemek ya da çıkarmak için bu dosyayı düzenleyin.
 
