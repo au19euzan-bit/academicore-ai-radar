@@ -1,6 +1,45 @@
 {
- "generatedAt": "2026-10-30T13:01:29Z",
+ "generatedAt": "2026-10-31T10:35:53Z",
  "items": [
+  {
+   "id": "willison-1649c5dd0704",
+   "sourceId": "willison",
+   "title": "dbreunig/nesformer",
+   "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+   "published": "2026-10-30T21:59:22Z",
+   "precision": "time",
+   "excerpt": "dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen! In a comment on…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-31T10:35:53Z"
+  },
+  {
+   "id": "mishra-f60fd0ce2c63",
+   "sourceId": "mishra",
+   "title": "Academic Freedom and Anthropomorphic AI: A Talk for UNESCO",
+   "url": "https://punyamishra.com/2026/10/30/academic-freedom-and-anthropomorphic-ai-a-talk-for-unesco/?utm_source=rss&utm_medium=rss&utm_campaign=academic-freedom-and-anthropomorphic-ai-a-talk-for-unesco",
+   "published": "2026-10-30T19:17:29Z",
+   "precision": "time",
+   "excerpt": "In July, UNESCO’s Higher Education Division, working with NORRAG, invited a small group of researchers to a consultation on academic freedom and technology, the fourth in their series of Academic Freedoms Policy Dialogues. I was asked to record my remarks since I could not join…",
+   "summary": "",
+   "image": "https://punyamishra.com/wp-content/uploads/2026/10/unesco1.jpg",
+   "videoId": null,
+   "addedAt": "2026-10-31T10:35:53Z"
+  },
+  {
+   "id": "interconnects-77b8021d805e",
+   "sourceId": "interconnects",
+   "title": "Was I wrong about open models & cyber risks?",
+   "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+   "published": "2026-10-30T17:36:56Z",
+   "precision": "time",
+   "excerpt": "Last week coined the term “Black October“ after an onslaught of critical vulnerability disclosures, including PHP2Shell and GitLab, signified the moment when the cyber risks of AI models started to materialize.",
+   "summary": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!NQ70!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff51bb5d0-4390-4676-af4a-6bc8199412d5_2006x1362.png",
+   "videoId": null,
+   "addedAt": "2026-10-31T10:35:53Z"
+  },
   {
    "id": "cicek-73807d5a21d8",
    "sourceId": "cicek",
@@ -28,6 +67,19 @@
    "addedAt": "2026-10-30T11:01:41Z"
   },
   {
+   "id": "openai-25cc4c9bb2e3",
+   "sourceId": "openai",
+   "title": "Making it easier for websites to express AI training preferences",
+   "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+   "published": "2026-10-30T09:30:00Z",
+   "precision": "time",
+   "excerpt": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-31T10:35:53Z"
+  },
+  {
    "id": "oecd-495b24c111b4",
    "sourceId": "oecd",
    "title": "When AI does the work, who does the learning?",
@@ -39,6 +91,19 @@
    "image": "https://oecdedutoday.com/wp-content/uploads/2026/10/Blog-When-AI-does-the-work-who-does-the-learningSML.jpg",
    "videoId": null,
    "addedAt": "2026-10-30T11:01:41Z"
+  },
+  {
+   "id": "openai-c7606af40dbb",
+   "sourceId": "openai",
+   "title": "Community safety report and new protections for teens",
+   "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+   "published": "2026-10-30T09:00:00Z",
+   "precision": "time",
+   "excerpt": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-31T10:35:53Z"
   },
   {
    "id": "cicek-8bc5135e3e37",
@@ -65,6 +130,19 @@
    "image": "https://i0.wp.com/leonfurze.com/wp-content/uploads/2026/10/Screenshot-2026-10-30-at-1.04.27-pm.png?resize=1024%2C725&ssl=1",
    "videoId": null,
    "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "openai-d2282bcce162",
+   "sourceId": "openai",
+   "title": "Fair use benefits everyone",
+   "url": "https://openai.com/index/fair-use-benefits-everyone",
+   "published": "2026-10-30T00:00:00Z",
+   "precision": "time",
+   "excerpt": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-31T10:35:53Z"
   },
   {
    "id": "willison-07b8277675a3",
@@ -221,6 +299,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-10-30T11:01:41Z"
+  },
+  {
+   "id": "openai-6750c2461412",
+   "sourceId": "openai",
+   "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+   "url": "https://openai.com/index/credit-saison",
+   "published": "2026-10-29T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-10-31T10:35:53Z"
   },
   {
    "id": "willison-b0fbfced4c00",
