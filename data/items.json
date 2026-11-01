@@ -1,6 +1,45 @@
 {
- "generatedAt": "2026-10-31T10:35:53Z",
+ "generatedAt": "2026-11-01T11:29:48Z",
  "items": [
+  {
+   "id": "willison-0def4a2fca6b",
+   "sourceId": "willison",
+   "title": "How We Took Over ChatGPT Accounts",
+   "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+   "published": "2026-10-31T23:15:22Z",
+   "precision": "time",
+   "excerpt": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews ), where interactive custom HTML apps are…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-01T11:29:48Z"
+  },
+  {
+   "id": "willison-bc9463905bbd",
+   "sourceId": "willison",
+   "title": "datasette-llm 0.1a9",
+   "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+   "published": "2026-10-31T22:10:01Z",
+   "precision": "time",
+   "excerpt": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM , which means you can start using…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-01T11:29:48Z"
+  },
+  {
+   "id": "karpathy-c241855c2841",
+   "sourceId": "karpathy",
+   "title": "HackerTube",
+   "url": "https://karpathy.bearblog.dev/hacker-tube/",
+   "published": "2026-10-31T17:00:00Z",
+   "precision": "time",
+   "excerpt": "Instead of YouTube, watch HackerTube!",
+   "summary": "",
+   "image": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/karpathy/image-2.webp",
+   "videoId": null,
+   "addedAt": "2026-11-01T11:29:48Z"
+  },
   {
    "id": "willison-1649c5dd0704",
    "sourceId": "willison",
@@ -273,6 +312,19 @@
    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Edu_Impact_Studies_herosocial.max-600x600.format-webp.webp",
    "videoId": null,
    "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "cae-a46d973f48e0",
+   "sourceId": "cae",
+   "title": "The effects of digital technology on socioscientific issues teaching: A three-level meta-analysis",
+   "url": "https://doi.org/10.1016/j.compedu.2026.105780",
+   "published": "2026-10-29T08:13:22Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-01T11:29:48Z"
   },
   {
    "id": "cicek-4510450e4393",
