@@ -1,6 +1,58 @@
 {
- "generatedAt": "2026-11-01T11:29:48Z",
+ "generatedAt": "2026-11-02T12:53:18Z",
  "items": [
+  {
+   "id": "edsurge-8ac10116a95f",
+   "sourceId": "edsurge",
+   "title": "Want Students to Think With AI? Raise the Stakes.",
+   "url": "https://www.edsurge.com/news/want-students-to-think-with-ai-raise-the-stakes",
+   "published": "2026-11-02T00:00:00Z",
+   "precision": "time",
+   "excerpt": "AI tutors won’t teach students to think until the conversation itself becomes the assessment.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/CCUEYCRDA7BILdR8JrzpV/d1e450bcdd9ca365a0efe8a39801b246/shutterstock_2674609977.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-11-02T12:53:18Z"
+  },
+  {
+   "id": "willison-ffb30fef9594",
+   "sourceId": "willison",
+   "title": "If in doubt, delete the uv.lock file",
+   "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+   "published": "2026-11-01T23:24:22Z",
+   "precision": "time",
+   "excerpt": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file Most of my projects are libraries which don't include a uv.lock file, since it's rude for a library…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-02T12:53:18Z"
+  },
+  {
+   "id": "alexander-054125038e1e",
+   "sourceId": "alexander",
+   "title": "Gaming out geoengineering",
+   "url": "https://bryanalexander.org/gaming/gaming-out-geoengineering/",
+   "published": "2026-11-01T21:01:47Z",
+   "precision": "time",
+   "excerpt": "Greetings from the start of November 2026. I write this after two months of intense work: nearly nonstop travel, two book projects initiated, two seminars taught, a series of virtual presentations. And now November holds not only more travel, but … Continue reading →",
+   "summary": "",
+   "image": "https://bryanalexander.org/wp-content/uploads/2026/11/simulation-climate-change-report-cover.png",
+   "videoId": null,
+   "addedAt": "2026-11-02T12:53:18Z"
+  },
+  {
+   "id": "willison-835fd1406315",
+   "sourceId": "willison",
+   "title": "Quoting Kyle Kingsbury",
+   "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+   "published": "2026-11-01T16:49:04Z",
+   "precision": "time",
+   "excerpt": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-02T12:53:18Z"
+  },
   {
    "id": "willison-0def4a2fca6b",
    "sourceId": "willison",
@@ -78,6 +130,19 @@
    "image": "https://substackcdn.com/image/fetch/$s_!NQ70!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff51bb5d0-4390-4676-af4a-6bc8199412d5_2006x1362.png",
    "videoId": null,
    "addedAt": "2026-10-31T10:35:53Z"
+  },
+  {
+   "id": "deepmind-094c331a98fa",
+   "sourceId": "deepmind",
+   "title": "Speeding up planning decisions with AI",
+   "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+   "published": "2026-10-30T14:18:30Z",
+   "precision": "time",
+   "excerpt": "Google DeepMind and UK government work together to reduce planning assessment times",
+   "summary": "",
+   "image": "https://lh3.googleusercontent.com/AnSfPLyNIwSu1XsT_WUP3aYfQrc9jo8lwlotms7NmryT7RhWXnwdF4_zzYBMlJOcNT1U_ZbDMCM7AzpnFDPeYKJDardybJGlm447xeEXo1eQqgjCEg=w528-h297-n-nu-rw-lo",
+   "videoId": null,
+   "addedAt": "2026-11-02T12:53:18Z"
   },
   {
    "id": "cicek-73807d5a21d8",
