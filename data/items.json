@@ -1,6 +1,136 @@
 {
- "generatedAt": "2026-11-03T12:22:13Z",
+ "generatedAt": "2026-11-04T12:32:55Z",
  "items": [
+  {
+   "id": "cicek-0f62838439fe",
+   "sourceId": "cicek",
+   "title": "Anthropic’in Claude’u akrep panzehiri geliştirmeyi deniyor",
+   "url": "https://www.youtube.com/shorts/MD0fkybhNC4",
+   "published": "2026-11-04T11:00:04Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i2.ytimg.com/vi/MD0fkybhNC4/hqdefault.jpg",
+   "videoId": "MD0fkybhNC4",
+   "addedAt": "2026-11-04T12:32:55Z"
+  },
+  {
+   "id": "bali-ab966e43b2a8",
+   "sourceId": "bali",
+   "title": "The Paradox of Critical Pedagogy on AI",
+   "url": "https://blog.mahabali.me/pedagogy/critical-pedagogy/the-paradox-of-critical-pedagogy-on-ai/",
+   "published": "2026-11-04T05:44:48Z",
+   "precision": "time",
+   "excerpt": "I haven’t blogged in a while, but this blogpost has been building in my head for a while. I’m worried I’ll forget something important while writing it, but then I thought I can just be as I’ve often been: write what is on my mind right now, and invite you all to let me know…",
+   "summary": "",
+   "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f642.png",
+   "videoId": null,
+   "addedAt": "2026-11-04T12:32:55Z"
+  },
+  {
+   "id": "deepmind-7b04a568c5ad",
+   "sourceId": "deepmind",
+   "title": "Agentic cheminformatics with Google Antigravity",
+   "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+   "published": "2026-11-03T17:01:49Z",
+   "precision": "time",
+   "excerpt": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+   "summary": "",
+   "image": "https://lh3.googleusercontent.com/UFTBrp1IrRBrc6_f4ibNgtV35iY8F2iTYaqOb1lzR-qZNy-Mb5726xrLKTozohfdZ_3quHe50uyn8z-Wh_Eril_8CVh7py7gH0188sl_EXkoJknlqg=w528-h297-n-nu-rw-lo",
+   "videoId": null,
+   "addedAt": "2026-11-04T12:32:55Z"
+  },
+  {
+   "id": "willison-6857dc224a41",
+   "sourceId": "willison",
+   "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+   "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+   "published": "2026-11-03T16:29:48Z",
+   "precision": "time",
+   "excerpt": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-04T12:32:55Z"
+  },
+  {
+   "id": "googleedu-fac87606c7e9",
+   "sourceId": "googleedu",
+   "title": "New research shows how Guided Learning supports students",
+   "url": "https://blog.google/products-and-platforms/products/education/guided-learning-uk-japan/",
+   "published": "2026-11-03T14:00:00Z",
+   "precision": "time",
+   "excerpt": "Four students huddled in a circle, all looking at a laptop together",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Guided_learning_hero.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-11-04T12:32:55Z"
+  },
+  {
+   "id": "googleedu-7e58342e928b",
+   "sourceId": "googleedu",
+   "title": "We’re providing funding for organizations building AI for teachers.",
+   "url": "https://blog.google/products-and-platforms/products/education/google-org-funding-ai-education/",
+   "published": "2026-11-03T14:00:00Z",
+   "precision": "time",
+   "excerpt": "Google.org is funding five organizations to build AI tools for teachers. See how these initiatives support educators and students. Get the details.",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AILE_Comms_social.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-11-04T12:32:55Z"
+  },
+  {
+   "id": "googleedu-3e073175075a",
+   "sourceId": "googleedu",
+   "title": "AI in the learning era",
+   "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-2026/",
+   "published": "2026-11-03T14:00:00Z",
+   "precision": "time",
+   "excerpt": "Read announcements from Google’s 2026 AI in the Learning Era event.",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AILE_collection_hero.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-11-04T12:32:55Z"
+  },
+  {
+   "id": "googleedu-05510ac468b5",
+   "sourceId": "googleedu",
+   "title": "Designing responsible AI for learning",
+   "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
+   "published": "2026-11-03T14:00:00Z",
+   "precision": "time",
+   "excerpt": "A teacher pointing at a student's Chromebook screen while the student observes.",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Designing_responsible_AI_for_le.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-11-04T12:32:55Z"
+  },
+  {
+   "id": "googleedu-3224a0f07efd",
+   "sourceId": "googleedu",
+   "title": "Expanding AI educator training to new countries",
+   "url": "https://blog.google/products-and-platforms/products/education/google-ai-educator-series-global-expansion-november-2026/",
+   "published": "2026-11-03T14:00:00Z",
+   "precision": "time",
+   "excerpt": "An illustration featuring a stylized globe in the center with network lines connecting points across the world to various colorful icon badges, including graduation caps, award ribbons, and stylized figures.",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Regional_Blog_Header_Option_1.max-600x600.format-webp.webp",
+   "videoId": null,
+   "addedAt": "2026-11-04T12:32:55Z"
+  },
+  {
+   "id": "openai-26c6032e1d26",
+   "sourceId": "openai",
+   "title": "Accelerating engineering for the physical world",
+   "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+   "published": "2026-11-03T12:00:00Z",
+   "precision": "time",
+   "excerpt": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-04T12:32:55Z"
+  },
   {
    "id": "openai-08b710f1e780",
    "sourceId": "openai",
@@ -13,6 +143,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-11-03T12:22:13Z"
+  },
+  {
+   "id": "openai-a2357e701f02",
+   "sourceId": "openai",
+   "title": "How Cisco defends at machine speed with OpenAI",
+   "url": "https://openai.com/index/cisco-cyber",
+   "published": "2026-11-03T08:00:00Z",
+   "precision": "time",
+   "excerpt": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-04T12:32:55Z"
   },
   {
    "id": "willison-22c23cfe758c",
@@ -52,6 +195,19 @@
    "image": "https://images.ctfassets.net/eflsecw4kznd/6b3mYEJDAz7xy8s10CPoff/e6f5ebbc308f2da85807c20abdb25de0/shutterstock_1970961278.jpg?w=1200",
    "videoId": null,
    "addedAt": "2026-11-03T12:22:13Z"
+  },
+  {
+   "id": "openai-3d509e27bae2",
+   "sourceId": "openai",
+   "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+   "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+   "published": "2026-11-03T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-04T12:32:55Z"
   },
   {
    "id": "willison-10dab842bc68",
@@ -637,6 +793,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-10-30T12:50:25Z"
+  },
+  {
+   "id": "openai-bbd4d7a8dcb5",
+   "sourceId": "openai",
+   "title": "Evernote turns AI-driven discovery into paid subscriptions",
+   "url": "https://openai.com/ads/customers/evernote",
+   "published": "2026-10-28T19:40:49Z",
+   "precision": "time",
+   "excerpt": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-04T12:32:55Z"
   },
   {
    "id": "googleedu-86bb7da2652f",
