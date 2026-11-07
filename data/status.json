@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-06T12:29:41Z",
+ "lastRun": "2026-11-07T11:20:40Z",
  "summaries": false,
  "sources": {
   "mollick": {
@@ -9,8 +9,8 @@
   },
   "mishra": {
    "ok": true,
-   "new": 0,
-   "count": 11
+   "new": 1,
+   "count": 12
   },
   "cae": {
    "ok": true,
@@ -19,8 +19,8 @@
   },
   "bjet": {
    "ok": true,
-   "new": 0,
-   "count": 8
+   "new": 1,
+   "count": 9
   },
   "ijaied": {
    "ok": true,
@@ -39,8 +39,8 @@
   },
   "openai": {
    "ok": true,
-   "new": 6,
-   "count": 99
+   "new": 2,
+   "count": 101
   },
   "anthropic": {
    "ok": false,
@@ -49,13 +49,13 @@
   },
   "deepmind": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 14
   },
   "cicek": {
    "ok": true,
    "new": 4,
-   "count": 37
+   "count": 41
   },
   "erhan": {
    "ok": true,
@@ -65,7 +65,7 @@
   "willison": {
    "ok": true,
    "new": 1,
-   "count": 45
+   "count": 46
   },
   "importai": {
    "ok": true,
@@ -94,8 +94,8 @@
   },
   "furze": {
    "ok": true,
-   "new": 0,
-   "count": 4
+   "new": 1,
+   "count": 5
   },
   "bali": {
    "ok": true,
@@ -103,8 +103,8 @@
    "count": 1
   },
   "alexander": {
-   "ok": true,
-   "new": 0,
+   "ok": false,
+   "note": "Okunamadı: https://bryanalexander.org/feed/ okunamadi: <urlopen error timed out>",
    "count": 2
   },
   "edsurge": {
