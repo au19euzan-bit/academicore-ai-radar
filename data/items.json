@@ -1,6 +1,84 @@
 {
- "generatedAt": "2026-11-07T11:20:40Z",
+ "generatedAt": "2026-11-08T11:30:59Z",
  "items": [
+  {
+   "id": "cicek-f99cfa306cd5",
+   "sourceId": "cicek",
+   "title": "OpenAI'ın yapay zekâ ajanlarını izleyen güvenlik sistemlerinde açıklar tespit edildi",
+   "url": "https://www.youtube.com/shorts/0R4OX-7mW_M",
+   "published": "2026-11-08T11:00:29Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i1.ytimg.com/vi/0R4OX-7mW_M/hqdefault.jpg",
+   "videoId": "0R4OX-7mW_M",
+   "addedAt": "2026-11-08T11:30:59Z"
+  },
+  {
+   "id": "cicek-44bd7b8b27b8",
+   "sourceId": "cicek",
+   "title": "Moderna ve Merck'in kanser aşısı, cilt kanserinin tekrarlama veya ölüm riskini %42 azalttı",
+   "url": "https://www.youtube.com/shorts/rgIRKrSgQEU",
+   "published": "2026-11-08T07:00:10Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i3.ytimg.com/vi/rgIRKrSgQEU/hqdefault.jpg",
+   "videoId": "rgIRKrSgQEU",
+   "addedAt": "2026-11-08T11:30:59Z"
+  },
+  {
+   "id": "willison-3880bf849bb9",
+   "sourceId": "willison",
+   "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+   "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+   "published": "2026-11-07T23:57:46Z",
+   "precision": "time",
+   "excerpt": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table. This was happening…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-08T11:30:59Z"
+  },
+  {
+   "id": "mishra-5e4baa350907",
+   "sourceId": "mishra",
+   "title": "What’s Worth Doing: Three Days at Colorado School of Mines",
+   "url": "https://punyamishra.com/2026/11/07/whats-worth-doing-three-days-at-colorado-school-of-mines/?utm_source=rss&utm_medium=rss&utm_campaign=whats-worth-doing-three-days-at-colorado-school-of-mines",
+   "published": "2026-11-07T22:02:39Z",
+   "precision": "time",
+   "excerpt": "I just got back from three days at the Colorado School of Mines in Golden, where I gave a keynote, led a session with faculty, and spent a Saturday morning with the Grewcock Presidential Scholars. The keynote, on Thursday evening, was titled Designing the Future: Creativity…",
+   "summary": "",
+   "image": "https://punyamishra.com/wp-content/uploads/2026/11/blaster3.jpg",
+   "videoId": null,
+   "addedAt": "2026-11-08T11:30:59Z"
+  },
+  {
+   "id": "cicek-e24dfa4a5a1e",
+   "sourceId": "cicek",
+   "title": "Elon Musk'ın SpaceX'i, ABD'nin en büyük mobil operatörlerine rakip olmaya hazırlanıyor",
+   "url": "https://www.youtube.com/shorts/aK1YHouQtrs",
+   "published": "2026-11-07T15:00:37Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i2.ytimg.com/vi/aK1YHouQtrs/hqdefault.jpg",
+   "videoId": "aK1YHouQtrs",
+   "addedAt": "2026-11-08T11:30:59Z"
+  },
+  {
+   "id": "cicek-4131eaecf315",
+   "sourceId": "cicek",
+   "title": "Meta’ya kullanıcı verilerini gizlediği ve tüketicileri yanılttığı gerekçesiyle 25 milyar dolar ceza",
+   "url": "https://www.youtube.com/shorts/WTldcKCkWBY",
+   "published": "2026-11-07T13:00:03Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i4.ytimg.com/vi/WTldcKCkWBY/hqdefault.jpg",
+   "videoId": "WTldcKCkWBY",
+   "addedAt": "2026-11-08T11:30:59Z"
+  },
   {
    "id": "cicek-459f177e7de7",
    "sourceId": "cicek",
@@ -143,6 +221,19 @@
    "image": "https://i1.ytimg.com/vi/D_Wdp3S0U7I/hqdefault.jpg",
    "videoId": "D_Wdp3S0U7I",
    "addedAt": "2026-11-06T12:29:41Z"
+  },
+  {
+   "id": "cae-45af74586f7c",
+   "sourceId": "cae",
+   "title": "Promoting or hindering: How do low and high self-regulated learning abilities moderate the role of GenAI scaffolding in video learning?",
+   "url": "https://doi.org/10.1016/j.compedu.2026.105790",
+   "published": "2026-11-06T00:29:11Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-08T11:30:59Z"
   },
   {
    "id": "openai-cfd4354afa14",

@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-07T11:20:40Z",
+ "lastRun": "2026-11-08T11:30:59Z",
  "summaries": false,
  "sources": {
   "mollick": {
@@ -10,16 +10,16 @@
   "mishra": {
    "ok": true,
    "new": 1,
-   "count": 12
+   "count": 13
   },
   "cae": {
    "ok": true,
-   "new": 0,
-   "count": 11
+   "new": 1,
+   "count": 12
   },
   "bjet": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 9
   },
   "ijaied": {
@@ -39,7 +39,7 @@
   },
   "openai": {
    "ok": true,
-   "new": 2,
+   "new": 0,
    "count": 101
   },
   "anthropic": {
@@ -55,7 +55,7 @@
   "cicek": {
    "ok": true,
    "new": 4,
-   "count": 41
+   "count": 45
   },
   "erhan": {
    "ok": true,
@@ -65,7 +65,7 @@
   "willison": {
    "ok": true,
    "new": 1,
-   "count": 46
+   "count": 47
   },
   "importai": {
    "ok": true,
@@ -94,7 +94,7 @@
   },
   "furze": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 5
   },
   "bali": {
