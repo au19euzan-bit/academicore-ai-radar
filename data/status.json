@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-08T11:30:59Z",
+ "lastRun": "2026-11-09T13:22:53Z",
  "summaries": false,
  "sources": {
   "mollick": {
@@ -10,11 +10,11 @@
   "mishra": {
    "ok": true,
    "new": 1,
-   "count": 13
+   "count": 14
   },
   "cae": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 12
   },
   "bjet": {
@@ -54,18 +54,18 @@
   },
   "cicek": {
    "ok": true,
-   "new": 4,
-   "count": 45
+   "new": 5,
+   "count": 50
   },
   "erhan": {
    "ok": true,
-   "new": 0,
-   "count": 5
+   "new": 1,
+   "count": 6
   },
   "willison": {
    "ok": true,
-   "new": 1,
-   "count": 47
+   "new": 5,
+   "count": 52
   },
   "importai": {
    "ok": true,
@@ -109,8 +109,8 @@
   },
   "edsurge": {
    "ok": true,
-   "new": 0,
-   "count": 21
+   "new": 1,
+   "count": 22
   },
   "googleedu": {
    "ok": true,
