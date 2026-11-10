@@ -1,15 +1,15 @@
 {
- "lastRun": "2026-11-09T13:22:53Z",
+ "lastRun": "2026-11-10T12:59:10Z",
  "summaries": false,
  "sources": {
   "mollick": {
    "ok": true,
-   "new": 0,
-   "count": 2
+   "new": 1,
+   "count": 3
   },
   "mishra": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 14
   },
   "cae": {
@@ -39,8 +39,8 @@
   },
   "openai": {
    "ok": true,
-   "new": 0,
-   "count": 101
+   "new": 6,
+   "count": 107
   },
   "anthropic": {
    "ok": false,
@@ -49,28 +49,28 @@
   },
   "deepmind": {
    "ok": true,
-   "new": 0,
-   "count": 14
+   "new": 1,
+   "count": 15
   },
   "cicek": {
    "ok": true,
-   "new": 5,
-   "count": 50
+   "new": 3,
+   "count": 53
   },
   "erhan": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 6
   },
   "willison": {
    "ok": true,
    "new": 5,
-   "count": 52
+   "count": 57
   },
   "importai": {
    "ok": true,
-   "new": 0,
-   "count": 5
+   "new": 1,
+   "count": 6
   },
   "interconnects": {
    "ok": true,
@@ -110,7 +110,7 @@
   "edsurge": {
    "ok": true,
    "new": 1,
-   "count": 22
+   "count": 23
   },
   "googleedu": {
    "ok": true,
