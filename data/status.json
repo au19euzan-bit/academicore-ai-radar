@@ -1,10 +1,10 @@
 {
- "lastRun": "2026-11-10T12:59:10Z",
+ "lastRun": "2026-11-11T12:10:32Z",
  "summaries": false,
  "sources": {
   "mollick": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 3
   },
   "mishra": {
@@ -40,7 +40,7 @@
   "openai": {
    "ok": true,
    "new": 6,
-   "count": 107
+   "count": 113
   },
   "anthropic": {
    "ok": false,
@@ -49,13 +49,13 @@
   },
   "deepmind": {
    "ok": true,
-   "new": 1,
-   "count": 15
+   "new": 2,
+   "count": 17
   },
   "cicek": {
    "ok": true,
-   "new": 3,
-   "count": 53
+   "new": 4,
+   "count": 57
   },
   "erhan": {
    "ok": true,
@@ -64,12 +64,12 @@
   },
   "willison": {
    "ok": true,
-   "new": 5,
-   "count": 57
+   "new": 1,
+   "count": 58
   },
   "importai": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 6
   },
   "interconnects": {
@@ -79,8 +79,8 @@
   },
   "normaltech": {
    "ok": true,
-   "new": 0,
-   "count": 3
+   "new": 1,
+   "count": 4
   },
   "lilianweng": {
    "ok": true,
@@ -110,7 +110,7 @@
   "edsurge": {
    "ok": true,
    "new": 1,
-   "count": 23
+   "count": 24
   },
   "googleedu": {
    "ok": true,

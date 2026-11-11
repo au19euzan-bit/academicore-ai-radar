@@ -1,6 +1,136 @@
 {
- "generatedAt": "2026-11-10T12:59:10Z",
+ "generatedAt": "2026-11-11T12:10:32Z",
  "items": [
+  {
+   "id": "openai-f28f90d2895a",
+   "sourceId": "openai",
+   "title": "Gilbert + Tobin rethinks the business of law with AI",
+   "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+   "published": "2026-11-12T00:00:00Z",
+   "precision": "time",
+   "excerpt": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-11T12:10:32Z"
+  },
+  {
+   "id": "cicek-bb212c04db6c",
+   "sourceId": "cicek",
+   "title": "Figure, insansı robotların ‘iPhone 1’i olarak tanımladığı modelin tasarımını tamamladı",
+   "url": "https://www.youtube.com/shorts/QHK1N-LPWoI",
+   "published": "2026-11-11T11:00:23Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i2.ytimg.com/vi/QHK1N-LPWoI/hqdefault.jpg",
+   "videoId": "QHK1N-LPWoI",
+   "addedAt": "2026-11-11T12:10:32Z"
+  },
+  {
+   "id": "openai-80b38ea7da37",
+   "sourceId": "openai",
+   "title": "ChatGPT Plus for veterans and servicemembers",
+   "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+   "published": "2026-11-11T08:00:00Z",
+   "precision": "time",
+   "excerpt": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-11T12:10:32Z"
+  },
+  {
+   "id": "cicek-9aad1591e89b",
+   "sourceId": "cicek",
+   "title": "Microsoft, 60 bin çalışanına gönüllü ayrılma teklifi sunuyor",
+   "url": "https://www.youtube.com/shorts/I-RaFnt0m2g",
+   "published": "2026-11-11T07:00:20Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i2.ytimg.com/vi/I-RaFnt0m2g/hqdefault.jpg",
+   "videoId": "I-RaFnt0m2g",
+   "addedAt": "2026-11-11T12:10:32Z"
+  },
+  {
+   "id": "edsurge-8ea1eda74f93",
+   "sourceId": "edsurge",
+   "title": "The Day the Take-Home Essay Died: How I Stopped Grading AI and Started Designing Real Learning",
+   "url": "https://www.edsurge.com/news/the-day-the-take-home-essay-died-how-i-stopped-grading-ai-and-started-designing-real-learning",
+   "published": "2026-11-11T00:00:00Z",
+   "precision": "time",
+   "excerpt": "When generative AI exposed the flaws in my traditional assignments, I redesigned student learning experiences — turning AI from a cheating tool to a ...",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/4nTwGpttMu4NiFx62zMWFC/c55adc51c7e114dc49827a345dcf0b0e/shutterstock_2195658595.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-11-11T12:10:32Z"
+  },
+  {
+   "id": "willison-c1fbfe2e3fcb",
+   "sourceId": "willison",
+   "title": "llm-gemini 0.36",
+   "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+   "published": "2026-11-10T20:09:44Z",
+   "precision": "time",
+   "excerpt": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet…",
+   "summary": "",
+   "image": "https://static.simonwillison.net/static/2026/carbon-pelican.webp",
+   "videoId": null,
+   "addedAt": "2026-11-11T12:10:32Z"
+  },
+  {
+   "id": "normaltech-72a4eecaea05",
+   "sourceId": "normaltech",
+   "title": "The missing quadrant in responses to AI",
+   "url": "https://www.normaltech.ai/p/the-missing-quadrant-in-responses",
+   "published": "2026-11-10T18:37:42Z",
+   "precision": "time",
+   "excerpt": "Announcing STABL: Societal Transformation and AI Bottlenecks Lab",
+   "summary": "",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/2095f300-0a39-4e16-a60f-6c8a94728bf9_1666x932.jpeg",
+   "videoId": null,
+   "addedAt": "2026-11-11T12:10:32Z"
+  },
+  {
+   "id": "deepmind-0b2e1c02de47",
+   "sourceId": "deepmind",
+   "title": "Gemini 4 Carbon is now available",
+   "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+   "published": "2026-11-10T16:03:47Z",
+   "precision": "time",
+   "excerpt": "",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
+   "videoId": null,
+   "addedAt": "2026-11-11T12:10:32Z"
+  },
+  {
+   "id": "cicek-b9c11c1bbb15",
+   "sourceId": "cicek",
+   "title": "OpenAI, bilgisayar kullanma becerileri gelişmiş, hızlı ve düşük maliyetli Terra modelini tanıttı",
+   "url": "https://www.youtube.com/shorts/w88AMm0PDPg",
+   "published": "2026-11-10T15:00:37Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i4.ytimg.com/vi/w88AMm0PDPg/hqdefault.jpg",
+   "videoId": "w88AMm0PDPg",
+   "addedAt": "2026-11-11T12:10:32Z"
+  },
+  {
+   "id": "cicek-3607116fea8c",
+   "sourceId": "cicek",
+   "title": "Yapay zekâ, matematik tarihinin en uzun ispatını 24 günde bilgisayarla doğrulanabilir hâle getirdi",
+   "url": "https://www.youtube.com/shorts/V3c-SX1ZDv8",
+   "published": "2026-11-10T13:00:01Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i3.ytimg.com/vi/V3c-SX1ZDv8/hqdefault.jpg",
+   "videoId": "V3c-SX1ZDv8",
+   "addedAt": "2026-11-11T12:10:32Z"
+  },
   {
    "id": "deepmind-428ac4b42c0b",
    "sourceId": "deepmind",
@@ -41,6 +171,19 @@
    "addedAt": "2026-11-10T12:59:10Z"
   },
   {
+   "id": "openai-5ca4dc7b6d88",
+   "sourceId": "openai",
+   "title": "Introducing Businesses in ChatGPT",
+   "url": "https://openai.com/index/introducing-businesses-chatgpt",
+   "published": "2026-11-10T10:00:00Z",
+   "precision": "time",
+   "excerpt": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-11T12:10:32Z"
+  },
+  {
    "id": "openai-01a8528fa117",
    "sourceId": "openai",
    "title": "Closing the AI guidance gap in education",
@@ -52,6 +195,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-11-10T12:59:10Z"
+  },
+  {
+   "id": "openai-4e3e5904c85a",
+   "sourceId": "openai",
+   "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+   "url": "https://openai.com/index/singapore-airlines-travel-work",
+   "published": "2026-11-10T08:00:00Z",
+   "precision": "time",
+   "excerpt": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-11T12:10:32Z"
   },
   {
    "id": "willison-fabe838d73f5",
@@ -78,6 +234,19 @@
    "image": "https://i1.ytimg.com/vi/dETU3xq7ziQ/hqdefault.jpg",
    "videoId": "dETU3xq7ziQ",
    "addedAt": "2026-11-10T12:59:10Z"
+  },
+  {
+   "id": "openai-3588ceed4155",
+   "sourceId": "openai",
+   "title": "Work at the Frontier: AI’s effect on freelance work",
+   "url": "https://openai.com/index/ai-effect-on-freelance-work",
+   "published": "2026-11-10T07:00:00Z",
+   "precision": "time",
+   "excerpt": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-11T12:10:32Z"
   },
   {
    "id": "willison-c8bf0b8e918f",
@@ -119,6 +288,19 @@
    "addedAt": "2026-11-10T12:59:10Z"
   },
   {
+   "id": "openai-1ff74ee2cb10",
+   "sourceId": "openai",
+   "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+   "url": "https://openai.com/index/cogent-security",
+   "published": "2026-11-10T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-11T12:10:32Z"
+  },
+  {
    "id": "willison-c93c64172e07",
    "sourceId": "willison",
    "title": "llm-anthropic 0.31",
@@ -143,6 +325,19 @@
    "image": "https://static.simonwillison.net/static/2026/beep-locator-ui.webp",
    "videoId": null,
    "addedAt": "2026-11-10T12:59:10Z"
+  },
+  {
+   "id": "deepmind-a98763b80c84",
+   "sourceId": "deepmind",
+   "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+   "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "published": "2026-11-09T19:51:47Z",
+   "precision": "time",
+   "excerpt": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+   "summary": "",
+   "image": "https://lh3.googleusercontent.com/F1CrVEYRb8lJOyyxGgcyow-Td1de-nkp7K8MZrhjrKPANJUc0EYB754Ninn-Yrppjdb54nolOWo6Rk8iDaRNuixWwLaEKc0K9ImGooxen9fj9IOh=w528-h297-n-nu-rw-lo",
+   "videoId": null,
+   "addedAt": "2026-11-11T12:10:32Z"
   },
   {
    "id": "mollick-98d5b7ce1047",
