@@ -1,6 +1,84 @@
 {
- "generatedAt": "2026-11-12T13:16:07Z",
+ "generatedAt": "2026-11-13T12:38:21Z",
  "items": [
+  {
+   "id": "cicek-f161aa5fa6b2",
+   "sourceId": "cicek",
+   "title": "Muhtemelen Claude’a gereğinden fazla talimat veriyorsun",
+   "url": "https://www.youtube.com/shorts/0tkrvv1aHcA",
+   "published": "2026-11-13T11:00:19Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i1.ytimg.com/vi/0tkrvv1aHcA/hqdefault.jpg",
+   "videoId": "0tkrvv1aHcA",
+   "addedAt": "2026-11-13T12:38:21Z"
+  },
+  {
+   "id": "cicek-75943ca63459",
+   "sourceId": "cicek",
+   "title": "Altman, Yapay Zekânın Bilimsel Keşifler ve Güvenlik Boyutunu Anlattı",
+   "url": "https://www.youtube.com/shorts/zt7DxVyLgx8",
+   "published": "2026-11-13T07:00:37Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i3.ytimg.com/vi/zt7DxVyLgx8/hqdefault.jpg",
+   "videoId": "zt7DxVyLgx8",
+   "addedAt": "2026-11-13T12:38:21Z"
+  },
+  {
+   "id": "willison-8d30336b14bf",
+   "sourceId": "willison",
+   "title": "llm-gemini 0.37",
+   "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+   "published": "2026-11-12T22:55:19Z",
+   "precision": "time",
+   "excerpt": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme…",
+   "summary": "",
+   "image": "https://static.simonwillison.net/static/2026/gemini-4-pelicans.webp",
+   "videoId": null,
+   "addedAt": "2026-11-13T12:38:21Z"
+  },
+  {
+   "id": "openai-5b0f73df89a6",
+   "sourceId": "openai",
+   "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+   "url": "https://openai.com/business/customer-stories/amplitude",
+   "published": "2026-11-12T20:00:00Z",
+   "precision": "time",
+   "excerpt": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-13T12:38:21Z"
+  },
+  {
+   "id": "deepmind-4bad5afe01a1",
+   "sourceId": "deepmind",
+   "title": "Introducing Gemini 4 Hydrogen",
+   "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+   "published": "2026-11-12T18:00:50Z",
+   "precision": "time",
+   "excerpt": "",
+   "summary": "",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
+   "videoId": null,
+   "addedAt": "2026-11-13T12:38:21Z"
+  },
+  {
+   "id": "cicek-dd42db217ce2",
+   "sourceId": "cicek",
+   "title": "ABD Seçim Manipülasyonuna Karşı OpenAI'dan Savaş Odası",
+   "url": "https://www.youtube.com/shorts/fiRKORLl72k",
+   "published": "2026-11-12T15:00:15Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i3.ytimg.com/vi/fiRKORLl72k/hqdefault.jpg",
+   "videoId": "fiRKORLl72k",
+   "addedAt": "2026-11-13T12:38:21Z"
+  },
   {
    "id": "cicek-5bcb7aae266d",
    "sourceId": "cicek",
@@ -13,6 +91,19 @@
    "image": "https://i3.ytimg.com/vi/BfxZ7uQ7f6U/hqdefault.jpg",
    "videoId": "BfxZ7uQ7f6U",
    "addedAt": "2026-11-12T13:16:07Z"
+  },
+  {
+   "id": "openai-90d79223706e",
+   "sourceId": "openai",
+   "title": "Gondola doubles revenue as its team builds more with Codex",
+   "url": "https://openai.com/business/customer-stories/gondola",
+   "published": "2026-11-12T12:00:00Z",
+   "precision": "time",
+   "excerpt": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-13T12:38:21Z"
   },
   {
    "id": "cicek-194360f5316b",
@@ -353,6 +444,19 @@
    "addedAt": "2026-11-10T12:59:10Z"
   },
   {
+   "id": "deepmind-51d2fad24045",
+   "sourceId": "deepmind",
+   "title": "Opening the datasets behind our AI weather models",
+   "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+   "published": "2026-11-10T11:13:04Z",
+   "precision": "time",
+   "excerpt": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+   "summary": "",
+   "image": "https://lh3.googleusercontent.com/ggsqfaBnOayx-i7z9Kj8AeZruz8BSo0N7tsnqwH8Z3REnHcDKBt-QSA3DR4UUM8lcwklWihSARoEN2AyQFhoRFGFlk2-0-xGuKt_rtGoFwpJg8LHVQ=w528-h297-n-nu-rw-lo",
+   "videoId": null,
+   "addedAt": "2026-11-13T12:38:21Z"
+  },
+  {
    "id": "cicek-7b6d5583f550",
    "sourceId": "cicek",
    "title": "Google yeni modeli Gemini 4 Carbon'u duyurdu",
@@ -403,6 +507,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-11-11T12:10:32Z"
+  },
+  {
+   "id": "cae-ffcd3559e443",
+   "sourceId": "cae",
+   "title": "From potential to practice: A critical realist exploration of GenAI use in Australian early childhood education and care",
+   "url": "https://doi.org/10.1016/j.compedu.2026.105791",
+   "published": "2026-11-10T07:54:54Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-13T12:38:21Z"
   },
   {
    "id": "willison-fabe838d73f5",
