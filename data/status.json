@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-13T12:38:21Z",
+ "lastRun": "2026-11-14T11:45:29Z",
  "summaries": false,
  "sources": {
   "mollick": {
@@ -14,13 +14,13 @@
   },
   "cae": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 13
   },
   "bjet": {
    "ok": true,
-   "new": 0,
-   "count": 9
+   "new": 2,
+   "count": 11
   },
   "ijaied": {
    "ok": true,
@@ -40,7 +40,7 @@
   "openai": {
    "ok": true,
    "new": 2,
-   "count": 118
+   "count": 120
   },
   "anthropic": {
    "ok": false,
@@ -49,13 +49,13 @@
   },
   "deepmind": {
    "ok": true,
-   "new": 2,
+   "new": 0,
    "count": 20
   },
   "cicek": {
    "ok": true,
-   "new": 3,
-   "count": 65
+   "new": 4,
+   "count": 69
   },
   "erhan": {
    "ok": true,
@@ -64,8 +64,8 @@
   },
   "willison": {
    "ok": true,
-   "new": 1,
-   "count": 64
+   "new": 2,
+   "count": 66
   },
   "importai": {
    "ok": true,
@@ -103,8 +103,8 @@
    "count": 1
   },
   "alexander": {
-   "ok": false,
-   "note": "Okunamadı: https://bryanalexander.org/feed/ okunamadi: <urlopen error timed out>",
+   "ok": true,
+   "new": 0,
    "count": 2
   },
   "edsurge": {
