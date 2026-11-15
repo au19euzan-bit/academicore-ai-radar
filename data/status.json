@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-14T11:45:29Z",
+ "lastRun": "2026-11-15T12:16:15Z",
  "summaries": false,
  "sources": {
   "mollick": {
@@ -8,8 +8,8 @@
    "count": 3
   },
   "mishra": {
-   "ok": true,
-   "new": 0,
+   "ok": false,
+   "note": "Adres bir RSS akışı değil",
    "count": 14
   },
   "cae": {
@@ -19,7 +19,7 @@
   },
   "bjet": {
    "ok": true,
-   "new": 2,
+   "new": 0,
    "count": 11
   },
   "ijaied": {
@@ -39,7 +39,7 @@
   },
   "openai": {
    "ok": true,
-   "new": 2,
+   "new": 0,
    "count": 120
   },
   "anthropic": {
@@ -55,7 +55,7 @@
   "cicek": {
    "ok": true,
    "new": 4,
-   "count": 69
+   "count": 73
   },
   "erhan": {
    "ok": true,
@@ -65,7 +65,7 @@
   "willison": {
    "ok": true,
    "new": 2,
-   "count": 66
+   "count": 68
   },
   "importai": {
    "ok": true,
@@ -74,8 +74,8 @@
   },
   "interconnects": {
    "ok": true,
-   "new": 0,
-   "count": 8
+   "new": 1,
+   "count": 9
   },
   "normaltech": {
    "ok": true,
