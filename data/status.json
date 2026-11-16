@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-15T12:16:15Z",
+ "lastRun": "2026-11-16T13:09:14Z",
  "summaries": false,
  "sources": {
   "mollick": {
@@ -8,14 +8,14 @@
    "count": 3
   },
   "mishra": {
-   "ok": false,
-   "note": "Adres bir RSS akışı değil",
+   "ok": true,
+   "new": 0,
    "count": 14
   },
   "cae": {
    "ok": true,
-   "new": 0,
-   "count": 13
+   "new": 1,
+   "count": 14
   },
   "bjet": {
    "ok": true,
@@ -39,8 +39,8 @@
   },
   "openai": {
    "ok": true,
-   "new": 0,
-   "count": 120
+   "new": 4,
+   "count": 124
   },
   "anthropic": {
    "ok": false,
@@ -54,8 +54,8 @@
   },
   "cicek": {
    "ok": true,
-   "new": 4,
-   "count": 73
+   "new": 2,
+   "count": 75
   },
   "erhan": {
    "ok": true,
@@ -64,8 +64,8 @@
   },
   "willison": {
    "ok": true,
-   "new": 2,
-   "count": 68
+   "new": 5,
+   "count": 73
   },
   "importai": {
    "ok": true,
@@ -74,7 +74,7 @@
   },
   "interconnects": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 9
   },
   "normaltech": {
@@ -99,18 +99,18 @@
   },
   "bali": {
    "ok": true,
-   "new": 0,
-   "count": 1
+   "new": 1,
+   "count": 2
   },
   "alexander": {
    "ok": true,
-   "new": 0,
-   "count": 2
+   "new": 1,
+   "count": 3
   },
   "edsurge": {
    "ok": true,
-   "new": 0,
-   "count": 25
+   "new": 1,
+   "count": 26
   },
   "googleedu": {
    "ok": true,
