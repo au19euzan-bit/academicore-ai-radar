@@ -1,6 +1,149 @@
 {
- "generatedAt": "2026-11-17T13:51:33Z",
+ "generatedAt": "2026-11-18T13:26:55Z",
  "items": [
+  {
+   "id": "cicek-fc47259f06fd",
+   "sourceId": "cicek",
+   "title": "Demokratlar, Gelişmiş YZ Çalışmalarının Durdurulmasını İstiyor!",
+   "url": "https://www.youtube.com/shorts/tQBwUQ-by0o",
+   "published": "2026-11-18T13:00:39Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i1.ytimg.com/vi/tQBwUQ-by0o/hqdefault.jpg",
+   "videoId": "tQBwUQ-by0o",
+   "addedAt": "2026-11-18T13:26:55Z"
+  },
+  {
+   "id": "cicek-ac494982055e",
+   "sourceId": "cicek",
+   "title": "Dünyanın En Güçlü CEO'ları Neden Aynı Hatayı Yapıyor?",
+   "url": "https://www.youtube.com/shorts/NxoWcBdg0DE",
+   "published": "2026-11-18T11:00:37Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i3.ytimg.com/vi/NxoWcBdg0DE/hqdefault.jpg",
+   "videoId": "NxoWcBdg0DE",
+   "addedAt": "2026-11-18T13:26:55Z"
+  },
+  {
+   "id": "cicek-bf748d1b4eac",
+   "sourceId": "cicek",
+   "title": "Kimse Görmeseydi Ne Yapardınız? Platon'un Gyges Yüzüğü ve Güç",
+   "url": "https://www.youtube.com/shorts/swfgY4IFkWA",
+   "published": "2026-11-18T07:00:16Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i4.ytimg.com/vi/swfgY4IFkWA/hqdefault.jpg",
+   "videoId": "swfgY4IFkWA",
+   "addedAt": "2026-11-18T13:26:55Z"
+  },
+  {
+   "id": "openai-6cab9c8cd383",
+   "sourceId": "openai",
+   "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+   "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+   "published": "2026-11-18T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-18T13:26:55Z"
+  },
+  {
+   "id": "edsurge-e7d1321579d0",
+   "sourceId": "edsurge",
+   "title": "AI Has a Place in Education, Just Not in My Classroom",
+   "url": "https://www.edsurge.com/news/ai-has-a-place-in-education-just-not-in-my-classroom",
+   "published": "2026-11-18T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Despite the rise of AI in schools, a seventh-grade literacy teacher argues for the irreplaceable value of a low-tech classroom centered on foundational ...",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/6gliU9VceWKaCi1dCSCjmF/2592123d9e509ee839bd90dda41eafa1/shutterstock_2290057145.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-11-18T13:26:55Z"
+  },
+  {
+   "id": "willison-acdaad578a36",
+   "sourceId": "willison",
+   "title": "External sandboxes for coding agents",
+   "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+   "published": "2026-11-17T22:52:29Z",
+   "precision": "time",
+   "excerpt": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a…",
+   "summary": "",
+   "image": "https://static.simonwillison.net/static/2026/sandbox-proxy.png",
+   "videoId": null,
+   "addedAt": "2026-11-18T13:26:55Z"
+  },
+  {
+   "id": "willison-2a139dc941fa",
+   "sourceId": "willison",
+   "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+   "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+   "published": "2026-11-17T22:38:52Z",
+   "precision": "time",
+   "excerpt": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with…",
+   "summary": "",
+   "image": "https://static.simonwillison.net/static/2026/astra-6-2-max.webp",
+   "videoId": null,
+   "addedAt": "2026-11-18T13:26:55Z"
+  },
+  {
+   "id": "mishra-cbe86e15de82",
+   "sourceId": "mishra",
+   "title": "No Magic Bullets: A Conversation with Azadeh Hassani and Guy Trainin",
+   "url": "https://punyamishra.com/2026/11/17/no-magic-bullets-a-conversation-with-azadeh-hassani-and-guy-trainin/?utm_source=rss&utm_medium=rss&utm_campaign=no-magic-bullets-a-conversation-with-azadeh-hassani-and-guy-trainin",
+   "published": "2026-11-17T19:47:56Z",
+   "precision": "time",
+   "excerpt": "I recently had a chance to talk with two friends, Azadeh Hassani and Guy Trainin, on their podcast, Azadeh and Guy on AI, a weekly show about how AI is changing educational research. I have known Guy for a long time, and I have gotten to know Azadeh over the past semester as we…",
+   "summary": "",
+   "image": "https://punyamishra.com/wp-content/uploads/2026/11/nomagicbullets1.jpg",
+   "videoId": null,
+   "addedAt": "2026-11-18T13:26:55Z"
+  },
+  {
+   "id": "openai-549a77347d5e",
+   "sourceId": "openai",
+   "title": "Introducing GPT-6.2 Astra and Sol",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "published": "2026-11-17T17:45:00Z",
+   "precision": "time",
+   "excerpt": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-18T13:26:55Z"
+  },
+  {
+   "id": "willison-5ab3ec093f2b",
+   "sourceId": "willison",
+   "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+   "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+   "published": "2026-11-17T16:48:33Z",
+   "precision": "time",
+   "excerpt": "Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide . I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application. You…",
+   "summary": "",
+   "image": "https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp",
+   "videoId": null,
+   "addedAt": "2026-11-18T13:26:55Z"
+  },
+  {
+   "id": "cicek-ecbfb569401e",
+   "sourceId": "cicek",
+   "title": "Güç, Risk Algısını Nasıl Değiştirir? Dacher Keltner'in Güç Teorisi",
+   "url": "https://www.youtube.com/shorts/cJb9M4KWbMU",
+   "published": "2026-11-17T15:00:06Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i4.ytimg.com/vi/cJb9M4KWbMU/hqdefault.jpg",
+   "videoId": "cJb9M4KWbMU",
+   "addedAt": "2026-11-18T13:26:55Z"
+  },
   {
    "id": "cicek-ca0e0f7692f6",
    "sourceId": "cicek",
@@ -26,6 +169,19 @@
    "image": "https://i3.ytimg.com/vi/z4dFVTNkmKI/hqdefault.jpg",
    "videoId": "z4dFVTNkmKI",
    "addedAt": "2026-11-17T13:51:33Z"
+  },
+  {
+   "id": "openai-c6c361c53bc4",
+   "sourceId": "openai",
+   "title": "Introducing ChatGPT for Sales",
+   "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+   "published": "2026-11-17T08:00:00Z",
+   "precision": "time",
+   "excerpt": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-18T13:26:55Z"
   },
   {
    "id": "willison-53b21da3b833",
@@ -54,6 +210,58 @@
    "addedAt": "2026-11-17T13:51:33Z"
   },
   {
+   "id": "openai-0604bc2b50fc",
+   "sourceId": "openai",
+   "title": "Astra for Law leads in legal intelligence",
+   "url": "https://openai.com/index/astra-law-6-2",
+   "published": "2026-11-17T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-18T13:26:55Z"
+  },
+  {
+   "id": "openai-58da9c66b145",
+   "sourceId": "openai",
+   "title": "Introducing OpenAI for Chile",
+   "url": "https://openai.com/index/introducing-openai-for-chile",
+   "published": "2026-11-17T00:00:00Z",
+   "precision": "time",
+   "excerpt": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-18T13:26:55Z"
+  },
+  {
+   "id": "edsurge-af54e79f3722",
+   "sourceId": "edsurge",
+   "title": "Power Up Learning with an Official Pokémon Club",
+   "url": "https://www.edsurge.com/news/power-up-learning-with-an-official-pokemon-club",
+   "published": "2026-11-17T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Beyond the card battles lies a secret superpower for educators: a fun, low-stress way to boost student confidence and build community.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/1V6cF160vFzwpfEukThQJF/d33dafe7dcd69130c8cb72e13386e91c/shutterstock_2247853001.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-11-18T13:26:55Z"
+  },
+  {
+   "id": "edsurge-cc08cc0ec9d3",
+   "sourceId": "edsurge",
+   "title": "What Happens When AI Suggests Minecraft for a Lesson on Circles?",
+   "url": "https://www.edsurge.com/news/what-happens-when-ai-suggests-minecraft-for-a-lesson-on-circles",
+   "published": "2026-11-17T00:00:00Z",
+   "precision": "time",
+   "excerpt": "New research on AI-powered personalized learning shows why teacher judgment is crucial when chatbots miss the mark.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/1WorVs7jksz9h5SsNufY9n/098e9b3686913e86b5e1f8f54202e941/shutterstock_2745488933.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-11-18T13:26:55Z"
+  },
+  {
    "id": "willison-3ae3a490dc72",
    "sourceId": "willison",
    "title": "llm 0.37.3",
@@ -65,6 +273,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-11-17T13:51:33Z"
+  },
+  {
+   "id": "alexander-0c63e7035302",
+   "sourceId": "alexander",
+   "title": "International enrollment in American higher ed declines again: new data",
+   "url": "https://bryanalexander.org/enrollment/international-enrollment-in-american-higher-ed-declines-again-new-data/",
+   "published": "2026-11-16T19:14:06Z",
+   "precision": "time",
+   "excerpt": "It looks like the number of international students taking classes at American colleges and universities declined. That’s the second year in a row, after last year’s drop. There are two sources for this latest data. First, the Institute of International … Continue reading →",
+   "summary": "",
+   "image": "https://bryanalexander.org/wp-content/uploads/2026/11/international-enrollment-2026-Studyportals-2026-Nov.png",
+   "videoId": null,
+   "addedAt": "2026-11-18T13:26:55Z"
   },
   {
    "id": "openai-f26f2a4dfd6b",
@@ -769,6 +990,19 @@
    "addedAt": "2026-11-12T13:16:07Z"
   },
   {
+   "id": "openai-a045ec708b22",
+   "sourceId": "openai",
+   "title": "ChatGPT Ads increases its market presence in 44 countries",
+   "url": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
+   "published": "2026-11-12T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Aleph selected as ChatGPT Ads’ exclusive reseller in 44 countries to offer local invoicing, in-person support and local market expertise to brands and agencies",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-18T13:26:55Z"
+  },
+  {
    "id": "willison-bb485df9f4f5",
    "sourceId": "willison",
    "title": "Gemini Decisions API",
@@ -806,6 +1040,19 @@
    "image": "https://static.simonwillison.net/static/2026/tools-tag-cloud.webp",
    "videoId": null,
    "addedAt": "2026-11-12T13:16:07Z"
+  },
+  {
+   "id": "cae-b1e4fdf10d1d",
+   "sourceId": "cae",
+   "title": "Automatic mind wandering detection in educational settings: A systematic review and multimodal benchmarking",
+   "url": "https://doi.org/10.1016/j.compedu.2026.105781",
+   "published": "2026-11-11T18:01:38Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-18T13:26:55Z"
   },
   {
    "id": "willison-d7c77ea971b9",
@@ -1417,6 +1664,19 @@
    "image": "https://images.ctfassets.net/eflsecw4kznd/5bPfeitPdi6HS0EXgiMcTB/217651a472fbb7f8614088cc2ca2cf97/shutterstock_2849530111.jpg?w=1200",
    "videoId": null,
    "addedAt": "2026-11-09T13:22:53Z"
+  },
+  {
+   "id": "openai-041eb172e023",
+   "sourceId": "openai",
+   "title": "How VistaPrint helps small businesses get the word out",
+   "url": "https://openai.com/ads/customers/vistaprint",
+   "published": "2026-11-09T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Small business owners preparing for a launch or an event often know what they want to accomplish before they know what to print. VistaPrint uses ChatGPT Ads to show how products like signs and branded merchandise can help them get the word out.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-18T13:26:55Z"
   },
   {
    "id": "willison-9572242cc9fc",

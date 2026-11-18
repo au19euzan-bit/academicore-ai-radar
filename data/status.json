@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-17T13:51:33Z",
+ "lastRun": "2026-11-18T13:26:55Z",
  "summaries": false,
  "sources": {
   "mollick": {
@@ -9,13 +9,13 @@
   },
   "mishra": {
    "ok": true,
-   "new": 0,
-   "count": 14
+   "new": 1,
+   "count": 15
   },
   "cae": {
    "ok": true,
-   "new": 0,
-   "count": 14
+   "new": 1,
+   "count": 15
   },
   "bjet": {
    "ok": true,
@@ -39,8 +39,8 @@
   },
   "openai": {
    "ok": true,
-   "new": 9,
-   "count": 133
+   "new": 7,
+   "count": 140
   },
   "anthropic": {
    "ok": false,
@@ -54,8 +54,8 @@
   },
   "cicek": {
    "ok": true,
-   "new": 2,
-   "count": 77
+   "new": 4,
+   "count": 81
   },
   "erhan": {
    "ok": true,
@@ -64,12 +64,12 @@
   },
   "willison": {
    "ok": true,
-   "new": 2,
-   "count": 75
+   "new": 3,
+   "count": 78
   },
   "importai": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 7
   },
   "interconnects": {
@@ -103,14 +103,14 @@
    "count": 2
   },
   "alexander": {
-   "ok": false,
-   "note": "Okunamadı: https://bryanalexander.org/feed/ okunamadi: <urlopen error timed out>",
-   "count": 3
+   "ok": true,
+   "new": 1,
+   "count": 4
   },
   "edsurge": {
    "ok": true,
-   "new": 0,
-   "count": 26
+   "new": 3,
+   "count": 29
   },
   "googleedu": {
    "ok": true,
