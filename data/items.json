@@ -1,6 +1,110 @@
 {
- "generatedAt": "2026-11-19T13:54:15Z",
+ "generatedAt": "2026-11-20T13:36:59Z",
  "items": [
+  {
+   "id": "cicek-59c9fb043b2c",
+   "sourceId": "cicek",
+   "title": "Claude Hafızasını Deneyimlerden Öğrenerek Nasıl Düzenliyor?",
+   "url": "https://www.youtube.com/shorts/4NO6KVyurPc",
+   "published": "2026-11-20T13:00:04Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i1.ytimg.com/vi/4NO6KVyurPc/hqdefault.jpg",
+   "videoId": "4NO6KVyurPc",
+   "addedAt": "2026-11-20T13:36:59Z"
+  },
+  {
+   "id": "cicek-f1a7bcf261a6",
+   "sourceId": "cicek",
+   "title": "OKA’dan Ekranı Olmayan Mantar Şekilli Robot Mori",
+   "url": "https://www.youtube.com/shorts/PlJZji_uCIs",
+   "published": "2026-11-20T11:00:15Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i1.ytimg.com/vi/PlJZji_uCIs/hqdefault.jpg",
+   "videoId": "PlJZji_uCIs",
+   "addedAt": "2026-11-20T13:36:59Z"
+  },
+  {
+   "id": "cicek-e9a7946d6c6e",
+   "sourceId": "cicek",
+   "title": "Ford, Rivian ve GM, Üretim Süreçlerinde 3D Yazıcı Kullanımını Genişletiyor",
+   "url": "https://www.youtube.com/shorts/UE0vJAfspF4",
+   "published": "2026-11-20T07:00:26Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i2.ytimg.com/vi/UE0vJAfspF4/hqdefault.jpg",
+   "videoId": "UE0vJAfspF4",
+   "addedAt": "2026-11-20T13:36:59Z"
+  },
+  {
+   "id": "furze-1e83a506e4e6",
+   "sourceId": "furze",
+   "title": "AI and Student Wellbeing: Companion Chatbots",
+   "url": "https://leonfurze.com/2026/11/20/ai-and-student-wellbeing/",
+   "published": "2026-11-20T05:34:22Z",
+   "precision": "time",
+   "excerpt": "Most school conversations about AI still start with cheating. But students are turning to AI for companionship, advice and relationships, and deepfakes are reshaping image-based abuse. Why AI belongs in wellbeing programs, not just academic integrity policies.",
+   "summary": "",
+   "image": "https://i0.wp.com/leonfurze.com/wp-content/uploads/2026/11/Screenshot-2026-11-20-at-4.33.07-pm.png?resize=1024%2C571&ssl=1",
+   "videoId": null,
+   "addedAt": "2026-11-20T13:36:59Z"
+  },
+  {
+   "id": "furze-0f2e231af8f9",
+   "sourceId": "furze",
+   "title": "Beyond Chatbots: We Need to Stop Trying to Build Better Bots",
+   "url": "https://leonfurze.com/2026/11/20/beyond-chatbots-better-bots/",
+   "published": "2026-11-20T03:04:47Z",
+   "precision": "time",
+   "excerpt": "Education departments are answering AI with bespoke chatbots. But a centrally provided chatbot is a deliverable, not a strategy, and every dollar spent maintaining one is a dollar not spent on teachers, infrastructure and governance.",
+   "summary": "",
+   "image": "https://i0.wp.com/leonfurze.com/wp-content/uploads/2026/11/Screenshot-2026-11-20-at-9.23.36-am.png?resize=1024%2C493&ssl=1",
+   "videoId": null,
+   "addedAt": "2026-11-20T13:36:59Z"
+  },
+  {
+   "id": "willison-f32d5bea8abf",
+   "sourceId": "willison",
+   "title": "Token fraud is here and it’s BAD (YouTube)",
+   "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+   "published": "2026-11-20T02:49:57Z",
+   "precision": "time",
+   "excerpt": "Token fraud is here and it’s BAD (YouTube) Claire Vo runs ChatPRD , an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time. In this YouTube video (see…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-20T13:36:59Z"
+  },
+  {
+   "id": "willison-7339d690dfb6",
+   "sourceId": "willison",
+   "title": "PostgreSQL 19 Released",
+   "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+   "published": "2026-11-19T20:43:57Z",
+   "precision": "time",
+   "excerpt": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-20T13:36:59Z"
+  },
+  {
+   "id": "cicek-750d7eead953",
+   "sourceId": "cicek",
+   "title": "Netflix, Yapay Zekâ Destekli AI Discover Sekmesini Tanıttı",
+   "url": "https://www.youtube.com/shorts/BzjuH-jdyso",
+   "published": "2026-11-19T15:00:04Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i3.ytimg.com/vi/BzjuH-jdyso/hqdefault.jpg",
+   "videoId": "BzjuH-jdyso",
+   "addedAt": "2026-11-20T13:36:59Z"
+  },
   {
    "id": "cicek-0807bcb9922e",
    "sourceId": "cicek",
@@ -28,6 +132,19 @@
    "addedAt": "2026-11-19T13:54:15Z"
   },
   {
+   "id": "openai-6687f7be62c3",
+   "sourceId": "openai",
+   "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+   "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+   "published": "2026-11-19T08:00:00Z",
+   "precision": "time",
+   "excerpt": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-20T13:36:59Z"
+  },
+  {
    "id": "cicek-9845e6fcf2ae",
    "sourceId": "cicek",
    "title": "Anthropic, İnsan Hücrelerindeki Vault Parçacıklarını Claude ile İnceledi",
@@ -39,6 +156,71 @@
    "image": "https://i3.ytimg.com/vi/BCYllzhXYvI/hqdefault.jpg",
    "videoId": "BCYllzhXYvI",
    "addedAt": "2026-11-19T13:54:15Z"
+  },
+  {
+   "id": "openai-4b08ec50268e",
+   "sourceId": "openai",
+   "title": "Deploying Daybreak Red",
+   "url": "https://openai.com/business/learn/deploying-daybreak-red",
+   "published": "2026-11-19T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-20T13:36:59Z"
+  },
+  {
+   "id": "openai-cb99e2baa62e",
+   "sourceId": "openai",
+   "title": "See PR scans in action",
+   "url": "https://openai.com/business/learn/pr-scans-demo",
+   "published": "2026-11-19T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-20T13:36:59Z"
+  },
+  {
+   "id": "openai-e29ac258c013",
+   "sourceId": "openai",
+   "title": "Explore the Codex Security Plugin",
+   "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+   "published": "2026-11-19T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-20T13:36:59Z"
+  },
+  {
+   "id": "openai-a2fb00344062",
+   "sourceId": "openai",
+   "title": "Get started with Daybreak Blue",
+   "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+   "published": "2026-11-19T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-20T13:36:59Z"
+  },
+  {
+   "id": "edsurge-36be858849fe",
+   "sourceId": "edsurge",
+   "title": "Google Says Schools Can’t Have Search Without AI. Some Are Finding a Way.",
+   "url": "https://www.edsurge.com/news/google-says-schools-cant-have-search-without-ai-some-are-finding-a-way",
+   "published": "2026-11-19T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Districts and filtering companies were blocking AI search results long before Google’s new policy.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/7inDXjtboD93LroADtYl6v/b10f1a5681e51e05fc79fe76158ba265/shutterstock_408856648.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-11-20T13:36:59Z"
   },
   {
    "id": "willison-fd1897fc7619",
@@ -587,6 +769,19 @@
    "addedAt": "2026-11-16T13:09:14Z"
   },
   {
+   "id": "cae-7a9d68e7bfb3",
+   "sourceId": "cae",
+   "title": "Social media as a tool for governance-related communication: A comparative study of Chinese and European public universities in the digital age",
+   "url": "https://doi.org/10.1016/j.compedu.2026.105804",
+   "published": "2026-11-16T08:08:12Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-20T13:36:59Z"
+  },
+  {
    "id": "openai-ebd9eb949639",
    "sourceId": "openai",
    "title": "Our first phase of embedded assessments",
@@ -754,6 +949,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-11-16T13:09:14Z"
+  },
+  {
+   "id": "cae-7400e0c4421d",
+   "sourceId": "cae",
+   "title": "Mapping the social ecology of children's group learning: A systematic review and conceptual framework for robot-supported educational activities",
+   "url": "https://doi.org/10.1016/j.compedu.2026.105801",
+   "published": "2026-11-15T15:52:11Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-20T13:36:59Z"
   },
   {
    "id": "alexander-07fd98820bda",
