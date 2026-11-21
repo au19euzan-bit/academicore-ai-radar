@@ -1,6 +1,97 @@
 {
- "generatedAt": "2026-11-20T13:36:59Z",
+ "generatedAt": "2026-11-21T13:00:30Z",
  "items": [
+  {
+   "id": "cicek-7d4d9f4ff23b",
+   "sourceId": "cicek",
+   "title": "OpenAI, ChatGPT İçin Businesses Özelliğini Başlattı",
+   "url": "https://www.youtube.com/shorts/kQhlk_yZL9E",
+   "published": "2026-11-21T13:00:17Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i4.ytimg.com/vi/kQhlk_yZL9E/hqdefault.jpg",
+   "videoId": "kQhlk_yZL9E",
+   "addedAt": "2026-11-21T13:00:30Z"
+  },
+  {
+   "id": "cicek-69a87c7aaf97",
+   "sourceId": "cicek",
+   "title": "Anthropic, Claude Meetings, Sheets ve Whiteboards'u Duyurdu",
+   "url": "https://www.youtube.com/shorts/O7172dydqSM",
+   "published": "2026-11-21T11:00:28Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i4.ytimg.com/vi/O7172dydqSM/hqdefault.jpg",
+   "videoId": "O7172dydqSM",
+   "addedAt": "2026-11-21T13:00:30Z"
+  },
+  {
+   "id": "cicek-c9bbd0cd1445",
+   "sourceId": "cicek",
+   "title": "Waiff 2026'da Neler Oldu?",
+   "url": "https://www.youtube.com/shorts/GtP7zbceo4g",
+   "published": "2026-11-21T07:00:29Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i4.ytimg.com/vi/GtP7zbceo4g/hqdefault.jpg",
+   "videoId": "GtP7zbceo4g",
+   "addedAt": "2026-11-21T13:00:30Z"
+  },
+  {
+   "id": "willison-6a73fdd651f9",
+   "sourceId": "willison",
+   "title": "Quoting Ravi Vakil",
+   "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+   "published": "2026-11-20T19:21:49Z",
+   "precision": "time",
+   "excerpt": "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-21T13:00:30Z"
+  },
+  {
+   "id": "willison-9e188d65b5ac",
+   "sourceId": "willison",
+   "title": "Quoting Levent Alpöge",
+   "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+   "published": "2026-11-20T16:30:48Z",
+   "precision": "time",
+   "excerpt": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-21T13:00:30Z"
+  },
+  {
+   "id": "erhan-416dcf03b370",
+   "sourceId": "erhan",
+   "title": "Küçük Model Ezberlemedi, Hal Siparişini Okumayı Öğrendi",
+   "url": "https://www.youtube.com/shorts/KMDsCkMMFkA",
+   "published": "2026-11-20T15:42:45Z",
+   "precision": "time",
+   "excerpt": "Detaylı Videonun linki: https://youtu.be/sz5XhYTVr9Y 10 ay önce ASUS Ascent GX10 videosunda söz vermiştim, kendi modelimi eğitecektim. (tanıtım) Kod yazmadan, terminale boğulmadan, sadece tıklayarak yaptım. Unsloth Studio ile 1,5 milyar parametrelik Qwen 2.5 modeline tek bir iş…",
+   "summary": "",
+   "image": "https://i4.ytimg.com/vi/KMDsCkMMFkA/hqdefault.jpg",
+   "videoId": "KMDsCkMMFkA",
+   "addedAt": "2026-11-21T13:00:30Z"
+  },
+  {
+   "id": "cicek-216dc43c8251",
+   "sourceId": "cicek",
+   "title": "OpenAI, 1,25 Trilyon Dolar Değerlemeyle 11 Milyar Dolar Yatırım Topladı",
+   "url": "https://www.youtube.com/shorts/jiY0wd_nGRw",
+   "published": "2026-11-20T15:00:16Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i3.ytimg.com/vi/jiY0wd_nGRw/hqdefault.jpg",
+   "videoId": "jiY0wd_nGRw",
+   "addedAt": "2026-11-21T13:00:30Z"
+  },
   {
    "id": "cicek-59c9fb043b2c",
    "sourceId": "cicek",
@@ -26,6 +117,19 @@
    "image": "https://i1.ytimg.com/vi/PlJZji_uCIs/hqdefault.jpg",
    "videoId": "PlJZji_uCIs",
    "addedAt": "2026-11-20T13:36:59Z"
+  },
+  {
+   "id": "openai-3ea993db7e3c",
+   "sourceId": "openai",
+   "title": "Combatting adversarial distillation",
+   "url": "https://openai.com/index/combatting-adversarial-distillation",
+   "published": "2026-11-20T10:00:00Z",
+   "precision": "time",
+   "excerpt": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/kftzwdyauwt9/5SUtPGdssrttC7LfP1yoJ1/b6b000846ab3576c1735c29534ab20b0/combatting-adversarial-distillation-social.png?w=1600&h=900&fit=fill",
+   "videoId": null,
+   "addedAt": "2026-11-21T13:00:30Z"
   },
   {
    "id": "cicek-e9a7946d6c6e",
@@ -80,6 +184,32 @@
    "addedAt": "2026-11-20T13:36:59Z"
   },
   {
+   "id": "openai-d15c45643214",
+   "sourceId": "openai",
+   "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+   "url": "https://openai.com/business/customer-stories/hebbia",
+   "published": "2026-11-20T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/kftzwdyauwt9/70gWqYyqb096it9EoD7OqI/5df8cad1c7fdf2a4e942c3183a10f405/hebbia-smoked-depth-social.png?w=1600&h=900&fit=fill",
+   "videoId": null,
+   "addedAt": "2026-11-21T13:00:30Z"
+  },
+  {
+   "id": "openai-f4784c304003",
+   "sourceId": "openai",
+   "title": "Can AI help scientists identify promising drug candidates?",
+   "url": "https://openai.com/index/introducing-medchembench",
+   "published": "2026-11-20T00:00:00Z",
+   "precision": "time",
+   "excerpt": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/kftzwdyauwt9/37ZvKdwVigsgJ7G3FMr4Nb/12854063a79d19d63278704bf54e3010/introducing-medchembench-social.png?w=1600&h=900&fit=fill",
+   "videoId": null,
+   "addedAt": "2026-11-21T13:00:30Z"
+  },
+  {
    "id": "willison-7339d690dfb6",
    "sourceId": "willison",
    "title": "PostgreSQL 19 Released",
@@ -91,6 +221,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-11-20T13:36:59Z"
+  },
+  {
+   "id": "cae-405f07effac5",
+   "sourceId": "cae",
+   "title": "Orchestrating scaffolding AI agents: How delivery order shapes learning in problem-solving tasks",
+   "url": "https://doi.org/10.1016/j.compedu.2026.105802",
+   "published": "2026-11-19T16:46:54Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-21T13:00:30Z"
   },
   {
    "id": "cicek-750d7eead953",
