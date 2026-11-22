@@ -1,6 +1,58 @@
 {
- "generatedAt": "2026-11-21T13:00:30Z",
+ "generatedAt": "2026-11-22T12:52:05Z",
  "items": [
+  {
+   "id": "cicek-3475199982a5",
+   "sourceId": "cicek",
+   "title": "AI Futures Project, İnsan Seviyesinde Yz Araştırmacısı İçin 2027'yi İşaret Etti",
+   "url": "https://www.youtube.com/shorts/at7mSAKrWq0",
+   "published": "2026-11-22T11:00:01Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i2.ytimg.com/vi/at7mSAKrWq0/hqdefault.jpg",
+   "videoId": "at7mSAKrWq0",
+   "addedAt": "2026-11-22T12:52:05Z"
+  },
+  {
+   "id": "cicek-4f088a679c00",
+   "sourceId": "cicek",
+   "title": "METR : Anthropic'te Yapay Zekâ Geliştirme Süreci İki Kat Hızlandı",
+   "url": "https://www.youtube.com/shorts/EHOuAJPMtwk",
+   "published": "2026-11-22T07:00:28Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i2.ytimg.com/vi/EHOuAJPMtwk/hqdefault.jpg",
+   "videoId": "EHOuAJPMtwk",
+   "addedAt": "2026-11-22T12:52:05Z"
+  },
+  {
+   "id": "willison-0ceef4b235ec",
+   "sourceId": "willison",
+   "title": "Muru",
+   "url": "https://simonwillison.net/2026/Nov/21/muru/",
+   "published": "2026-11-21T23:56:28Z",
+   "precision": "time",
+   "excerpt": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-22T12:52:05Z"
+  },
+  {
+   "id": "cicek-56a4ddd43ae9",
+   "sourceId": "cicek",
+   "title": "Boston Dynamics Atlas, Tekerleklerle Havada 360 Derece Döndü",
+   "url": "https://www.youtube.com/shorts/MR7n7FpKIYw",
+   "published": "2026-11-21T15:00:13Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i2.ytimg.com/vi/MR7n7FpKIYw/hqdefault.jpg",
+   "videoId": "MR7n7FpKIYw",
+   "addedAt": "2026-11-22T12:52:05Z"
+  },
   {
    "id": "cicek-7d4d9f4ff23b",
    "sourceId": "cicek",
@@ -169,6 +221,19 @@
    "image": "https://i0.wp.com/leonfurze.com/wp-content/uploads/2026/11/Screenshot-2026-11-20-at-9.23.36-am.png?resize=1024%2C493&ssl=1",
    "videoId": null,
    "addedAt": "2026-11-20T13:36:59Z"
+  },
+  {
+   "id": "willison-d63c6404d469",
+   "sourceId": "willison",
+   "title": "llm-gemini 0.38.1",
+   "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
+   "published": "2026-11-20T03:01:57Z",
+   "precision": "time",
+   "excerpt": "Release: llm-gemini 0.38.1 Gemini 4 Carbon only supports low , medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh level. I missed that when I added those models to the llm-gemini plugin, which is now fixed in this dot release. The…",
+   "summary": "",
+   "image": "https://static.simonwillison.net/static/2026/gemini-4-xhigh-pelicans.webp",
+   "videoId": null,
+   "addedAt": "2026-11-22T12:52:05Z"
   },
   {
    "id": "willison-f32d5bea8abf",
