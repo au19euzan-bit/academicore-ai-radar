@@ -1,6 +1,84 @@
 {
- "generatedAt": "2026-11-22T12:52:05Z",
+ "generatedAt": "2026-11-23T15:22:58Z",
  "items": [
+  {
+   "id": "cicek-0d4ff9a945d0",
+   "sourceId": "cicek",
+   "title": "Jensen Huang ve Harari: Zeka ile Bilinç Aynı Şey Değil",
+   "url": "https://www.youtube.com/shorts/t9tGFxbqRnA",
+   "published": "2026-11-23T11:00:00Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i1.ytimg.com/vi/t9tGFxbqRnA/hqdefault.jpg",
+   "videoId": "t9tGFxbqRnA",
+   "addedAt": "2026-11-23T15:22:58Z"
+  },
+  {
+   "id": "cicek-5807eae9f636",
+   "sourceId": "cicek",
+   "title": "Bilinçliymiş Gibi Görünen Yaapy Zeka: Mustafa Süleyman'ın Uyarısı",
+   "url": "https://www.youtube.com/shorts/bngQ81cJAeY",
+   "published": "2026-11-23T07:00:08Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i3.ytimg.com/vi/bngQ81cJAeY/hqdefault.jpg",
+   "videoId": "bngQ81cJAeY",
+   "addedAt": "2026-11-23T15:22:58Z"
+  },
+  {
+   "id": "edsurge-0c9e20440a37",
+   "sourceId": "edsurge",
+   "title": "If Representation Matters, Then Authenticity Does Too",
+   "url": "https://www.edsurge.com/news/if-representation-matters-then-authenticity-does-too",
+   "published": "2026-11-23T00:00:00Z",
+   "precision": "time",
+   "excerpt": "As a Black male kindergarten teacher, I spent a decade defying stereotypes. To keep people like me in the classroom, schools must stop boxing us in.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/63DbsicWJMYQbb8slfFf8V/c10b0b3c4a290362a56f3c0d764dad9a/shutterstock_4225009317.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-11-23T15:22:58Z"
+  },
+  {
+   "id": "willison-9b4a55165bbd",
+   "sourceId": "willison",
+   "title": "Select Styling Specimens",
+   "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+   "published": "2026-11-22T19:45:06Z",
+   "precision": "time",
+   "excerpt": "Tool: Select Styling Specimens I got frustrated at how HTML <select> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome: So I had Claude Fable 5.2 build me this page showing all of the ways they can be styled: Build an HTML page that…",
+   "summary": "",
+   "image": "https://static.simonwillison.net/static/2026/select-firefox-safari-chrome.webp",
+   "videoId": null,
+   "addedAt": "2026-11-23T15:22:58Z"
+  },
+  {
+   "id": "cicek-56af0ed6854f",
+   "sourceId": "cicek",
+   "title": "Claude Hissediyor mu? Anthropic Bile Emin Değil",
+   "url": "https://www.youtube.com/shorts/rPqst5aHj40",
+   "published": "2026-11-22T15:00:11Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i3.ytimg.com/vi/rPqst5aHj40/hqdefault.jpg",
+   "videoId": "rPqst5aHj40",
+   "addedAt": "2026-11-23T15:22:58Z"
+  },
+  {
+   "id": "cicek-bbc285024846",
+   "sourceId": "cicek",
+   "title": "Amazon, Astro'nun Ardından Fauna Robotics ile Ev Robotlarına Odaklandı",
+   "url": "https://www.youtube.com/shorts/DGZcyjZvZgA",
+   "published": "2026-11-22T13:00:29Z",
+   "precision": "time",
+   "excerpt": "🔔 Hala abone olmadıysanız kanalıma abone olmayı ve zili açmayı unutmayın. 🧡İzlediğiniz ve sevdiğiniz videolarıma da bir kalp bırakmayı ihmal etmeyin. ➳ https://www.youtube.com/user/cicekcizmeci/sub_confirmation=1 Haber Bültenimiz: https://www.instagram.com/nuvem.mag Whatsapp…",
+   "summary": "",
+   "image": "https://i1.ytimg.com/vi/DGZcyjZvZgA/hqdefault.jpg",
+   "videoId": "DGZcyjZvZgA",
+   "addedAt": "2026-11-23T15:22:58Z"
+  },
   {
    "id": "cicek-3475199982a5",
    "sourceId": "cicek",
@@ -26,6 +104,19 @@
    "image": "https://i2.ytimg.com/vi/EHOuAJPMtwk/hqdefault.jpg",
    "videoId": "EHOuAJPMtwk",
    "addedAt": "2026-11-22T12:52:05Z"
+  },
+  {
+   "id": "openai-de5cd1a6d51d",
+   "sourceId": "openai",
+   "title": "Perplexity and Intelligence",
+   "url": "https://openai.com/index/perplexity-and-intelligence",
+   "published": "2026-11-22T00:00:00Z",
+   "precision": "time",
+   "excerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill",
+   "videoId": null,
+   "addedAt": "2026-11-23T15:22:58Z"
   },
   {
    "id": "willison-0ceef4b235ec",
