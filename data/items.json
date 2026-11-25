@@ -1,6 +1,84 @@
 {
- "generatedAt": "2026-11-24T15:17:27Z",
+ "generatedAt": "2026-11-25T14:57:37Z",
  "items": [
+  {
+   "id": "edsurge-49775ea58c15",
+   "sourceId": "edsurge",
+   "title": "Why Kindergarten Shouldn’t Feel Like Starting Over",
+   "url": "https://www.edsurge.com/news/why-kindergarten-shouldnt-feel-like-starting-over",
+   "published": "2026-11-25T00:00:00Z",
+   "precision": "time",
+   "excerpt": "On “This Week with EdSurge,” two guests explain how early educators build belonging.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/RkEC3ZzTMV0qXTN2qMGIB/9542f22ea4ef1c80e14c7b9fa4ceb554/shutterstock_1476636281.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-11-25T14:57:37Z"
+  },
+  {
+   "id": "edsurge-1a7a4bbdd55d",
+   "sourceId": "edsurge",
+   "title": "What Happens When AI Outruns Title I Schools?",
+   "url": "https://www.edsurge.com/news/what-happens-when-ai-outruns-title-i-schools",
+   "published": "2026-11-25T00:00:00Z",
+   "precision": "time",
+   "excerpt": "As AI advances in curriculum and instruction, this educator questions whether the race to implementation is leaving Title I schools behind.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/eflsecw4kznd/1qVFld2JuwOQy1eKG6nDoJ/0069036e2b57c7bd7a37a932a183012b/shutterstock_2851690753.jpg?w=1200",
+   "videoId": null,
+   "addedAt": "2026-11-25T14:57:37Z"
+  },
+  {
+   "id": "willison-8caf92805426",
+   "sourceId": "willison",
+   "title": "Three LLM inflection points in twelve months",
+   "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+   "published": "2026-11-24T23:02:07Z",
+   "precision": "time",
+   "excerpt": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going…",
+   "summary": "",
+   "image": "https://static.simonwillison.net/static/2026/fable-class.webp",
+   "videoId": null,
+   "addedAt": "2026-11-25T14:57:37Z"
+  },
+  {
+   "id": "willison-c808d58c8ec4",
+   "sourceId": "willison",
+   "title": "GPT 6.2 Astra Solves a Historical Mystery",
+   "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+   "published": "2026-11-24T16:53:59Z",
+   "precision": "time",
+   "excerpt": "GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-25T14:57:37Z"
+  },
+  {
+   "id": "openai-3c6728c1bfd1",
+   "sourceId": "openai",
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+   "published": "2026-11-24T13:00:00Z",
+   "precision": "time",
+   "excerpt": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/kftzwdyauwt9/Eg5mCwwaA3KqnznOVCh0n/8e6deaef25fd508d9853ff86a95187c1/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities-social.png?w=1600&h=900&fit=fill",
+   "videoId": null,
+   "addedAt": "2026-11-25T14:57:37Z"
+  },
+  {
+   "id": "openai-f3aa9260f109",
+   "sourceId": "openai",
+   "title": "Searching for distant planets with Astra",
+   "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+   "published": "2026-11-24T11:00:00Z",
+   "precision": "time",
+   "excerpt": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/kftzwdyauwt9/318YLaAKlMKQFzOdMutjeX/8b6e4e516fd1a7894c97318838f43a0f/searching-for-distant-planets-with-astra-social.png?w=1600&h=900&fit=fill",
+   "videoId": null,
+   "addedAt": "2026-11-25T14:57:37Z"
+  },
   {
    "id": "willison-dea2f8e3c06e",
    "sourceId": "willison",
@@ -28,6 +106,19 @@
    "addedAt": "2026-11-24T15:17:27Z"
   },
   {
+   "id": "cae-9a07b1bd80d7",
+   "sourceId": "cae",
+   "title": "Comparing three instructional arrangements for immersive and desktop science learning: A multischool cluster-randomized trial of conceptual understanding and delayed transfer",
+   "url": "https://doi.org/10.1016/j.compedu.2026.105805",
+   "published": "2026-11-24T00:04:59Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-25T14:57:37Z"
+  },
+  {
    "id": "edsurge-e15e3afab496",
    "sourceId": "edsurge",
    "title": "How One Teacher Prep Program Made Its Technology Use Visible",
@@ -39,6 +130,45 @@
    "image": "https://images.ctfassets.net/eflsecw4kznd/5nUF9ml3VFGSkGM7biurtS/5f0c9a07dd3411c1d96cac17080fc399/shutterstock_1287858232.jpg?w=1200",
    "videoId": null,
    "addedAt": "2026-11-24T15:17:27Z"
+  },
+  {
+   "id": "openai-ec442b764e04",
+   "sourceId": "openai",
+   "title": "How Intentful uses dots to make more time for growth",
+   "url": "https://openai.com/business/customer-stories/intentful-dots",
+   "published": "2026-11-24T00:00:00Z",
+   "precision": "time",
+   "excerpt": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/kftzwdyauwt9/2DH2aby1xmlzvADCraI7Xi/bbe8b8956578492f2c3fd7326ecbd9e1/intentful-dots-social-c.png?w=1600&h=900&fit=fill",
+   "videoId": null,
+   "addedAt": "2026-11-25T14:57:37Z"
+  },
+  {
+   "id": "openai-7a6462e387eb",
+   "sourceId": "openai",
+   "title": "How iFood scales coding agents across 15,000 repositories",
+   "url": "https://openai.com/business/customer-stories/ifood",
+   "published": "2026-11-24T00:00:00Z",
+   "precision": "time",
+   "excerpt": "",
+   "summary": "",
+   "image": "https://images.ctfassets.net/kftzwdyauwt9/4Ts7RsLLSU4iEOxQwBkGgg/cbf56c075004a9ae2c41af4d5f7b428b/ifood-customer-story-social.png?w=1600&h=900&fit=fill",
+   "videoId": null,
+   "addedAt": "2026-11-25T14:57:37Z"
+  },
+  {
+   "id": "openai-99b93f3e1098",
+   "sourceId": "openai",
+   "title": "Clay helps sales teams win with Codex and ChatGPT",
+   "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+   "published": "2026-11-24T00:00:00Z",
+   "precision": "time",
+   "excerpt": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+   "summary": "",
+   "image": "https://images.ctfassets.net/kftzwdyauwt9/24rUSNlLR8iXQysKA6dq12/38954f25812d30bf772691824f747b84/clay-seo-1920.png?w=1600&h=900&fit=fill",
+   "videoId": null,
+   "addedAt": "2026-11-25T14:57:37Z"
   },
   {
    "id": "willison-efc98a45d931",
