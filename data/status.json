@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-25T14:57:37Z",
+ "lastRun": "2026-11-26T14:27:55Z",
  "summaries": false,
  "sources": {
   "mollick": {
@@ -14,7 +14,7 @@
   },
   "cae": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 20
   },
   "bjet": {
@@ -39,7 +39,7 @@
   },
   "openai": {
    "ok": true,
-   "new": 5,
+   "new": 0,
    "count": 163
   },
   "anthropic": {
@@ -49,8 +49,8 @@
   },
   "deepmind": {
    "ok": true,
-   "new": 0,
-   "count": 23
+   "new": 1,
+   "count": 24
   },
   "cicek": {
    "ok": true,
@@ -64,8 +64,8 @@
   },
   "willison": {
    "ok": true,
-   "new": 2,
-   "count": 96
+   "new": 4,
+   "count": 100
   },
   "importai": {
    "ok": true,
@@ -109,7 +109,7 @@
   },
   "edsurge": {
    "ok": true,
-   "new": 2,
+   "new": 0,
    "count": 35
   },
   "googleedu": {
@@ -119,8 +119,8 @@
   },
   "caeai": {
    "ok": true,
-   "new": 0,
-   "count": 2
+   "new": 1,
+   "count": 3
   }
  }
 }

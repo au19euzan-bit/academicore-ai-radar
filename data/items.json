@@ -1,6 +1,45 @@
 {
- "generatedAt": "2026-11-25T14:57:37Z",
+ "generatedAt": "2026-11-26T14:27:55Z",
  "items": [
+  {
+   "id": "willison-9a5f91905dab",
+   "sourceId": "willison",
+   "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+   "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+   "published": "2026-11-26T06:08:25Z",
+   "precision": "time",
+   "excerpt": "sqlite3_rsync: Database Remote-Copy Tool For SQLite This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025 . It was only today that I understood one of its most…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-26T14:27:55Z"
+  },
+  {
+   "id": "willison-2c33c3cedb65",
+   "sourceId": "willison",
+   "title": "Quoting Scott Aaronson",
+   "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+   "published": "2026-11-25T23:26:32Z",
+   "precision": "time",
+   "excerpt": "It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-26T14:27:55Z"
+  },
+  {
+   "id": "willison-cd16924426fb",
+   "sourceId": "willison",
+   "title": "datasette-charts 0.3a0",
+   "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+   "published": "2026-11-25T18:16:50Z",
+   "precision": "time",
+   "excerpt": "Release: datasette-charts 0.3a0 I added chart annotations to datasette-charts ! You can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three. A chart with annotations looks like this: Here's that same chart in Datasette Lite …",
+   "summary": "",
+   "image": "https://static.simonwillison.net/static/2026/chart-with-annotations.webp",
+   "videoId": null,
+   "addedAt": "2026-11-26T14:27:55Z"
+  },
   {
    "id": "edsurge-49775ea58c15",
    "sourceId": "edsurge",
@@ -54,6 +93,19 @@
    "addedAt": "2026-11-25T14:57:37Z"
   },
   {
+   "id": "deepmind-dd94f7af62fb",
+   "sourceId": "deepmind",
+   "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+   "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+   "published": "2026-11-24T13:07:53Z",
+   "precision": "time",
+   "excerpt": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
+   "summary": "",
+   "image": "https://lh3.googleusercontent.com/CtAfS_JWygw2R9cuDNty3xd0S4WFRzVew1vtNDiPaN1ZOGa88hCwTiCLxtgCtpSFER2t3jFO-moRkPnQYPjXziNgMvKHVc0wkOkzBTdGRoOYL3Ld=w528-h297-n-nu-rw-lo",
+   "videoId": null,
+   "addedAt": "2026-11-26T14:27:55Z"
+  },
+  {
    "id": "openai-3c6728c1bfd1",
    "sourceId": "openai",
    "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
@@ -78,6 +130,19 @@
    "image": "https://images.ctfassets.net/kftzwdyauwt9/318YLaAKlMKQFzOdMutjeX/8b6e4e516fd1a7894c97318838f43a0f/searching-for-distant-planets-with-astra-social.png?w=1600&h=900&fit=fill",
    "videoId": null,
    "addedAt": "2026-11-25T14:57:37Z"
+  },
+  {
+   "id": "willison-b1fca68720fb",
+   "sourceId": "willison",
+   "title": "datasette-charts 0.2a1",
+   "url": "https://simonwillison.net/2026/Nov/24/datasette-charts-2/",
+   "published": "2026-11-24T06:07:19Z",
+   "precision": "time",
+   "excerpt": "Release: datasette-charts 0.2a1 Minor UI improvements: Collapsing the suggested charts section now leaves the chart visible. Following a link to a chart opens it with the suggestions collapsed for that visit. On table pages the panel now sits below the \"4,235 rows where country…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-26T14:27:55Z"
   },
   {
    "id": "willison-dea2f8e3c06e",
@@ -2249,6 +2314,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-11-19T13:54:15Z"
+  },
+  {
+   "id": "caeai-ee9b32790178",
+   "sourceId": "caeai",
+   "title": "Linking artificial intelligence use to teaching performance: The roles of teacher enthusiasm and teaching engagement",
+   "url": "https://doi.org/10.1016/j.caeai.2026.100690",
+   "published": "2026-11-10T16:10:10Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-26T14:27:55Z"
   },
   {
    "id": "deepmind-0b2e1c02de47",
