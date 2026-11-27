@@ -1,6 +1,45 @@
 {
- "generatedAt": "2026-11-26T14:27:55Z",
+ "generatedAt": "2026-11-27T14:21:03Z",
  "items": [
+  {
+   "id": "erhan-5ade6056be1f",
+   "sourceId": "erhan",
+   "title": "31 Dakikalık Videomu Sürükledim, 860 Satır Altyazı Çıktı",
+   "url": "https://www.youtube.com/shorts/eWqMCpD1CFo",
+   "published": "2026-11-26T16:22:12Z",
+   "precision": "time",
+   "excerpt": "Detaylı Videonun linki: https://youtu.be/f9bmCK2jbSs MiniMax M3.1 Flash'ı link üzerinden hemen deneyebilirsiniz. /tanıtım MiniMax M Plan: https://platform.minimax.io/subscribe/token-plan MiniMax Platform: https://platform.minimax.io Her videodan sonra en çok vaktimi alan iş…",
+   "summary": "",
+   "image": "https://i2.ytimg.com/vi/eWqMCpD1CFo/hqdefault.jpg",
+   "videoId": "eWqMCpD1CFo",
+   "addedAt": "2026-11-27T14:21:03Z"
+  },
+  {
+   "id": "willison-316e60a88e0f",
+   "sourceId": "willison",
+   "title": "Quoting Jack Despain Zhou",
+   "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+   "published": "2026-11-26T15:09:31Z",
+   "precision": "time",
+   "excerpt": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-27T14:21:03Z"
+  },
+  {
+   "id": "bjet-ab5f8cb1788c",
+   "sourceId": "bjet",
+   "title": "Cautious or dependent? The relationship between DHH students' GenAI use behaviours and digital literacy development",
+   "url": "https://doi.org/10.1111/bjet.70103",
+   "published": "2026-11-26T09:00:00Z",
+   "precision": "day",
+   "excerpt": "Abstract Generative artificial intelligence (GenAI) offers new opportunities for inclusive learning in special education. However, little is known about how deaf or hard of hearing (DHH) students engage with GenAI and how their engagement relates to digital literacy development…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-27T14:21:03Z"
+  },
   {
    "id": "willison-9a5f91905dab",
    "sourceId": "willison",
@@ -13,6 +52,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-11-26T14:27:55Z"
+  },
+  {
+   "id": "willison-7822140280bf",
+   "sourceId": "willison",
+   "title": "The New York Times warns photographers not to update Photoshop over AI features",
+   "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+   "published": "2026-11-26T05:08:46Z",
+   "precision": "time",
+   "excerpt": "My comment on The New York Times warns photographers not to update Photoshop over AI features — Hacker News. I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-27T14:21:03Z"
   },
   {
    "id": "willison-2c33c3cedb65",
@@ -78,6 +130,19 @@
    "image": "https://static.simonwillison.net/static/2026/fable-class.webp",
    "videoId": null,
    "addedAt": "2026-11-25T14:57:37Z"
+  },
+  {
+   "id": "cae-37925eb65a66",
+   "sourceId": "cae",
+   "title": "Teachers’ TPACK as digital capital and its links to teaching and wellbeing: Cross-country evidence from PISA 2022",
+   "url": "https://doi.org/10.1016/j.compedu.2026.105806",
+   "published": "2026-11-24T18:57:46Z",
+   "precision": "day",
+   "excerpt": "",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-27T14:21:03Z"
   },
   {
    "id": "willison-c808d58c8ec4",
