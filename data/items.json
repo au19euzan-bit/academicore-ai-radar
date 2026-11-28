@@ -1,6 +1,58 @@
 {
- "generatedAt": "2026-11-27T14:21:03Z",
+ "generatedAt": "2026-11-28T13:37:02Z",
  "items": [
+  {
+   "id": "willison-c91c032e5231",
+   "sourceId": "willison",
+   "title": "datasette-charts 0.4a0",
+   "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+   "published": "2026-11-27T23:57:17Z",
+   "precision": "time",
+   "excerpt": "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up…",
+   "summary": "",
+   "image": "https://static.simonwillison.net/static/2026/datasette-charts-gallery.webp",
+   "videoId": null,
+   "addedAt": "2026-11-28T13:37:02Z"
+  },
+  {
+   "id": "alexander-06a389c5998d",
+   "sourceId": "alexander",
+   "title": "Support your independent higher education future this Thanksgiving",
+   "url": "https://bryanalexander.org/personal/support-your-independent-higher-education-future-this-thanksgiving/",
+   "published": "2026-11-27T17:06:19Z",
+   "precision": "time",
+   "excerpt": "Greetings from late November, dear readers. Somehow we’re barreling through fall and into winter. Here in northern Virginia the temperatures veer wildly from 70 to 30 F, while leaves steadily fall and the hours of darkness grow. Folks are preparing … Continue reading →",
+   "summary": "",
+   "image": "https://bryanalexander.org/wp-content/uploads/2026/11/Bryan-and-books-at-AI-Academy-Vancouver-2026-Nov-scaled.jpg",
+   "videoId": null,
+   "addedAt": "2026-11-28T13:37:02Z"
+  },
+  {
+   "id": "bjet-80d207686333",
+   "sourceId": "bjet",
+   "title": "Analysing cognitive and social presences in a 3D immersive learning environment: An intelligent multimodal learning analytics approach",
+   "url": "https://doi.org/10.1111/bjet.70102",
+   "published": "2026-11-27T09:00:00Z",
+   "precision": "day",
+   "excerpt": "Abstract Community of Inquiry (CoI) framework has been widely used to examine cognitive and social presences in online and collaborative learning, yet its manual coding and interpretation remain labour‐intensive, subjective and difficult to scale, particularly across multimodal…",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-28T13:37:02Z"
+  },
+  {
+   "id": "willison-6481e9f2df71",
+   "sourceId": "willison",
+   "title": "datasette-mcp 0.4",
+   "url": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+   "published": "2026-11-27T00:26:17Z",
+   "precision": "time",
+   "excerpt": "Release: datasette-mcp 0.4 Fixed for compatibility with Datasette 1.0a44 . Tags: model-context-protocol , datasette",
+   "summary": "",
+   "image": null,
+   "videoId": null,
+   "addedAt": "2026-11-28T13:37:02Z"
+  },
   {
    "id": "erhan-5ade6056be1f",
    "sourceId": "erhan",
@@ -143,6 +195,19 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-11-27T14:21:03Z"
+  },
+  {
+   "id": "alexander-472399c549d8",
+   "sourceId": "alexander",
+   "title": "Peak higher education: a global projection",
+   "url": "https://bryanalexander.org/demographics/peak-higher-education-a-global-projection/",
+   "published": "2026-11-24T18:54:31Z",
+   "precision": "time",
+   "excerpt": "When I first came up with the peak higher education forecast way back in 2013, my focus was on the United States. I studied the distinctive contours of this nation’s post-secondary sector and projected based on them. I included international … Continue reading →",
+   "summary": "",
+   "image": "https://bryanalexander.org/wp-content/uploads/2026/11/HESA-Projecting-Peak-Global-Higher-Education_cover-791x1024.jpg",
+   "videoId": null,
+   "addedAt": "2026-11-28T13:37:02Z"
   },
   {
    "id": "willison-c808d58c8ec4",
@@ -7163,32 +7228,6 @@
    "image": null,
    "videoId": null,
    "addedAt": "2026-10-27T17:16:08Z"
-  },
-  {
-   "id": "oecd-da617271e38d",
-   "sourceId": "oecd",
-   "title": "The challenge of teacher shortages",
-   "url": "https://oecdedutoday.com/the-challenge-of-teacher-shortages/",
-   "published": "2026-09-29T09:00:24Z",
-   "precision": "time",
-   "excerpt": "By OECD Director for Education and Skills Andreas Schleicher Education is both a reflection of society and a force that … More",
-   "summary": "",
-   "image": "https://oecdedutoday.com/wp-content/uploads/2026/09/EAG-cover-image.jpg",
-   "videoId": null,
-   "addedAt": "2026-10-27T17:14:30Z"
-  },
-  {
-   "id": "bjet-599657f5da4e",
-   "sourceId": "bjet",
-   "title": "Many hands make light work? Individual and collaborative interaction with a GenAI ‐powered multi‐agent system: Effects on learning performance and critical thinking",
-   "url": "https://doi.org/10.1111/bjet.70089",
-   "published": "2026-09-29T09:00:00Z",
-   "precision": "day",
-   "excerpt": "Abstract The rapid proliferation of generative artificial intelligence (GenAI) has made fostering learners' critical thinking an increasingly pressing educational challenge. While single‐agent GenAI applications are prone to limited perspective diversity and echo‐chamber…",
-   "summary": "",
-   "image": null,
-   "videoId": null,
-   "addedAt": "2026-10-27T17:14:30Z"
   }
  ]
 }

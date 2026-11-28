@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-27T14:21:03Z",
+ "lastRun": "2026-11-28T13:37:02Z",
  "summaries": false,
  "sources": {
   "mollick": {
@@ -14,7 +14,7 @@
   },
   "cae": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 21
   },
   "bjet": {
@@ -35,7 +35,7 @@
   "oecd": {
    "ok": true,
    "new": 0,
-   "count": 5
+   "count": 4
   },
   "openai": {
    "ok": true,
@@ -59,13 +59,13 @@
   },
   "erhan": {
    "ok": true,
-   "new": 1,
+   "new": 0,
    "count": 8
   },
   "willison": {
    "ok": true,
    "new": 2,
-   "count": 102
+   "count": 104
   },
   "importai": {
    "ok": true,
@@ -98,14 +98,14 @@
    "count": 7
   },
   "bali": {
-   "ok": false,
-   "note": "Okunamadı: https://blog.mahabali.me/feed/ okunamadi: <urlopen error timed out>",
+   "ok": true,
+   "new": 0,
    "count": 2
   },
   "alexander": {
-   "ok": false,
-   "note": "Okunamadı: https://bryanalexander.org/feed/ okunamadi: <urlopen error timed out>",
-   "count": 4
+   "ok": true,
+   "new": 2,
+   "count": 6
   },
   "edsurge": {
    "ok": true,
